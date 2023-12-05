@@ -1,0 +1,216 @@
+{
+  "AncillaryKeywords" : [ "CLIMATOLOGY", "EOSDIS", "FTP", "GLOBAL PRECIPITATION", "TEMS", "GTOS", "G3OS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Jaeger, L.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/RAIN_JAEGER_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Jaeger Monthly Mean Global Precipitation Climatology 2.5 x 5.0 degree V1",
+    "SeriesName" : "RAIN_JAEGER",
+    "ReleaseDate" : "2011-04-25T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN",
+    "DetailedVariable" : "GLOBAL PRECIPITATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION AMOUNT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1931-01-01T00:00:00.000Z",
+      "EndingDateTime" : "1965-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Legacy dataset"
+  },
+  "ShortName" : "RAIN_JAEGER",
+  "EntryTitle" : "Jaeger Monthly Mean Global Precipitation Climatology 2.5 x 5.0 degree V1 (RAIN_JEAGER) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/RAIN_JAEGER_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/RAIN_JAEGER_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/LEGACY/RAIN_JAEGER.1/1931/jaeger.dat.Z",
+    "Description" : "Access the data via HTTP.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/LEGACY/RAIN_JAEGER.1/doc/README.JAEGER.pdf",
+    "Description" : "README file",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Jaeger Surface Rain Gauge Observations data set consists of gridded mean monthly global precipitation values for 1931 to 1960 over the continents and 1955 to 1965 over the oceans. \n\nIn order to calculate monthly, seasonal, and annual variations of precipitation over the whole globe, both hemispheres, and various meridional zones, a gridding technique was used on data spanning 1931 to\n1960 over the continents, and 1955 to 1965 over the oceans. For the continental regions, the grid point values were obtained as eye estimates from isopleth maps prepared from up-to-date climatic atlases containing annual and monthly rainfall values, supplemented by other data sets.\nAlthough it was initially intended to use data for the standard period 1931-1960, this did not prove possible for all regions.\n\nMoller's (1951) method for estimating rainfall frequencies was adopted to provide ocean precipitation data. Monthly percentage frequencies were extracted from the mapped isolines of the US Marine Climatic Atlas (US Naval Weather Service 1955-1965) and interpolated to the grid points. After re-expressing the monthly frequencies as annual percentages, the values were scaled to rainfall depth units using Geiger's (1965) precipitation map to yield monthly precipitation means.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2015-06-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-06-08T00:00:00.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2016-02-01T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "VersionDescription" : "Not provided",
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "GPCP",
+    "LongName" : "Global Precipitation Climatology Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "ROY",
+    "LastName" : "JENNE",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NCAR/SCD/DSS", "P.O. Box 3000" ],
+        "City" : "Boulder",
+        "StateProvince" : "CO",
+        "PostalCode" : "80307",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(303) 497-1215"
+      }, {
+        "Type" : "Fax",
+        "Value" : "(303) 497-1137"
+      }, {
+        "Type" : "Email",
+        "Value" : "jenne@ucar.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Permanent Land Sites",
+    "ShortName" : "WEATHER STATIONS",
+    "LongName" : "WEATHER STATIONS",
+    "Instruments" : [ {
+      "ShortName" : "RAIN GAUGES"
+    } ]
+  }, {
+    "Type" : "Vessels",
+    "ShortName" : "Ships",
+    "Instruments" : [ {
+      "ShortName" : "RAIN GAUGES"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "On-line" ],
+      "Format" : "ASCII",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

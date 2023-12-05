@@ -1,0 +1,201 @@
+{
+  "AncillaryKeywords" : [ "CALIBRATED", "GEOLOCATED", "NIR", "RADIANCE", "SWIR", "VISIBLE", "EOSDIS", "A-Train" ],
+  "CollectionCitations" : [ {
+    "Creator" : "MODIS Science Team",
+    "IssueIdentification" : "MAC02QS0",
+    "Editor" : "GES DISC",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MAC02QS0_002.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "MODIS/Aqua Calibrated Radiances 250m 5-Min L1B Narrow Swath Subset along CloudSat",
+    "SeriesName" : "MAC02QS0",
+    "ReleaseDate" : "2006-10-01T00:00:00.000Z",
+    "Version" : "002",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "VISIBLE WAVELENGTHS",
+    "VariableLevel1" : "VISIBLE FLUX"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "VISIBLE WAVELENGTHS",
+    "VariableLevel1" : "VISIBLE RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2006-06-02T00:00:00.000Z",
+      "EndingDateTime" : "2018-03-01T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1B"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Legacy dataset"
+  },
+  "ShortName" : "MAC02QS0",
+  "EntryTitle" : "MODIS/Aqua Calibrated Radiances 250m 5-Min L1B Narrow Swath Subset along CloudSat V002 (MAC02QS0) at GES DISC",
+  "Quality" : "See Related URL here for links to quality-related documents",
+  "ISOTopicCategories" : [ "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MAC02QS0_002.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MAC02QS0_002.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://atrain.gesdisc.eosdis.nasa.gov/data/MAC/MAC02QS0.002/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://modis.gsfc.nasa.gov/",
+    "Description" : "MODIS Project Home Page",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://www.cloudsat.cira.colostate.edu/",
+    "Description" : "CloudSat Data Processing Center",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://modaps.nascom.nasa.gov/services/qa/science.html",
+    "Description" : "Quality Assurance for the original product.",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the narrow-swath MODIS/Aqua subset along CloudSat field of view track. The goal of the narrow-swath subset is to select and return MODIS data that are within +-5 km across the CloudSat track. I.e. the resultant MODIS subset swath is about 10 km cross-track. Thus, MAC02QS0 cross-track width is 44 pixels for radiances.  Geolocations, however, are 1-km at best, and thus the cross-track width for geolocations is 11 pixels. Along-track, all MODIS pixels from the original product are preserved.\n      \nIn the standard product, the 250 meter MODIS Level 1B data set contains calibrated and geolocated at-aperture radiances for 2 discrete bands located in the 0.62 to 0.88 micron region of the electromagnetic spectrum. These data are generated from the MODIS Level 1A scans of raw radiance and in the process converted to geophysical units of W/(m^2 um sr). In addition, the Earth Bi-directional Reflectance Distribution Function (BRDF) may be determined for these solar reflective bands through knowledge of the solar irradiance (e.g., determined from MODIS solar diffuser data, and from the target illumination geometry). Additional  data are provided including quality flags, error estimates and calibration data.   \n      \nChannel locations for the MODIS 250 meter data are as follows:   \nBand Center Wavelength (um) Primary Use  \n-------------------------- -----------  \n1 0.620 - 0.670 Land/Cloud Boundaries  \n2 0.841 - 0.876 Land/Cloud Boundaries \n      \n      \n(The shortname for this product is MAC02QS0).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2006-09-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-27T15:08:38.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2019-10-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "002",
+  "Projects" : [ {
+    "ShortName" : "ATDD",
+    "LongName" : "A-Train Data Depot"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "MODIS",
+      "LongName" : "Moderate-Resolution Imaging Spectroradiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS",
+      "Fees" : "None"
+    } ]
+  }
+}

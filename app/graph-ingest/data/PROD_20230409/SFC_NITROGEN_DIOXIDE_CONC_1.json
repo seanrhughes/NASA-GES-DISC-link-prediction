@@ -1,0 +1,236 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "HAQAST", "NO2", "Nitrogen Dioxide", "Surface", "Air Quality", "Pollutant" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Anenberg, Susan C.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SFC_NITROGEN_DIOXIDE_CONC_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Nitrogen Dioxide Surface-Level Annual Average Concentrations V1",
+    "SeriesName" : "SFC_NITROGEN_DIOXIDE_CONC",
+    "ReleaseDate" : "2023-02-28T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "NASA Goddard Space Flight Center"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 75,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -60
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROGEN DIOXIDE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1990-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2020-12-31T23:59:59.999Z"
+    } ]
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/J99FI2U38YRN"
+  },
+  "ShortName" : "SFC_NITROGEN_DIOXIDE_CONC",
+  "EntryTitle" : "Nitrogen Dioxide Surface-Level Annual Average Concentrations V1 (SFC_NITROGEN_DIOXIDE_CONC) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Anenberg, S. C., Mohegh, A., Goldberg, D. L., Kerr, G. H., Brauer, M., Burkart, K., et al.",
+    "PublicationDate" : "2022-01-01T00:00:00.000Z",
+    "Title" : "Long-term trends in urban NO2 concentrations and associated paediatric asthma incidence: estimates from global datasets",
+    "Series" : "Lancet Planetary Health",
+    "DOI" : {
+      "DOI" : "10.1016/s2542-5196(21)00255-2"
+    }
+  } ],
+  "Quality" : "The model captures 54% of global NO2 variation with a mean absolute error of 3.7 ppb. Model performance is higher in South America (R2=0.67) and North America, Europe, and Asia (R2=0.52) than in Africa (R2=0.42). Anenberg, Mohegh, et al. (2022 Lancet Planetary Health) compare the dataset in 2019 to observed concentrations from 4348 monitors in the United States, Canada, and Europe in both urban and rurals areas.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SFC_NITROGEN_DIOXIDE_CONC_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SFC_NITROGEN_DIOXIDE_CONC_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/HAQAST/SFC_NITROGEN_DIOXIDE_CONC.1",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SFC_NITROGEN_DIOXIDE_CONC_1",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/opendap/HAQAST/SFC_NITROGEN_DIOXIDE_CONC.1/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/HAQAST/SFC_NITROGEN_DIOXIDE_CONC.1/doc/README.SFC_NITROGEN_DIOXIDE_CONC.v1.0.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://haqast.org/",
+    "Description" : "HAQAST Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://haqast.org/haqast-publications-2/",
+    "Description" : "HAQAST Publications",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2023-02-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2023-02-04T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Nitrogen Dioxide Surface-Level Annual Average Concentrations Product (SFC_NITROGEN_DIOXIDE_CONC) contains estimated global NO2 surface values derived using a Land Use Regression (LUR) model (based on 5220 NO2 monitors in 58 countries and land use variables) for the years 2010-2012. NO2 column densities from the Ozone Monitoring Instrument and MERRA-2 scale the concentrations to other years between 1990 and 2020. This product is part of NASA's Health and Air Quality Applied Sciences Team (HAQAST) effort.\n\nThe data are global over land and span the latitude range between 60 south and 75 north, gridded at 0.0083 degree resolution (array size is 43080 x 16200). Data variables include surface NO2, as well as latitude and longitude values. The data are written to files using the new version 4 netCDF format. The average file size is about 150 Megabytes.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2023-01-18T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2023-03-03T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "HAQAST",
+    "LongName" : "Health and Air Quality Applied Sciences Team"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "SUSAN",
+    "MiddleName" : "C",
+    "LastName" : "ANENBERG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "George Washington University", "Department of Environmental and Occupational Health", "Milken Institute School of Public Health", "950 New Hampshire Ave. NW" ],
+        "City" : "Washington",
+        "StateProvince" : "DC",
+        "PostalCode" : "20052",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "202-994-2392"
+      }, {
+        "Type" : "Email",
+        "Value" : "sanenberg@gwu.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "Data Analysis",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

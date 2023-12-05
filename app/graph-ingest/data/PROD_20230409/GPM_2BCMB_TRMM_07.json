@@ -1,0 +1,255 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Atmosphere, Precipitation, Water Vapor" ],
+  "CollectionCitations" : [ {
+    "Creator" : "William Olson",
+    "Title" : "GPM PR and TMI on TRMM Combined Precipitation L2B 1.5 hours 5 km V07",
+    "SeriesName" : "GPM_2BCMB_TRMM",
+    "ReleaseDate" : "2021-07-29T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPM_2BCMB_TRMM_07.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 40,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -40
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1997-12-07T00:00:00.000Z",
+      "EndingDateTime" : "2015-04-01T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/GPM/PRTMI/TRMM/2B/07"
+  },
+  "ShortName" : "GPM_2BCMB_TRMM",
+  "EntryTitle" : "GPM PR and TMI on TRMM Combined Precipitation L2B 1.5 hours 5 km V07 (GPM_2BCMB_TRMM) at GES DISC",
+  "Quality" : "There are uncertainties in the interpretation of data from any one of the instruments (KuPR, KaPR, and GMI). By using data from multiple instruments, further constraints on the solution of precipitation structure improve the final product.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/GPM_2BCMB_TRMM.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPM_2BCMB_TRMM_07.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/TRMM_L2/GPM_2BCMB_TRMM.07/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/opendap/TRMM_L2/GPM_2BCMB_TRMM.07/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPM_2BCMB_TRMM_07",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm.nasa.gov",
+    "Description" : "PMM Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/README.TRMM.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/pub/GPMfilespec/filespec.GPM.pdf",
+    "Description" : "FILE SPECIFICATION DOCUMENT",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://arthurhou.pps.eosdis.nasa.gov/Documents/Caveats_and_Changes_for_public_release_Combined_V7.pdf",
+    "Description" : "Release Notes",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://pmm.nasa.gov/TRMM/trmm-instruments",
+    "Description" : "Instrument Description",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/anomalous.html",
+    "Description" : "TRMM core observatory anomalous events",
+    "Subtype" : "ANOMALIES",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-07-21T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-07-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the new (GPM-formated) TRMM product. It replaces the old TRMM_2B31\n\nThis is the GPM-like formatted TRMM Combined Precipitation (TRMM Ku radar and microwave radiometer/imager), first released with the \"V8\" TRMM reprocessing. \n\nGombined Radar-Radiometer Algorithm performs two basic functions: \n\nFirst, it provides, in principle, the most accurate, high resolution estimates of surface rainfall rate and precipitation vertical distributions that can be achieved from a spaceborne platform, and it is therefore valuable for applications where information regarding instantaneous storm structure are vital.  \n\nSecond, a global, representative collection of combined algorithm estimates will yield a single common reference dataset that can be used to “cross-calibrate” rain rate estimates from all of the passive microwave radiometers in the TRMM and GPM constellations.\n\nThe cross-calibration of radiometer estimates is crucial for developing a consistent, high time-resolution precipitation record for climate science and prediction model validation \napplications.  \n",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "TROPICS"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-04-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-04-28T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "07",
+  "Projects" : [ {
+    "ShortName" : "GPM",
+    "LongName" : "Global Precipitation Measurement"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "WILLIAM",
+    "LastName" : "OLSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Mailstop 612" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6314"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5492"
+      }, {
+        "Type" : "Email",
+        "Value" : "bill.olson@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission",
+    "Instruments" : [ {
+      "ShortName" : "PR",
+      "LongName" : "TRMM Precipitation Radar"
+    }, {
+      "ShortName" : "TMI",
+      "LongName" : "TRMM Microwave Imager"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "NASA Goddard Space Flight Center (GSFC)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/THIRN5L1CH115_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "THIR/Nimbus-5 Level 1 Meteorological Radiation Data at 11.5 microns V001",
+    "SeriesName" : "THIRN5L1CH115",
+    "ReleaseDate" : "2013-12-27T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1972-12-19T00:00:00.000Z",
+      "EndingDateTime" : "1975-03-01T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "THIRN5L1CH115",
+  "EntryTitle" : "THIR/Nimbus-5 Level 1 Meteorological Radiation Data at 11.5 microns V001 (THIRN5L1CH115) at GES DISC",
+  "Quality" : "The data should be used with care and one should first read the Nimbus-6 User?s Guide. Users should cite this data product in their research.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/THIRN5L1CH115_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/THIRN5L1CH115_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus5_THIR_Level1/THIRN5L1CH115.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=THIRN5L1CH115",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus5_THIR_Level1/THIRN5L1CH115.001/doc/README.THIRN5L1.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/N5_Users_Guide.pdf",
+    "Description" : "Nimbus 5 User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/DataCatalogNimbus5.tar.gz",
+    "Description" : "Nimbus 5 Data Catalog",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://nsidc.org/data/nimbus/data",
+    "Description" : "Additional Nimbus data and images can be found at NSIDC",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/N5_THIR_Ch115_Inventory.xlsx",
+    "Description" : "N5 THIR Ch 11.5 Inventory",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2013-12-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2013-12-27T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "THIRN5L1CH115 is the Nimbus-5 Temperature-Humidity Infrared Radiometer (THIR) Level 1 Meteorological Radiation Data at 11.5 microns product and contains radiances expressed in units of equivalent brightness temperature measured in the 10.5 - 12.5 (11.5) micron channel. The data, originally written on IBM 360 machines, were recovered from magnetic tapes, also referred to as Nimbus Meteorological Radiation Tapes (NMRT-THIR). The data are archived in their original IBM 36-bit word proprietary format, also referred to as a binary TAP file.\n\nThe Nimbus-5 satellite was successfully launched on December 11, 1972. The THIR experiment on Nimbus-5 continued the measurements made by its predecessor flown on Nimbus-4. The THIR instrument is a two channel high resolution scanning radiometer designed to perform two major functions:* The 11.5 micron channel provides both day and night cloud top or surface temperatures. The ground resolution at the sub-point is 8 km and operates day and night.* The 6.7 micron channel gives information on the moisture content of the upper troposphere and stratosphere and the location of jet streams and frontal systems. The water vapor channel has a resolution of the sub-point is 22 km and operates mostly at night. The THIR Principal Investigator was Andrew W. McCulloch from NASA Goddard Space Flight Center. The Nimbus-5 THIR data are available from December 19, 1972 (day of year 354) through March 1, 1975 (day of year 60). The THIRN5L1CH67 product contains the 6.7 micron channel data.\n\nThis product was previously available from the NSSDC with the identifier ESAD-00020 (old ID 72-097A-08C).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2014-01-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-12-12T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "Nimbus"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-5",
+    "Instruments" : [ {
+      "ShortName" : "THIR",
+      "LongName" : "Temperature-Humidity Infrared Radiometer"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

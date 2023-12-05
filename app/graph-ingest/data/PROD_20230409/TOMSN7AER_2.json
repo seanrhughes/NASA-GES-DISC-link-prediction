@@ -1,0 +1,240 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Human Health", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Omar Torres et al.",
+    "IssueIdentification" : "TOMSN7AER_V2",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TOMSN7AER_2.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TOMS/N7 Near UV Aerosol Index and LER 1-Orbit L2 Swath 50x50 km",
+    "SeriesName" : "TOMSN7AER",
+    "ReleaseDate" : "2018-10-10T00:00:00.000Z",
+    "Version" : "2",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL BACKSCATTER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL EXTINCTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL RADIANCE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1978-11-02T00:35:03.000Z",
+      "EndingDateTime" : "1993-05-06T21:45:14.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/AER/DATA201"
+  },
+  "ShortName" : "TOMSN7AER",
+  "EntryTitle" : "TOMS/N7 Near UV Aerosol Index and LER 1-Orbit L2 50x50 km",
+  "Quality" : "Quality improvements are envisioned.\n\nThe TOMSN7AER data are based on the TOMS Collection 2 L1B data. Regarding TOMSN7AER vs. TOMSN7L2, There are only 14 Orbits that exist in Collection 1 but not in Collection 2. At the very beginning of the record, Orbits 00107 to 00114 do not exist in Collection 2. At the very end of the record, Orbit 73388 does not exist in Collection 2.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TOMSN7AER_002.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TOMSN7AER_2.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/AER/TOMSN7AER.2/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/AER/TOMSN7AER.2/doc/README.MEaSUREs_Aerosols.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://earthdata.nasa.gov/community/community-data-system-programs/measures-projects",
+    "Description" : "MEaSUREs Project Homepage",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TOMSN7AER_2",
+    "Description" : "Earthdata Search",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/AER/TOMSN7AER.2",
+    "Description" : "OPeNDAP Service",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2017-09-05T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-09-06T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "As part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, this projects describes a multi-decadal Fundamental Climate Data Record (FCDR) of calibrated radiances as well as an Earth System Data Record (ESDR) of aerosol properties over the continents derived from a 40-year record of satellite near-UV observations by three sensors.  \n\nThe TOMS Nimbus 7 version 2 Level-2 orbital data product consists of cloud fraction, cloud optical depth, normalized radiance, reflectivity, residue, and UV aerosol index at approximately 50x50 km resolution (at nadir). This product also contains ancillary variables for ocean corrected surface albedo and terrain pressure.\n\nTotal Ozone Mapping Spectrometer (TOMS) instruments have been successfully flown in orbit aboard the Nimbus-7(Nov. 1978 - May 1993), Meteor-3 (Aug. 1991 - Dec. 1994), Earth Probe (June 1996 - December 2005), and ADEOS (Sep. 1996 - June 1997) satellites.\n\nThese Level-2 data are stored in the Hierarchical Data Format 5 (HDF5) and are available from the Goddard Earth Sciences (GES) Data and Information Services Center (DISC).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2017-09-08T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-02-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "TOMSN7AER",
+    "Version" : "2",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "Version" : "2",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "TORRES",
+    "MiddleName" : "O",
+    "LastName" : "OMAR, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "Goddard Space Flight Center", "Mailstop 614" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6776"
+      }, {
+        "Type" : "Email",
+        "Value" : "omar.o.torres@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JIAN",
+    "LastName" : "ZENG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5794"
+      }, {
+        "Type" : "Email",
+        "Value" : "Jian.Zeng@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-7",
+    "LongName" : "Nimbus-7",
+    "Instruments" : [ {
+      "ShortName" : "TOMS",
+      "LongName" : "Total Ozone Mapping Spectrometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Hansel, Rudolf A., et al.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/IRISN4RAD_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "IRIS/Nimbus-4 Level 1 Radiance Data V001",
+    "SeriesName" : "IRISN4RAD",
+    "ReleaseDate" : "1994-11-16T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "INFRARED RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1970-04-09T00:00:00.000Z",
+      "EndingDateTime" : "1971-01-30T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "IRISN4RAD",
+  "EntryTitle" : "IRIS/Nimbus-4 Level 1 Radiance Data V001 (IRISN4RAD) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/IRISN4RAD_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/IRISN4RAD_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus4_IRIS_Level1B/IRISN4RAD.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=IRISN4RAD",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus4_IRIS_Level1B/IRISN4RAD.001/doc/README.IRISN4RAD.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/NimbusIVUG.pdf",
+    "Description" : "Nimbus 4 User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/DataCatalogNimbus4.tar.gz",
+    "Description" : "Nimbus 4 Data Catalog",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/N4_IRIS_Inventory.xlsx",
+    "Description" : "N4 IRIS Inventory",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Nimbus-4 Infrared Interferometer Spectrometer (IRIS) Level 1 Radiance Data contain thermal emissions of the Earth's atmosphere at wave numbers between 400 and 1600 cm**-1, with a nominal resolution of 2.8 cm**-1.  The data also contain documentation information, reference calibration, average instrument temperatures, and a summary for each orbital pass.  The data, originally written on IBM 360 machines, were recovered from 9-track magnetic tapes.  The data are archived in their original IBM 32-bit word binary record format, and each file contains an entire day of measurements.  The product contains data from April 9, 1970 (day of year 99) through Jan 31, 1971 (day of year 31).\n\nThe IRIS instrument was designed to provide information on the vertical structure of the atmosphere and on the emissive properties of the earth's surface by measuring the surface and atmospheric radiation in the 6.25 to 25 micrometer range using a modified Michelson interferometer.  IRIS viewed along the satellite track direction with a spatial resolution of 94 km at nadir.  A Fourier transform was applied to the interferograms to produce thermal emmision spectra of the Earth which could be used to derive vertical profiles of temperature, water vapor, and ozone, as well as other parameters of meteorological interest.  The Infrared Interferometer Spectrometer (IRIS) experiment on Nimbus-4 is a follow on experiment to the Nimbus-3 IRIS experiment.  The IRIS Principal Investigator was Dr. Rudolf A. Hanel.\n\nThese data were previously archived at NASA NSSDC under the entry ID ESAD-00093 (originally 70-025A-03A).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2014-09-26T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-11-18T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "Nimbus"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "RUDOLF",
+    "MiddleName" : "A.",
+    "LastName" : "HANEL",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 690", "NASA/GSFC" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(301) 286-8283"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-4",
+    "Instruments" : [ {
+      "ShortName" : "IRIS",
+      "LongName" : "Infrared Interferometer Spectrometer"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

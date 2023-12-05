@@ -1,0 +1,219 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "McCulloch, Andrew W., et al.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MRIRN3L1_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "MRIR/Nimbus-3 Level 1 Meteorological Radiation Data V001",
+    "SeriesName" : "MRIRN3L1",
+    "ReleaseDate" : "2014-12-23T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1969-04-15T00:00:00.000Z",
+      "EndingDateTime" : "1970-02-04T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/XTJ53AK84QRL"
+  },
+  "ShortName" : "MRIRN3L1",
+  "EntryTitle" : "MRIR/Nimbus-3 Level 1 Meteorological Radiation Data V001 (MRIRN3L1) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MRIRN3L1_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MRIRN3L1_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus3_MRIR_Level1/MRIRN3L1.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=MRIRN3L1",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus3_MRIR_Level1/MRIRN3IM.001/doc/README.MRIRN3L1.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/NimbusIIIUG.pdf",
+    "Description" : "Nimbus 3 Users Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/DataCatalogNimbus3.tar.gz",
+    "Description" : "Nimbus 3 Data Catalog",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/N3_MRIR_Inventory.xlsx",
+    "Description" : "N3 MRIR Inventory",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "MRIRN3L1 is the Nimbus-3 Medium-Resolution Infrared Radiometer (MRIR) Level 1 Meteorological Radiance Data product and contain radiances expressed as equivalent blackbody temperature or \"brightness\" temperature, along with geolocation, time and other housekeeping information. The data, originally written on IBM 360 machines, were recovered from magnetic tapes, also referred to as Nimbus Meteorological Radiation Tapes (NMRT). The data are archived in their original IBM 36-bit word proprietary format, also referred to as a binary TAP file.\n\nThe MRIR instrument was designed to measure infrared electromagnetic radiation emitted and reflected from the Earth and its atmosphere at 5 wavelengths. The five wavelengths regions are as follows:\n\n(1) 6.5 to 7.0 microns - This channel covers the 6.7 micron water vapor absorption band. Its purpose is to provide information on water vapor distribution in the upper troposphere and, in conjunction with the other channels to provide data concerning relative humidities at these altitudes.\n(2) 10 to 11 microns - Operating in an atmospheric \"window,\" this channel measures surface or near-surface temperatures over clear portions of the atmosphere.  It also provides cloud cover and cloud height information (day and night).\n(3) 14.5 to 15.5 microns - This channel, centered about the strong absorption band of C02 at 15 microns, measures radiation which emanates primarily from the stratosphere. The information gained here is of primary importance to in following seasonal stratospheric temperature changes.\n(4) 20 to 23 microns - This channel yields data from the spectral region containing the broad rotational absorption bands of water vapor. It will provide information similar to that of the 6.5 to 7.0 micron channel except that the flux will largely be radiated from lower in the atmosphere.\n(5) 0.2 to 4.0 microns - This channel covers more than 99% of the solar spectrum and yields information on the intensity of the reflected solar energy from the earth and its atmosphere.\n\nThese data were previously archived at NASA NSSDC as product NMRT-MRIR under the entry ID ESAD-00183 (originally 69-037A-05B).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2014-12-23T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "Nimbus"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ANDREW",
+    "MiddleName" : "W.",
+    "LastName" : "MCCULLOCH",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-3",
+    "Instruments" : [ {
+      "ShortName" : "MRIR",
+      "LongName" : "Medium Resolution Infrared Radiometer"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

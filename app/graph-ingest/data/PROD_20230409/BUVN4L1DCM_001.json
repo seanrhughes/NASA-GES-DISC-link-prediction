@@ -1,0 +1,236 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Dark Current" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Stassinopoulos, E. G.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/BUVN4L1DCM_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "BUV/Nimbus-4 Dark Current Study Master Data V001",
+    "SeriesName" : "BUVN4L1DCM",
+    "ReleaseDate" : "1979-01-01T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 80.1,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -80.1
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "ULTRAVIOLET WAVELENGTHS",
+    "VariableLevel1" : "ULTRAVIOLET RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1970-04-10T00:00:00.000Z",
+      "EndingDateTime" : "1971-12-16T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1B"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "BUVN4L1DCM",
+  "EntryTitle" : "BUV/Nimbus-4 Dark Current Study Master Data V001 (BUVN4L1DCM) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "D. F. Heath, and A. J. Kruger",
+    "PublicationDate" : "1970-01-01T00:00:00.000Z",
+    "Title" : "The Nimbus-4 User's Guide - Section 7: The Backscatter Ultraviolet Spectrometer (BUV) Experiment",
+    "Publisher" : "NASA Goddard Space Flight Center",
+    "Pages" : "149-172"
+  } ],
+  "Quality" : "The data should be used with care and one should first read the Nimbus-4 BUV Dark Current Study document, as well as the Nimbus-4 User's Guide, section 7 describing the BUV experiment.  Users should cite this data product in their research.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/BUVN4L1DCM_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/BUVN4L1DCM_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus4_BUV_Level1/BUVN4L1DCM.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=BUVN4L1DCM",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus4_BUV_Level1/BUVN4L1DCM.001/doc/README.BUVN4L1DCS.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/N4_BUV_UsersGuide_19780013751.pdf",
+    "Description" : "Nimbus 4 BUV User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/NimbusIVUG.pdf",
+    "Description" : "Nimbus 4 User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/DataCatalogNimbus4.tar.gz",
+    "Description" : "Nimbus 4 Data Catalog",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.4_Mission_Calibration/3.4.2_Calibration_Data/N4_BUV_DCS_Format.pdf",
+    "Description" : "BUV Dark Current Study: Master Data and Working Data",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.4_Mission_Calibration/3.4.1_Calibration_Method/N4_BUV_DarkCurrent_DataFiltering.pdf",
+    "Description" : "BUV Dark Current Study: Data Filtering",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/N4_BUV_Inventory.xlsx",
+    "Description" : "N4 BUV Inventory",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2014-12-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2014-12-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Nimbus-4 BUV Level-1 Dark Current Study Master Data is derived from the BUV Level 1 Radiance (RUT) product and contains the geophysical indices and classification, geographic and geomagnetic coordinates, solar magnetic parameters and angles; monochromator and photometer pulse count and analog data, and energetic trapped particles. There is one-to-one correspondence between this product and the dark current working data files, the difference is the working product data have been filtered.\n\nThe data were originally created on IBM 360 machines and archived on magnetic tapes. The data have been restored from the tapes and are now archived on disk in their original IBM binary file format. Each file contains about one orbit of data from the nighttime descending node. The data files consist of 140 4-byte word records which are blocked with up to 25 records. The average size of an orbit file is 480 kB.\n\nThis product was previously available from the NSSDC with the identifier ESAC-00045 (old ID 70-025A-05H).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2015-11-03T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "Nimbus"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-4",
+    "Instruments" : [ {
+      "ShortName" : "BUV",
+      "LongName" : "Backscatter Ultraviolet"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Gille, John and Gray, Lesley J.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/HIRDLS2_007.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "HIRDLS/Aura Level 2 Geophysical Parameters (on a pressure grid) V007",
+    "SeriesName" : "HIRDLS2",
+    "ReleaseDate" : "2013-08-19T00:00:00.000Z",
+    "Version" : "007",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 80,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -64
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL EXTINCTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "GEOPOTENTIAL HEIGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CHLORINE NITRATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CHLOROFLUOROCARBONS",
+    "DetailedVariable" : "CFC-11"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CHLOROFLUOROCARBONS",
+    "DetailedVariable" : "CFC-12"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "DINITROGEN PENTOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC NITRIC ACID"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROGEN DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROUS OXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROFILES",
+    "VariableLevel2" : "WATER VAPOR MIXING RATIO PROFILES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP PRESSURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2005-01-29T00:00:00.000Z",
+      "EndingDateTime" : "2008-03-17T23:59:59.999Z"
+    } ]
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aura/HIRDLS/DATA201"
+  },
+  "ShortName" : "HIRDLS2",
+  "EntryTitle" : "HIRDLS/Aura Level 2 Daily Geophysical Parameters V007 (HIRDLS2) at GES DISC",
+  "Quality" : "Data from 3 January to 17 March 2008, when the chopper frequency was erratic, should be used with caution.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/HIRDLS2_007.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/HIRDLS2_007.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Aura_HIRDLS_Level2/HIRDLS2.007/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/HDF-EOS5/Aura_HIRDLS_Level2/HIRDLS2.007/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=HIRDLS2_007",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/HIRDLS/3.3_Product_Documentation/3.3.5_Product_Quality/HIRDLS-DQD_V7.pdf",
+    "Description" : "README and Data Quality document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/HIRDLS/3.3_Product_Documentation/3.3.6_Product_Application/All_HIRDLS_Papers_26June2013.pdf",
+    "Description" : "List of publications.",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2012-12-13T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2012-12-13T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The \"HIRDLS/Aura Level 2 Geophysical Parameters\" data product (HIRDLS2) contains an entire day's worth of Level-2 vertical profiles of O3, HNO3, H2O, CFC-11, CFC-12, N2O, NO2, N2O5, ClONO2, temperature, geopotential height, and aerosol extinction at 12.1 and 8.3 microns, as well as cloud top pressure. HIRDLS measured infrared emissions in 21 channels ranging from 6.12 to 17.76 microns in the upper troposphere, stratosphere and mesosphere. Data are available for the ~3 year mission from January 29, 2005 until March 17, 2008. Observations of the Earth's atmosphere were only made from the far azimuth scan (away from sun side) resulting in limited data coverage from +80 to -64 degrees latitude. The useful vertical range of the data depends on the measured species, and are provided on 24 levels per decade of pressure corresponding to about 1 km vertical resolution. The current and final version of this product is 7. Of the original targeted species, only CH4 was not retrieved in this version.\n\nThe data are stored in the version 5 Hierarchical Data Format for the Earth Observing System (HDF-EOS5), which is an extension of the HDF5 format. Each file contains a single swath object with one day of data (measured species and species precision), geolocation fields (e.g. time, latitude, longitude, pressure), and swath attributes, along with file level metadata. Each file contains approximately 5600 profile scans.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2012-04-23T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "007",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOHN",
+    "MiddleName" : "C.",
+    "LastName" : "GILLE",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "National Center for Atmospheric Research", "PO Box 3000" ],
+        "City" : "Boulder",
+        "StateProvince" : "Colorado",
+        "PostalCode" : "80307",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "303-497-8062"
+      }, {
+        "Type" : "Email",
+        "Value" : "gille@ucar.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "LESLEY",
+    "MiddleName" : "J",
+    "LastName" : "GRAY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "University of Oxford Department of Physics", "Clarendon Laboratory", "Parks Road" ],
+        "City" : "Oxford",
+        "PostalCode" : "OX1 3PU",
+        "Country" : "UK"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "+44/0 1865 272926"
+      }, {
+        "Type" : "Fax",
+        "Value" : "+44/0 1865 272923"
+      }, {
+        "Type" : "Email",
+        "Value" : "gray@atm.ox.ac.uk"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "HIRDLS",
+      "LongName" : "High-Resolution Dynamics Limb Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS5",
+      "Fees" : "None"
+    } ]
+  }
+}

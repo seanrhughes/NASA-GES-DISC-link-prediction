@@ -1,0 +1,221 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "NASA/GSFC",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SCRN5L1RAD_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "SCR/Nimbus-5 Level 1 Calibrated Radiances V001",
+    "SeriesName" : "SCRN5L1RAD",
+    "ReleaseDate" : "2018-06-15T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 80,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -80
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "INFRARED RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1972-12-13T00:00:00.000Z",
+      "EndingDateTime" : "1974-12-26T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "SCRN5L1RAD",
+  "EntryTitle" : "SCR/Nimbus-5 Level 1 Calibrated Radiances V001 (SCRN5L1RAD) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "P. Ellis, G. Holah, J.T. Houghton, T.S. Jones, G. Peckham, G.D. Peskett, D.R. Pick, C.D. Rodgers, H. Roscoe, R. Sandwell, S.D. Smith, E.J. Williamson",
+    "PublicationDate" : "1973-08-28T00:00:00.000Z",
+    "Title" : "Remote sounding of atmospheric temperature from satellites. IV: The selective chopper radiometer for Nimbus 5",
+    "Series" : "Proc. R. Soc.",
+    "Volume" : "A334",
+    "PublicationPlace" : "London",
+    "Pages" : "149-170",
+    "DOI" : {
+      "DOI" : "10.1098/rspa.1973.0085"
+    }
+  } ],
+  "Quality" : "The data should be used with care and one should first read the Nimbus-5 User's Guide. Users should cite this data product in their research.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "Description" : "Typical data coverage of a Nimbus 5 SCR Level 1 daily data file.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/images/SCRN5L1RAD_Sample.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SCRN5L1RAD_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus5_SCR_Level1/SCRN5L1RAD.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SCRN5L1RAD",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus5_SCR_Level1/SCRN5L1RAD.001/doc/README.SCRN5L1RAD.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.2_Product_Rqmts_Design/N5_SCR_onN5.pdf",
+    "Description" : "The Selective Chopper Radiometer on Nimbus V Archived Data",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/N5_Users_Guide.pdf",
+    "Description" : "Nimbus 5 User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/NIMBUS/3.3_Product_Documentation/3.3.5_Product_Quality/DataCatalogNimbus5.tar.gz",
+    "Description" : "Nimbus 5 Data Catalog",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/N5_SCR_Inventory.xlsx",
+    "Description" : "N5 SCR Inventory",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1998-02-24T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1998-02-24T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "SCRN5L1RAD is the Nimbus-5 Selective Chopper Radiometer (SCR) Level 1 Calibrated Radiances data product. The calibrated radiances are measured at 16 channels from 2.3 to 133 micrometers with a ground resolution of 25 km, and are \"declouded\" (interpolated and smoothed across regions of cloud). The radiances were used to obtain the global temperature structure of the atmosphere up to 50 km altitude, the distribution of water vapor, and the density of ice particles in cirrus clouds. The data were recovered from the original 9-track tapes, and are now stored online as daily files in their original proprietary binary format with about 14 orbits per day.\n\nSpatial coverage is near global from latitude -80 to +80 degrees. The data are available from 13 December 1972 (day of year 347) to 26 December 1974 (day of year 360). The principal investigator for the SCR experiment was Dr. John T. Houghton from Oxford University.\n\nThis product was previously available from the NSSDC with the identifier ESAD-00250 (old ID 72-097A-02A).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2018-06-15T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "Nimbus"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-5",
+    "Instruments" : [ {
+      "ShortName" : "SCR",
+      "LongName" : "Selective Chopper Radiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

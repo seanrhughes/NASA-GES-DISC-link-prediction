@@ -1,0 +1,288 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "AEROSOL INDEX", "AEROSOL OPTICAL DEPTH", "AEROSOL OPTICAL THICKNESS", "ANGSTROM COEFFICIENT", "AOT", "AOD", "DUST", "ASH", "SMOKE", "EFFECTIVE OPTICAL DEPTH", "SPECTRAL OPTICAL DEPTH", "STRATOSPHERIC AEROSOL", "TOTAL COLUMN OPTICAL THICKNESS", "TROPOSPHERIC AEROSOL", "SWDB", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Human Health", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "N. Christina Hsu, Andrew M. Sayer, M.-J. Jeong, and Corey Bettenhausen",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SWDB_L2_004.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "SeaWiFS Deep Blue Aerosol Optical Depth and Angstrom Exponent Level 2 Data V004",
+    "SeriesName" : "SWDB_L2",
+    "ReleaseDate" : "2013-07-01T00:00:00.000Z",
+    "Version" : "004",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "ORBIT",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    },
+    "OrbitParameters" : {
+      "SwathWidth" : 1502,
+      "Period" : 99,
+      "InclinationAngle" : 98.2,
+      "NumberOfOrbits" : 1
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL OPTICAL DEPTH/THICKNESS",
+    "DetailedVariable" : "AOD"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL OPTICAL DEPTH/THICKNESS",
+    "VariableLevel2" : "ANGSTROM EXPONENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "OPTICAL DEPTH/THICKNESS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1997-09-04T00:00:00.000Z",
+      "EndingDateTime" : "2010-12-11T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/SWDB/DATA201"
+  },
+  "ShortName" : "SWDB_L2",
+  "EntryTitle" : "SeaWiFS Deep Blue Aerosol Optical Depth and Angstrom Exponent Level 2 Data V004 (SWDB_L2) at GES DISC V004",
+  "PublicationReferences" : [ {
+    "Author" : "Sayer, A. M., N. C. Hsu, C. Bettenhausen, Z. Ahmad, B. N. Holben, A. Smirnov, G. E. Thomas, and J. Zhang",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "SeaWiFS Ocean Aerosol Retrieval (SOAR): Algorithm, validation, and comparison with other data sets",
+    "Series" : "J. Geophys. Res.",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD016599"
+    }
+  }, {
+    "Author" : "Sayer, A. M., Hsu, N. C., Bettenhausen, C., Jeong, M.-J., Holben, B. N., and Zhang, J.",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Global and regional evaluation of over-land spectral aerosol optical depth retrievals from SeaWiFS",
+    "Series" : "Atmos. Meas. Tech.",
+    "DOI" : {
+      "DOI" : "10.5194/amt-5-1761-2012"
+    }
+  }, {
+    "Author" : "Hsu, N. C., Gautam, R., Sayer, A. M., Bettenhausen, C., Li, C., Jeong, M. J., Tsay, S.-C., and Holben, B. N.",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Global and regional trends of aerosol optical depth over land and ocean using SeaWiFS measurements from 1997 to 2010",
+    "Series" : "Atmos. Chem. Phys. Discuss.",
+    "DOI" : {
+      "DOI" : "10.5194/acpd-12-8465-2012"
+    }
+  } ],
+  "Quality" : "The SeaWiFS Deep Blue aerosol products have been validated by comparison with ground-based instruments from AERONET and MAN. The results are included in the following two papers: \n\nSayer, et al (2012): Global and regional evaluation of over-land spectral aerosol optical depth retrievals from SeaWiFS, Atmos. Meas. Tech., 5, 1761-1778, doi:10.5194/amt-5-1761-2012\n\nSayer, et al (2012), SeaWiFS Ocean Aerosol Retrieval (SOAR): Algorithm, validation, and comparison with other data sets, J. Geophys. Res., 117, D03206, doi:10.1029/2011JD016599\n\nFor analyses over land, it is recommend using only data with a confidence flag value of 3.  For analyses over oceans, data with confidence flag values of 2 or 3 may be used.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "Description" : "Solar Zenith Angle from SeaWiFS Deep Blue Aerosol product, version 004 (SWDB_L2.004), 13.5 km x 13.5 km at Equator,  April 1 2001 11:59:34Z",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SWDB_L2_004.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SWDB_L2_004.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/DeepBlueSeaWiFS_Level2/SWDB_L2.004/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SWDB_L2",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/SWDB/SWDB_L2.004/contents.html",
+    "Description" : "Access to the data via OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/DeepBlueSeaWiFS_Level3/README.DeepBlueSeaWiFS_V004.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto",
+    "Description" : "Data recipes for accessing and using of data",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/SWDB/SWDB_missingDataDays.pdf",
+    "Description" : "Missing data days in SeaWiFS Deep Blue Aerosol products ",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2013-06-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2013-06-24T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The SeaWiFS Deep Blue (SWDB) Level 2 Product contains data corresponding to a single SeaWiFS swath using Deep Blue algorithm. There are about 15 Level 2 data files produced per day.  Each contains retrieved aerosol properties averaged to a resolution of 3x3 SeaWiFS pixels (13.5x13.5 km at the center of the swath given 4.5km SeaWiFS pixels). \n\n The primary data parameters are aerosol optical thickness, and Angstrom exponent.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2011-12-21T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-10-26T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "This is the version 4 data processed in June 2013",
+  "Version" : "004",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "COREY",
+    "LastName" : "BETTENHAUSEN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 613.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5383"
+      }, {
+        "Type" : "Email",
+        "Value" : "corey.bettenhausen@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Suhung",
+    "LastName" : "Shen",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5088"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "suhung.shen@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CHRISTINA",
+    "LastName" : "HSU",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA/Goddard Space Flight Center", "Code 613.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Christina.Hsu@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "OrbView-2",
+    "LongName" : "Orbital Sciences Corporation OrbView-2 Satellite",
+    "Instruments" : [ {
+      "ShortName" : "SEAWIFS",
+      "LongName" : "Sea-Viewing Wide Field-of-View Sensor"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "Free"
+    } ]
+  }
+}

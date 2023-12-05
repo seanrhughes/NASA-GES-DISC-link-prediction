@@ -1,0 +1,221 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "William B. Rossow",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/LANDMET_ANC_TEIME_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "LANDMET Ancillary Monthly Mean Thermal Effective Infrared and Microwave Emissivity Data L3 V1",
+    "SeriesName" : "LANDMET_ANC_TEIME",
+    "ReleaseDate" : "2016-12-15T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "SpatialCoverageType" : "HORIZONTAL",
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "LAND USE/LAND COVER",
+    "VariableLevel1" : "LAND USE/LAND COVER CLASSIFICATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE RADIATIVE PROPERTIES",
+    "VariableLevel1" : "EMISSIVITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "TOPOGRAPHY",
+    "VariableLevel1" : "TERRAIN ELEVATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1998-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2007-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/LANDMET/ANC003"
+  },
+  "ShortName" : "LANDMET_ANC_TEIME",
+  "EntryTitle" : "LANDMET Ancillary Monthly Mean Thermal Effective Infrared and Microwave Emissivity Data L3 V1 (LANDMET_ANC_TEIME) at GES DISC",
+  "ISOTopicCategories" : [ "BOUNDARIES", "ENVIRONMENT" ],
+  "RelatedUrls" : [ {
+    "Description" : "This a sample image of broadband thermal IR emissivity from the ancillary product LANDMET_ANC_TEIME_L3_v1",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/LANDMET_ANC_TEIME_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/LANDMET_ANC_TEIME_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/LANDMET/LANDMET_ANC_TEIME.1",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=LANDMET_ANC_TEIME",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/LANDMET/LANDMET_ANC_TEIME.1/contents.html",
+    "Description" : "Access to the data via OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/LANDMET/LANDMET_ANC_TEIME.1/doc/README.LANDMET_V1.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2016-11-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2016-11-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is an ancillary product, climatology monthly mean and standard deviation, containing a number of emissivity data.  They are broadband thermal IR emissivity from the ISCCP FD radiative fluxes product the emissivity at 10.5 microns from the ISCCP IREMISS product, and the microwave emissivities at four frequencies and two polarizations from the combined analysis of SSM/I and window IR based on ISCCP DX product.  The data has spatial grid cell on equal-area mapping at 1.0-degree-equivalent.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2016-12-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-03-28T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "version 1 is generated in Nov 2016",
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "SUHUNG",
+    "LastName" : "SHEN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2 Bldg 32 Rm S153", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5088"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "suhung.shen@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "William",
+    "LastName" : "Rossow",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "CREST Institute at the City College of New York", "Steinman Hall (T-107)", "140th Street and Convent Avenue" ],
+        "City" : "New York",
+        "StateProvince" : "NY",
+        "PostalCode" : "10031",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "wbrossow@ccny.cuny.edu"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "LANDMET",
+    "LongName" : "CCNY NOAA-CREST Land Surface Atmospheric Boundary Processing Method",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

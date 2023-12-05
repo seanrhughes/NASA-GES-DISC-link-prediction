@@ -1,0 +1,283 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "CH4", "CO", "H2O", "N2O", "N2O5", "NO2", "O3" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Taylor et al., Oxford University",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/UARIS3AT_010.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "UARS Improved Stratospheric and Mesospheric Sounder (ISAMS) Level 3AT V010",
+    "SeriesName" : "UARIS3AT",
+    "ReleaseDate" : "1994-07-15T00:00:00.000Z",
+    "Version" : "010",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 80,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -80
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL EXTINCTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC CARBON MONOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "METHANE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "DINITROGEN PENTOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROGEN DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROUS OXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROFILES",
+    "VariableLevel2" : "WATER VAPOR MIXING RATIO PROFILES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1991-09-26T00:00:00.000Z",
+      "EndingDateTime" : "1992-07-29T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "UARIS3AT",
+  "EntryTitle" : "UARS Improved Stratospheric and Mesospheric Sounder (ISAMS) Level 3AT V010 (UARIS3AT) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/UARIS3AT_010.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/UARIS3AT_010.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/UARS_ISAMS_Level3/UARIS3AT/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=UARIS3AT",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://uars.gsfc.nasa.gov/",
+    "Description" : "The UARS Project Homepage.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/UARS_ISAMS_Level3/UARIS3AT/doc/README.UARIS3A.doc",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "ContactGroups" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5224"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+      } ]
+    }
+  } ],
+  "DataDates" : [ {
+    "Date" : "1994-03-16T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1994-03-16T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Improved Stratospheric and Mesospheric Sounder (ISAMS) Level 3AT data product consists of daily, 65.536 second interval time-ordered vertical profiles of temperature and concentrations of O3, H2O, CH4, CO, N2O, N2O5, NO2, and aerosol absorption coefficients. The insrument measured infrared molecular emmissions in the spectral region from 4.6 to 16.6 microns. ISAMS was flown on NASA's Upper Atmosphere Research Satellite (UARS) and designed to measure the global temperature and composition profiles in the stratosphere and mesosphere. Limb measurements were made in the altitude range between 15 and 60 km at about 2.5 km resolution. Data were collected between latitude 34S and 80N and 80S and 34N, alternating each satellite yaw cycle of about 36 days. The ISAMS Level 3AT data were processed with the version 10 algorithm, except H2O which is version 9.\n\nThe ISAMS level 3AT product consists of 10 granules per day. A data granule is one ISAMS species or subtype per day.\n\nData are on the UARS standard pressure levels (in mbars) given by:\n\nP(i) = 1000 * 10**(-i/6)  for i = 0, 1, 2, ...\n\nEach of the 10 ISAMS granules is accompanied by its own additional parameter file, designated as level 3TP. The parameter file, contains the additional ancillary and quality information not found in the 3AT file. The data files are available in a binary record oriented format.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "MESOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2007-02-26T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "010",
+  "Projects" : [ {
+    "ShortName" : "UARS",
+    "LongName" : "Upper Atmosphere Research Satellite"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "FREDERIC",
+    "MiddleName" : "W.",
+    "LastName" : "TAYLOR",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "University of Oxford", "Clarendon Laboratory", "Parks Rd" ],
+        "City" : "Oxford",
+        "PostalCode" : "OX1 3PU",
+        "Country" : "ENGLAND"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "taylor@isams.atm.ox.ac.uk"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "UARS",
+    "LongName" : "Upper Atmosphere Research Satellite",
+    "Instruments" : [ {
+      "ShortName" : "ISAMS",
+      "LongName" : "Improved Stratospheric And Mesospheric Sounder"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Glen Jaross",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_NMTO3_L3_DAILY_2.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMPS-NPP L3 NM Ozone (O3) Total Column 1.0 deg grid daily V2",
+    "SeriesName" : "OMPS_NPP_NMTO3_L3_DAILY",
+    "ReleaseDate" : "2017-06-15T00:00:00.000Z",
+    "Version" : "2",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2012-01-25T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/7Y7KSA1QNQP8"
+  },
+  "ShortName" : "OMPS_NPP_NMTO3_L3_DAILY",
+  "EntryTitle" : "OMPS-NPP L3 NM Ozone (O3) Total Column 1.0 deg grid daily V2",
+  "PublicationReferences" : [ {
+    "Author" : "Richard D. Mcpeters, P.K. Bhartia, Arlin J. Krueger, and Jay R. Herman",
+    "PublicationDate" : "2000-01-01T00:00:00.000Z",
+    "Title" : "Total Ozone Mapping Spectrometer (TOMS) Level-3 Data Product User's Guide",
+    "Series" : "NASA/TP- 2000-209896"
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "Description" : "OMPS Logo",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMPS_NPP_NMTO3_L3_DAILY_2.jpeg",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_NMTO3_L3_DAILY_2.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://snpp-omps.gesdisc.eosdis.nasa.gov/data/SNPP_OMPS_Level3/OMPS_NPP_NMTO3_L3_DAILY.2/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://snpp-omps.gesdisc.eosdis.nasa.gov/opendap/SNPP_OMPS_Level3/OMPS_NPP_NMTO3_L3_DAILY.2/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMPS_NPP_NMTO3_L3_DAILY_2",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://snpp-omps.gesdisc.eosdis.nasa.gov/data/SNPP_OMPS_Level3/OMPS_NPP_NMTO3_L3_DAILY.2/doc/README.OMPS_NPP_NMTO3_L3_DAILY.2.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://jointmission.gsfc.nasa.gov",
+    "Description" : "Joint Polar Satellite System (JPSS) mission home page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2016-12-31T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2016-12-31T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The OMPS-NPP L3 NM Ozone (O3) Total Column 1.0 deg grid daily product provides total ozone measurements from the Ozone Mapping and Profiling Suite (OMPS) Nadir-Mapper (NM) instrument on the Suomi-NPP satellite.\nThe level-3 gridding algorithm is used to combine the orbital OMPS cross track measurements into a daily map product with a fixed global grid. Grid cells are computed as weighted averages of a given parameter derived for the field-of-views that overlay the given cell. The current version of this product includes UV aerosol index and reflectivity at 331 nm retrievals as well. \n\nEach granule contains data for a full day. Spatial coverage is global (-90 to  90 degrees latitude), with a resolution of 1.0 degree in longitude and 1.0 degree in latitude, and array size of 360 by 180. The files are written using the Hierarchical Data Format Version 5 or HDF5.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2016-12-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "2",
+  "Projects" : [ {
+    "ShortName" : "NPP-JPSS",
+    "LongName" : "National Polar Orbiting Partnership-Joint Polar Satellite System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GLENN",
+    "LastName" : "JAROSS, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "Goddard Space Flight Center", "Mailstop 613.3" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Glen.R.Jaross@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "OMPS",
+      "LongName" : "Ozone Mapping and Profiler Suite"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

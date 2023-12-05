@@ -1,0 +1,228 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology", "evapotranspiration", "latent heat flux" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Princeton University (Eric Wood)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/WC_PM_ET_050_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "SRB/GEWEX evapotranspiration (Penman-Monteith) L4 3 hour 0.5 degree x 0.5 degree V1",
+    "SeriesName" : "WC_PM_ET_050",
+    "ReleaseDate" : "2017-03-01T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPOTRANSPIRATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1984-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2007-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/WATERCYCLE/DATA314"
+  },
+  "ShortName" : "WC_PM_ET_050",
+  "EntryTitle" : "SRB/GEWEX evapotranspiration (Penman-Monteith) L4 3 hour 0.5 degree x 0.5 degree V1 (WC_PM_ET_050) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Vinukollu, R. K., E. F. Wood, C. R. Ferguson, and J. B. Fisher",
+    "PublicationDate" : "2011-01-01T00:00:00.000Z",
+    "Title" : "Global estimates of evapotranspiration for climate studies using multi-sensor remote sensing data: Evaluation of three process-based approaches",
+    "Series" : "Remote Sensing of Environment",
+    "Volume" : "115",
+    "Issue" : "3",
+    "Pages" : "801-823",
+    "DOI" : {
+      "DOI" : "10.1016/j.rse.2010.11.006"
+    }
+  } ],
+  "Quality" : "The primary goal of this product is to provide a long-term global estimates of evapotranspiration (thus latent heat) fluxes, using the best available surface radiation and meteorological data sets at the same spatial and temporal scales. Model validations against ground flux tower measurements have only been carried out over limited locations (Vinukollu et al., 2011). The product covers all the global land areas except for Antarctica.",
+  "ISOTopicCategories" : [ "ENVIRONMENT" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "SRB/GEWEX PM evapotranspiration",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/WC_PM_ET_050_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/WC_PM_ET_050_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/TerrestrialWaterCycle/WC_PM_ET_050.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=WC_PM_ET_050",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/hyrax/TerrestrialWaterCycle/WC_PM_ET_050.1/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/TerrestrialWaterCycle/WC_PM_ET_050.1/doc/README.WC_PM_ET_050_V1.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2014-09-25T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2014-09-25T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "SRB/GEWEX evapotranspiration (Penman-Monteith) L4 3 hour 0.5 degree x 0.5 degree V1 is a global, 24-year (1984-2007), satellite-derived evapotranspiration over land data set. It is based on the Penman-Monteith model. Evapotranspiration provides the critical link between the water and energy cycles within the Earth system. Better representation of the spatial distribution and temporal development of surface evapotranspiration is needed not only to improve the description of water vapor exchanges for global water budget estimation but also to advance our understanding of the climate system.\n\nInput data sets include (1) vegetation index data, i.e., Leaf Area Index (LAI), derived from the Advanced Very High Resolution Radiometer (AVHRR) sensors onboard the NOAA-7, NOAA-9, NOAA-11, NOAA-14, and NOAA-16 satellites and the Moderate Resolution Imaging Spectroradiometer (MODIS) onboard the EOS-Terra and EOS-Aqua satellites; (2) meteorology data from the latest version of the Princeton University global forcing data sets and from the Variable Infiltration Capacity (VIC) land surface model output; and (3) radiative data from the NASA Global Energy and Water Exchanges (GEWEX) Surface Radiation Budget Project.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2016-07-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-26T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ERIC",
+    "MiddleName" : "F.",
+    "LastName" : "WOOD",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Department of Civil and Environmental Engineering", "Princeton University" ],
+        "City" : "Princeton",
+        "StateProvince" : "NJ",
+        "PostalCode" : "08544",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "609-258-4675"
+      }, {
+        "Type" : "Email",
+        "Value" : "efwood@princeton.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "WILLIAM",
+    "MiddleName" : "L.",
+    "LastName" : "TENG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5164"
+      }, {
+        "Type" : "Email",
+        "Value" : "william.l.teng@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, 610.2, NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "Penman-Monteith",
+    "LongName" : "Penman-Monteith Model with Enhanced Surface Resistance Parameterization",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE",
+      "ComposedOf" : [ {
+        "ShortName" : "NOT APPLICABLE"
+      } ]
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

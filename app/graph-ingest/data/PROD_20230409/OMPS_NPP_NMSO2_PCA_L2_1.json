@@ -1,0 +1,268 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Human Health", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Can Li, Nickolay A. Krotkov, Yan Zhang, Peter Leonard, Joanna Joiner",
+    "IssueIdentification" : "OMPS_NPP_NMSO2_PCA_L2",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_NMSO2_PCA_L2_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMPS/NPP PCA SO2 Total Column 1-Orbit L2 Swath 50x50km V1",
+    "SeriesName" : "OMPS_NPP_NMSO2_PCA_L2",
+    "ReleaseDate" : "2019-11-20T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY",
+    "VariableLevel1" : "SULFUR OXIDES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "SULFUR DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "SULFUR OXIDES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CLIMATE INDICATORS",
+    "Term" : "PALEOCLIMATE INDICATORS",
+    "VariableLevel1" : "VOLCANIC ACTIVITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "HUMAN DIMENSIONS",
+    "Term" : "NATURAL HAZARDS",
+    "VariableLevel1" : "VOLCANIC ERUPTIONS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2011-11-07T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/SO2/DATA203"
+  },
+  "ShortName" : "OMPS_NPP_NMSO2_PCA_L2",
+  "EntryTitle" : "OMPS/NPP PCA SO2 Total Column 1-Orbit L2 Swath 50x50km V1 (OMPS_NPP_NMSO2_PCA_L2) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Zhang, Y., Li, C., Krotkov, N. A., Joiner, J., Fioletov, V., and McLinden, C.",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "Continuation of long-term global SO2 pollution monitoring from OMI to OMPS",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "10",
+    "Pages" : "1495-1509",
+    "DOI" : {
+      "DOI" : "10.5194/amt-10-1495-2017"
+    }
+  }, {
+    "Author" : "Li, C., Krotkov, N. A., Carn, S., Zhang, Y., Spurr, R. J. D., and Joiner, J.",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "New-generation NASA Aura Ozone Monitoring Instrument (OMI) volcanic SO2 dataset: Algorithm description, initial results, and continuation with the Suomi-NPP Ozone Mapping and Profiler Suite (OMPS)",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "10",
+    "Pages" : "445-458",
+    "DOI" : {
+      "DOI" : "10.5194/amt-10-445-2017"
+    }
+  } ],
+  "Quality" : "Quality improvements are envisioned.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/OMPSSO2PCA_PBL_monthly_mean_201703.jpg",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_NMSO2_PCA_L2_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/SO2/OMPS_NPP_NMSO2_PCA_L2.1",
+    "Description" : "Access the data via HTTP",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/SO2/OMPS_NPP_NMSO2_PCA_L2.1",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMPS_NPP_NMSO2_PCA_L2",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://so2.gsfc.nasa.gov/",
+    "Description" : "Global Sulfur Dioxide Monitoring Home Page",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/README.OMPS_NPP_NMSO2_PCA_L2.pdf",
+    "Description" : "README document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-11-20T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-11-20T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The goal of this dataset is to create and archive a Level 2 Sulfur Dioxide (SO2) Earth Science Data Record (ESDR) from backscatter Ultraviolet (BUV) measurements from the Ozone Mapping and Profiler Suite (OMPS) Nadir Mapper (NM) flown on the NASA/NOAA Suomi National Polar-orbiting Partnership (S-NPP) satellite since 2011. We apply the NASA Goddard Space Flight Center (GSFC) principal component analysis (PCA) satellite trace gas retrieval algorithm, to obtain the best measurement-based ESDR of volcanic and anthropogenic SO2 loadings and emissions, which is fully consistent with our SO2 ESDR (OMSO2) from the Ozone Monitoring Instrument (OMI) flown on the NASA Earth Observing System (EOS) Aura satellite since 2004. \n\nThe SO2 ESDR released here at the Goddard Earth Science (GES) Data and Information Data Center (DISC), OMPS_NPP_NMSO2_PCA_L2, is a stand-alone dataset, but will also be part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program. It covers the entire period of the S-NPP/OMPS mission since launch in October 2011, and forward data processing is ongoing. OMPS_NPP_NMSO2_PCA_L2 is a Level 2 orbital swath product, which will be used to study SO2 pollutants emitted from large point sources such as coal-fired power plants and smelters as well as to monitor volcanic SO2 emissions.\n\nSulfur Dioxide (SO2) is a short-lived gas primarily produced by volcanoes, power plants, refineries, metal smelting and burning of fossil fuels. Where SO2 remains near the Earth's surface, it is toxic, causes acid rain, and degrades air quality. Where SO2 is lofted into the free troposphere, it forms aerosols that can alter cloud reflectivity and precipitation. In the stratosphere, volcanic SO2 forms sulfate aerosols that can result in climate change.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-11-20T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-11-29T12:19:53.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2020-11-30T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "VersionDescription" : "Not provided",
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Can",
+    "LastName" : "Li, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "Goddard Space Flight Center", "Mailstop 614" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5616"
+      }, {
+        "Type" : "Email",
+        "Value" : "can.li@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "OMPS",
+      "LongName" : "Ozone Mapping and Profiler Suite"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

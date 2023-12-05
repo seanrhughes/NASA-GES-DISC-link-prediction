@@ -1,0 +1,402 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Monthly", "Climate Change", "Cloud Fraction", "EOSDIS", "GRID DATA", "Ground Temperature", "Hydrologic Cycle", "Radiation", "Radiation Budget", "sea level pressure", "OLR", "sea surface temperature", "surface skin temperature", "surface air temperature", "upper air" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Goddard Laboratory for Atmospheres at NASA GSFC",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TOVSAMND_02.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TOVS GLA MONTHLY GRIDS from NOAA-12 V02",
+    "SeriesName" : "TOVSAMND",
+    "ReleaseDate" : "2018-08-08T00:00:00.000Z",
+    "Version" : "02",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "NET RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "SKIN TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "VIRTUAL TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE",
+    "VariableLevel2" : "TEMPERATURE ANOMALIES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE",
+    "VariableLevel2" : "VERTICAL PROFILES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE",
+    "VariableLevel2" : "VIRTUAL TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "TOTAL PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROFILES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD FRACTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION AMOUNT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1991-06-01T00:00:00.000Z",
+      "EndingDateTime" : "1998-11-30T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/0V4BABVIXPA2"
+  },
+  "ShortName" : "TOVSAMND",
+  "EntryTitle" : "TOVS GLA MONTHLY GRIDS from NOAA-12 02 (TOVSAMND) at GES DISCc",
+  "PublicationReferences" : [ {
+    "Author" : "Susskind, J., Piraino. P., Rokke, L., Iredell, L., and Mehta, A.",
+    "PublicationDate" : "1997-01-01T00:00:00.000Z",
+    "Title" : "haracteristics of the TOVS Pathfinder Path A Dataset",
+    "Series" : "Bull. Amer. Meteor. Soc.",
+    "Volume" : "78",
+    "Pages" : "1449-1472",
+    "DOI" : {
+      "DOI" : "https://doi.org/10.1175/1520-0477(1997)078<1449:COTTPP>2.0.CO;2"
+    }
+  }, {
+    "Author" : "Susskind, J., J. Rosenfield, and D. Reuter",
+    "PublicationDate" : "1983-01-01T00:00:00.000Z",
+    "Title" : "An accurate radiative transfer model for use in the direct physical inversion of HIRS2 and MSU temperature sounding data",
+    "Series" : "JGR",
+    "Volume" : "88",
+    "Pages" : "8550-8568"
+  }, {
+    "Author" : "Baker. W.E.",
+    "PublicationDate" : "1983-01-01T00:00:00.000Z",
+    "Title" : "Objective Analysis and Assimilation of Observational Data from FGGE",
+    "Series" : "Monthly Weather Review",
+    "Volume" : "111",
+    "Pages" : "328-342"
+  }, {
+    "Author" : "Chahine, M.T. and J. Susskind",
+    "PublicationDate" : "1970-01-01T00:00:00.000Z",
+    "Title" : "Fundamentals of the GLA physical retrieval method",
+    "Volume" : "1",
+    "Pages" : "271-300",
+    "OtherReferenceDetails" : "Report on the Joint ECMWF/EUMETSAT Workshop on the Use of Satellite Data in Operational Weather Prediction: 1989-1993. Vol. 1, 271-300. T. Hollingsworth, Editor."
+  }, {
+    "Author" : "Chahine, M.T.",
+    "PublicationDate" : "1968-01-01T00:00:00.000Z",
+    "Title" : "Determination of the Temperature Profile in an Atmosphere from its Outgoing Radiances",
+    "Series" : "J. Opt. Soc. Am.",
+    "Volume" : "58",
+    "Pages" : "1634-1637"
+  }, {
+    "Author" : "Kalnay, E., Balgovind, R, Chao, W., Edelmann, D, Pfaendtner, J., Takacs, L, and Takano, K",
+    "PublicationDate" : "1983-01-01T00:00:00.000Z",
+    "Title" : "Documentation of the GLAS Fourth Order General Circulation Model, Volume 1: Model Documentation",
+    "Series" : "NASA Technical Memorandum",
+    "Volume" : "1",
+    "ReportNumber" : "86064"
+  }, {
+    "Author" : "Kidwell, K",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "NOAA Polar Orbiter Data User's Guide",
+    "OnlineResource" : {
+      "Linkage" : "https://www1.ncdc.noaa.gov/pub/data/satellite/publications/podguides/TIROS-N%20thru%20N-14/"
+    }
+  }, {
+    "Author" : "Takacs, L., A. Molod, and T. Wang",
+    "PublicationDate" : "1994-01-01T00:00:00.000Z",
+    "Title" : "Documentation of the Goddard Earth Observing System (GEOS) General Circulation Model Version 1",
+    "Series" : "NASA Technical Memorandum",
+    "ReportNumber" : "104606"
+  } ],
+  "Quality" : "Temperatures: Coarse layer temperatures are better defined by the TOVS radiances than point temperatures and therefore the results should be less method dependent provided effects of clouds on the radiances and sources of systematic errors are handled appropriately. The coarse\nlayer temperatures are best determined in the order starting from the lower troposphere, with quantitative accuracy decreasing with increasing height. Interannual differences of monthly mean surface to 500 mb layer mean temperatures have high quantitative accuracy (better than 0.1 degree C) compared to radiosonde reports and spatial correlations greater than 0.95. They are therefore useful for global and regional trend studies as well as climate variability studies, such as spatial and temporal correlations between interannual differences of lower tropospheric temperature with those of other layer mean temperatures, surface skin temperature, water vapor distribution, clouds, and precipitation. Other layer mean temperatures are potentially less precise. They are best used for interannual variability studies and should be used for precise trend studies with care. As in all other parameters, retrievals over polar regions are more difficult for a number of reasons and expected error bars are larger, perhaps by a factor of 2, than elsewhere.\n\nPoint temperatures are less quantitative and should not be used for detailed trend studies. They are potentially useful in climate variability studies and also provide the basic information going into the computation of the layer mean temperatures and OLR.\n\nSurface skin temperatures have high precision over ocean but cannot be directly validated over land. They can potentially be used for trend studies. The most important use may be the relationship of interannual differences of surface skin temperature to that of atmospheric quantities, including the effects of El Ni&#241;o on tropical and extra tropical circulation. There is  also a very strong correlation between interannual differences of surface skin temperature with lower tropospheric temperature over extra-tropical land.\n\nWater vapor is difficult to measure quantitatively for a number of reasons, one of the major ones being there is no accurate data source to use to determine and remove systematic errors from the retrieved moisture parameters. Radiosonde collocations were used to remove systematic errors from retrieved water vapor. Radiosondes have poor sampling (most are in extra-tropical land) and have known moist bias in dry cases. In the methodology used to process the benchmark period, separate systematic error correction coefficients were derived for land and ocean cases. This was deemed to be consistent with different potential sources of error, such as unknown surface emissivity over land. In hindsight, this was an ill conceived idea because the bias correction errors were found to be substantially different in tropical land and ocean areas, giving apparent moisture discontinuities in the tropical fields. Nevertheless, comparisons of interannual differences of monthly mean layer integrated precipitable water with collocated radiosondes showed high spatial correlations of the order of 0.8 for total precipitable water and 0.6 for precipitable water above 500 mb. This means the data should be useful to study interannual variability. Of more significance was the finding that tropical upper tropospheric water vapor was highly correlated in space and time with tropical precipitation. Specific humidities at mandatory levels are even harder to measure quantitatively but are potentially useful in terms of interannual variability. They also are part of the information entering the OLR calculation and can be used to explain some of the variability of OLR.\n\nThe main cloud products retrieved are cloud top pressure and effective cloud fraction, given by the product of the fractional cloud cover times the cloud emissivity at 11 mm. Because cloud emissivities are less than 1, especially for cirrus clouds, our global mean effective cloud fraction, which is of the order of 40%, is lower than other commonly quoted values closer to 50%.  The methodology of solution attempts to find a cloud fraction and cloud top pressure most consistent with the observations in five IR channels. There is often a modest range of cloud top pressures and corresponding cloud fractions (the higher the cloud top in altitude, the lower the cloud fraction) which give reasonable solutions to the radiative transfer equations. Therefore, cloud top pressures in individual cases may be uncertain up to 100 mb or more, but monthly mean pressures are probably better than 50 mb. The cloud parameters cannot be directly validated but form an important contribution to the calculations of OLR. Clouds are most difficult to determine in polar cases with low thermal contrast between clouds and the surface. Under these conditions, the TOVS IR radiances do not depend appreciably on cloud parameters. Path A and Path B clouds were compared to each other and found to differ significantly from each other, especially over polar regions. For this reason, both sets of clouds were labeled as experimental pending further validation studies. While individual cloud parameters should not be used for quantitative trend studies, they provide valuable quantitative information about interannual variability and response of cloud parameters to sea and land surface temperatures.\n\nPrecipitation amounts can be estimated from the cloud parameters and relative humidities retrieved from the TOVS data. The method is based on empirical coefficients derived from collocations with monthly mean rain gauge measurements. While patterns are qualitatively good, the method will tend to underestimate heavy precipitation and potentially give light rain in some cases where no precipitation exists, or it does not reach the ground. The main use of this data should be to study interannual variability of precipitation and its relationship with variability of surface temperature, atmospheric temperature, and water vapor.\n\nOLR is computed from the retrieved products using the radiative transfer equation. Agreement of monthly mean OLR with that derived from Earth Radiation Balance Experiment (ERBE) data is very good, with global mean differences of the order of 1 W/m2 and global standard deviations about 5 W/m2 on a 1 degree by 1 degree grid. This tends to validate all the TOVS products, including the cloud products. However, it should be remembered that a smaller (larger) amount of higher (lower) clouds could result in very similar values of OLR. This product is important for understanding interannual variability of OLR in terms of the variability of its key components: temperature, water vapor, and clouds. One important limitation of the data set is that it assumes a constant CO2 mixing ratio of 350 ppm and therefore does not reflect possible small changes due to changes of CO2 (about 3 ppm/year) over the time period. Longwave cloud radiative forcing (LCRF) is another important indicator of climate variability. Like OLR, LCRF is a calculated quantity, based on the difference of OLR calculated using the retrieved clouds, and clear sky OLR calculated with otherwise the same profiles and ground temperature, but with no clouds present. It should be borne in mind that this is not the quantity determined by the ERBE science team, which determines clear sky OLR by observations under clear conditions. These conditions tend to have warmer temperatures, and possibly drier conditions, than those under cloudy conditions.\n\nFor long term measurement of trends, or even climate variability studies, it is important to be able to analyze data from different satellites without having appreciable intersatellite biases. There are two potential problems involved: different instrumentation and different time of day. It is expected that the Path A methodology of systematic error correction for temperature, moisture, and ozone will be accurate enough to account for inter-satellite instrumentation differences. Differences in time of day are not accounted for directly in the original retrieval system. This primarily affects land surface skin temperatures and cloud parameters. In interpretation of these comparisons, time of day sampling differences should be borne in mind.  It is either up to the user to account for time sampling differences in their interpretation of the data or to use the temperature and OLR data products found in the data group &#8220;adjusted to 730 am&#8221;, where the products were adjusted to an observing time of 7:30 AM. \n\nAs an error was found in the ozone retrieval processing, the ozone data in not included in this version of the TOVS Pathfinder Path-A data. \nCite Joel Susskind, NASA Goddard and the GES DISC NASA Goddard",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TOVSAMND.V2.Dec.1997.500mb.day.temp.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TOVSAMND_02.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TOVS/User.Guide.TOVS.Pathfinder.PathA.v2.pdf",
+    "Description" : "Contains information about the TOVS instruments and the Pathfinder Path-A processing system.",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/TOVS/TOVSAMND.02/doc/README.TOVS.Pathfinder.PathA.v2.pdf",
+    "Description" : "README information for the netCDF level 3 files",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/TOVS/TOVSAMND.02",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/TOVS/TOVSAMND.02",
+    "Description" : "Access the data via the OPeNDAP protocol",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TOVSAMND+002",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1992-05-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-08-06T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This dataset (TOVSAMND) contains the TIROS Operational Vertical Sounder (TOVS) level 3 geophysical parameters derived using data from NOAA-12 and the physical retrieval method of Susskind et al. (1984) and processed by the Satellite Data Utilization Office of the Goddard Laboratory for Atmospheres at NASA/GSFC. This method, which is hydrodynamic model- and a priori data-dependent, is designated as the so-called Path A scheme by the TOVS Pathfinder Science Working Group. The 20 channel High resolution Infrared Radiation Sounder 2 (HIRS2) and the 4 channel Microwave Sounding Unit (MSU) aboard the NOAA-xx series of Polar Orbiting Satellites are used to produce global fields of the 3-dimensional temperature-moisture structure of the atmosphere. In addition to profiles of temperature and moisture, the HIRS2/MSU data are used to derive important quantities such as land and sea surface temperature, outgoing longwave radiation, cloud fraction, cloudtop height, total ozone overburden and precipitation estimates.\n\nThe Path A system steps through an interactive forecast-retrieval-analysis cycle. In each 6 hour synoptic period, a 2nd order General Circulation Model (Takacs et al., 1994) is used to generate the 6 hour forecast fields of temperature and humidity. These global fields are used as the first guess for all soundings occurring within a 6 hour time window centered upon the forecast time. These retrievals are then assimilated with all available insitu measurements (such as radiosonde and ship reports) in the 6 hour interval using an Optimal Interpolation (OI) analysis scheme developed by the Data Assimilation Office of the Goddard Laboratory for Atmospheres. This analysis is then used to specify the initial conditions for the next 6 hour forecast, thus completing the cycle.\n\nThe retrieval algorithm itself is a physical method based on the iterative relaxation technique originally proposed by Chahine (1968). The basic approach consists of modifying the temperature profile from the previous iteration by an amount proportional to the difference between the observed brightness temperatures and the brightness temperatures computed from the trial parameters using the full radiative transfer equation applied at the observed satellite zenith angle. For the case of the temperature profile, the updated layer mean temperatures are given as a linear combination of multichannel brightness temperature differences with the coefficients given by the channel weighting functions. Constraints are imposed upon the solution in order to ensure stability and convergence of the iterative process. For more details see Susskind et al (1984).\n\nThese Level 3 monthly mean products in the netCDF format and each representative of a different averaging time period. All files contain the same number of geophysical parameter arrays with the AM and PM portions of the orbits treated separately.  All data are mapped to a 1 degree longitude by 1 degree latitude global grid.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2018-08-06T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-10-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "TOVSAMND",
+    "Version" : "02",
+    "Type" : "SCIENCE ASSOCIATED",
+    "Description" : "NASA TOVS Pathfinder Path-A"
+  } ],
+  "VersionDescription" : "TOVSAMND_02 DOI:10.5067/0V4BABVIXPA2 Data reformatted from HDF to netCDF and added an additional group of data adjusting the temperature and OLR fields to what an observation time of 7:30AM would have produced.\n\nTOVSAMND_01 (NO DOI)",
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "02",
+  "Projects" : [ {
+    "ShortName" : "TOVS Pathfinder",
+    "LongName" : "TOVS Path A"
+  }, {
+    "ShortName" : "CWIC",
+    "LongName" : "CEOS WGISS Integrated Catalog"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "JOEL",
+    "LastName" : "SUSSKIND",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Space Flight Center", "Mailstop 610.0" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-7210"
+      }, {
+        "Type" : "Email",
+        "Value" : "joel.susskind-1@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Lena",
+    "LastName" : "Iredell",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC NASA Goddard Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-12",
+    "LongName" : "National Oceanic & Atmospheric Administration-12",
+    "Instruments" : [ {
+      "ShortName" : "TOVS",
+      "LongName" : "TIROS Operational Vertical Sounder"
+    }, {
+      "ShortName" : "HIRS/2",
+      "LongName" : "High Resolution Infrared Radiation Sounder/2"
+    }, {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "0.00"
+    } ]
+  }
+}

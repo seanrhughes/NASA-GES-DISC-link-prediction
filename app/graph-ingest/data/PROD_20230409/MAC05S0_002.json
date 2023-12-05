@@ -1,0 +1,197 @@
+{
+  "AncillaryKeywords" : [ "ATMOSPHERIC ABSORPTION", "ATMOSPHERIC ATTENUATION", "ATMOSPHERIC CORRECTION", "ATMOSPHERIC WARMING", "COLUMN ATMOSPHERIC WATER VAPOR", "COLUMN PRECIPITABLE WATER VAPOR", "GREENHOUSE GASES", "HUMIDITY", "INFRARRED WATER VAPOR ESTIMATES", "INTEGRATED WATER VAPOR", "MYD05", "MYD05_L2", "MODIS TOTAL PRECIPITABLE WATER", "MOISTURE", "NEAR-INFRARED WATER VAPOR ESTIMATES", "TRACE GASES", "WATER VAPOR", "WATER VAPOR CONCENTRATION", "EOSDIS", "A-Train" ],
+  "CollectionCitations" : [ {
+    "Creator" : "MODIS Science Team",
+    "IssueIdentification" : "MAC05S0",
+    "Editor" : "GES DISC",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MAC05S0_002.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "MODIS/Aqua Total Precip Water Vapor 1km and 5km 5-Min L2 Narrow Swath Subset along CloudSat",
+    "SeriesName" : "MAC05S0",
+    "ReleaseDate" : "2006-10-01T00:00:00.000Z",
+    "Version" : "002",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "TOTAL PRECIPITABLE WATER"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2006-06-02T00:00:00.000Z",
+      "EndingDateTime" : "2018-02-28T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Legacy dataset"
+  },
+  "ShortName" : "MAC05S0",
+  "EntryTitle" : "MODIS/Aqua Total Precip Water Vapor 1km and 5km 5-Min L2 Narrow Swath Subset along CloudSat V002 (MAC05S0) at GES DISC",
+  "Quality" : "See Related URL here for links to quality-related documents",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MAC05S0_002.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MAC05S0_002.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://atrain.gesdisc.eosdis.nasa.gov/data/MAC/MAC05S0.002/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://modis.gsfc.nasa.gov/",
+    "Description" : "MODIS Project Home Page",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://www.cloudsat.cira.colostate.edu/",
+    "Description" : "CloudSat Data Processing Center",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://modis-atmos.gsfc.nasa.gov/data-issues/water-vapor",
+    "Description" : "Quality Assurance for the original product.",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the narrow-swath MODIS/Aqua subset along CloudSat field of view track. The goal of the narrow-swath subset is to select and return MODIS data that are within +-5 km across the CloudSat track. I.e. the resultant MODIS subset swath is sought to be about 10 km cross-track. However, the original MYD05_L2 has data of 5- and 1-km pixels. Thus, MAC05S0 cross-track width is 3- and 11-pixels, depending on the parameter, and the resultant swath is about 15- and 10-km, correspondingly. Along-track, all MODIS pixels from the original product are preserved.\n      \nIn the standard product, the MODIS level-2 atmospheric precipitable water product consists of total atmospheric column water vapor amounts (and ancillary parameters) over clear land areas of the globe, over extended clear oceanic areas with the Sun glint, and above clouds over both land and ocean. These estimates are based on a near-infrared algorithm using only daytime measurements with solar zenith angle less than 72 degrees. The retrieval algorithm relies on observations of water vapor attenuation of near-infrared solar radiation reflected by surfaces and clouds. The product is produced only over areas that have reflective surfaces in the near-infrared. The infrared-derived precipitable water vapor generated for both daytime & nighttime conditions as one component of another MODIS product (MYD07) is also provided as a part of this product. \n      \n      \n(The shortname for this product is MAC05S0).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2006-09-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-27T15:08:38.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2019-10-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "002",
+  "Projects" : [ {
+    "ShortName" : "ATDD",
+    "LongName" : "A-Train Data Depot"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "MODIS",
+      "LongName" : "Moderate-Resolution Imaging Spectroradiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS",
+      "Fees" : "None"
+    } ]
+  }
+}

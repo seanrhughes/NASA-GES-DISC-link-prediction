@@ -1,0 +1,196 @@
+{
+  "AncillaryKeywords" : [ "A-Train" ],
+  "CollectionCitations" : [ {
+    "Creator" : "POLDER Science Team/CNES",
+    "IssueIdentification" : "PARASOLRB_CPR",
+    "Editor" : "GES DISC",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/PARASOLRB_CPR_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "POLDER/Parasol L2 Radiation Budget subset along CloudSat track",
+    "SeriesName" : "PARASOLRB_CPR",
+    "Version" : "001",
+    "ReleasePlace" : "NASA Goddard Space Flight Center"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "ALBEDO"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD LIQUID WATER/ICE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD OPTICAL DEPTH/THICKNESS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2006-06-01T00:00:00.000Z",
+      "EndingDateTime" : "2010-01-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Legacy dataset"
+  },
+  "ShortName" : "PARASOLRB_CPR",
+  "EntryTitle" : "POLDER/Parasol L2 Radiation Budget subset along CloudSat track V001 (PARASOLRB_CPR) at GES DISC",
+  "Quality" : "This is only a CloudSat-collocated subset, the quality of the original data is not manipulated in the output subset.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/PARASOLRB_CPR_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/PARASOLRB_CPR_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://atrain.gesdisc.eosdis.nasa.gov/data/PARASOL/PARASOLRB_CPR.001/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://parasol.cnes.fr/en/PARASOL/index.htm",
+    "Description" : "Home for Parasol mission.",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the POLDER/Parasol Level-2 Radiation Budget Subset, collocated with the CloudSat track. The subset is processed at the A-Train Data Depot of the GES DISC, NASA. The algorithm first converts the original POLDER binary data, which is Level-2 but nevertheless in a sinusoidal grid, into HDF4 format, and thus stores the full-sized data in HDF4. Then, it calculates the CloudSat ground track coordinates, and proceeds to extract the closest POLDER grid cells. Along with the extraction, the algorithm re-orders the subset grid cells in a line-by-line fashion, so that the output subset is in array format and resembles a swath. This array has a cross-track dimension of 11 columns.  That makes about 200-km-wide coverage.\n      \n      All original parameters are preserved in the subset. As it is collocated with CloudSat, the subset is automatically collocated with CALIPSO as well.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2008-02-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-27T15:08:39.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2019-10-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "ATDD",
+    "LongName" : "A-Train Data Depot"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "PARASOL",
+    "LongName" : "Polarization and Anisotropy of Reflectances for Atmospheric Sciences coupled with Observations from a Lidar",
+    "Instruments" : [ {
+      "ShortName" : "POLDER-1",
+      "LongName" : "Polarization/Directionality of the Earth's Reflectance-1"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF",
+      "Fees" : "None"
+    } ]
+  }
+}

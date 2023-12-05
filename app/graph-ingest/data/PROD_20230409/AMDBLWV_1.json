@@ -1,0 +1,251 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "BLWV", "Boundary Layer Water Vapor" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Luis Millan, Matt Lebsock, Evan Fishbein, Peter Kalmus,  & Joao Teixeria",
+    "Title" : "AMSR-MODIS Boundary Layer Water Vapor L3 Daily 1 degree x 1 degree V1",
+    "SeriesName" : "AMDBLWV",
+    "ReleaseDate" : "2017-04-11T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "1",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/AMDBLWV_1.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-07-04T00:00:00.000Z",
+      "EndingDateTime" : "2016-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/AMDBLWV"
+  },
+  "ShortName" : "AMDBLWV",
+  "EntryTitle" : "AMSR-MODIS Boundary Layer Water Vapor L3 Daily 1 degree x 1 degree V1 (AMDBLWV) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Luis Millan, M. Lebsock, F. Fishbein, P. Kalmus, J. Teixeira",
+    "PublicationDate" : "2016-01-29T00:00:00.000Z",
+    "Title" : "Quantifying Marine Boundary Layer Water Vapor beneath Low Clouds with Near-Infrared and Microwave Imagery",
+    "DOI" : {
+      "DOI" : "10.1175/JAMC-D-15-0143.1"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AMDBLWV_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/AMDBLWV_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gsfc.nasa.gov/data/BLWV/AMDBLWV.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/BLWV/AMDBLWV.1/",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/BLWV/AMDBLWV.1/doc/README.AMSR-MODIS_BoundaryLayerWaterVapor_V1.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/BLWV/ATBD_AMSR-MODIS-BLW.pdf",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This data set provides an estimate the marine boundary layer water vapor beneath uniform cloud fields. Microwave radiometry from AMSR-E and AMSR-2 provides the total column water vapor, while the near-infrared imagery from MODIS provides the water vapor above the cloud layers. The difference between the two gives the vapor between the surface and the cloud top, which may be interpreted as the boundary layer water vapor.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2016-07-05T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-02-11T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "LUIS",
+    "LastName" : "MILLAN",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "luis.f.millan@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "MATTHEW",
+    "LastName" : "LEBSOCK",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Matthew.D.Lebsock@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "EVAN",
+    "LastName" : "FISHBEIN",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Evan.Fishbein@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "PETER",
+    "LastName" : "KALMUS",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "peter.m.kalmus@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOAO",
+    "LastName" : "TEIXEIRA",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Joao.Teixeira@jpl.nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AMSR-E",
+      "LongName" : "Advanced Microwave Scanning Radiometer-EOS"
+    }, {
+      "ShortName" : "MODIS",
+      "LongName" : "Moderate-Resolution Imaging Spectroradiometer"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GCOM-W1",
+    "LongName" : "Global Change Observation Mission 1st-Water",
+    "Instruments" : [ {
+      "ShortName" : "AMSR2",
+      "LongName" : "Advanced Microwave Scanning Radiometer 2"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Primary Production", "Carbon Fixation" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Gary L. Fahnenstiel, Michael J. Sayers, Robert A. Shuchman, Foad Yousef, & Steven A. Pothoven",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/CMSLakeHuronPPY_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Carbon Monitoring System Lake Huron Primary Production Yearly",
+    "SeriesName" : "CMSLakeHuronPPY",
+    "ReleaseDate" : "2019-10-31T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -84.762,
+          "NorthBoundingCoordinate" : 46.591,
+          "EastBoundingCoordinate" : -79.652,
+          "SouthBoundingCoordinate" : 43.001
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "ECOLOGICAL DYNAMICS",
+    "VariableLevel1" : "ECOSYSTEM FUNCTIONS",
+    "VariableLevel2" : "PRIMARY PRODUCTION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2010-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2013-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/11TMFK7VSHDY"
+  },
+  "ShortName" : "CMSLakeHuronPPY",
+  "EntryTitle" : "Carbon Monitoring System Lake Huron Primary Production Yearly V1 (CMSLakeHuronPPY) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Fahnenstiel, G.L., Sayers, M, Shuchman, R.A., Yousef, F., Pothoven, S.A.",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "Lake-wide phytoplankton production and abundance in the Upper Great Lakes: 2010&#8211;2013",
+    "Series" : "J. Great Lakes Res.",
+    "Volume" : "42",
+    "Issue" : "3",
+    "Pages" : "619-629",
+    "DOI" : {
+      "DOI" : "10.1016/j.jglr.2016.02.004"
+    }
+  }, {
+    "Author" : "Shuchman, R.A., Leshkevich, G., Sayers, M.J., Johengen, T.H., Brooks, C.N., Pozdnyakov, D.",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Title" : "An algorithm to retrieve chlorophyll, dissolved organic carbon, and suspended minerals from Great Lakes satellite data",
+    "Series" : "J. Great Lakes Res.",
+    "Volume" : "39",
+    "Issue" : "S1",
+    "DOI" : {
+      "DOI" : "10.1016/j.jglr.2013.06.017"
+    }
+  }, {
+    "Author" : "Lee, Z., Du, K., Arnone, R., Liew, S., Penta, B.",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "Penetration of solar radiation in the upper ocean: a numerical model for oceanic and coastal waters",
+    "Series" : "J. Geophys. Res. Oceans",
+    "Edition" : "110",
+    "Volume" : "C9",
+    "DOI" : {
+      "DOI" : "10.1029/2004JC002780"
+    }
+  } ],
+  "ISOTopicCategories" : [ "INLAND WATERS" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/CMS/CMSLakeHuronPPY.1/" ]
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/CMS/CMSLakeHuronPPY_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/CMSLakeHuronPPY_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/CMSLakeHuronPPY.1",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/CMSLakeHuronPPY.1/doc/README.CMSGreatLakesPrimaryProductivity.V1.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/opendap/CMS/CMSLakeHuronPPY.1",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://carbon.nasa.gov/",
+    "Description" : "The NASA Carbon Monitoring System (CMS) page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=CMSLakeHuronPPY",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/CMSLakeHuronPPY_1.html",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-10-21T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-10-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Yearly Average primary production/carbon fixation data for Lake Huron.  The primary production data is derived using MODIS imagery with model data.\n\nThe NASA Carbon Monitoring System (CMS) is designed to make significant contributions in characterizing, quantifying, understanding, and predicting the evolution of global carbon sources and sinks through improved monitoring of carbon stocks and fluxes. The System will use the full range of NASA satellite observations and modeling/analysis capabilities to establish the accuracy, quantitative uncertainties, and utility of products for supporting national and international policy, regulatory, and management activities. CMS will maintain a global emphasis while providing finer scale regional information, utilizing space-based and surface-based data and will rapidly initiate generation and distribution of products both for user evaluation and to inform near-term policy development and planning.",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA",
+    "Subregion1" : "UNITED STATES OF AMERICA",
+    "Subregion2" : "GREAT LAKES"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-07-17T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-10-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "CMS",
+    "LongName" : "Carbon Monitoring System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Robert",
+    "LastName" : "Shuchman"
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "MiddleName" : "JOSEPH",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "MODIS",
+      "LongName" : "Moderate-Resolution Imaging Spectroradiometer"
+    } ]
+  }, {
+    "Type" : "Models",
+    "ShortName" : "NCEP-CFSV2",
+    "LongName" : "NCEP Climate Forecast System Version 2",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  }, {
+    "Type" : "Models",
+    "ShortName" : "GLPPM",
+    "LongName" : "Great Lake Primary Productivity Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

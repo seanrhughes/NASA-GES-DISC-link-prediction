@@ -1,0 +1,253 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "JPSS-1", "JPSS1", "JPSS 1", "ATMS", "NOAA 20", "NOAA-20", "NOAA20", "brightness temperature" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Jet Propulsion Laboratory: Bjorn Lambrigtsen",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SNDRJ1ATMSL1B_3.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "JPSS-1 ATMS Level 1B Brightness Temperature V3",
+    "SeriesName" : "SNDRJ1ATMSL1B",
+    "ReleaseDate" : "2020-12-01T00:00:00.000Z",
+    "Version" : "3",
+    "ReleasePlace" : "Greenbelt, MD"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "ANTENNA TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "MICROWAVE RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2017-11-29T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1B"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MUNII2DHSSY3"
+  },
+  "ShortName" : "SNDRJ1ATMSL1B",
+  "EntryTitle" : "JPSS-1 ATMS Level 1B Brightness Temperature V3 (SNDRJ1ATMSL1B) at GES DISC",
+  "ISOTopicCategories" : [ "GEOSCIENTIFIC INFORMATION" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SNDRJ1ATMSL1B_3.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SNDRJ1ATMSL1B_3.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/data/JPSS1_Sounder_Level1/SNDRJ1ATMSL1B.3/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SNDRJ1ATMSL1B+003",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/opendap/JPSS1_Sounder_Level1//SNDRJ1ATMSL1B.3",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/SNPP_Sounder/3.3_ScienceDataProductDocumentation/3.3.4_ProductGenerationAlgorithms/ATMS_NASA_ATBD_JPL_Review.pdf",
+    "Description" : "Algorithm Theoretical Basis Document NASA L1b: Advanced Technology Microwave Sounder (ATMS).",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/ATMS_V3_L1B_Product_User_Guide.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/ATMS_V3_L1B_Assessment_Report.pdf",
+    "Description" : "Product Quality Assessment",
+    "Subtype" : "PRODUCT QUALITY ASSESSMENT",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Advanced Technology Microwave Sounder (ATMS) Level 1B data files contain brightness temperature measurements along with ancillary spacecraft, instrument, and geolocation data of the ATMS instrument on the Joint Polar Satellite System-1 (JPSS-1) platform. This platform is also known as NOAA-20 (National Oceanic and Atmospheric Administration).\n \nThe ATMS is a 22-channel mm-wave radiometer. The ATMS will measure upwelling radiances in six frequency bands centered at 23 GHz, 31 GHz, 50-58 GHz, 89 GHz, 66 GHz, and 183 GHz. The ATMS is a total power radiometer, with &#8220;through-the-antenna&#8221; radiometric calibration. Radiometric data is collected by a pair of antenna apertures, scanned by rotating flat plate reflectors. Scanning is performed cross-track to the satellite motion from sun to anti-sun, using the \"integrate-while-scan\" type data collection. The scan period is 8/3 second, synchronized to the Cross-track Infrared Sounder (CrIS) using a spacecraft provided scan synchronization pulse.\n\nSince the JPSS-1 satellite is orbiting at an altitude of about 830 km, the instantaneous spatial resolution on the ground at nadir is about 16 km, 32 km, or 75 km depending upon the channel. The brightness temperature data are contained in an array with 135 rows in the along-track direction, 96 columns in the cross-track direction, and a 3rd dimension for each of the 22 channels. The ATMS cross-track scan interval is 0.018 seconds and the along-track scan period is 8/3 seconds. Data products are constructed on six minute boundaries.\n\nIf you were redirected to this page from a DOI from\nan older version, please note this is the current\nversion of the product. Please contact the GES DISC\nuser support if you need information about previous\ndata collections.",
+  "Purpose" : "The brightness temperatures are used for sounding observations needed to retrieve profiles of atmospheric temperature and moisture for civilian operational weather forecasting as well as continuity of these measurements for climate monitoring purposes.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2020-10-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-10-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "SNDRJ1ATMSL1B",
+    "Version" : "03",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "Version" : "3",
+  "Projects" : [ {
+    "ShortName" : "NPP-JPSS",
+    "LongName" : "National Polar Orbiting Partnership-Joint Polar Satellite System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "MiddleName" : "JOSEPH",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "BJORN",
+    "LastName" : "LAMBRIGTSEN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Jet Propulsion Laboratory", "4800 Oak Grove Dr.", "MS 169-237" ],
+        "City" : "Pasadena",
+        "StateProvince" : "CA",
+        "PostalCode" : "91109",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(818) 354-8932"
+      }, {
+        "Type" : "Email",
+        "Value" : "Bjorn.H.Lambrigtsen@jpl.nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-20",
+    "LongName" : "Joint Polar Satellite System - 1",
+    "Instruments" : [ {
+      "ShortName" : "ATMS",
+      "LongName" : "Advanced Technology Microwave Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "none"
+    } ]
+  }
+}

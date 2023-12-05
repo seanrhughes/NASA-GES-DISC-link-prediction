@@ -1,0 +1,361 @@
+{
+  "AncillaryKeywords" : [ "ATMOSPHERE", "CALIBRATED", "GEOLOCATED", "TEMPERATURE", "CLOUD", "EOSDIS", "Cloud Liquid Water", "Ozone", "Spectral IR Surface Emissivities", "WATER VAPOR", "Water Vapor Saturation Mass Mixing Ratio", "Water Vapor Mass Mixing Ratio", "Layer Molecular Column Density of Ozone", "Sounder", "CLIMCAPS", "Suomi NPP", "CrIMSS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Chris Barnet",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SNDRSNIML3CMCCPN_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Sounder SIPS: Suomi NPP CrIMSS Level 3 Comprehensive Quality Control Gridded Monthly CLIMCAPS Normal Spectral Resolution V1",
+    "SeriesName" : "SNDRSNIML3CMCCPN",
+    "ReleaseDate" : "2019-01-15T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY",
+    "VariableLevel1" : "TROPOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "TROPOPAUSE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "METHANE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "OUTGOING LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "LAYERED PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "TOTAL PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROFILES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD FRACTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD VERTICAL DISTRIBUTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION RATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE RADIATIVE PROPERTIES",
+    "VariableLevel1" : "EMISSIVITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "SKIN TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN TEMPERATURE",
+    "VariableLevel1" : "SEA SURFACE TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2013-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2015-11-01T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/12I0VLMJROHM"
+  },
+  "ShortName" : "SNDRSNIML3CMCCPN",
+  "EntryTitle" : "Sounder SIPS: Suomi NPP CrIMSS Level 3 Comprehensive Quality Control Gridded Monthly CLIMCAPS Normal Spectral Resolution V1",
+  "PublicationReferences" : [ {
+    "Author" : "Gambacorta, A. and Barnet, C.D.",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Methodology and information content of the NOAA NESDIS operational channel selection for the Cross-Track Infrared Sounder (CrIS)",
+    "Series" : "IEEE transactions on Geoscience and Remote Sensing",
+    "Volume" : "51",
+    "Issue" : "6",
+    "Pages" : "3207 - 3216",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2012.2220369"
+    }
+  }, {
+    "Author" : "Strow, L.L., H.E. Motteler, R.G. Benson, S.E. Hannon and De Souza-Machado",
+    "PublicationDate" : "1998-01-01T00:00:00.000Z",
+    "Title" : "Fast- computation of monochromatic infrared atmospheric transmittances using compressed look-up tables",
+    "Series" : "J. Quant. Spectrosc",
+    "Volume" : "59",
+    "Pages" : "303-317"
+  }, {
+    "Author" : "Joel Susskind, Christopher D. Barnet, and John M. Blaisdell",
+    "PublicationDate" : "2003-04-29T00:00:00.000Z",
+    "Title" : "Retrieval of Atmospheric and Surface Parameters From AIRS/AMSU/HSB Data in the Presence of Clouds",
+    "Series" : "EEE Trans. Geosci. Remote Sensing",
+    "Volume" : "41",
+    "Issue" : "2",
+    "Pages" : "390-409",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2002.808236"
+    }
+  }, {
+    "Author" : "Journal Editors",
+    "PublicationDate" : "2006-05-01T00:00:00.000Z",
+    "Title" : "Validation of Atmospheric Infrared Sounder Observations",
+    "Series" : "J. Geophys, Res. Atmospheres",
+    "Volume" : "111",
+    "Issue" : "9",
+    "OtherReferenceDetails" : "This special issue contains several relevant articles.",
+    "DOI" : {
+      "DOI" : "10.1029/2005/JD007020"
+    }
+  } ],
+  "Quality" : "The objective of this research is to develop and implement an algorithm to analyze a long term data record of CrIS/ATMS observations which are consistent with, and will serve as a seamless follow on to, those of AIRS. The Cross-track Infrared Sounder (CrIS) is a Fourier transform spectrometer with a total of 1305\ninfrared sounding channels covering the longwave (655-1095 cm-1), midwave (1210-1750 cm-1), and shortwave (2155-2550 cm-1) spectral regions. The Advanced Technology Microwave Sounder (ATMS) is a cross-track scanner with 22 channels in spectral bands from 23 GHz through 183 GHz. The quality of the retrieval is influenced by the a-prior used.\n\nComprehensive quality control (QC) accepts a retrieval if the profile is good to the surface. This QC is applied across all parameters.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "GEOSCIENTIFIC INFORMATION" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample plot of CrIS/ATMS Level 3 monthly CLIMCAPS retrievals gridded using the Comprehensive QC methodology.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SNDRSNIML3CMCCPN_01.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SNDRSNIML3CMCCPN_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/data/limited_editions/SNPP_CLIMCAPS/SNDRSNIML3CMCCPN.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/opendap/limited_editions/SNPP_CLIMCAPS/SNDRSNIML3CMCCPN.1/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SNDRSNIML3CMCCPN+1",
+    "Description" : "Search the Earthdata website",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/SNPP/SNPP_limited_edition/SNPP.CrIMSS.CHART.CLIMCAPS.v1.L3.README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/SNPP/SNPP_limited_edition/SNPP.CrIMSS.CLIMCAPS_V1.ATBD.pdf",
+    "Description" : "ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The objective of this limited edition data collection is to examine products generated by the CLIMCAPS (Community Long-term Infrared Microwave Coupled Product System) algorithm to analyze Cross-track Infrared Sounder/Advanced Technology Microwave Sounder (CrIS/ATMS) instruments, also known as CrIMSS (Cross-track Infrared and Microwave Sounding Suite).  The CrIS/ATMS instruments used for this product are on board the Suomi National Polar-orbiting Partnership (SNPP) platform and use the Normal Spectral Resolution (NSR) data. The CrIS instrument is a Fourier transform spectrometer with a total of 1305 NSR infrared sounding channels covering the longwave (655-1095 cm-1), midwave (1210-1750 cm-1), and shortwave (2155-2550 cm-1) spectral regions. The ATMS instrument  is a cross-track scanner with 22 channels in spectral bands from 23 GHz through 183 GHz.\n \nThe CLIMCAPS algorithm is based on the NUCAPS (NOAA Unique CrIS/ATMS Processing System) Optimal Estimation methodology and uses an a-priori first guess to start the process. A CLIMCAPS sounding is comprised of a set of parameters that characterizes the full atmospheric state and includes a variety of geophysical parameters derived from the CrIMSS data. &#160;These include surface temperature and infrared emissivity; full atmosphere profiles of temperature, water vapor and ozone; infrared effective cloud top characteristics; carbon monoxide, methane, carbon dioxide, sulfur dioxide, nitrous oxide, and nitric acid.\n \nThe monthly one degree latitude by one degree longitude level-3 product starts with level-2 retrieval products applying the comprehensive quality control (QC) methodology to form a level-2 daily gridded product. The daily level-3 gridded products are averaged to create the monthly average. Comprehensive QC accepts a retrieval if the profile is good to the surface and ensures consistent analysis across all levels and variables. \n\nThe CLIMCAPS system was designed to serve as a seamless follow on to the Atmospheric Infrared Sounder/Advanced Microwave Sounding Unit (AIRS/AMSU) instrument processing system. For comparison, the AIRS/AMSU data collection with the TqJ suffix (TqJoint) from AIRX3STM contains similar meteorological information to this CLIMCAPS data collection and the CHART (Climate Heritage AIRS Retrieval Technique ) data collection SNDRSNIML3CMCHTN contains CRIMSS data processed with an analogous algorithm.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2018-11-06T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-29T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "SNDRSNIML3CMCCPN",
+    "Version" : "1",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "SUOMI-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Lena",
+    "LastName" : "Iredell",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "DISTRIBUTOR" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "CrIS",
+      "LongName" : "Cross-track Infrared Sounder"
+    }, {
+      "ShortName" : "ATMS",
+      "LongName" : "Advanced Technology Microwave Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

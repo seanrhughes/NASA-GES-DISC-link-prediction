@@ -1,0 +1,242 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Alex Turner & Daniel Jacob",
+    "Title" : "CMS (Carbon Monitoring System) Methane (CH4) Flux for North America 0.5 degree x 0.667 degree V1",
+    "SeriesName" : "CMS_CH4_FLX_NA",
+    "ReleaseDate" : "2016-09-30T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "1",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/CMS_CH4_FLX_NA_1.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -140,
+          "NorthBoundingCoordinate" : 70,
+          "EastBoundingCoordinate" : -40,
+          "SouthBoundingCoordinate" : 10
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "METHANE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2010-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2012-01-01T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/RF3R3G9I3UVX"
+  },
+  "ShortName" : "CMS_CH4_FLX_NA",
+  "EntryTitle" : "CMS (Carbon Monitoring System) Methane (CH4) Flux for North America 0.5 degree x 0.667 degree V1 (CMS_CH4_FLX_NA) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "A.J. Turner, D. J. Jacob, K. J. Wecht, J. D. Maasakkers, E. Lundgren, A. E. Andrews, S. C. Biraud, H. Boesch, K. W. Bowman, N. M. Deutscher, M. K. Dubey, D. W. T. Griffith, F. Hase, A. Kuze, J. Notholt, H. Ohyama, R. Parker, V. H. Payne, R. Sussmann, C. Sweeney, V. A. Velazco, T. Warneke, P. O. Wennberg, and D. Wunch",
+    "PublicationDate" : "2015-06-30T00:00:00.000Z",
+    "Title" : "Estimating global and North American methane emissions with high spatial resolution using GOSAT satellite data",
+    "Series" : "Atmospheric Chemistry and Physics",
+    "Edition" : "15",
+    "Pages" : "7049-7069",
+    "DOI" : {
+      "DOI" : "10.5194/acp-15-7049-2015"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/CMS_CH4_FLX_NA_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/CMS_CH4_FLX_NA_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/CMS_CH4_FLX_NA.1/doc/README.CMS_CH4_FLX_NA_V1.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://carbon.nasa.gov/",
+    "Description" : "The NASA Carbon Monitoring System (CMS) page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "An error was found in this product; therefore, it has been deleted.  Please use the CMS Methane (CH4) Flux for North America Daily product (CMS_CH4_FLX_NAD) in its place.\n\nThe CMS Methane (CH4) Flux for North America data set contains estimates of methane emission in North America based on an inversion of the GEOS-Chem chemical  transport model constrained by Greenhouse Gases Observing SATellite (GOSAT) observations .  The nested approach of the inversion enables large point sources to be resolved while aggregating regions with weak emissions and minimizing aggregation errors.  The emission sources are separated into 9 different sectors as follows: Total, Wetlands, Livestock, Oil/Gas, Waste (Landfills wastewater), Coal, Rice, Open Fires, and Other.  More details about the algorithm and error characterization can be found in (Turner, Jacob, Wecht, et al. 2015).\n\nThe NASA Carbon Monitoring System (CMS) is designed to make significant contributions in characterizing, quantifying, understanding, and predicting the evolution of global carbon sources and sinks through improved monitoring of carbon stocks and fluxes. The System will use the full range of NASA satellite observations and modeling/analysis capabilities to establish the accuracy, quantitative uncertainties, and utility of products for supporting national and international policy, regulatory, and management activities. CMS will maintain a global emphasis while providing finer scale regional information, utilizing space-based and surface-based data and will rapidly initiate generation and distribution of products both for user evaluation and to inform near-term policy development and planning.",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA",
+    "Subregion1" : "CANADA"
+  }, {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA",
+    "Subregion1" : "MEXICO"
+  }, {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA",
+    "Subregion1" : "UNITED STATES OF AMERICA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2016-08-29T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-03-09T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "Not Provided",
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "CMS",
+    "LongName" : "Carbon Monitoring System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ALEX",
+    "MiddleName" : "J.",
+    "LastName" : "TURNER",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Department of Environmental Engineering", "Harvard University" ],
+        "City" : "Cambridge",
+        "StateProvince" : "MA",
+        "PostalCode" : "02138",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "303-810-3162"
+      }, {
+        "Type" : "Email",
+        "Value" : "aturner@fas.harvard.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "DANIEL",
+    "MiddleName" : "J.",
+    "LastName" : "JACOB",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Division of Applied Sciences and Department of Earth and Planetary Sciences", "Harvard University" ],
+        "City" : "Cambridge",
+        "StateProvince" : "MA",
+        "PostalCode" : "02138",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "617-495-1794"
+      }, {
+        "Type" : "Email",
+        "Value" : "djj@io.harvard.edu"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GOSAT",
+    "LongName" : "Greenhouse Gases Observing Satellite",
+    "Instruments" : [ {
+      "ShortName" : "TANSO-FTS",
+      "LongName" : "Thermal And Near Infrared Sensor For Carbon Observation"
+    } ]
+  }, {
+    "Type" : "Models",
+    "ShortName" : "GEOS-Chem",
+    "LongName" : "Global 3-D chemical transport model (CTM) for atmospheric composition driven by meteorological input from the Goddard",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

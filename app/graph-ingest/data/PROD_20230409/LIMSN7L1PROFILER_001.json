@@ -1,0 +1,205 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Profile-R" ],
+  "CollectionCitations" : [ {
+    "Creator" : "NASA/GSFC",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/LIMSN7L1PROFILER_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "LIMS/Nimbus-7 Level 1 Radiance Data V001",
+    "SeriesName" : "LIMSN7L1PROFILER",
+    "ReleaseDate" : "2019-01-11T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 80,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -64
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "INFRARED RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1978-10-25T00:00:00.000Z",
+      "EndingDateTime" : "1979-05-30T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "LIMSN7L1PROFILER",
+  "EntryTitle" : "LIMS/Nimbus-7 Level 1 Radiance Data V001 (LIMSN7L1PROFILER) at GES DISC",
+  "Quality" : "The data should be used with care and one should first read the Nimbus-7 User's Guide. Users should cite this data product in their research.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "Description" : "Typical data coverage of a Nimbus 7 LIMS Profile-R data file.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/images/LIMSN7L1PROFILER_Sample.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/LIMSN7L1PROFILER_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus7_LIMS_Level1/LIMSN7L1PROFILER.001/",
+    "Description" : "Access the data via HTTP.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=LIMSN7L1PROFILER",
+    "Description" : "Use the Earthdata Search Client (EDSC) to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus7_LIMS_Level1/LIMSN7L1PROFILER.001/doc/README.LIMSN7L1PROFILER.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.2_Product_Rqmts_Design/N7_LIMS_ProfileR_NOP.pdf",
+    "Description" : "LIMS Profile-R Tape Specification",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/N7_Users_Guide.pdf",
+    "Description" : "Nimbus 7 User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/N7_LIMS_Inventory.xlsx",
+    "Description" : "N7 LIMS Inventory",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1992-06-30T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1992-06-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "LIMSN7L1PROFILER is the Nimbus-7 Limb Infrared Monitor of the Stratosphere (LIMS) Level-1 Profiles of Radiance Data product and contains selected daily vertical profiles across the earth’s atmospheric limb derived from the LIMS Level-1 Radiance Archival Tape (RAT) data product. Measurements are obtained, as a function of tangent height (or scan angle), once every 12 seconds in each of the six spectral bands (two 15-micrometer CO2 bands (narrow and wide), an 11.3-micrometer HNO3 band, a 9.6-micrometer O3 band, a 6.9-micrometer H2O band, and a 6.2-micrometer NO2 band) from the highest pressure level to the lowest in steps of 0.1 km\n\nEach file contains one days worth of data (~14 orbits per day). LIMS is a limb profiler and spatial coverage is near global between latitude -64 and +84 degrees. Vertical coverage is from about 10 to 50 km (O3 channel to 65 km), with vertical resolution of about 1.5 km. The data are available from 25 October 1978 through 30 May 1979. The principal investigators for the LIMS experiment were Dr. James M. Russell, III from NASA Langley and Dr. John Gille from NCAR.\n\nThis product was previously available from the NASA National Space Science Data Center (NSSDC) under the name LIMS Radiance Archival Data with the identifier ESAC-00032 (old id 78-098A-01B).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-01-11T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-01-11T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "Nimbus"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-7",
+    "LongName" : "Nimbus-7",
+    "Instruments" : [ {
+      "ShortName" : "LIMS",
+      "LongName" : "Limb Infrared Monitor of the Stratosphere"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

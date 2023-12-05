@@ -1,0 +1,383 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "ATMOSPHERE", "CALIBRATED", "GEOLOCATED", "TEMPERATURE", "CLOUD", "EOSDIS", "Carbon Monoxide", "Cloud Liquid Water", "Methane", "Ozone", "Spectral IR Surface Emissivities", "Spectral Microwave Surface Emissivities", "WATER VAPOR", "Water Vapor Saturation Mass Mixing Ratio", "Water Vapor Mass Mixing Ratio", "Cloud Ice/Water Flag", "Layer Molecular Column Density of Carbon Monoxide", "Layer Molecular Column Density of Cloud Liquid Water", "Layer Molecular Column Density of Methane", "Layer Molecular Column Density of Ozone" ],
+  "CollectionCitations" : [ {
+    "Creator" : "AIRS Science Team/Joao Teixeira",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/AIRH2SUP_006.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "AIRS/Aqua L2 Support Retrieval (AIRS+AMSU+HSB) V006",
+    "SeriesName" : "AIRH2SUP",
+    "ReleaseDate" : "2013-01-15T00:00:00.000Z",
+    "Version" : "006",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY",
+    "VariableLevel1" : "CARBON MONOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD FRACTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD HEIGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD VERTICAL DISTRIBUTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE RADIATIVE PROPERTIES",
+    "VariableLevel1" : "EMISSIVITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "GEOPOTENTIAL HEIGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "METHANE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "OUTGOING LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "TOTAL PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN TEMPERATURE",
+    "VariableLevel1" : "SEA SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "SKIN TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "SULFUR DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "TROPOPAUSE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY",
+    "VariableLevel1" : "TROPOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROFILES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD LIQUID WATER/ICE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD DROPLET CONCENTRATION/SIZE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD OPTICAL DEPTH/THICKNESS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD TYPES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION RATE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-08-30T00:00:00.000Z",
+      "EndingDateTime" : "2003-02-05T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aqua/AIRS/DATA209"
+  },
+  "ShortName" : "AIRH2SUP",
+  "EntryTitle" : "AIRS/Aqua L2 Support Retrieval (AIRS+AMSU+HSB) V006 (AIRH2SUP) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "B. H. Kahn et al.",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "The Atmospheric Infrared Sounder version 6 cloud products",
+    "OnlineResource" : {
+      "Linkage" : "https://www.atmos-chem-phys.net/14/399/2014/acp-14-399-2014.html"
+    },
+    "DOI" : {
+      "DOI" : "10.5194/acp-14-399-2014"
+    }
+  } ],
+  "ISOTopicCategories" : [ "IMAGERY/BASE MAPS/EARTH COVER", "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "GEOSCIENTIFIC INFORMATION" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample plot of AIRS Level 2 Support Retrieval (AIRS+AMSU+HSB) H2O Column Density Profile and Cloud Fraction.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRH2SUP_006.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/AIRH2SUP_006.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://airsl2.gesdisc.eosdis.nasa.gov/data/Aqua_AIRS_Level2/AIRH2SUP.006/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://airsl2.gesdisc.eosdis.nasa.gov/opendap/Aqua_AIRS_Level2/AIRH2SUP.006/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=AIRH2SUP+006",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://airs.jpl.nasa.gov/index.html",
+    "Description" : "AIRS home page at NASA/JPL. General information on the AIRS instrument, algorithms, and other AIRS-related activities can be found.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=AIRS%20Documentation",
+    "Description" : "AIRS Documentation Page",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/AIRS/3.3_ScienceDataProductDocumentation/3.3.4_ProductGenerationAlgorithms/README.AIRS_V6.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://eospso.gsfc.nasa.gov/sites/default/files/atbd/20070301_L2_ATBD_signed.pdf",
+    "Description" : "AIRS ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Atmospheric Infrared Sounder (AIRS) is a grating spectrometer (R = 1200) aboard the second Earth Observing System (EOS) polar-orbiting platform, EOS Aqua. In combination with the Advanced Microwave Sounding Unit (AMSU) and the Humidity Sounder for Brazil (HSB), AIRS constitutes an innovative atmospheric sounding group of visible, infrared, and microwave sensors. This product is similar to AIRX2SUP. However, it contains science retrievals that use the HSB. Because the HSB instrument lived only from September 2002 through January 2003 when it terminally failed, the data set covers these five months only. The Support Product includes higher vertical resolution profiles of the quantities found in the Standard Product, plus intermediate outputs (e.g., microwave-only retrieval), research products such as the abundance of trace gases, and detailed quality assessment information. The Support Product profiles contain 100 levels between 1100 and .016 mb; this higher resolution simplifies the generation of radiances using forward models, though the vertical information content is no greater than that in the Standard Product profiles. The intended users of the Support Product are researchers interested in generating forward radiance or in examining research products, and the AIRS algorithm development team. The Support Product is generated at all locations as Standard Products. An AIRS granule has been set as 6 minutes of data with 30 footprints cross track by 45 scanlines of AMSU-A data or 135 scanlines of AIRS and HSB data. There are 240 granules per day, with an orbit repeat cycle of approximately 16 day.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2013-01-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "006",
+  "Projects" : [ {
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System (EOS), Aqua"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ED",
+    "LastName" : "ESFANDIARI",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5960"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "asghar.e.esfandiari@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    }, {
+      "ShortName" : "AMSU-A",
+      "LongName" : "Advanced Microwave Sounding Unit-A"
+    }, {
+      "ShortName" : "HSB",
+      "LongName" : "Humidity Sounder for Brazil"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS",
+      "Fees" : "None"
+    } ]
+  }
+}

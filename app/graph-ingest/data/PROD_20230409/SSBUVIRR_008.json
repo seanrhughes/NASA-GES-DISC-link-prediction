@@ -1,0 +1,316 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "ATLAS-1", "ATLAS-2", "ATLAS-3" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Hilsenrath, E.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SSBUVIRR_008.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Shuttle SBUV (SSBUV) Solar Spectral Irradiance V008",
+    "SeriesName" : "SSBUVIRR",
+    "ReleaseDate" : "2009-09-08T00:00:00.000Z",
+    "Version" : "008",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "NO_SPATIAL"
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SUN-EARTH INTERACTIONS",
+    "Term" : "SOLAR ACTIVITY",
+    "VariableLevel1" : "SOLAR IRRADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1989-10-19T00:00:00.000Z",
+      "EndingDateTime" : "1996-01-18T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  }, {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1989-10-19T00:00:00.000Z",
+      "EndingDateTime" : "1989-10-21T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  }, {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1990-10-07T00:00:00.000Z",
+      "EndingDateTime" : "1990-10-09T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  }, {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1991-08-03T00:00:00.000Z",
+      "EndingDateTime" : "1991-08-06T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  }, {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1992-03-29T00:00:00.000Z",
+      "EndingDateTime" : "1992-03-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  }, {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1993-04-09T00:00:00.000Z",
+      "EndingDateTime" : "1993-04-16T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  }, {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1994-03-14T00:00:00.000Z",
+      "EndingDateTime" : "1994-03-17T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  }, {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1994-11-05T00:00:00.000Z",
+      "EndingDateTime" : "1994-11-13T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  }, {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1996-01-12T00:00:00.000Z",
+      "EndingDateTime" : "1996-01-18T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "SSBUVIRR",
+  "EntryTitle" : "Shuttle SBUV (SSBUV) Solar Spectral Irradiance V008 (SSBUVIRR) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SSBUVIRR_008.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SSBUVIRR_008.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Shuttle_SBUV_Level2/SSBUVIRR.008/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Shuttle Solar Backscatter Ultraviolet (SSBUV) level-2 irradiance data are available for eight space shuttle missions flown between 1989 and 1996. SSBUV, a successor to the SBUV flown on the Nimbus-7 satellite, is nearly identical to the SBUV/2 instruments flown on the NOAA polar orbiting satellites. Data are available in an ASCII text format. UV irradiance data are available for the following days from the eight missions:\n\nFlight #1: 1989 October 19, 20, 21\nFlight #2: 1990 October 7, 8, 9\nFlight #3: 1991 August 3, 4, 5, 6\nFlight #4: 1992 March 29, 30\nFlight #5: 1993 April 9, 11, 13, 15, 16\nFlight #6: 1994 March 14, 15, 17\nFlight #7: 1994 November 5, 7, 10, 13\nFlight #8: 1996 January 12, 16, 18\n\nThe Shuttle SBUV (SSBUV) instrument measured solar spectral UV irradiance during the maximum and declining phase of solar cycle 22. The SSBUV data accurately represent the absolute solar UV irradiance between 200-405 nm, and also show the long-term variations during eight flights between October 1989 and January 1996. These data have been used to correct long-term sensitivity changes in the NOAA-11 SBUV/2 data, which provide a near-daily record of solar UV variations over the 170-400 nm region between December 1988 and October 1994. These data demonstrate the evolution of short-term solar UV activity during solar cycle 22.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2009-08-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "008",
+  "Projects" : [ {
+    "ShortName" : "ATLAS",
+    "LongName" : "Atmospheric Laboratory for Applications and Science"
+  }, {
+    "ShortName" : "Columbia",
+    "LongName" : "Space Shuttle Columbia"
+  }, {
+    "ShortName" : "Discovery",
+    "LongName" : "Space Shuttle Discovery"
+  }, {
+    "ShortName" : "Endeavour",
+    "LongName" : "Space Shuttle Endeavour"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ERNEST",
+    "LastName" : "HILSENRATH, PH.D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "HQ:DF000" ],
+        "City" : "Washington",
+        "StateProvince" : "DC",
+        "PostalCode" : "20546-0001",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "202-358-7231"
+      }, {
+        "Type" : "Email",
+        "Value" : "Ernest.Hilsenrath@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "RICHARD",
+    "LastName" : "CEBULA, PH.D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 613.3" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-867-2160"
+      }, {
+        "Type" : "Email",
+        "Value" : "Richard.P.Cebula@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "STS-34",
+    "LongName" : "Space Transport System STS-34",
+    "Instruments" : [ {
+      "ShortName" : "SSBUV",
+      "LongName" : "Shuttle Solar Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "STS-41",
+    "LongName" : "Space Transport System STS-41",
+    "Instruments" : [ {
+      "ShortName" : "SSBUV",
+      "LongName" : "Shuttle Solar Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "STS-43",
+    "LongName" : "Space Transport System STS-43",
+    "Instruments" : [ {
+      "ShortName" : "SSBUV",
+      "LongName" : "Shuttle Solar Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "STS-45",
+    "LongName" : "Space Transport System STS-45",
+    "Instruments" : [ {
+      "ShortName" : "SSBUV",
+      "LongName" : "Shuttle Solar Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "STS-56",
+    "LongName" : "Space Transport System STS-56",
+    "Instruments" : [ {
+      "ShortName" : "SSBUV",
+      "LongName" : "Shuttle Solar Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "STS-62",
+    "LongName" : "Space Transport System STS-62",
+    "Instruments" : [ {
+      "ShortName" : "SSBUV",
+      "LongName" : "Shuttle Solar Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "STS-66",
+    "LongName" : "Space Transport System STS-66",
+    "Instruments" : [ {
+      "ShortName" : "SSBUV",
+      "LongName" : "Shuttle Solar Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "STS-72",
+    "LongName" : "Space Transport System STS-72",
+    "Instruments" : [ {
+      "ShortName" : "SSBUV",
+      "LongName" : "Shuttle Solar Backscatter Ultraviolet"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "LWP", "MAC-LWP" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Gregory Elsaesser, Christopher O'Dell, Matthew Lebsock, & Joao Teixeira",
+    "Title" : "Multisensor Advanced Climatology Mean Liquid Water Path L3 Monthly 1 degree x 1 degree V1",
+    "SeriesName" : "MACLWP_mean",
+    "ReleaseDate" : "2016-01-10T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "1",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MACLWP_mean_1.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : 180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD LIQUID WATER/ICE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1988-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2016-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/MACLWPM"
+  },
+  "ShortName" : "MACLWP_mean",
+  "EntryTitle" : "Multisensor Advanced Climatology Mean Liquid Water Path L3 Monthly 1 degree X 1 degree V1 (MACLWP_mean) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Elsaesser, G. S., C. W. O'Dell, M. D. Lebsock, R. Bennartz, T. J. Greenwald, and F. J. Wentz",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "The Multi-Sensor Advanced Climatology of Liquid Water Path (MAC-LWP)",
+    "Series" : "J. Clim",
+    "DOI" : {
+      "DOI" : "10.1175/JCLI-D-16-0902.1"
+    }
+  }, {
+    "Author" : "O'Dell, C. W., F. J. Wentz, and R. Bennartz",
+    "PublicationDate" : "2008-01-01T00:00:00.000Z",
+    "Title" : "Cloud Liquid Water Path from Satellite-Based Passive Microwave Observations: A New Climatology over the Global Oceans",
+    "Series" : "J. Clim",
+    "Edition" : "21",
+    "Pages" : "1721&#8211;1739",
+    "DOI" : {
+      "DOI" : "10.1175/2007JCLI1958.1"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MACLWP_mean_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MACLWP_mean_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/LWP/MACLWP_mean.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/LWP/MACLWP_mean.1/",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/LWP/MACLWP_mean.1/doc/README.MultisensorAdvancedClimatologyLiquidWaterPath_V1.pdf",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=MACLWP_mean",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2017-01-05T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-01-05T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Multi-Sensor Advanced Climatology of Liquid Water Path (MAC-LWP) data set contains monthly 1.0-degree ocean-only estimates of cloud liquid water path (MACLWP_mean), total water path (MACTWP_mean) which includes both cloud and rain water, and monthly climatologies of cloud liquid water path diurnal cycle amplitudes and phases (MACLWP_diurnal).  The MACTWP_mean field can also be used as a quality-control screen for the MACLWP_mean field as discussed in Elsaesser et al. (2017), where uncertainty increases as the ratio of cloud to total water path increases.  The MAC-LWP algorithm uses as input the Remote Sensing Systems (RSS) Version 7 0.25 degree-resolution retrieval products (produced using the SSM/I, AMSR-E, TMI, AMSR-2, GMI, SSMIS, and WindSat satellite sensors), and performs a bias correction on all input RSS cloud water path products based on AMSR-E matchups to clear-sky MODIS scenes.  The MAC-LWP algorithm ensures that spurious trends and variability in the cloud fields arising from drifting satellite overpass times are mitigated by simultaneously solving for the monthly average cloud and total water paths and monthly-mean diurnal cycles, as discussed in O&#8217;Dell et al. (2008).  Additional details on the algorithm and data fields can be found in Elsaesser et al. (2017).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL OCEAN"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2016-12-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-06-19T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GREGORY",
+    "LastName" : "ELSAESSER",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "gregory.elsaesser@columbia.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CHRISTOPHER",
+    "LastName" : "O'DELL",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Christopher.ODell@colostate.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "MATTHEW",
+    "LastName" : "LEBSOCK",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Matthew.D.Lebsock@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOAO",
+    "LastName" : "TEIXEIRA",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Joao.Teixeira@jpl.nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP",
+    "LongName" : "Defense Meteorological Satellite Program",
+    "Instruments" : [ {
+      "ShortName" : "SSMIS",
+      "LongName" : "Special Sensor Microwave Imager/Sounder"
+    }, {
+      "ShortName" : "SSM/I",
+      "LongName" : "Special Sensor Microwave/Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AMSR-E",
+      "LongName" : "Advanced Microwave Scanning Radiometer-EOS"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GCOM-W1",
+    "LongName" : "Global Change Observation Mission 1st-Water",
+    "Instruments" : [ {
+      "ShortName" : "AMSR2",
+      "LongName" : "Advanced Microwave Scanning Radiometer 2"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GPM",
+    "LongName" : "Global Precipitation Measurement",
+    "Instruments" : [ {
+      "ShortName" : "GMI",
+      "LongName" : "Global Precipitation Measurement Microwave Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission",
+    "Instruments" : [ {
+      "ShortName" : "TMI",
+      "LongName" : "TRMM Microwave Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NPOESS (National Polar-orbiting Operational Environmental Satellite System )",
+    "Instruments" : [ {
+      "ShortName" : "WINDSAT",
+      "LongName" : "WindSat"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

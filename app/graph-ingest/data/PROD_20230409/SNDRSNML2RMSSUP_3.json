@@ -1,0 +1,344 @@
+{
+  "AncillaryKeywords" : [ "ATMOSPHERE", "CALIBRATED", "GEOLOCATED", "TEMPERATURE", "EOSDIS", "Cloud Liquid Water", "WATER VAPOR", "Water Vapor Saturation Mass Mixing Ratio", "Water Vapor Mass Mixing Ratio", "Sounder", "RAMSES", "Suomi NPP", "ATMS", "Microwave" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Bjorn Lambrigtser",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SNDRSNML2RMSSUP_3.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Sounder SIPS: Suomi NPP ATMS Level 2 RAMSES2 Support V3",
+    "SeriesName" : "SNDRSNML2RMSSUP",
+    "ReleaseDate" : "2022-12-12T00:00:00.000Z",
+    "Version" : "3",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "LAYERED PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "TOTAL PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROFILES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "SKIN TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN TEMPERATURE",
+    "VariableLevel1" : "SEA SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID WATER EQUIVALENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "HUMIDITY",
+    "VariableLevel3" : "RELATIVE HUMIDITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "HUMIDITY",
+    "VariableLevel3" : "SPECIFIC HUMIDITY"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2011-12-10T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/KMEMD53MTTU8"
+  },
+  "ShortName" : "SNDRSNML2RMSSUP",
+  "EntryTitle" : "Sounder SIPS: Suomi NPP ATMS Level 2 RAMSES2 Support V3 (SNDRSNML2RMSSUP) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Gambacorta, A. and Barnet, C.D.",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Methodology and information content of the NOAA NESDIS operational channel selection for the Cross-Track Infrared Sounder (CrIS)",
+    "Series" : "IEEE transactions on Geoscience and Remote Sensing",
+    "Volume" : "51",
+    "Issue" : "6",
+    "Pages" : "3207 - 3216",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2012.2220369"
+    }
+  }, {
+    "Author" : "Bomin Sun ; Anthony Reale ; Franklin H. Tilley ; Michael E. Pettey ; Nicholas R. Nalli ; Christopher D. Barnet",
+    "PublicationDate" : "2017-06-01T00:00:00.000Z",
+    "Title" : "Assessment of NUCAPS S-NPP CrIS/ATMS Sounding Products Using Reference and Conventional Radiosonde Observations",
+    "Series" : "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "Volume" : "10",
+    "Issue" : "6",
+    "Pages" : "2499 - 2509",
+    "DOI" : {
+      "DOI" : "10.1109/JSTARS.2017.2670504"
+    }
+  }, {
+    "Author" : "Strow, L.L., H.E. Motteler, R.G. Benson, S.E. Hannon and De Souza-Machado",
+    "PublicationDate" : "1998-01-01T00:00:00.000Z",
+    "Title" : "Fast- computation of monochromatic infrared atmospheric transmittances using compressed look-up tables",
+    "Series" : "J. Quant. Spectrosc",
+    "Volume" : "59",
+    "Pages" : "303-317",
+    "DOI" : {
+      "DOI" : "10.1016/S0022-4073(97)00169-6"
+    }
+  }, {
+    "Author" : "Joel Susskind, Christopher D. Barnet, and John M. Blaisdell",
+    "PublicationDate" : "2003-04-29T00:00:00.000Z",
+    "Title" : "Retrieval of Atmospheric and Surface Parameters From AIRS/AMSU/HSB Data in the Presence of Clouds",
+    "Series" : "EEE Trans. Geosci. Remote Sensing",
+    "Volume" : "41",
+    "Issue" : "2",
+    "Pages" : "390-409",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2002.808236"
+    }
+  }, {
+    "Author" : "Journal Editors",
+    "PublicationDate" : "2006-05-01T00:00:00.000Z",
+    "Title" : "Validation of Atmospheric Infrared Sounder Observations",
+    "Series" : "J. Geophys, Res. Atmospheres",
+    "Volume" : "111",
+    "Issue" : "9",
+    "OtherReferenceDetails" : "This special issue contains several relevant articles.",
+    "DOI" : {
+      "DOI" : "10.1029/2005/JD007020"
+    }
+  }, {
+    "Author" : "Barnet, C. D.; Smith, N.; Wheeler, A. A.",
+    "PublicationDate" : "1970-01-01T00:00:00.000Z",
+    "Title" : "CLIMCAPS: Creation of an AIRS/AMSU and CrIS/ATMS continuity sounding product",
+    "Series" : "American Geophysical Union, Fall Meeting 2018",
+    "ReportNumber" : "abstract #A33J-3281",
+    "Publisher" : "AGU",
+    "OtherReferenceDetails" : "Bibliographic Code: 2018AGUFM.A33J3281B"
+  } ],
+  "Quality" : "Quality Control values of 0 (best), 1 (good), and 2 (don't use) are provided for each variable \n",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "GEOSCIENTIFIC INFORMATION" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample plot of SNPP RAMSES II Level 2 support retrieval.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SNDRSNML2RMSSUP_3.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SNDRSNML2RMSSUP_3.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/data/SNPP_Sounder_Level2/SNDRSNML2RMSSUP.3/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/opendap/SNPP_Sounder_Level2/SNDRSNML2RMSSUP.3/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SNDRSNML2RMSSUP+3",
+    "Description" : "Search the Earthdata website.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/RAMSESII.L2.V3.README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/RAMSESII-ATBD-V1.noprecip.pdf",
+    "Description" : "ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/Test_Report_RAMSESII.v3.pdf",
+    "Description" : "Test Report",
+    "Subtype" : "PRODUCT QUALITY ASSESSMENT",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This level 2 support product is generated by the RAMSES (Retrieval Algorithm for Microwave Sounders in Earth Science) II algorithm.The RAMSES II algorithm is a microwave only retrieval algorithm using observations from the Suomi-National Polar-orbiting Partnership (NPP) Advanced Technology Microwave Sounder (ATMS) instrument. The ATMS instrument used for this product is a cross-track scanner with 22 channels in spectral bands from 23 GHz through 183 GHz. The RAMSES II Level-2 retrieval products contain a variety of geophysical parameters retrieved from ATMS measurements, including profiles of temperature, water in all phases as well as surface properties for six minutes of instrument observation at a time. The RAMSES II algorithm doesn't have a cloud clearing process and produces all weather retrieval\n\nA level 2 granule has been set as 6 minutes of data. There are 240 granules per day, with an orbit repeat cycle of approximately 16 day.\n\n",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2022-12-02T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-12-02T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "SNDRSNML2RMSSUP",
+    "Version" : "3",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "3",
+  "Projects" : [ {
+    "ShortName" : "SUOMI-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Lena",
+    "LastName" : "Iredell",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 619", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "DISTRIBUTOR" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 619", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "ATMS",
+      "LongName" : "Advanced Technology Microwave Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

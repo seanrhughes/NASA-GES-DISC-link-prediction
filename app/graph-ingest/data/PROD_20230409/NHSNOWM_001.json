@@ -1,0 +1,214 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "NEESPI, NASA", "MAIRS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Peter Romanov, PhD",
+    "IssueIdentification" : "NHSNOWM",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/NHSNOWM_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Northern Hemisphere Snow Cover Monthly Statistics at 1 Degree Resolution V001",
+    "SeriesName" : "NHSNOWM",
+    "ReleaseDate" : "2006-10-20T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "NASA GSFC"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : 0
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CRYOSPHERE",
+    "Term" : "SNOW/ICE",
+    "VariableLevel1" : "SNOW COVER"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2000-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2014-11-30T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/JIJNARIFGY4G"
+  },
+  "ShortName" : "NHSNOWM",
+  "EntryTitle" : "Northern Hemisphere Snow Cover Monthly Statistics at 1 Degree Resolution V001 (NHSNOWM) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Ramsay, B.",
+    "PublicationDate" : "1998-01-01T00:00:00.000Z",
+    "Title" : "The interactive multisensor snow and ice mapping system"
+  } ],
+  "ISOTopicCategories" : [ "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NHSNOWM_001.gif",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/NHSNOWM_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/data/Snow_Ice/NHSNOWM.001",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=NHSNOWM",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/data/Snow_Ice/NHSNOWM.001/doc/README.NHSNOWICE.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2009-03-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2014-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This product is Snow Cover Statistics. The dataset was prepared by Dr. Peter Romanov at Cooperative Institute for Climate Studies(CICS) of the University of Maryland for Northern Eurasia Earth Science Partnership Initiative (NEESPI) program. \n                        \n The product includes the monthly snow statistics (frequency of occurrence) for Northern Hemisphere at 1x1 degree spatial resolution. The dataset covers the time period from January 2000 to November 2014.\n \n Monthly data were derived from daily snow cover charts produced at NOAA/NESDIS within Interactive Multisensor Ice Mapping System (IMS).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "NORTHERN HEMISPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2009-03-13T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-09-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "NEESPI NASA",
+    "LongName" : "NASA NEESPI Data and Service Center"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GREGORY",
+    "LastName" : "LEPTOUKH"
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "PETER",
+    "LastName" : "ROMANOV, PHD",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NOAA" ],
+        "StateProvince" : "MD",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Peter.Romanov@noaa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "SUHUNG",
+    "LastName" : "SHEN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC", "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5088"
+      }, {
+        "Type" : "Email",
+        "Value" : "suhung.shen@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GOES",
+    "LongName" : "NOAA Geostationary Operational Environmental Satellites",
+    "Instruments" : [ {
+      "ShortName" : "AVHRR",
+      "LongName" : "Advanced Very High Resolution Radiometer"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF",
+      "Fees" : "None"
+    } ]
+  }
+}

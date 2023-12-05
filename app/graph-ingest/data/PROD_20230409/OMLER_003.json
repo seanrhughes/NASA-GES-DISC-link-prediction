@@ -1,0 +1,311 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Spectral Surface Reflectance", "Lambertian Equivalent Surface Reflectivity", "EOSDIS", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Human Health", "Transportation", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Quintus Kleipool",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMLER_003.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMI/Aura Surface Reflectance Climatology L3 Global Gridded 0.5 degree x 0.5 degree V3",
+    "SeriesName" : "OMLER",
+    "ReleaseDate" : "2010-12-09T00:00:00.000Z",
+    "Version" : "003",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "REFLECTANCE",
+    "DetailedVariable" : "LAMBERT EQUIVALENT SURFACE REFLECTANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2005-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2009-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aura/OMI/DATA3006"
+  },
+  "ShortName" : "OMLER",
+  "EntryTitle" : "OMI/Aura Surface Reflectance Climatology L3 Global Gridded 0.5 degree x 0.5 degree V3 (OMLER) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Ahmad, S. P., P. F. Levelt, P. K. Bhartia, E. Hilsenrath, G. W. Leppelmeier,and J. E. Johnson",
+    "PublicationDate" : "2003-08-01T00:00:00.000Z",
+    "Title" : "Atmospheric Products from the Ozone Monitoring Instrument(OMI)",
+    "Series" : "Proceedings of SPIE conference on Earth Observing Systems VIII, San Diego, California"
+  }, {
+    "Author" : "Bhartia, P. K., P. F. Levelt, J. Tamminen, O. Torres",
+    "PublicationDate" : "2006-11-28T00:00:00.000Z",
+    "Title" : "Recent results from the Ozone Monitoring Instrument (OMI) on EOS Aura",
+    "Series" : "Proceedings of SPIE conference on Remote Sensing of the Atmosphere and Clouds",
+    "Volume" : "6408"
+  }, {
+    "Author" : "Brinksma, E. J., K. F. Boersma, and P. F. Levelt",
+    "PublicationDate" : "2003-05-16T00:00:00.000Z",
+    "Title" : "OMI-Validation Requirements"
+  }, {
+    "Author" : "Dirksen, R., M.R. Dobber, R. Voors and P. Level",
+    "PublicationDate" : "2006-06-10T00:00:00.000Z",
+    "Title" : "Pre-launch characterization of the Ozone Monitoring Instrument transfer function in the spectral domain",
+    "Series" : "Appl. Optics",
+    "Volume" : "45",
+    "Issue" : "17",
+    "Pages" : "3972-81"
+  }, {
+    "Author" : "Dobber, M.R., R. Dirksen, P. Levelt, G.H.J. van den Oord, R. Voors, Q. Kleipool, G. Jaross, M. Kowalewski, E. Hilsenrath, G. Leppelmeier, J. de Vries, W. Dierssen and N. Rozemeijer",
+    "PublicationDate" : "2006-05-01T00:00:00.000Z",
+    "Title" : "Ozone Monitoring Instrument Calibrtation",
+    "Series" : "IEEE Trans. Geo. Rem. Sens",
+    "Volume" : "44",
+    "Issue" : "5",
+    "Pages" : "1209-1238",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.869987"
+    }
+  }, {
+    "Author" : "Dobber, M.R., R. Dirksen, P. Levelt, G.H.J. van den Oord, R. Voors, Q. Kleipool, G. Jaross en M. Kowalewski",
+    "PublicationDate" : "2005-09-01T00:00:00.000Z",
+    "Title" : "Ozone Monitoring Instrument in-flight performance and calibration",
+    "Series" : "Proceedings SPIE Optical Systems Design 2005, 12-16 September 2005, Jena, Germany, 2006"
+  }, {
+    "Author" : "Kowalewski, J.M.G., G.R. Jaross, R.P Cebula, S.L. Taylor, G.H.J. van den Oord, M.R. Dobber, R.J. Dirksen",
+    "PublicationDate" : "2005-08-01T00:00:00.000Z",
+    "Title" : "Evaluation of OMI pre-launch radiometric calibration and on-orbit performance using in-flight data",
+    "Series" : "Proceedings SPIE's Annual Meeting, San Diego (U.S.A.), 31 July - 4 August 2005, Optical Science, Engineering, and Instrumentation. Earth observing systems",
+    "Edition" : "X",
+    "Volume" : "5882"
+  }, {
+    "Author" : "Levelt, P.F., J. P. Veefkind, R. H. M. Voors, and J. de Vries",
+    "PublicationDate" : "2002-08-01T00:00:00.000Z",
+    "Title" : "Instrument Description, Algorithm Theoretical Baseline Document: OMI Instrument, Level 0 - 1B processor, Calibration & Operations"
+  }, {
+    "Author" : "Oord, G.H.J. van den, N.C. Rozemeijer, V. Schenkelaars, P.F. Levelt, M.R. Dobber, R.H.M. Voors, J. Claas, J. de Vries, M. ter Linden, C. De Haan and T. van den Berg",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "OMI level 0 to 1b processing and operational aspects",
+    "Series" : "IEEE Trans. Geo. Rem. Sens.",
+    "Volume" : "44",
+    "Issue" : "5",
+    "Pages" : "1380-1397",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.872935"
+    }
+  }, {
+    "Author" : "Vries, J. de, R.H.M. Voors, R.J. Dirksen, and M.R. Dobber",
+    "PublicationDate" : "2005-10-01T00:00:00.000Z",
+    "Title" : "In-orbit performance of the Ozone Monitoring Instrument",
+    "Series" : "Proceedings of SPIE - The International Society for Optical Engineering",
+    "DOI" : {
+      "DOI" : "10.1117/12.627013"
+    }
+  } ],
+  "Quality" : "This Level-3 product (first public release) is a climatology of Earth Surface Reflectance which is based on current version 003 OMI Level-1B Earth-Atmosphere radiance. This Data set is not fully validated yet. Before using it in any publication please contact algorithm team lead for the current known problems and updates.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMLER_003.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMLER_003.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/Aura_OMI_Level3/OMLER.003/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMLER_003",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/HDF-EOS5/Aura_OMI_Level3/OMLER.003/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level3/OMLER.003/doc/OMLER_README_V003.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.2_ProductRequirements_Designs/README.OMI_DUG.pdf",
+    "Description" : "OMI Data User's Guide",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://aura.gsfc.nasa.gov/",
+    "Description" : "Aura Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/research/news/newsWrap.php?language=only_enhttps://www.knmi.nl/omitimeFrame=latesthttps://www.knmi.nl/omichoise=page",
+    "Description" : "OMI KNMI Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://projects.knmi.nl/omi/research/documents/",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2005-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2010-12-09T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The OMI Earth Surface Reflectance Climatology product, OMLER (Global 0.5 degrees Lat/Lon grid) which is based on Version 003 Level-1B top of atmosphere upwelling radiance and incoming irradiance. OMI calibrated and geolocated radiances from 159 channels in UV1(264-311 nm), 557 channels in UV2 (307-383 nm) and 751 channels in VIS (349-504) spectral regions, spectral irradiances, calibration measurements, and all derived geophysical atmospheric products (Level-2 and 3) are archived at the NASA Goddard DAAC.\n\nOMLER spectral surface reflectance product contains monthly and yearly climatology of the Earth's surface Lambert Equivalent Reflectance (LER) for 23 wavelengths in the spectral range 309 to 500 nm, at a spatial resolution of 0.5 by 0.5 degrees. This LER is defined as the required reflectance of an isotropic surface needed to match the observed top of the atmosphere (TOA) reflectance in a pure Rayleigh scattering atmosphere under cloud free conditions and no aerosols. The climatology is based on statistical analysis of the three years of OMI version 03 radiance data (Oct 2004-Oct 2007). This product also provides minimum spectral surface reflectivity observed during the three year period.\n\nThe OMLER product file is produced in the version 5 Hierarchical Data Format (HDF-EOS5). It is roughly 300 MB in size.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2008-09-08T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-10-20T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "003",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "QUINTUS",
+    "LastName" : "KLEIPOOL, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "KNMI", "P.O.Box 201" ],
+        "City" : "De Bilt",
+        "StateProvince" : "AE",
+        "PostalCode" : "3730",
+        "Country" : "NL"
+      } ],
+      "ContactMechanisms" : [ ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "MARCEL",
+    "LastName" : "DOBBER, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "KNMI", "P.O.Box 201" ],
+        "City" : "De Bilt",
+        "StateProvince" : "AE",
+        "PostalCode" : "3730",
+        "Country" : "NL"
+      } ],
+      "ContactMechanisms" : [ ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JENNIFER",
+    "MiddleName" : "C",
+    "LastName" : "WEI",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6558"
+      }, {
+        "Type" : "Email",
+        "Value" : "jennifer.c.wei@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS5",
+      "Fees" : "None"
+    } ]
+  }
+}

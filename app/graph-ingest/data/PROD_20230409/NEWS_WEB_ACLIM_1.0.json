@@ -1,0 +1,294 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Matthew Rodell, Tristan L'Ecuyer, and Hiroko Kato Beaudoing, NASA/GSFC/HSL",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/NEWS_WEB_ACLIM_1.0.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "NASA Energy and Water cycle Study (NEWS) Annual Climatology of the 1st decade of the 21st Century",
+    "SeriesName" : "NEWS_WEB_ACLIM",
+    "ReleaseDate" : "2015-10-01T00:00:00.000Z",
+    "Version" : "1.0",
+    "ReleasePlace" : "Greenbelt, Maryland, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "HEAT FLUX"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "OUTGOING LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "SHORTWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPOTRANSPIRATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL HEAT BUDGET"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN HEAT BUDGET",
+    "VariableLevel1" : "HEAT FLUX"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN HEAT BUDGET",
+    "VariableLevel1" : "LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN HEAT BUDGET",
+    "VariableLevel1" : "SHORTWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "GROUND WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "SURFACE WATER",
+    "VariableLevel1" : "SURFACE WATER PROCESSES/MEASUREMENTS",
+    "VariableLevel2" : "RUNOFF"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1998-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2010-12-31T23:59:59.999Z"
+    } ]
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/7VZB10AK8S3D"
+  },
+  "ShortName" : "NEWS_WEB_ACLIM",
+  "EntryTitle" : "NASA Energy and Water cycle Study (NEWS) Annual Climatology of the 1st decade of the 21st Century V1.0 (NEWS_WEB_ACLIM) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Rodell, M., H.K. Beaudoing, T. L'Ecuyer, W. Olson, J.S. Famiglietti, P.R. Houser, R. Adler, M. Bosilovich, C.A. Clayson, D. Chambers, E. Clark, E. Fetzer, X. Gao, G. Gu, K. Hilburn, G. Huffman, D.P. Lettenmaier, W.T. Liu, F.R. Robertson, C.A. Schlosser, J. Sheffield, and E.F. Wood",
+    "PublicationDate" : "2015-01-01T00:00:00.000Z",
+    "Title" : "The observed state of the water cycle in the early 21st century",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "DOI" : {
+      "DOI" : "10.1175/JCLI-D-14-00555.1"
+    }
+  }, {
+    "Author" : "L'Ecuyer, T., H.K. Beaudoing, M. Rodell, W. Olson, B. Lin, S. Kato, C.A. Clayson, E. Wood, J. Sheffield, R. Adler, G. Huffman, M. Bosilovich, G. Gu, F. Robertson, P.R. Houser, D. Chambers, J.S. Famiglietti, E. Fetzer, W.T. Liu, X. Gao, C.A. Schlosser, E. Clark, D.P. Lettenmaier, and K. Hilburn",
+    "PublicationDate" : "2015-01-01T00:00:00.000Z",
+    "Title" : "The observed state of the energy budget in the early 21st century",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "DOI" : {
+      "DOI" : "10.1175/JCLI-D-14-00556.1"
+    }
+  } ],
+  "Quality" : "A careful accounting of uncertainty in the estimates is included in the data. Optimized versions of all component fluxes that simultaneously satisfy energy and water cycle balance constraints are also included in the data. This dataset is a product of the  companion papers: doi:10.1175/JCLI-D-14-00555.1 and doi:10.1175/JCLI-D-14-00556.1.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/NEWS/NEWS_WEB_ACLIM.1.0/" ]
+  },
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Continents and Ocean Basins for the data set of NASA Energy and Water Cycle Study (NEWS) Annual Climatology of the 1st decade of the 21st Century",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NEWS_WEB_ACLIM_1.0.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/NEWS_WEB_ACLIM_1.0.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NEWS/NEWS_WEB_ACLIM.1.0/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=NEWS_WEB_ACLIM",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NEWS/NEWS_WEB_ACLIM.1.0/doc/README_NEWS_WEB.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://science.nasa.gov/earth-science/focus-areas/water-and-energy-cycle",
+    "Description" : "Project Web Site for NASA Energy and Water cycle Study (NEWS)",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=hydrology",
+    "Description" : "How to read and plot the data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Hydrology%20Documentation",
+    "Description" : "GES DISC Hydrology Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2015-08-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "NASA Energy and Water cycle Study (NEWS) Climatology of the 1st decade of the 21st Century Dataset summarizes the original observationally-based mean fluxes of water and energy budget components during the first decade of the 21st Century, for each continent and ocean basin on monthly and annual scales as well as means over all oceans, all continents, and the globe.  A careful accounting of uncertainty in the estimates is included.  Also, it includes optimized versions of all component fluxes that simultaneously satisfy energy and water cycle balance constraints.  \n\nThe NEWS Climatology contains two data products: an annual climatology data product and a monthly climatology data product. This data product is the annual climatology product. The climatology base period is roughly 1998-2010, where individual datasets cover various periods starting as early as 1998 and as late as 2002, not all extending to 2010.\n\nThe continents and ocean basins boundaries map is used in this study to compute regional means.  The ocean basin data was provided by Kyle Hilburn and Chelle Gentemann at Remote Sensing Systems.  The land portion and some inland water bodies of the data are delineated into continents according to general definitions found in Wikipedia and relevant past studies.\n\nThe data are distributed with four different units (1000 km^3/year, W/m^2, cm/year, and mm/day), in three formats (NetCDF, xlsx, and csv).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2015-05-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-06-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1.0",
+  "Projects" : [ {
+    "ShortName" : "NEWS",
+    "LongName" : "NASA Energy and Water Study"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "HUALAN",
+    "LastName" : "RUI",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5200"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Hualan.Rui@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "OBSERVATION BASED",
+    "LongName" : "OBSERVATION BASED ANALYSES",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

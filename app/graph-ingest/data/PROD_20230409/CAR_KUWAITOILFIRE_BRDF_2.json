@@ -1,0 +1,247 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Charles Gatebe; Michael King; Rajesh Poudyal",
+    "Title" : "CAR Kuwait Oil Fire Spectral Reflectance BRDF V2",
+    "SeriesName" : "CAR_KUWAITOILFIRE_BRDF",
+    "ReleaseDate" : "2019-03-11T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "2",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/CAR_KUWAITOILFIRE_BRDF_2.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : 46.9617,
+          "NorthBoundingCoordinate" : 28.602,
+          "EastBoundingCoordinate" : 49.3732,
+          "SouthBoundingCoordinate" : 27.8542
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL RADIANCE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "REFLECTANCE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE RADIATIVE PROPERTIES",
+    "VariableLevel1" : "REFLECTANCE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN OPTICS",
+    "VariableLevel1" : "REFLECTANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1991-05-18T00:00:00.000Z",
+      "EndingDateTime" : "1991-06-02T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/TLTYU661EXN6"
+  },
+  "ShortName" : "CAR_KUWAITOILFIRE_BRDF",
+  "EntryTitle" : "CAR Kuwait Oil Fire BRDF V2 (CAR_KUWAITOILFIRE_BRDF) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Charles K. Gatebe and Michael D. King",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "Airborne spectral BRDF of various surface types (ocean, vegetation, snow, desert, wetlands, cloud decks, smoke layers) for remote sensing applications"
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/CAR_KUWAITOILFIRE_L1C_1.jpg",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/CAR_KUWAITOILFIRE_BRDF_2.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/CAR/CAR_KUWAITOILFIRE_BRDF.2/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_KUWAITOILFIRE_BRDF.2/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://car.gsfc.nasa.gov/",
+    "Description" : "CAR Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/CAR/CAR_BRDF_README-v2.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=CAR_KUWAITOILFIRE_BRDF",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-03-11T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-05-26T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "CAR Kuwait Oil Fire mission measured bidirectional reflectance function of smoke from Kuwait oil fires during the Kuwait Oil Fire Smoke Experiment. Measurements were also taken over the Saudi Arabian desert with overlying desert dust, and Persian Gulf waters with some overlying aerosols. This experiment was a part of an international research effort in response to an environmental crisis, when over 600 oil wells in Kuwait were ignited by Iraqi forces in 1991. The resulting fires produced large plumes of smoke that had significant effects on the Persian Gulf region but limited global effects. Between May 16 and June 12, 1991, the Kuwait Oil Fire Smoke Experiment (KOFSE) was conducted in the Persian Gulf Region. The purpose of KOFSE was to determine the chemical and physical nature of the smoke and to investigate its potential effects on air quality, weather, and climate.\n\nThis data set consists of observations made with the CAR instrument and includes values for bidirectional reflectance factor at varying spectral bands.",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "ASIA",
+    "Subregion1" : "WESTERN ASIA",
+    "Subregion2" : "MIDDLE EAST",
+    "Subregion3" : "KUWAIT"
+  }, {
+    "Category" : "CONTINENT",
+    "Type" : "ASIA",
+    "Subregion1" : "WESTERN ASIA",
+    "Subregion2" : "MIDDLE EAST",
+    "Subregion3" : "SAUDI ARABIA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-03-11T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-01-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "KUWAITOILFIRE_BRDF.2",
+    "Version" : "2",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "2",
+  "Projects" : [ {
+    "ShortName" : "CAR",
+    "LongName" : "Cloud Absorption Radiometer"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CHARLES",
+    "LastName" : "GATEBE",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6228"
+      }, {
+        "Type" : "Email",
+        "Value" : "gatebe@climate.gsfc.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "LENA",
+    "LastName" : "IREDELL",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC NASA Goddard Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Propeller",
+    "ShortName" : "C-131A",
+    "LongName" : "Convair C-131 Samaritan",
+    "Instruments" : [ {
+      "ShortName" : "CAR",
+      "LongName" : "Cloud Absorption Radiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

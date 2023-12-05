@@ -1,0 +1,244 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology", "Surface soil moisture", "Soil water content", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Water Resources", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Princeton University (Eric Wood)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/WC_LSMEM_SOILM_025_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "AMSR-E/Aqua surface soil moisture (LSMEM) L3 1 day 0.25 degree x 0.25 degree V001",
+    "SeriesName" : "WC_LSMEM_SOILM_025",
+    "ReleaseDate" : "2016-02-16T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL MOISTURE/WATER CONTENT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-06-19T00:00:00.000Z",
+      "EndingDateTime" : "2011-09-27T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/WATERCYCLE/DATA313"
+  },
+  "ShortName" : "WC_LSMEM_SOILM_025",
+  "EntryTitle" : "AMSR-E/Aqua surface soil moisture (LSMEM) L3 1 day 0.25 degree x 0.25 degree V001 (WC_LSMEM_SOILM_025) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Pan, M., A. K. Sahoo, and E. F. Wood",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "Improving soil moisture retrievals from a physically-based radiative transfer model",
+    "Series" : "Remote Sensing of Environment",
+    "Volume" : "140",
+    "Pages" : "130-140",
+    "DOI" : {
+      "DOI" : "10.1016/j.rse.2013.08.020"
+    }
+  }, {
+    "Author" : "Gao, H., E.F. Wood, T.J. Jackson, M. Drusch, and R. Bindlish",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "Using TRMM/TMI to retrieve surface soil moisture over the southern United States from 1998-2002",
+    "Series" : "Journal of Hydrometeorology",
+    "Volume" : "7",
+    "Pages" : "23-38",
+    "DOI" : {
+      "DOI" : "10.1175/JHM473.1"
+    }
+  }, {
+    "Author" : "McCabe, M.F., H. Gao, and E.F. Wood",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "Evaluation of AMSR-E-derived soil moisture retrievals using ground-based and PSR airborne data during SMEX02",
+    "Series" : "Journal of Hydrometeorology",
+    "Volume" : "6",
+    "Pages" : "864-877",
+    "DOI" : {
+      "DOI" : "10.1175/JHM463.1"
+    }
+  } ],
+  "Quality" : "Quality assessment has been performed against in-situ measurements from two ground networks, the USDA Natural Resources Conservation Service (NRCS) Soil Climate Analysis Network (SCAN) and the NOAA U.S. Climate Reference Network (USCRN), over the contiguous United States; and against the Variable Infiltration Capacity (VIC) land surface model (LSM) simulation results globally. See Pan et al. (2014).",
+  "ISOTopicCategories" : [ "ENVIRONMENT" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "LSMEM/AMSR-E nighttime volumetric soil moisture X-band",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/WC_LSMEM_SOILM_025_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/WC_LSMEM_SOILM_025_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/TerrestrialWaterCycle/WC_LSMEM_SOILM_025.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=WC_LSMEM_SOILM_025",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/TerrestrialWaterCycle/WC_LSMEM_SOILM_025.001/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/TerrestrialWaterCycle/WC_LSMEM_SOILM_025.001/doc/README.WC_LSMEM_SOILM_025_V001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2015-11-11T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-11-11T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "AMSR-E/Aqua surface soil moisture (LSMEM) L3 1 day 0.25 degree x 0.25 degree V001 is a global, 10-year (2002-2011) data set. It is created from soil moisture retrieved from passive microwave brightness temperatures measured by the 10.65 and 36.5 GHz radiometers on the Advanced Microwave Scanning Radiometer-Earth Observing System (AMSR-E) sensor on the NASA Aqua satellite. The retrieval algorithm is based on Princeton's Land Surface Microwave Emission Model (LSMEM), a physically-based radiative transfer model, and serves as the core algorithm in the estimation procedure. To retrieve surface soil moisture, two unknowns, the soil moisture and the effective vegetation optical depth, are simultaneously solved from two radiative transfer equations in LSMEM, one for the 10.65 GHz horizontally-polarized brightness temperature and the other for the 10.65 GHz vertically-polarized brightness temperature. The land surface temperature required in the estimation procedure is estimated from the 36.5 GHz vertically-polarized brightness temperature, using a regression relationship. This soil moisture product does not include areas covered by snow, so the snow model is not described. Also, the atmosphere is assumed to have constant brightness temperatures; therefore, the atmosphere model is also not described.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2015-06-05T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-10-27T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ERIC",
+    "MiddleName" : "F.",
+    "LastName" : "WOOD",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Department of Civil and Environmental Engineering", "Princeton University" ],
+        "City" : "Princeton",
+        "StateProvince" : "NJ",
+        "PostalCode" : "08544",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "609-258-4675"
+      }, {
+        "Type" : "Email",
+        "Value" : "efwood@princeton.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "WILLIAM",
+    "MiddleName" : "L.",
+    "LastName" : "TENG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5164"
+      }, {
+        "Type" : "Email",
+        "Value" : "william.l.teng@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, 610.2, NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AMSR-E",
+      "LongName" : "Advanced Microwave Scanning Radiometer-EOS"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

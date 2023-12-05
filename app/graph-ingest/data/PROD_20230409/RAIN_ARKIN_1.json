@@ -1,0 +1,234 @@
+{
+  "AncillaryKeywords" : [ "EOSDIS", "FTP", "GLOBAL PRECIPITATION", "GPCP", "GPI", "TEMS", "GTOS", "G3OS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Arkin, P., Janowiak,  J.E.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/RAIN_ARKIN_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Arkin and Janowiak GPI: IR -Based Monthly Rainfall for the GPCP 2.5 x 2.5 degree V1",
+    "SeriesName" : "RAIN_ARKIN",
+    "ReleaseDate" : "2011-04-25T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 40,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -40
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION AMOUNT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1986-01-01T00:00:00.000Z",
+      "EndingDateTime" : "1995-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Legacy dataset"
+  },
+  "ShortName" : "RAIN_ARKIN",
+  "EntryTitle" : "Arkin and Janowiak GPI: IR -Based Monthly Rainfall for the GPCP 2.5 x 2.5 degree V1 (RAIN_ARKIN) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/RAIN_ARKIN_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/RAIN_ARKIN_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/README.ARKIN.pdf",
+    "Description" : "\"Arkin and Janowiak GPI: IR-Based Monthly Rainfall for the GPCP\" README document.",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "These data are transitioned to a state of permanent preservation. They are available upon request.\nMore advanced datasets have been developed since. \nOne recommended replacement is the GPCP (doi: 10.5067/DBVUO4KQHXTK) product developed under the MEaSUREs project. \n\nThe Arkin and Janowiak GPI (GOES Precipitation Index)  was the infrared-based monthly rainfall  estimate produced by the early GPCP (Global Precipitation Climatology Project) algorithms. The infrared observations  from geostationary satellites (GOES, GMS, Meteosat) are used to produce these monthly mean rainfall totals on a 2.5 deg by 2.5 deg grid from 40 N to 40 S for the period Jan 1986 to Dec 1995.",
+  "LocationKeywords" : [ {
+    "Category" : "OCEAN",
+    "Type" : "ATLANTIC OCEAN"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "INDIAN OCEAN"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "PACIFIC OCEAN"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "POLAR"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "SOUTHERN OCEAN"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2015-06-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-06-08T00:00:00.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2021-12-30T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "VersionDescription" : "Not provided",
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "GPCP",
+    "LongName" : "Global Precipitation Climatology Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "PHIL",
+    "LastName" : "ARKIN",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "parkin@essic.umd.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA POES",
+    "LongName" : "NOAA Polar Orbiting Environmental Satellites",
+    "Instruments" : [ {
+      "ShortName" : "HIRS",
+      "LongName" : "High Resolution Infrared Radiation Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GOES",
+    "LongName" : "NOAA Geostationary Operational Environmental Satellites",
+    "Instruments" : [ {
+      "ShortName" : "GOES I-M SOUNDER"
+    }, {
+      "ShortName" : "GOES I-M Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GMS",
+    "LongName" : "Japan Geostationary Meteorological Satellite",
+    "Instruments" : [ {
+      "ShortName" : "WVSS",
+      "LongName" : "Water Vapor Sensing System"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "METEOSAT",
+    "LongName" : "Meteosat Operational Programme",
+    "Instruments" : [ {
+      "ShortName" : "SEVIRI",
+      "LongName" : "Spinning Enhanced Visible and Infrared Imager"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

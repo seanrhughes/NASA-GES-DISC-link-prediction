@@ -1,0 +1,251 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "IWC" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Massie, S. T. and Jiang, J. H.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/HIRMLS3IWC_002.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "HIRDLS-MLS/Aura Level 3 Monthly 10 x 20 deg Ice Water Content V002",
+    "SeriesName" : "HIRMLS3IWC",
+    "ReleaseDate" : "2013-08-19T00:00:00.000Z",
+    "Version" : "002",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -80
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD LIQUID WATER/ICE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2005-02-01T00:00:00.000Z",
+      "EndingDateTime" : "2007-12-31T23:59:59.999Z"
+    } ]
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aura/HIRDLS-MLS/DATA301"
+  },
+  "ShortName" : "HIRMLS3IWC",
+  "EntryTitle" : "HIRDLS-MLS/Aura Level 3 Monthly 10 x 20 deg Ice Water Content V002 (HIRMLS3IWC) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/HIRMLS3IWC_002.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/HIRMLS3IWC_002.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Aura_HIRDLS_MLS_Level3/HIRMLS3IWC.002/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/HDF-EOS5/Aura_HIRDLS_MLS_Level3/HIRMLS3IWC.002/HIRDLS-MLS-Aura_L3IWC_v02-00-00-c01_2005m02-2007m12.he5.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=HIRMLS3IWC_002",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/HIRDLS/SC-HIR-1849B.doc",
+    "Description" : "README and Data Quality document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/HIRDLS/3.3_Product_Documentation/3.3.6_Product_Application/All_HIRDLS_Papers_26June2013.pdf",
+    "Description" : "List of publications.",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2013-03-13T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2013-03-13T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "HIRMLS3IWC is the Joint EOS High Resolution Dynamics Limb Sounder (HIRDLS) and Microwave Limb Sounder (MLS) monthly 10 degreee lat x 20 degreee lon gridded product for ice water content (IWC) data. This is version 2 released to the public, with the original input coming from v3.3 MLS and v7 HIRDLS. The grid spatial coverage is near-global (-80 to +90 degrees latitude). The product contains HIRDLS and MLS IWC data for the time of the HIRDLS mission from February 1, 2005 through December 31, 2007. The useful vertical range of the data is from 215 to 82 hPa for both HIRDLS and MLS, and the vertical resolution is about 1.5 km for HIRDLS and 3 km for MLS. Users of the HIRMLS3IWC data product should read the Version 2 HIRDLS-MLS Level 3 IWC Data Description and Quality document for more information.\n\nThe data are stored in the version 5 EOS Hierarchical Data Format (HDF-EOS5), which is based on the version 5 Hierarchical Data Format, or HDF5. The data file contains two grid objects (one with HIRDLS data, the other with MLS data), each with a set of data fields, attributes, and metadata. Each grid contains data fields with IWC values, and the HIRDLS grid includes data fields with volume density, cloud top pressure and frequency of clouds. Time, latitude and vertical pressure information are also included in each grid.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2013-05-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "002",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOHN",
+    "MiddleName" : "C.",
+    "LastName" : "GILLE",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "National Center for Atmospheric Research", "PO Box 3000" ],
+        "City" : "Boulder",
+        "StateProvince" : "Colorado",
+        "PostalCode" : "80307",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "303-497-8062"
+      }, {
+        "Type" : "Email",
+        "Value" : "gille@ucar.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "LESLEY",
+    "MiddleName" : "J",
+    "LastName" : "GRAY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "University of Oxford Department of Physics", "Clarendon Laboratory", "Parks Road" ],
+        "City" : "Oxford",
+        "PostalCode" : "OX1 3PU",
+        "Country" : "UK"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "+44/0 1865 272926"
+      }, {
+        "Type" : "Fax",
+        "Value" : "+44/0 1865 272923"
+      }, {
+        "Type" : "Email",
+        "Value" : "gray@atm.ox.ac.uk"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "HIRDLS",
+      "LongName" : "High-Resolution Dynamics Limb Sounder"
+    }, {
+      "ShortName" : "MLS",
+      "LongName" : "Microwave Limb Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS5",
+      "Fees" : "None"
+    } ]
+  }
+}

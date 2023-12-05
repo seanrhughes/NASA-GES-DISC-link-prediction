@@ -1,0 +1,204 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "FMRT", "SR" ],
+  "CollectionCitations" : [ {
+    "Creator" : "NASA/GSFC",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TIROS3L1FMRT_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TIROS-3 Medium-Resolution Scanning Radiometer Level 1 Final Meteorological Radiation Data V001",
+    "SeriesName" : "TIROS3L1FMRT",
+    "ReleaseDate" : "2021-06-18T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 66,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -66
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "VISIBLE WAVELENGTHS",
+    "VariableLevel1" : "VISIBLE RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1961-07-12T00:00:00.000Z",
+      "EndingDateTime" : "1961-09-30T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/XQV4UWX1XJ8Q"
+  },
+  "ShortName" : "TIROS3L1FMRT",
+  "EntryTitle" : "TIROS-3 Medium-Resolution Scanning Radiometer Level 1 Final Meteorological Radiation Data V001 (TIROS3L1FMRT) at GES DISC",
+  "Quality" : "The data should be used with care and one should first read the User's Guide. Users should cite this data product in their research.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "Description" : "TIROS-3 L1 FMRT data showing data coverage from the scanning radiometer channel 2 (8-12 microns) for the first orbit on July 12, 1961.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TIROS3L1FMRT_Sample.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/TIROS/TIROS3L1FMRT.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TIROS3L1FMRT",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/TIROS/TIROS3L1FMRT.001/doc/README.TIROS3FMRT.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/TIROS_III_Radiation_Data_Users_Manual.zip",
+    "Description" : "TIROS III Radiation Data Users' Manual",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/TIROS_3_Radiation_Data_Catalog.pdf",
+    "Description" : "TIROS III Radiation Data Catalog",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TIROS/Tiros_Inventory.xlsx",
+    "Description" : "TIROS Inventory",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-04-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-04-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "TIROS-3 Medium-Resolution Scanning Radiometer Level 1 Final Meteorological Radiation Data (FMRT) product contains radiances expressed in five infrared/visible wavelength regions, expressed in either equivalent blackbody temperature (IR channels 1, 2 and 4) or effective radiant emmitance (visible channels 3 and 5). The data will trace an elliptical, parabolic, or hyperbolic pattern on the ground due to the rotating of the instrument about the satellite spin axis. There is one orbit per file. The data were originally written on IBM 7094 machines, and these have been recovered from magnetic tapes, referred to as the Final Meteorological Radiation Tapes (FMRT). The data are archived in their original IBM 36-bit word proprietary format, also referred to as a binary TAP file.\n\nThe TIROS-3 satellite was successfully launched on July 12, 1961. The Medium-Resolution Scanning Radiometer experiment returned data for about two and a half months. A previous instrument flew on TIROS-2 and two follow-on instruments were flown on TIROS-4 and -7. Response characteristics of all channels degraded rapidly after launch. The greatest uncertainty in the radiation measurements is due to the apparent shift in the zero radiation level. Data are usable for channels 1, 2,  3, 4, and 5 up to orbits 118, 875, 875, 130 and 300, respectively. The instrument is a five channel radiometer with a 55 km footprint at nadir with the following characteristics:\n\nChannel 1: 6.0 to 6.5 microns - water vapor absorption\nChannel 2: 8.0 to 12.0 microns - atmospheric window\nChannel 3: 0.2 to 6.0 microns - reflected solar radiation\nChannel 4: 8.0 to 30 - terrestial radiation\nChannel 5: 0.55 to 0.75 microns - response to the TV system\n\nThe Principal Investigator for these data was Joseph D. Barksdale from NASA Goddard Space Flight Center. This product was previously available from the NSSDC with the identifier ESAD-00141 (old id 61-017A-03A).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-06-18T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-06-18T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "TIROS",
+    "LongName" : "Television Infrared Observation Satellite"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TIROS-3",
+    "LongName" : "Television Infrared Observation Satellite-3",
+    "Instruments" : [ {
+      "ShortName" : "Medium-Resolution Scanning Radiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

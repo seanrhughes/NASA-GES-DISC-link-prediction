@@ -1,0 +1,443 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "ATMOSPHERE", "CALIBRATED", "GEOLOCATED", "TEMPERATURE", "CLOUD", "EOSDIS", "Carbon Monoxide", "Cloud Liquid Water", "Ozone", "Outgoing Longwave Radiation", "Spectral IR Surface Emissivities", "WATER VAPOR", "Water Vapor Saturation Mass Mixing Ratio", "Water Vapor Mass Mixing Ratio", "Cloud Ice/Water Flag", "Layer Molecular Column Density of Carbon Monoxide", "Layer Molecular Column Density of Cloud Liquid Water", "Layer Molecular Column Density of Ozone", "Support" ],
+  "CollectionCitations" : [ {
+    "Creator" : "AIRS project",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/AIRS2SUP_7.0.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Aqua/AIRS L2 Support Retrieval (AIRS-only) V7.0",
+    "SeriesName" : "AIRS2SUP",
+    "ReleaseDate" : "2019-12-15T00:00:00.000Z",
+    "Version" : "7.0",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY",
+    "VariableLevel1" : "CARBON MONOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY",
+    "VariableLevel1" : "TROPOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "GEOPOTENTIAL HEIGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "TROPOPAUSE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "OUTGOING LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "TOTAL PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROFILES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD DROPLET CONCENTRATION/SIZE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD LIQUID WATER/ICE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD OPTICAL DEPTH/THICKNESS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD FRACTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD HEIGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD VERTICAL DISTRIBUTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD TYPES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION RATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE RADIATIVE PROPERTIES",
+    "VariableLevel1" : "EMISSIVITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "SKIN TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN TEMPERATURE",
+    "VariableLevel1" : "SEA SURFACE TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-08-30T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/APJ6EEN0PD0Z"
+  },
+  "ShortName" : "AIRS2SUP",
+  "EntryTitle" : "Aqua/AIRS L2 Support Retrieval (AIRS-only) V7.0 at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "B. H. Kahn et al.",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "The Atmospheric Infrared Sounder version 6 cloud products",
+    "Pages" : "399-426",
+    "OnlineResource" : {
+      "Linkage" : "https://www.atmos-chem-phys.net/14/399/2014/acp-14-399-2014.html"
+    },
+    "DOI" : {
+      "DOI" : "10.5194/acp-14-399-2014"
+    }
+  }, {
+    "Author" : "Joel Susskind, John, M. Blaisdell, and Lena Iredell",
+    "PublicationDate" : "2014-03-31T00:00:00.000Z",
+    "Title" : "Improved methodology for surface and atmospheric soundings, error estimates, and quality control procedures: the atmospheric infrared sounder science team version-6 retrieval algorithm",
+    "Series" : "J. Appl. Rem. Sens.",
+    "Volume" : "8",
+    "Issue" : "1",
+    "Pages" : "34",
+    "DOI" : {
+      "DOI" : "10.1117/1.JRS.8.084994"
+    }
+  }, {
+    "Author" : "Patrick Boylan, Junhong Wang, Stephen A. Cohn, Erik Fetzer, Eric S. Maddy, and Sung Wong",
+    "PublicationDate" : "2015-02-10T00:00:00.000Z",
+    "Title" : "Validation of AIRS version 6 temperature pro&#64257;les and surface-based inversions over Antarctica using Concordiasi dropsonde data",
+    "Series" : "Journal of Geophysical Research: Atmospheres",
+    "Volume" : "120",
+    "Issue" : "3",
+    "Pages" : "945-963",
+    "DOI" : {
+      "DOI" : "10.1002/2014JD022551"
+    }
+  }, {
+    "Author" : "L.N. Boisvert, D.L. Wu, T. Vihma, J.Susskind",
+    "PublicationDate" : "2015-01-15T00:00:00.000Z",
+    "Title" : "Verificaton of air/surface humidity differences from AIRS and ERA-Interim in support of turbulent flux estimation in the Arctic",
+    "Series" : "Journal of Geophysical Research, Atmospheres",
+    "Volume" : "120",
+    "Issue" : "3",
+    "Pages" : "945-963",
+    "DOI" : {
+      "DOI" : "10.1002/2014JD02166"
+    }
+  }, {
+    "Author" : "Jacola Roman, Robert Knuteson, Thomas August, Tim Hultberg, Steve Ackerman, and Hank Revercomb",
+    "PublicationDate" : "2016-07-21T00:00:00.000Z",
+    "Title" : "A global assessment of NASA AIRS v6 and EUMETSAT IASI v6 precipitable water vapor using ground&#8208;based GPS SuomiNet stations",
+    "Series" : "Journal of Geophysical Research, Atmospheres",
+    "Volume" : "121",
+    "Issue" : "15",
+    "Pages" : "8925-8948",
+    "DOI" : {
+      "DOI" : "10.1002/2016JD024806"
+    }
+  }, {
+    "Author" : "Adam B. Milstein, William J. Blackwell",
+    "PublicationDate" : "2015-12-20T00:00:00.000Z",
+    "Title" : "Neural network temperature and moisture retrieval algorithm validation for AIRS/AMSU and CrIS/ATMS",
+    "Series" : "Journal of Geophysical Research, Atmospheres",
+    "Volume" : "121",
+    "Issue" : "4",
+    "Pages" : "1414-1430",
+    "DOI" : {
+      "DOI" : "10.1002/2015JD024008"
+    }
+  }, {
+    "Author" : "Journal Editors",
+    "PublicationDate" : "2006-05-01T00:00:00.000Z",
+    "Title" : "Validation of Atmospheric Infrared Sounder Observations",
+    "Series" : "J. Geophys, Res. Atmospheres",
+    "Volume" : "111",
+    "Issue" : "9",
+    "OtherReferenceDetails" : "This special issue contains several relevant articles.",
+    "DOI" : {
+      "DOI" : "10.1029/2005/JD007020"
+    }
+  }, {
+    "Author" : "Joel Susskind, Christopher D. Barnet, and John M. Blaisdell",
+    "PublicationDate" : "2003-04-29T00:00:00.000Z",
+    "Title" : "Retrieval of Atmospheric and Surface Parameters From AIRS/AMSU/HSB Data in the Presence of Clouds",
+    "Edition" : "41",
+    "Volume" : "2",
+    "Pages" : "390-409",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2002.808236"
+    }
+  } ],
+  "Quality" : "The product is similar to AIRX2SUP except the processing uses only the AIRS channels. The quality of data products, described in the associated references, provide information about numerous validation studies conducted and papers written documenting the excellence of the products using radiosondes, ground truth, other satellites, and model analysis products. \n\nThe three options for this quality flag are: 0 for best quality, 1 for good quality, 2 for do not use.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "GEOSCIENTIFIC INFORMATION", "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample plot of AIRS Level 2 Support Retrieval (AIRS-only) H2O Column Density Profile and Cloud Fraction.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRS2SUP_7.0.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/AIRS2SUP_7.0.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://airsl2.gesdisc.eosdis.nasa.gov/data/Aqua_AIRS_Level2/AIRS2SUP.7.0/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://airsl2.gesdisc.eosdis.nasa.gov/opendap/Aqua_AIRS_Level2/AIRS2SUP.7.0",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=AIRS2SUP+7.0",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://airs.jpl.nasa.gov/index.html",
+    "Description" : "AIRS home page at NASA/JPL. General information on the AIRS instrument, algorithms, and other AIRS-related activities can be found.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=AIRS%20Documentation",
+    "Description" : "AIRS Documentation Page",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/AIRS/Overview_of_AIRS_Products_and_Documentation.pdf",
+    "Description" : "Overview of the AIRS Mission: Instruments, Processing Algorithms, Products, and Documentation",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/AIRS/V7_L2_Product_User_Guide.pdf",
+    "Description" : "AIRS/AMSU/HSB Version 7 Level 2 Product User Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Atmospheric Infrared Sounder (AIRS) is a grating spectrometer (R = 1200) aboard the second Earth Observing System (EOS) polar-orbiting platform, EOS Aqua. In combination with the Advanced Microwave Sounding Unit (AMSU) and the Humidity Sounder for Brazil (HSB), AIRS constitutes an innovative atmospheric sounding group of visible, infrared, and microwave sensors. This product is similar to AIRX2SUP. It is produced using AIRS IR only because the radiometric noise in several AMSU channels started to increase significantly (since June 2007). The Support Product includes higher vertical resolution profiles of the quantities found in the Standard Product, plus intermediate outputs (e.g., microwave-only retrieval), research products such as the abundance of trace gases, and detailed quality assessment information. The Support Product profiles contain 100 levels between 1100 and .016 mb; this higher resolution simplifies the generation of radiances using forward models, though the vertical information content is no greater than that in the Standard Product profiles. The intended users of the Support Product are researchers interested in generating forward radiance or in examining research products, and the AIRS algorithm development team. The Support Product is generated at all locations as Standard Products. \n\nAn AIRS granule has been set as 6 minutes of data, 30 footprints cross track by 45 lines along track. There are 240 granules per day, with an orbit repeat cycle of approximately 16 day.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-11-29T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "AIRS2SUP",
+    "Version" : "7.0",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "7.0",
+  "Projects" : [ {
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System (EOS), Aqua"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "LENA",
+    "LastName" : "IREDELL",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC NASA Goddard Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS",
+      "Fees" : "None"
+    } ]
+  }
+}

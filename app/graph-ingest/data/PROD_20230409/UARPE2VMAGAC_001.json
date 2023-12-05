@@ -1,0 +1,229 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Magnetic Field", "VMAG" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Winningham, David J., et al.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/UARPE2VMAGAC_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "UARS PEM Level 2 VMAG AC V001",
+    "SeriesName" : "UARPE2VMAGAC",
+    "ReleaseDate" : "2006-07-06T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 57.15,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -57.15
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SUN-EARTH INTERACTIONS",
+    "Term" : "IONOSPHERE/MAGNETOSPHERE DYNAMICS",
+    "VariableLevel1" : "MAGNETIC FIELDS/MAGNETIC CURRENTS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1991-09-26T00:00:00.000Z",
+      "EndingDateTime" : "2005-08-23T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "UARPE2VMAGAC",
+  "EntryTitle" : "UARS PEM Level 2 VMAG AC V001 (UARPE2VMAGAC) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/UARPE2VMAGAC_001.gif",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/UARPE2VMAGAC_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/UARS_PEM_Level_2/UARPE2VMAGAC/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=UARPE2VMAGAC",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://uars.gsfc.nasa.gov/",
+    "Description" : "The UARS Project Homepage.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2006-07-06T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2006-07-06T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Particle Environment Monitor (PEM) level 2 Vector Magnetometer (VMAG) AC daily product contains the Vector Magnetic Field AC component. PEM was flown on the UARS spacecraft to measure the type, amount, energy, and distribution of charged particles injected into the Earth's thermosphere, mesosphere, and stratosphere.\n\nThe VMAG DC magnetic field measurements are limited to frequencies less than 2.5 Hz by an 18 db/octave antialiasing filter. Higher frequencies are measured with a peak detector and are the Vector Magnetic Field AC component. The AC value is derived from each vector field component where the sensor output is pass band filtered from 2.5 to 50 Hz. The resultant signal is then half wave rectified and passed to an RC circuit with a time constant of 4.7 s. The voltage across the RC circuit is the peak detector output which therefore represents the peak positive amplitude of the 2.5-50 Hz filtered sensor output occurring during the previous 5 seconds; however, the peak detector is determined at a rate of about every second (the VMAG AC data has been adjusted for this time offset). The X and Z peak detectors have full scale of 1oo nT peak to peak (= 5 Volts) and the Y peak detector has a full scale of 10 nT peak to peak (= 5 Volts). The analog 0 to 5 Volts peak detector outputs are sent directly to the PEM central electronics package where they are digitized into a 265 binary word. This is the raw value in the data. No in-flight calibration of the AC peak detection electronics is provided. The VMAG unit is located on the zenith boom of UARS.\n\nThere is one data file per day for the PEM VMAG AC product, and the temporal coverage is from Oct. 1, 1991 to Aug. 23, 2005. Spatial coverage for the VMAG AC product ranges between -57 and +57 degrees latitude. The VMAG AC data files are written in network binary format. For more information please review the PEM VMAG AC data format guide.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2007-01-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "UARS",
+    "LongName" : "Upper Atmosphere Research Satellite"
+  }, {
+    "ShortName" : "CWIC",
+    "LongName" : "CEOS WGISS Integrated Catalog"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "J.",
+    "MiddleName" : "DAVID",
+    "LastName" : "WINNINGHAM",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Space Science Department", "Southwest Research Institute", "P.O. Drawer 28510" ],
+        "City" : "San Antonio",
+        "StateProvince" : "TX",
+        "PostalCode" : "78228-0510",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(210) 522-3075"
+      }, {
+        "Type" : "Email",
+        "Value" : "dwinningham@swri.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "RUDY",
+    "MiddleName" : "A.",
+    "LastName" : "FRAHM",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Space Science Department", "Southwest Research Institute", "P.O. Drawer 28510" ],
+        "City" : "San Antonio",
+        "StateProvince" : "TX",
+        "PostalCode" : "78228-0510",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(210) 522-3855"
+      }, {
+        "Type" : "Email",
+        "Value" : "rfrahm@swri.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "UARS",
+    "LongName" : "Upper Atmosphere Research Satellite",
+    "Instruments" : [ {
+      "ShortName" : "PEM",
+      "LongName" : "Particle Environment Monitor"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "FTP" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

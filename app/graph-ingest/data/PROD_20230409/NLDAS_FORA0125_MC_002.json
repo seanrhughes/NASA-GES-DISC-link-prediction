@@ -1,0 +1,304 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Terrestrial and Freshwater Ecosystems", "Energy and Mineral Resources", "Human Health", "Water Resources", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "David Mocko, NASA/GSFC/HSL",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/NLDAS_FORA0125_MC_002.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "NLDAS Primary Forcing Data L4 Monthly Climatology 0.125 x 0.125 degree V002",
+    "SeriesName" : "NLDAS_FORA0125_MC",
+    "ReleaseDate" : "2013-03-01T00:00:00.000Z",
+    "Version" : "002",
+    "ReleasePlace" : "Greenbelt, Maryland, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -125,
+          "NorthBoundingCoordinate" : 53,
+          "EastBoundingCoordinate" : -67,
+          "SouthBoundingCoordinate" : 25
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "SHORTWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPORATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "HUMIDITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "WIND DYNAMICS",
+    "VariableLevel2" : "CONVECTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "SURFACE WINDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "LAND SURFACE TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1980-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2009-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/DWQUXYFP9O99"
+  },
+  "ShortName" : "NLDAS_FORA0125_MC",
+  "EntryTitle" : "NLDAS Primary Forcing Data L4 Monthly Climatology 0.125 x 0.125 degree V002 (NLDAS_FORA0125_MC) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Xia, Y., K. Mitchell, M. Ek, J. Sheffield, B. Cosgrove, E. Wood, L. Luo, C. Alonge, H. Wei, J. Meng, B. Livneh, D. Lettenmaier, V. Koren, Q. Duan, K. Mo, Y. Fan, and D. Mocko",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Continental-scale water and energy flux analysis and validation for the North American Land Data Assimilation System project phase 2 (NLDAS-2): 1. Intercomparison and application of model products",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD016048"
+    }
+  }, {
+    "Author" : "Xia, Y., K. Mitchell, M. Ek, J. Sheffield, B. Cosgrove, E. Wood, L.Luo, C. Alonge, H. Wei, J. Meng, B. Livneh, D. Lettenmaier, V. Koren, Q. Duan, K. Mo, Y. Fan, and D. Mocko",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Continental-scale water and energy flux analysis and validation for North American Land Data Assimilation System project phase 2(NLDAS-2): 2. Validation of model-simulated stream flow",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD016051"
+    }
+  }, {
+    "Author" : "Cosgrove, B. A., D. Lohmann, K. E. Mitchell, et al.",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "Real-time and retrospective forcing in the North American Land Data Assimilation System (NLDAS) project",
+    "DOI" : {
+      "DOI" : "10.1029/2002JD003118"
+    }
+  }, {
+    "Author" : "Mahrt L., and M. Ek",
+    "PublicationDate" : "1984-01-01T00:00:00.000Z",
+    "Title" : "The Influence of Atmospheric Stability on Potential Evaporation",
+    "DOI" : {
+      "DOI" : "10.1175/1520-0450(1984)023<0222:TIOASO>2.0.CO;2"
+    }
+  }, {
+    "Author" : "Pinker, R. T., J. D. Tarpley, I. Laszlo, et al.",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "Surface radiation budgets in support of the GEWEX Continental-Scale International Project (GCIP) and the GEWEX Americas Prediction Project (GAPP), including the North American Land Data Assimilation System (NLDAS) project",
+    "DOI" : {
+      "DOI" : "10.1029/2002JD003301"
+    }
+  } ],
+  "Quality" : "The data are provisional and subject to change as model improvements are implemented and new input data sets become available.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "NLDAS-2 Primary Forcing monthly 0.125 degree Precipitation monthly total [kg/m^2] Jan (1980 - 2009).",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_FORA0125_MC_002.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/NLDAS_FORA0125_MC_002.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_FORA0125_MC.002/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=NLDAS_FORA0125_MC",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/dods/NLDAS_FORA0125_MC.002",
+    "Description" : "The GrADS Data Server (GDS) is another form of OPeNDAP that provides subsetting and some analysis services across the Internet.",
+    "Subtype" : "GRADS DATA SERVER (GDS)",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_FORA0125_M.002/doc/gribtab_NLDAS_FORA_monthly.002.txt",
+    "Description" : "The GRIBTAB file contains a list of variables, along with the GRIB Product Definition Section (PDS) ID, variable short name, long names, and unit.",
+    "Type" : "EXTENDED METADATA",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/README.NLDAS2.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://ldas.gsfc.nasa.gov/nldas/",
+    "Description" : "NLDAS Project Web Site",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=hydrology",
+    "Description" : "How to read and plot the data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Hydrology%20Documentation",
+    "Description" : "GES DISC Hydrology Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2013-03-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2013-03-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This data set contains the monthly climatology data of the primary forcing data for Phase 2 of the North American Land Data Assimilation System (NLDAS-2). The data are in 1/8th degree grid spacing. The temporal resolution is monthly, ranging from January to December. The NLDAS-2 monthly climatology data are the monthly data averaged over the thirty years (1980 - 2009) of the NLDAS-2 monthly data. The file format is WMO GRIB-1. \n\nA brief description about the NLDAS-2 hourly and monthly primary forcing data can be found from the GCMD DIFs for GES_DISC_NLDAS_FORA0125_H_V002 and  GES_DISC_NLDAS_FORA0125_M_V002. \n\nDetails about the generation of the NLDAS-2 forcing datasets can be found in Xia et al. (2012). \n\nThe monthly climatology land surface forcing fields for NLDAS-2 are grouped into two GRIB files, \"File A\" and \"File B\".  \"File A\" is the primary (default) forcing file and contains eleven fields.  The GRIBTAB file shows a list of parameters for this data set, along with their Product Definition Section (PDS) IDs and units.\n\nFor more information, please see the README Document.",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2012-11-19T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-04-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "002",
+  "Projects" : [ {
+    "ShortName" : "NLDAS",
+    "LongName" : "North American Land Data Assimilation System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "DAVID",
+    "LastName" : "SILBERSTEIN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5183"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "david.s.silberstein@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "Forcing-LSM",
+    "LongName" : "Forcing data for Land Surface Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "GRIB",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

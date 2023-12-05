@@ -1,0 +1,257 @@
+{
+  "AncillaryKeywords" : [ "CALIBRATED", "EOSDIS", "GEOLOCATED", "INFRARED", "RADIANCE", "LANCE", "NRT", "RELATIVE_START_DATE: -7" ],
+  "CollectionCitations" : [ {
+    "Creator" : "AIRS project",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/AIRS2CCF_NRT_7.0.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Aqua/AIRS L2 Near Real Time (NRT) Cloud-Cleared Infrared Radiances (AIRS-only) V7.0",
+    "SeriesName" : "AIRS2CCF_NRT",
+    "ReleaseDate" : "2019-12-15T00:00:00.000Z",
+    "Version" : "7.0",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "INFRARED RADIANCE",
+    "DetailedVariable" : "CLOUD-CLEARED INFRARED RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-08-30T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/964DYFSEQVUB"
+  },
+  "ShortName" : "AIRS2CCF_NRT",
+  "EntryTitle" : "Aqua/AIRS L2 Near Real Time (NRT) Cloud-Cleared Infrared Radiances (AIRS-only) V7.0 at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Joel Susskind, Christopher D. Barnet, and John M. Blaisdell",
+    "PublicationDate" : "2003-04-29T00:00:00.000Z",
+    "Title" : "Retrieval of Atmospheric and Surface Parameters From AIRS/AMSU/HSB Data in the Presence of Clouds",
+    "Series" : "IEEE Transactions on Geoscience and Remote Sensing",
+    "Volume" : "41",
+    "Issue" : "2",
+    "Pages" : "390-409",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2002.808236"
+    }
+  }, {
+    "Author" : "Joel Susskind, John, M. Blaisdell, and Lena Iredell",
+    "PublicationDate" : "2014-03-31T00:00:00.000Z",
+    "Title" : "Improved methodology for surface and atmospheric soundings, error estimates, and quality control procedures: the atmospheric infrared sounder science team version-6 retrieval algorithm",
+    "Series" : "J. Appl. Rem. Sens.",
+    "Volume" : "8",
+    "Issue" : "1",
+    "Pages" : "34",
+    "DOI" : {
+      "DOI" : "10.1117/1.JRS.8.084994"
+    }
+  }, {
+    "Author" : "Thomas Hearty, Feng Ding, Ed Esfandiari, Andrey Savtchenko, Michael Theobald, Bruce Vollmer, Xin-Min Hua, Evan Manning, and Edward Olsen",
+    "Title" : "AIRS Near Real Time (NRT) data products",
+    "PublicationPlace" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/AIRS/3.3_ScienceDataProductDocumentation/3.3.5_ProductQuality/nrt_memo_v6.pdf"
+  } ],
+  "Quality" : "This product is similar to AIRS2CCF.7.0 but differs in four ways to meet the three hour latency requirement of the Land Atmosphere NRT Capability Earth Observing System (LANCE).For additional information about NRT processing see either the Related URL section or the Publication References section for the V7 NRT memo.\n\nThis product contains a flag for each radiance frequency indicating the quality. The three options for this quality flag are: 0 for best quality, 1 for good quality, 2 for do not use. A limitation of this product is in scenes with low contrast between the nine AIRS footprints the cloud clearing determination is poorer. Also in scenes with clouds above an inversion the warmest footprint is not necessarily the clearest.",
+  "ISOTopicCategories" : [ "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "AccessConstraints" : {
+    "Description" : "You must register using the EOSDIS User Registration System in order to access LANCE NRT AIRS data. You can register at https://urs.eosdis.nasa.gov/users/new"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample data of the \"AIRS/Aqua Level 2 Cloud-Cleared Infrared (IR) Radiances Product\".",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRS2CCF_7.0.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/AIRS2CCF_NRT_7.0.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://discnrt1.gesdisc.eosdis.nasa.gov/data/Aqua_AIRS_NRT/AIRS2CCF_NRT.7.0/",
+    "Description" : "Access the data via HTTPS. User registration is required. Register for a username and password at https://urs.eosdis.nasa.gov/users/new",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://discnrt1.gesdisc.eosdis.nasa.gov/opendap/Aqua_AIRS_NRT/AIRS2CCF_NRT.7.0/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://discnrt1.gesdisc.eosdis.nasa.gov/datacasting/AIRS2CCF_NRT.7.0.datacast-feed.xml",
+    "Description" : "Access the data via datacasting.",
+    "Subtype" : "DATACAST URL",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=AIRS2CCF_NRT+7.0",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://airs.jpl.nasa.gov/index.html",
+    "Description" : "AIRS home page at NASA/JPL. General information on the AIRS instrument,algorithms, and other AIRS-related activities can be found.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=AIRS%20Documentation",
+    "Description" : "AIRS Documentation Page",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/nrt/data-holdings/airs-nrt-products",
+    "Description" : "AIRS Near Real Time (NRT) information",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/AIRS/Overview_of_AIRS_Products_and_Documentation.pdf",
+    "Description" : "Overview of the AIRS Mission: Instruments, Processing Algorithms, Products, and Documentation",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/AIRS/V7_L2_Product_User_Guide.pdf",
+    "Description" : "AIRS/AMSU/HSB Version 7 Level 2 Product User Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Atmospheric Infrared Sounder (AIRS) Level 2 Near Real Time (NRT) Cloud-Cleared Infrared Radiances (AIRS-only) product (AIRS2CCF_NRT_7.0) differs from the routine product (AIRS2CCF_7.0) in four ways to meet the three hour latency requirements of the Land Atmosphere NRT Capability Earth Observing System (LANCE): (1) The NRT granules are produced without previous or subsequent granules if those granules are not available within 5 minutes, (2) the predictive ephemeris/attitude data are used rather than the definitive ephemeris/attitude, (3) if the forecast surface pressure is unavailable, a surface climatology is used, and (4) no ice cloud properties retrievals are performed. The consequences of these differences are described in the AIRS Near Real Time (NRT) data products document. The Atmospheric Infrared Sounder (AIRS) is a grating spectrometer (R = 1200) aboard the second Earth Observing System (EOS) polar-orbiting platform, EOS Aqua. In combination with the Advanced Microwave Sounding Unit (AMSU) and the Humidity Sounder for Brazil (HSB), AIRS constitutes an innovative atmospheric sounding group of visible, infrared, and microwave sensors. This product is produced using AIRS IR only because the radiometric noise in AMSU channel 4 started to increase significantly (since June 2007). Cloud-Cleared Radiances contain calibrated, geolocated channel-by-channel AIRS infrared radiances (milliWatts/m2/cm-1/steradian) that would have been observed within each AMSU footprint if there were no clouds in the FOV and produced along with the AIRS Standard Product, as they are the radiances used to retrieve the Standard Product. Nevertheless, they are an order of magnitude larger in data volume than the remainder of the Standard Products and, many Standard Product users are expected to have little interest in the Cloud Cleared Radiance. For these reasons they are a separate output file. \n\nThe AIRS2CCF_NRT_7.0 products are stored in files (often referred to as \"granules\") that contain 6 minutes of data, 30 footprints across track by 45 lines along track.",
+  "Purpose" : "The Near Real Time (NRT) product is for users whose primary interest is the low latency for data availability. While standard data products are available within 3 days of observation, NRT data are usually available within 3 hours of observation.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-11-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-03-26T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "AIRS2CCF_NRT",
+    "Version" : "7.0",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "Version" : "7.0",
+  "Projects" : [ {
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System (EOS), Aqua"
+  }, {
+    "ShortName" : "LANCE",
+    "LongName" : "Land, Atmosphere Near real-time Capability for EOS"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "LENA",
+    "LastName" : "IREDELL",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC NASA Goddard Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "NEAR_REAL_TIME",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS",
+      "Fees" : "None"
+    } ]
+  }
+}

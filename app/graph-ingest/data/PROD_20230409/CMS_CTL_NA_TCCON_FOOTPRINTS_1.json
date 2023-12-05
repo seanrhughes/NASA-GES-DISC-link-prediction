@@ -1,0 +1,229 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Andrews, Arlyn; Trudeau, Michael; Mountain, Marikate",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/CMS_CTL_NA_TCCON_FOOTPRINTS_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "CarbonTracker-Lagrange North America TCCON Vertical Profile of Footprints",
+    "SeriesName" : "CMS_CTL_NA_TCCON_FOOTPRINTS",
+    "ReleaseDate" : "2022-09-15T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -169.5,
+          "NorthBoundingCoordinate" : 79.5,
+          "EastBoundingCoordinate" : -50.5,
+          "SouthBoundingCoordinate" : 10.5
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "CARBON DIOXIDE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2006-12-11T19:00:00.000Z",
+      "EndingDateTime" : "2016-08-31T22:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/EQMKOJJ9L16B"
+  },
+  "ShortName" : "CMS_CTL_NA_TCCON_FOOTPRINTS",
+  "EntryTitle" : "CarbonTracker-Lagrange North America TCCON Vertical Profile of Footprints V1 (CMS_CTL_NA_TCCON_FOOTPRINTS)",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/CMS/CMS_CTL_NA_TCCON_FOOTPRINTS.1/" ]
+  },
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/CMS/CMS_CTL_NA_TCCON_FOOTPRINTS_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/CMS_CTL_NA_TCCON_FOOTPRINTS_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/CMS_CTL_NA_TCCON_FOOTPRINTS.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/CMS_CTL_NA_TCCON_FOOTPRINTS.1/doc/README.UserGuide_CMS_CTL_FOOTPRINTS.1.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/CMS/CMS_CTL_NA_TCCON_FOOTPRINTS.1/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://carbon.nasa.gov/",
+    "Description" : "The NASA Carbon Monitoring System (CMS) page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=CMS_CTL_NA_TCCON_FOOTPRINTS",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This data set provides Weather Research and Forecasting (WRF) Stochastic Time-Inverted Lagrangian Transport (STILT) particle trajectory data products for particle receptors co-located with atmospheric column observations from the TCCON ground network. Meteorological fields from the WRF model are used to drive STILT. STILT applies a Lagrangian particle dispersion model backwards in time from a measurement location (the \"receptor\" location), to create the adjoint of the transport model in the form of a \"footprint\" field. The footprint, with units of mixing ratio  per surface flux, quantifies the influence of upwind surface fluxes on greenhouse gas concentrations measured at the receptor and is computed by counting the number of particles in a surface-influenced volume and the time spent in that volume. For each column observation location, the receptors are located at 23 discrete vertical levels throughout the atmospheric column.  The CMS program is designed to make significant contributions in characterizing, quantifying, understanding, and predicting the evolution of global carbon sources and sinks through improved monitoring of carbon stocks and fluxes. The System uses NASA observations and modeling/analysis capabilities to establish the accuracy, quantitative uncertainties, and utility of products for supporting national and international policy, regulatory, and management activities. CMS data products are designed to inform near-term policy development and planning.",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-10-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-10-04T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "1",
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "CMS",
+    "LongName" : "Carbon Monitoring System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Arlyn",
+    "LastName" : "Andrews",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NOAA Global Monitoring Laboratory", "325 Broadway R/GML" ],
+        "City" : "Boulder",
+        "StateProvince" : "CO",
+        "PostalCode" : "80305",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Arlyn.Andrews@noaa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "WRF",
+    "LongName" : "Weather Research and Forecasting (WRF) Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  }, {
+    "Type" : "Models",
+    "ShortName" : "STILT",
+    "LongName" : "Stochastic Time-Inverted Lagrangian Transport Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

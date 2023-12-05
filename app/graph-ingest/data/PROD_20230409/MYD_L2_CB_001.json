@@ -1,0 +1,225 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Yuan, T.",
+    "Title" : "MODIS Aqua L2 chopped blocks (block size: 128 pixels x 128 pixels, daytime) V001",
+    "SeriesName" : "MYD_L2_CB",
+    "ReleaseDate" : "2022-03-24T00:00:00.000Z",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "001",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MYD_L2_CB_001.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 60,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -60
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CONVECTIVE CLOUDS/SYSTEMS (OBSERVED/ANALYZED)",
+    "VariableLevel2" : "DEEP CONVECTIVE CLOUD SYSTEMS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2007-01-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/DFDGJR6707D8"
+  },
+  "ShortName" : "MYD_L2_CB",
+  "EntryTitle" : "MODIS Aqua L2 chopped blocks (block size: 128 pixels x 128 pixels, daytime) V001 (MYD_L2_CB) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Yuan, T., Song, H., Wood, R., Mohrmann, J., Meyer, K., Oreopoulos, L., and Platnick, S",
+    "PublicationDate" : "2020-01-01T00:00:00.000Z",
+    "Title" : "Applying deep learning to NASA MODIS data to create a community record of marine low-cloud mesoscale morphology",
+    "Volume" : "13",
+    "Issue" : "12",
+    "Pages" : "6989-6997",
+    "OnlineResource" : {
+      "Linkage" : "https://amt.copernicus.org/articles/13/6989/2020/"
+    },
+    "DOI" : {
+      "DOI" : "10.5194/amt-13-6989-2020"
+    }
+  } ],
+  "Quality" : "The latitudes, longitudes, and low cloud flag of all chopped blocks (128 pixels x 128 pixels size) from the MODIS Aqua granule data (MYD021KM, MYD03, MYD06_L2). Only daytime granule data are included. Blocks with sensor zenith angle > 45 are excluded.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MYD_L2_CB_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MYD_L2_CB_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/CloudObjects/MYD_L2_CB.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=MYD_L2_CB_001",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/CloudObjects/MYD_L2_CB.001/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/CloudObjects/MYD_L2_CB.001/doc/README.CLOUD_MODIS.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto",
+    "Description" : "How to read and plot the data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-10-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-12-08T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This product is composed of a beta version for a product from the MODerate resolution Imaging Spectrometer (MODIS) on board the Aqua satellite.\n\nMODIS Aqua L2 chopped blocks (CB) are part of our global MODIS Aqua data from the 2017 MEaSUREs project, A Comprehensive Data Record of Marine Low-level and Deep Convective Cloud Systems Using an Object-Oriented Approach.\n\nThese data are individual MODIS Aqua granules chopped into small blocks in shape (np_x, np_y), where np_x = 128 pixels and np_y = 128 pixels.  This file provides the geolocations of all the chopped blocks in the MODIS Aqua granule data. Only daytime granule data are included and blocks with sensor zenith angle > 45 degrees are excluded. The geolocations for each block consist of five latitude and longitude pairs for its four corners and center  with a low cloud flag that indicates whether the chopped block is or is not low cloud dominated.\n\nThe DOIs of the related datasets of this project are:\nMYD_L2_MPLCT_001 DOI: 10.5067/8TDZURGRLN9I\nMYD_L3_OFLCT_001 DOI: 10.5067/3FAIC739DQRH",
+  "MetadataDates" : [ {
+    "Date" : "2021-10-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-12-16T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ASHLEY",
+    "LastName" : "HEATH",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5088"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "ashley.l.heath@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Tianle",
+    "LastName" : "Yuan",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "tianle.yuan@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Divis ion, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "MODIS",
+      "LongName" : "Moderate-Resolution Imaging Spectroradiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

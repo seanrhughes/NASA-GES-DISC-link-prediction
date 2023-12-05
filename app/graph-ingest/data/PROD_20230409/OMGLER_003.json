@@ -1,0 +1,310 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Lambertian Equivalent Surface Reflectivity" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Joanna J. Joiner, Wenhan Qin, Zachary Fasnacht, Alexander Vasilkov, David P. Haffner, Bradford Fisher, Nickolay Krotkov, Lok N. Lamsal and Robert Spurr",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMGLER_003.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMI/Aura Global Geometry-Dependent Surface LER 1-Orbit L2 Swath 13x24km V3",
+    "SeriesName" : "OMGLER",
+    "ReleaseDate" : "2019-12-20T00:00:00.000Z",
+    "Version" : "003",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "REFLECTANCE",
+    "DetailedVariable" : "LAMBERT EQUIVALENT SURFACE REFLECTANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2004-10-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/AURA/OMI/DATA2032"
+  },
+  "ShortName" : "OMGLER",
+  "EntryTitle" : "OMI/Aura Global Geometry-Dependent Surface LER 1-Orbit L2 Swath 13x24km V3 (OMGLER) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Dobber, M., Kleipool, Q., Dirksen, R., Levelt, P., Jaross,G., Taylor, S., Kelly, T., Flynn, L., Leppelmeier, G., and Rozemeijer, N.",
+    "PublicationDate" : "2008-04-25T00:00:00.000Z",
+    "Title" : "Validation of Ozone Monitoring Instrument level 1b data products",
+    "Series" : "J. Geophys. Res.",
+    "Volume" : "113",
+    "Issue" : "D15",
+    "DOI" : {
+      "DOI" : "10.1029/2007JD008665"
+    }
+  }, {
+    "Author" : "Fasnacht, Z., Vasilkov, A., Haffner, D., Qin, W., Joiner, J., Krotkov, N., Sayer, A. M. , and Spurr, R.",
+    "PublicationDate" : "2019-12-19T00:00:00.000Z",
+    "Title" : "A geometry-dependent surface Lambertian-equivalent reflectivity product for UV-Vis retrievals - Part 2: Evaluation over open ocean",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "12",
+    "Pages" : "6749-6769",
+    "DOI" : {
+      "DOI" : "10.5194/amt-12-6749-2019"
+    }
+  }, {
+    "Author" : "Qin, W., Fasnacht, Z., Haffner, D., Vasilkov, A., Joiner, J., Krotkov,N., Fisher, B., and Spurr, R.",
+    "PublicationDate" : "2019-12-19T00:00:00.000Z",
+    "Title" : "A geometry-dependent surface Lambertian-equivalent reflectivity product for UV-Vis retrievals - Part 1: Evaluation over land surfaces using measurements from OMI at 466 nm",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "12",
+    "Pages" : "3997-4017",
+    "DOI" : {
+      "DOI" : "10.5194/amt-12-3997-2019"
+    }
+  }, {
+    "Author" : "Vasilkov, A., Qin, W., Krotkov, N., Lamsal, L., Spurr, R., Haffner,D., Joiner, J., Yang, E.-S., and Marchenko, S.",
+    "PublicationDate" : "2017-01-27T00:00:00.000Z",
+    "Title" : "Accounting for the effects of surface BRDF on satellite cloud and trace-gas retrievals: a new approach based on geometry-dependent Lambertian equivalent reflectivity applied to OMI algorithms",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "10",
+    "Pages" : "333-349",
+    "DOI" : {
+      "DOI" : "10.5194/amt-10-333-2017"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMGLER_003.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMGLER_003.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2/OMGLER.003/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMGLER_003",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/opendap/Aura_OMI_Level2/OMGLER.003/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2/OMGLER.003/doc/OMGLER_README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.2_ProductRequirements_Designs/README.OMI_DUG.pdf",
+    "Description" : "OMI Data User's Guide",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OMI/OMGLER.fs",
+    "Description" : "File Specification Document",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.4_ProductGenerationAlgorithm/ATBD-OMI-04.pdf",
+    "Description" : "OMI Algorithm Theoretical Basis Documents",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://aura.gsfc.nasa.gov/",
+    "Description" : "Aura Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/research/news/newsWrap.php?language=only_enhttps://www.knmi.nl/omitimeFrame=latesthttps://www.knmi.nl/omichoise=page",
+    "Description" : "OMI KNMI Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://projects.knmi.nl/omi/research/documents/",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-05-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-05-10T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The OMI/Aura Global Geometry-Dependent Surface LER 1-Orbit L2 Swath 13x24km product, or OMGLER, provides GLER, and the computed top-of-atmosphere (TOA) radiance from which GLER is derived, for the OMI field of view. The OMGLER data also contain a number of ancillary/input parameters for each OMI pixel used to compute TOA radiance. The primary intended use of the product is to provide surface reflectance information for OMI cloud, aerosol and trace gas algorithms. GLER is designed to easily replace commonly used LER climatologies within existing OMI algorithms. The product lead is Joanna J. Joiner (OMI US science team leader). The algorithm developer is Wenhan Qin.\n\nThe OMGLER product file is produced in the version 5 Hierarchical Data Format (HDF-EOS5). Each file contains GLER data for the daylit portion of an orbit (~53 minutes). There are approximately 14 orbits per day. Files are roughly 9 MB in size.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-05-09T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "003",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOANNA",
+    "LastName" : "JOINER, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center, Code 613.3, Bldg 33" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6247"
+      }, {
+        "Type" : "Email",
+        "Value" : "Joanna.Joiner@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "WENHAN",
+    "LastName" : "QIN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Atmospheric Chemistry and Dynamics, Code 916" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-867-2192"
+      }, {
+        "Type" : "Email",
+        "Value" : "wqin@tparty.gsfc.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS5",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "AncillaryKeywords" : [ "Atmosphere, Precipitation, Water Vapor" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Wesley Berg",
+    "Title" : "GPM AMSU-B on NOAA 17 Common Calibrated Brightness Temperatures L1C 1.5 hours 16 km V05",
+    "SeriesName" : "GPM_1CNOAA17AMSUB",
+    "ReleaseDate" : "2017-10-02T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPM_1CNOAA17AMSUB_05.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-06-28T00:00:00.000Z",
+      "EndingDateTime" : "2009-12-18T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/GPM/AMSUB/NOAA17/1C/05"
+  },
+  "ShortName" : "GPM_1CNOAA17AMSUB",
+  "EntryTitle" : "GPM AMSU-B on NOAA 17 Common Calibrated Brightness Temperatures L1C 1.5 hours 16 km V05 (GPM_1CNOAA17AMSUB) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Berg, W. et al.",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "Intercalibration of the GPM Radiometer Constellation",
+    "Series" : "J. Atmos. Oceanic Technol.",
+    "Volume" : "33",
+    "Pages" : "2639-2654",
+    "DOI" : {
+      "DOI" : "10.1175/JTECH-D-16-0100.1"
+    }
+  }, {
+    "Author" : "Berg, W., R. Kroodsma, C. D. Kummerow, and D. S. McKague",
+    "PublicationDate" : "2018-01-01T00:00:00.000Z",
+    "Title" : "Fundamental Climate Data Records of Microwave Brightness Temperatures",
+    "Series" : "Remote Sensing",
+    "Volume" : "10(8)",
+    "Pages" : "1306",
+    "DOI" : {
+      "DOI" : "10.3390/rs10081306"
+    }
+  } ],
+  "Quality" : "The L1C products contain brightness temperatures that have been intercalibrated to a common basis and are no longer the original instrument brightness temperatures. Channels not relevant to precipitation retrievals are not included. The recalibration for most radiometers is a simple 2-point, linear adjustment. For the water vapor sounding channels, this is a simple offset. In the case of AMSR2, the adjustments are piecewise linear with more than two points to approximate the non-linear nature of the calibration of that instrument. The goal is to make the brightness temperatures consistent to 0.1K. That is not to say the calibration is accurate to this level; there are no suitable standards to assure absolute accuracy. The 0.1K level of consistency has been achieved in most cases, but in the case of the channels near 90 GHz, the uncertainty is somewhat greater. Also, some radiometers are not stable enough to permit this level of consistency.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Common Calibrated Brightness Temperature ",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/1C-BR.NOAA17.AMSUB.XCAL2017-V.20030101-S024015-E042128.002707.V05A.PNG",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPM_1CNOAA17AMSUB_05.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L1C/GPM_1CNOAA17AMSUB.05/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPM_1CNOAA17AMSUB_05",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/opendap/GPM_L1C/GPM_1CNOAA17AMSUB.05/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm.nasa.gov",
+    "Description" : "GPM Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L2/doc/README.GPM.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://arthurhou.pps.eosdis.nasa.gov/Documents/L1C_ATBD.pdf",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://pps.gsfc.nasa.gov/Documents/V05ReleaseNotes/L1C_V05_Release_Notes.pdf",
+    "Description" : "Release Notes",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/gpm_anomalous.html",
+    "Description" : "GPM and partner sensors anomalous events",
+    "Subtype" : "ANOMALIES",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://www.wmo-sat.info/oscar/instruments/view/33",
+    "Description" : "Instrument Description",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2017-05-03T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-05-08T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Version 5 is the current version of the data set. Version 4 is no longer available and has been superseded by Version 5.\n\nAll 1C products have a common L1C data structure, simple and generic. Each L1C swath includes scan time, latitude and longitude, scan status, quality, incidence angle, Sun glint angle, and the intercalibrated brightness temperature (Tc). One or more swaths are included in a product. The radiometer data are recalibrated to a common basis so that precipitation products derived from them are consistent. 1CSSMIS contains common calibrated brightness temperature from the SSMIS passive microwave instruments flown on the DMSP satellites. Swath S1 has 3 low frequency channels (19V 19H 22V). Swath S2 has 2 low frequency channels (37V 37H). Swath S3 has 4 high frequency channels (150H 183+/-1H 183+/-3H 183+/-7H). S4 has 2 high frequency channels (91V 91H). All the above frequencies are in GHz. Earth observations for all four swaths are taken during a 144o segment of the instrument rotation when SSMIS scans in the direction of foreward satellite motion. We define the spacecraft vector (v) at the center of this segment.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "TROPICS"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2017-05-08T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-02-11T17:32:18.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2019-10-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "05",
+  "Projects" : [ {
+    "ShortName" : "GPM",
+    "LongName" : "Global Precipitation Measurement"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "WESLEY",
+    "LastName" : "BERG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Colorado State University" ],
+        "City" : "Fort Collins",
+        "StateProvince" : "CO",
+        "PostalCode" : "80523",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "970-207-0724"
+      }, {
+        "Type" : "Fax",
+        "Value" : "970-491-8449"
+      }, {
+        "Type" : "Email",
+        "Value" : "berg@atmos.colostate.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-17",
+    "LongName" : "National Oceanic & Atmospheric Administration-17",
+    "Instruments" : [ {
+      "ShortName" : "AMSU-B",
+      "LongName" : "Advanced Microwave Sounding Unit-B"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

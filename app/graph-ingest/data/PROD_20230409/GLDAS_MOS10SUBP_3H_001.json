@@ -1,0 +1,278 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Matthew Rodell and Hiroko Kato Beaudoing, NASA/GSFC/HSL",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GLDAS_MOS10SUBP_3H_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "GLDAS Mosaic Land Surface Model L4 3 Hourly 1.0 x 1.0 degree Subsetted V001",
+    "SeriesName" : "GLDAS_MOS10SUBP_3H",
+    "ReleaseDate" : "2007-08-16T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, Maryland, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -60
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "HEAT FLUX"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "SHORTWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "HUMIDITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPOTRANSPIRATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "SURFACE WINDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION RATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "SOLID PRECIPITATION",
+    "VariableLevel2" : "SNOW"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL MOISTURE/WATER CONTENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "LAND SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "SNOW/ICE",
+    "VariableLevel1" : "SNOW WATER EQUIVALENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "SURFACE WATER",
+    "VariableLevel1" : "SURFACE WATER PROCESSES/MEASUREMENTS",
+    "VariableLevel2" : "RUNOFF"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1979-01-02T00:00:00.000Z",
+      "EndingDateTime" : "2020-03-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/DLVU8VOPKN7L"
+  },
+  "ShortName" : "GLDAS_MOS10SUBP_3H",
+  "EntryTitle" : "GLDAS Mosaic Land Surface Model L4 3 Hourly 1.0 x 1.0 degree Subsetted V001 (GLDAS_MOS10SUBP_3H) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Rodell, M., P.R. Houser, U. Jambor, J. Gottschalck, K. Mitchell, C. Meng, K. Arsenault, B. Cosgrove, J. Radakovich, M. Bosilovich, J.K. Entin, J.P. Walker, D. Lohmann, and D. Toll",
+    "PublicationDate" : "2004-01-01T00:00:00.000Z",
+    "Title" : "The Global Land Data Assimilation System",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "DOI" : {
+      "DOI" : "10.1175/BAMS-85-3-381"
+    }
+  } ],
+  "Quality" : "The data are provisional and subject to change as model improvements are implemented and new input data sets become available. Due to the fact that forcing data for Greenland are unreliable and the lack of a glacier/ice sheet model, snow water equivalent accumulates indefinitely in Greenland and a few other Arctic points. Therefore it is highly recommended that Greenland and other points with abnormally large snow water equivalent values be masked out when performing global analyses.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "GLDAS Mosaic 3-Hourly 1.0 degree Average Layer 1 (0-2 cm) Soil Moisture [kg/m2] at 00Z May 01, 2007.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/GLDAS_MOS10SUBP_3H_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://ldas.gsfc.nasa.gov/gldas/",
+    "Description" : "GLDAS Project Web Site",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=hydrology",
+    "Description" : "How to read and plot the data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Hydrology%20Documentation",
+    "Description" : "GES DISC Hydrology Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2007-08-16T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2007-08-16T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "With the upgraded Land Surface Models (LSMs) and updated forcing data sets, the GLDAS version 2.1 (GLDAS-2.1) production stream serves as a replacement for GLDAS-001.  The entire GLDAS-001 collection from January 1979 through March 2020 was decommissioned on June 30, 2020 and removed from the GES DISC system.  However, there is no replacement for GLDAS-001 monthly and 3-hourly 1.0 x 1.0 degree products from Mosaic LSM.  \n\nThis data set contains a series of land surface parameters simulated from the Mosaic model in the Global Land Data Assimilation System (GLDAS). The data are in 1.0 degree resolution and range from January 1979 to present. The temporal resolution is 3-hourly. \n\nThis simulation was forced by a combination of NOAA/GDAS atmospheric analysis fields, spatially and temporally disaggregated NOAA Climate Prediction Center Merged Analysis of Precipitation (CMAP) fields, and observation based downward shortwave and longwave radiation fields derived using the method of the Air Force Weather Agency's AGRicultural METeorological modeling system (AGRMET). \n\nThe simulation was initialized on 1 January 1979 using soil moisture and other state fields from a GLDAS/Mosaic model climatology for that day of the year. \n\nWGRIB or another GRIB reader is required to read the files. The data set applies a user-defined parameter table to indicate the contents and parameter number. The GRIBTAB file shows a list of parameters for this data set, along with their Product Definition Section (PDS) IDs and units.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2007-08-17T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-06-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "GLDAS",
+    "LongName" : "Global Land Data Assimilation System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "DAVID",
+    "LastName" : "SILBERSTEIN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5183"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "david.s.silberstein@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "Mosaic-LSM",
+    "LongName" : "Mosaic Land Surface Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "GRIB",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

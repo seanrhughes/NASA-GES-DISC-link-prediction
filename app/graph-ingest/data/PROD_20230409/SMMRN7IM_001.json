@@ -1,0 +1,239 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Title" : "SMMR/Nimbus-7 Color Images V001",
+    "SeriesName" : "SMMRN7IM",
+    "ReleaseDate" : "2019-05-31T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "001",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SMMRN7IM_001.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "TOTAL PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "WATER VAPOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CRYOSPHERE",
+    "Term" : "SEA ICE",
+    "VariableLevel1" : "SEA ICE CONCENTRATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CRYOSPHERE",
+    "Term" : "SEA ICE",
+    "VariableLevel1" : "SEA ICE CONCENTRATION",
+    "VariableLevel2" : "ICE FRACTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN TEMPERATURE",
+    "VariableLevel1" : "SEA SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN WINDS",
+    "VariableLevel1" : "SURFACE WINDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "SEA ICE",
+    "VariableLevel1" : "ICE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "SEA ICE",
+    "VariableLevel1" : "SEA ICE CONCENTRATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1978-10-30T00:00:00.000Z",
+      "EndingDateTime" : "1983-11-02T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "SMMRN7IM",
+  "EntryTitle" : "SMMR/Nimbus-7 Color Images V001 (SMMRN7IM) at GES DISC",
+  "Quality" : "The data should be used with care and one should first read the Nimbus-7 User's Guide. Users should cite this data product in their research.",
+  "ISOTopicCategories" : [ "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "RelatedUrls" : [ {
+    "Description" : "Nimbus-7 SMRR Sea Ice and Surface Ocean Temperature 3 day averages for 30 Oct 1978 to 01 Nov 1978 and 02 Nov 1978 to 04 Nov 1978.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Nimbus/images/SMMRN7IM_sample.jpg",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SMMRN7IM_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus7_SMMR_Level1/SMMRN7IM.001/",
+    "Description" : "Access the data via HTTP.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SMMRN7IM",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus7_SMMR_Level1/SMMRN7IM.001/doc/README.SMMRN7IM.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/N7_Users_Guide.pdf",
+    "Description" : "Nimbus 7 User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2017-10-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-05-29T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "SMMRN7IM is the Nimbus-7 Scanning Multichannel Microwave Radiometer (SMMR) Color Image data product scanned from 17\" x 15\" color prints and saved as JPEG-2000 files. Sea surface temperature, sea surface winds, total atmospheric water vapor over oceans, total atmospheric liquid water over oceans, including brightness temperature parameters are available as both 6-day composites and 1-month averages between 64 south and north latitudes in Mercator projection. Sea ice fraction, sea ice and ocean surface temperature, sea ice concentration, including brightness temperature parameters are available as both 3-day and 1-month averages in north and south polar stereographic projections. Images may contain between one and three measured parameters. These SMMR images are available from 30 October 1978 through 2 November 1983. The principal investigator for the SMMR experiment was Dr. Per Gloersen from NASA GSFC.\n \nThese products were previously available from the NSSDC under the ids ESAD-00007, ESAD-00056, ESAD-00123, ESAD-00124, ESAD-00162, ESAD-00172, ESAD-00173, ESAD-00176 ESAD-00177, ESAD-00178, and ESAD-00241 (old ids 78-098A-08I-S).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "NORTHERN HEMISPHERE"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "SOUTHERN HEMISPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-05-29T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-10-09T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "Nimbus"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-7",
+    "LongName" : "Nimbus-7",
+    "Instruments" : [ {
+      "ShortName" : "SMMR",
+      "LongName" : "Scanning Multichannel Microwave Radiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "JPEG-2000",
+      "Fees" : "None"
+    } ]
+  }
+}

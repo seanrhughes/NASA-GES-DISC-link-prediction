@@ -1,0 +1,260 @@
+{
+  "AncillaryKeywords" : [ "EOSDIS", "LIMB93", "DAILY", "TEMPERATURE", "STRATOSPHERE" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Spencer R., Christy J.R.",
+    "Title" : "MSU Ch 4 Daily Lower Stratosphere Temps with Limb93 Correction L3 1 day 2.5 degree x 2.5 degree V001",
+    "SeriesName" : "MSULST",
+    "ReleaseDate" : "1996-01-01T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "001",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MSULST_001.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "TEMPERATURE ANOMALIES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1979-01-01T00:00:00.000Z",
+      "EndingDateTime" : "1994-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable"
+  },
+  "ShortName" : "MSULST",
+  "EntryTitle" : "MSU Ch 4 Daily Lower Stratosphere Temps with Limb93 Correction L3 1 day 2.5 degree x 2.5 degree V001 (MSULST) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MSULST_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MSULST_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc1.gesdisc.eosdis.nasa.gov/data/msu/MSULST.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc1.gesdisc.eosdis.nasa.gov/opendap/lim93/MSULST.001/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc1.gsfc.nasa.gov/data/msu/MSULST.001/doc/README.lim93.pdf",
+    "Description" : "Microwave Sounding Unit (MSU) Limb93 Documentation.",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MSU/GES_DISC_MSU_Data_Guide.pdf",
+    "Description" : "This is an MSU legacy data guide.  Some information may be obsolete.",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Microwave Sounding Unit (MSU) Lower Stratosphere Deep Layer Mean Temperature product (MSULST) provides gridded lower stratospheric temperatures for each day derived from MSU instruments on several different platforms. The temperatures are derived from MSU channel 4 using the method of Spencer and Christy (1990) with the LIMB 93 limb correction based on latitude, longitude,  month, and scan angle. The MSU instruments measure the thermal emission of radiation by molecular oxygen at four frequencies near 60 GHz.  North (south) of 66.7N (S) the footprint data are assigned to grid boxes in a weighted method depending on footprint latitude.  Horizontal averaging is used\nto fill some of the empty grid boxes.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2008-11-12T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-08-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "TOVS Pathfinder",
+    "LongName" : "TOVS Path A"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ROY",
+    "MiddleName" : "W.",
+    "LastName" : "SPENCER",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TIROS-N",
+    "LongName" : "Television Infrared Observation Satellite-N",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-12",
+    "LongName" : "National Oceanic & Atmospheric Administration-12",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-11",
+    "LongName" : "National Oceanic & Atmospheric Administration-11",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-10",
+    "LongName" : "National Oceanic & Atmospheric Administration-10",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-9",
+    "LongName" : "National Oceanic & Atmospheric Administration-9",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-7",
+    "LongName" : "National Oceanic & Atmospheric Administration-7",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-6",
+    "LongName" : "National Oceanic & Atmospheric Administration-6",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF"
+    } ]
+  }
+}

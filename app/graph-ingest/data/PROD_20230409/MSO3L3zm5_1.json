@@ -1,0 +1,331 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "O3" ],
+  "CollectionCitations" : [ {
+    "Creator" : "S. M. Frith, et al.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MSO3L3zm5_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Multi-Satellite Merged Ozone (O3) Profile and Total Column 1 Month Zonal Mean L3 Global 5.0 degree Latitude Zones V1",
+    "SeriesName" : "MSO3L3zm5",
+    "ReleaseDate" : "2013-01-08T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 80,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -80
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1970-05-01T00:00:00.000Z",
+      "EndingDateTime" : "2013-07-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/OZONE/DATA310"
+  },
+  "ShortName" : "MSO3L3zm5",
+  "EntryTitle" : "Multi-Satellite Merged Ozone (O3) Profile and Total Column 1 Month Zonal Mean L3 Global 5.0 degree Latitude Zones V1 (MSO3L3zm5) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Qiang Zhao and Joel Selekof",
+    "PublicationDate" : "2006-12-01T00:00:00.000Z",
+    "Title" : "Solar Backscattered Ultraviolet Radiometer (SBUV)  Operational Ozone Product System Version 8",
+    "Publisher" : "National Environmental Satellite, Data, and Information Service, Office of Satellite Data Processing and Distribution, Information Processing Division"
+  }, {
+    "Author" : "DeLand, M. T., Taylor, S. L., Huang, L. K., and Fisher, B. L.",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Calibration of the SBUV version 8.6 ozone data product, Atmospheric Measurement Techniques",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "5",
+    "Pages" : "2951-2967",
+    "OnlineResource" : {
+      "Linkage" : "https://www.atmos-meas-tech.net/5/2951/2012/amt-5-2951-2012.pdf"
+    },
+    "DOI" : {
+      "DOI" : "doi:10.5194/amt-5-2951-2012"
+    }
+  }, {
+    "Author" : "Bhartia, P. K., McPeters, R. D., Flynn, L. E., Taylor, S., Kramarova, N. A., Frith, S., Fisher, B., and DeLand, M.",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Title" : "Solar Backscatter UV (SBUV) total ozone and profile algorithm",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "6",
+    "Pages" : "2533-2548",
+    "OnlineResource" : {
+      "Linkage" : "https://www.atmos-meas-tech.net/6/2533/2013/"
+    },
+    "DOI" : {
+      "DOI" : "doi:10.5194/amt-6-2533-2013"
+    }
+  }, {
+    "Author" : "McPeters, R. D., P. K. Bhartia, D. Haffner, G. J. Labow, and L. Flynn",
+    "PublicationDate" : "2013-07-26T00:00:00.000Z",
+    "Title" : "The version 8.6 SBUV ozone data record: An overview",
+    "Series" : "J. Geophys. Res. Atmos.",
+    "Volume" : "118",
+    "Pages" : "8032-8039",
+    "OnlineResource" : {
+      "Linkage" : "https://onlinelibrary.wiley.com/doi/10.1002/jgrd.50597/pdf"
+    },
+    "DOI" : {
+      "DOI" : "doi:10.1002/jgrd.50597"
+    }
+  } ],
+  "Quality" : "These data were produced under the NASA MEaSUREs program. While the goal was to apply a consistent instrument to instrument calibration so that the data could be used for long term trend analysis, the quality of the data varies depending on the instrument. Data from NOAA 9, 11, and 14 in particular are of somewhat lower quality.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MSO3L3zm5_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MSO3L3zm5_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/Ozone/MSO3L3zm5.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/Ozone/MSO3L3zm5.1/MSO3L3zm5_v01-02-2013m0907t142428.h5.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/Ozone/MSO3L3zm5.1/catalog.xml",
+    "Description" : "Access the data using the THREDDS Catalog.",
+    "Subtype" : "THREDDS DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2013-09-17T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2013-09-17T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The merged-satellite Solar Backscattered Ultraviolet (SBUV) Level-3 monthly zonal mean (MZM) product (MSO3L3zm5) contains 1 month zonal means for profile layer and total column ozone based on v8.6 SBUV data from the Nimbus-4 BUV, Nimbus-7 SBUV, and NOAA-9 through NOAA-18 SBUV/2 instruments. The v8.6 SBUV algorithm estimates the ozone nadir profile and total column from SBUV measurements, and differs from the v8.0 SBUV algorithm via the use of 1) the Brion-Daumont-Malicet ozone cross sections, 2) an OMI-derived cloud-height climatology, 3) a revised a priori ozone climatology, and 4) inter-instrument calibration based on comparisons with no local time difference.\n \nThe MSO3L3zm5 product is stored as a single HDF5 file, and has a size of 0.4 MB. The MZM product contains 5.0-degree-wide latitude zones with data between latitude -80.0 and  80.0 degrees. The data cover the time period from May 1970 through July 2013. Data coverage during the BUV mission from 1970 - 1977 contains many gaps after October 1973, and there are no data between November 1976 and November 1978. Continuous data coverage begins with SBUV and SBUV/2 missions starting November 1978.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2013-03-12T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "RICHARD",
+    "MiddleName" : "D",
+    "LastName" : "MCPETERS, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "Goddard Space Flight Center", "Mailstop 613.3" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6038"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5903"
+      }, {
+        "Type" : "Email",
+        "Value" : "richard.d.mcpeters@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Jerome",
+    "MiddleName" : "M",
+    "LastName" : "Alfred",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "jerome.m.alfred@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-4",
+    "Instruments" : [ {
+      "ShortName" : "BUV",
+      "LongName" : "Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-7",
+    "LongName" : "Nimbus-7",
+    "Instruments" : [ {
+      "ShortName" : "SBUV",
+      "LongName" : "Solar Backscatter Ultraviolet"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-9",
+    "LongName" : "National Oceanic & Atmospheric Administration-9",
+    "Instruments" : [ {
+      "ShortName" : "SBUV/2",
+      "LongName" : "Solar Backscatter Ultraviolet/2"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-11",
+    "LongName" : "National Oceanic & Atmospheric Administration-11",
+    "Instruments" : [ {
+      "ShortName" : "SBUV/2",
+      "LongName" : "Solar Backscatter Ultraviolet/2"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-14",
+    "LongName" : "National Oceanic & Atmospheric Administration-14",
+    "Instruments" : [ {
+      "ShortName" : "SBUV/2",
+      "LongName" : "Solar Backscatter Ultraviolet/2"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-16",
+    "LongName" : "National Oceanic & Atmospheric Administration-16",
+    "Instruments" : [ {
+      "ShortName" : "SBUV/2",
+      "LongName" : "Solar Backscatter Ultraviolet/2"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-17",
+    "LongName" : "National Oceanic & Atmospheric Administration-17",
+    "Instruments" : [ {
+      "ShortName" : "SBUV/2",
+      "LongName" : "Solar Backscatter Ultraviolet/2"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-18",
+    "LongName" : "National Oceanic & Atmospheric Administration-18",
+    "Instruments" : [ {
+      "ShortName" : "SBUV/2",
+      "LongName" : "Solar Backscatter Ultraviolet/2"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-19",
+    "LongName" : "National Oceanic & Atmospheric Administration-19",
+    "Instruments" : [ {
+      "ShortName" : "SBUV/2",
+      "LongName" : "Solar Backscatter Ultraviolet/2"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

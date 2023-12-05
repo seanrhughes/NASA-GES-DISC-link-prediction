@@ -1,0 +1,240 @@
+{
+  "AncillaryKeywords" : [ "EOSDIS", "HTTP", "GEWEX", "GLOBAL PRECIPITATION", "GPCP", "IDN_NODE GSFC DAAC", "OCEANIC PRECIPITATION", "OCEANIC RAINFALL", "RAINFALL INDEX", "TEMS", "GTOS", "G3OS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Chang, A",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/RAIN_CHANG_2.3.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Chang SSM/I Derived Monthly Rain Indices 5 x 5 degree V2.3",
+    "SeriesName" : "RAIN_CHANG",
+    "ReleaseDate" : "2011-04-25T00:00:00.000Z",
+    "Version" : "2.3",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 50,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -50
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION AMOUNT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN",
+    "DetailedVariable" : "OCEANIC PRECIPITATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1987-07-01T00:00:00.000Z",
+      "EndingDateTime" : "1995-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Legacy dataset"
+  },
+  "ShortName" : "RAIN_CHANG",
+  "EntryTitle" : "Chang SSM/I Derived Monthly Rain Indices 5 x 5 degree V2.3 (RAIN_CHANG) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/RAIN_CHANG_2.3.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/RAIN_CHANG_2.3.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/README.CHANG.pdf",
+    "Description" : "README file",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "These data are transitioned to a state of permanent preservation. They are available upon request.\nMore advanced datasets have been developed since. \nOne recommended replacement is the GPCP (doi: 10.5067/DBVUO4KQHXTK) product developed under the MEaSUREs project.\n\nFuthermore, the NASA Precipitation Measurement Missions Project released newly processed SSM/I datasets as output from the GPROF (Goddard Profiling Algorithm).\n(doi: 10.5067/GPM/SSMI/F11/GPROFCLIM/2A/05, 10.5067/GPM/SSMI/F11/GPROFCLIM/3A-MONTH/05, 10.5067/GPM/SSMI/F11/GPROFCLIM/3A-DAY/05)\n\n\nThe \"RAIN_CHANG\" SSM/I Derived Oceanic Monthly Rainfall Indices data set was an early Global Precipitation Climatology Project (GPCP) product. Monthly rainfall indices over the oceans were derived from Special Sensor Microwave Imager (SSM/I) data from the Defense Meteorological Satellite Program (DMSP) satellites F8 and F11, on channels 19 and 22 V. The data set covered the period from July 1987 to December 1995.\n      \n      The monthly rainfall indices are on a 5 degree by 5 degree grid extending from 50 N to 50 S. The Wilheit, Chang and Chiu (1991) method used to derive the indices gives valid values only over ocean areas. Land pixels (including island pixels) and erroneous pixels return a -10 flag. The data are stored on a 72 x 20 grid. Grid point (1,1) contains the index for 45-50 N, 0-5 E, grid point (2,1) contains the index for 45-50 N, 5-10 E, ... and grid point (72,20) contains the index for 45-50 S, 175-180 W.\n      \n      In the data set, each month starts with an ASCII header to identify the year and month. The data is in 10F8.1 format. Each value is the average of AM and PM estimates and corrected for beam filling error. The equation used is: (AM PM)/2.0 * 1.8. Land pixels are set to -10.0. Also there are 33 pixels blocked out due to island contamination (-10.0). If the rain retrieval did not converge, a -10.0 is assigned to the pixel.\n      \n     The objective of this data set was to provide a long term monthly rainfall data set to be used in EOS global change and GEWEX related research.\n\n",
+  "LocationKeywords" : [ {
+    "Category" : "OCEAN",
+    "Type" : "ATLANTIC OCEAN"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "INDIAN OCEAN"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "SOUTHERN OCEAN"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "PACIFIC OCEAN"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "POLAR"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2015-06-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-02-19T23:56:02.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2021-12-30T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "VersionDescription" : "Not provided",
+  "Version" : "2.3",
+  "Projects" : [ {
+    "ShortName" : "GPCP",
+    "LongName" : "Global Precipitation Climatology Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ALFRED",
+    "MiddleName" : "T.C.",
+    "LastName" : "CHANG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Laboratory for Hydrospheric Processes", "Code 674.0", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(301) 614-5766"
+      }, {
+        "Type" : "Fax",
+        "Value" : "(301) 614-5808"
+      }, {
+        "Type" : "Email",
+        "Value" : "achang@rainfall.gsfc.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP",
+    "LongName" : "Defense Meteorological Satellite Program",
+    "Instruments" : [ {
+      "ShortName" : "SSM/I",
+      "LongName" : "Special Sensor Microwave/Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP 5D-2/F11",
+    "LongName" : "Defense Meteorological Satellite Program-F11",
+    "Instruments" : [ {
+      "ShortName" : "SSM/I",
+      "LongName" : "Special Sensor Microwave/Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP 5D-2/F8",
+    "LongName" : "Defense Meteorological Satellite Program-F8",
+    "Instruments" : [ {
+      "ShortName" : "SSM/I",
+      "LongName" : "Special Sensor Microwave/Imager"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

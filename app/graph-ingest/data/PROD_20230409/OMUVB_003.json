@@ -1,0 +1,374 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Erythemally Weighted Daily Dose", "Erythemally Weighted Dose Rate", "Public Health", "UV Index", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Human Health", "Transportation", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Jari Hovila, Antii Arola, and Johanna Tamminen",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMUVB_003.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMI/Aura Surface UV Irradiance 1-orbit L2 Swath 13x24 km V003",
+    "SeriesName" : "OMUVB",
+    "ReleaseDate" : "2007-04-20T00:00:00.000Z",
+    "Version" : "003",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "ULTRAVIOLET RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CLIMATE INDICATORS",
+    "Term" : "SUN-EARTH INTERACTIONS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SUN-EARTH INTERACTIONS",
+    "Term" : "SOLAR ACTIVITY",
+    "VariableLevel1" : "SOLAR IRRADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2004-10-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aura/OMI/DATA2027"
+  },
+  "ShortName" : "OMUVB",
+  "EntryTitle" : "OMI/Aura Surface UV Irradiance 1-orbit L2 Swath 13x24 km V003 (OMUVB) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Ahmad, S. P., P. F. Levelt, P. K. Bhartia, E. Hilsenrath, G. W. Leppelmeier,and J. E. Johnson",
+    "PublicationDate" : "2003-08-01T00:00:00.000Z",
+    "Title" : "Atmospheric Products from the Ozone Monitoring Instrument(OMI)",
+    "Series" : "Proceedings of SPIE conference on Earth Observing Systems VIII, San Diego, California"
+  }, {
+    "Author" : "Bhartia, P. K., P. F. Levelt, J. Tamminen, O. Torres",
+    "PublicationDate" : "2006-11-28T00:00:00.000Z",
+    "Title" : "Recent results from the Ozone Monitoring Instrument (OMI) on EOS Aura",
+    "Series" : "Proceedings of SPIE conference on Remote Sensing of the Atmosphere and Clouds",
+    "Volume" : "6408"
+  }, {
+    "Author" : "Brinksma, E. J., K. F. Boersma, and P. F. Levelt",
+    "PublicationDate" : "2003-05-16T00:00:00.000Z",
+    "Title" : "OMI-Validation Requirements"
+  }, {
+    "Author" : "Dirksen, R., M.R. Dobber, R. Voors and P. Level",
+    "PublicationDate" : "2006-06-10T00:00:00.000Z",
+    "Title" : "Pre-launch characterization of the Ozone Monitoring Instrument transfer function in the spectral domain",
+    "Series" : "Appl. Optics",
+    "Volume" : "45",
+    "Issue" : "17",
+    "Pages" : "3972-81"
+  }, {
+    "Author" : "Dobber, M.R., R. Dirksen, P. Levelt, G.H.J. van den Oord, R. Voors, Q. Kleipool, G. Jaross, M. Kowalewski, E. Hilsenrath, G. Leppelmeier, J. de Vries, W. Dierssen and N. Rozemeijer",
+    "PublicationDate" : "2006-05-01T00:00:00.000Z",
+    "Title" : "Ozone Monitoring Instrument Calibrtation",
+    "Series" : "IEEE Trans. Geo. Rem. Sens",
+    "Volume" : "44",
+    "Issue" : "5",
+    "Pages" : "1209-1238",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.869987"
+    }
+  }, {
+    "Author" : "Dobber, M.R., R. Dirksen, P. Levelt, G.H.J. van den Oord, R. Voors, Q. Kleipool, G. Jaross en M. Kowalewski",
+    "PublicationDate" : "2005-09-01T00:00:00.000Z",
+    "Title" : "Ozone Monitoring Instrument in-flight performance and calibration",
+    "Series" : "Proceedings SPIE Optical Systems Design 2005, 12-16 September 2005, Jena, Germany, 2006"
+  }, {
+    "Author" : "Kowalewski, J.M.G., G.R. Jaross, R.P Cebula, S.L. Taylor, G.H.J. van den Oord, M.R. Dobber, R.J. Dirksen",
+    "PublicationDate" : "2005-08-01T00:00:00.000Z",
+    "Title" : "Evaluation of OMI pre-launch radiometric calibration and on-orbit performance using in-flight data",
+    "Series" : "Proceedings SPIE's Annual Meeting, San Diego (U.S.A.), 31 July - 4 August 2005, Optical Science, Engineering, and Instrumentation. Earth observing systems",
+    "Edition" : "X",
+    "Volume" : "5882"
+  }, {
+    "Author" : "Levelt, P.F., J. P. Veefkind, R. H. M. Voors, and J. de Vries",
+    "PublicationDate" : "2002-08-01T00:00:00.000Z",
+    "Title" : "Instrument Description, Algorithm Theoretical Baseline Document: OMI Instrument, Level 0 - 1B processor, Calibration & Operations"
+  }, {
+    "Author" : "Oord, G.H.J. van den, N.C. Rozemeijer, V. Schenkelaars, P.F. Levelt, M.R. Dobber, R.H.M. Voors, J. Claas, J. de Vries, M. ter Linden, C. De Haan and T. van den Berg",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "OMI level 0 to 1b processing and operational aspects",
+    "Series" : "IEEE Trans. Geo. Rem. Sens.",
+    "Volume" : "44",
+    "Issue" : "5",
+    "Pages" : "1380-1397",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.872935"
+    }
+  }, {
+    "Author" : "Vries, J. de, R.H.M. Voors, R.J. Dirksen, and M.R. Dobber",
+    "PublicationDate" : "2005-10-01T00:00:00.000Z",
+    "Title" : "In-orbit performance of the Ozone Monitoring Instrument",
+    "Series" : "Proceedings of SPIE - The International Society for Optical Engineering",
+    "DOI" : {
+      "DOI" : "10.1117/12.627013"
+    }
+  } ],
+  "Quality" : "The 'version 003' product is the first public release. The quality of this v003 product is based on preliminary calibration algorithm and this product is not fully validated yet. Before using it in any publication please contact algorithm team leads for the current known problems and updates.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "HEALTH" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/Aura_OMI_Level2/OMUVB.003/" ]
+  },
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMUVB_003.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMUVB_003.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2/OMUVB.003/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMUVB_003",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2/OMUVB.003/doc/README.OMUVB.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.2_ProductRequirements_Designs/README.OMI_DUG.pdf",
+    "Description" : "OMI Data User's Guide",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.4_ProductGenerationAlgorithm/ATBD-OMI-03.pdf",
+    "Description" : "OMI Algorithm Theoretical Basis Documents",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.2_ProductRequirements_Designs/OMUVB_FileSpec_V003.pdf",
+    "Description" : "File Specification Document",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/opendap/Aura_OMI_Level2/OMUVB.003/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://aura.gsfc.nasa.gov/",
+    "Description" : "Aura Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/research/news/newsWrap.php?language=only_enhttps://www.knmi.nl/omitimeFrame=latesthttps://www.knmi.nl/omichoise=page",
+    "Description" : "OMI KNMI Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://omi.fmi.fi/",
+    "Description" : "OMI FMI Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://promote.fmi.fi/OMUVB/AGU2005_poster_OMUVB.pdf",
+    "Description" : "Product Related Links",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://promote.fmi.fi/promote_fmi.html",
+    "Description" : "Product Related Links",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/research/documents/",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2014-03-19T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2014-03-19T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Aura Ozone Monitoring Instrument (OMI) Version 003 Surface UV Irradiance Product (OMUVB) is now available from the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC) for the public access. The shortname for this Level-2 OMI Surface UVB product is OMUVB. The algorithm scientists for this product are: Dr. Jari Hovila, Dr. Antii Arola and Dr. Johanna Taminnen. The OMUVB product contains erythemally weighted daily dose and dose rate, and spectral irradiances at 305, 310, 324, and 380 nm. It also contains quality flags, cloud optical depth, Lambertian Equivalent Reflectivity, Total Column Ozone amount, and other ancillary information.\n\nThe OMUVB files are stored in the version 5 EOS Hierarchical Data Format (HDF-EOS5). Each file contains data from the day lit portion of an  orbit (~53 minutes). There are approximately 14 orbits per day. The  maximum file size for the OMUVB data product is about 10 Mbytes.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2008-04-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-12-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "003",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JARI",
+    "LastName" : "HOVILA, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Finnish Meteorological Institute" ],
+        "City" : "Helsinki",
+        "PostalCode" : "FIN-00101",
+        "Country" : "Finland"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ANTII",
+    "LastName" : "AROLA, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Finnish Meteorological Institute" ],
+        "City" : "Helsinki",
+        "PostalCode" : "FIN-00101",
+        "Country" : "Finland"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOHANNA",
+    "LastName" : "TAMMINEN, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Finnish Meteorological Institute" ],
+        "City" : "Helsinki",
+        "PostalCode" : "FIN-00101",
+        "Country" : "Finland"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JEROME",
+    "MiddleName" : "M.",
+    "LastName" : "ALFRED",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-8337"
+      }, {
+        "Type" : "Email",
+        "Value" : "jerome.m.alfred@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS5",
+      "Fees" : "None"
+    } ]
+  }
+}

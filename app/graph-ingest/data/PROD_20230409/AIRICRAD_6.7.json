@@ -1,0 +1,278 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Dust Flag", "Dust Score", "Volcanic Sulfur Dioxide Indicator" ],
+  "CollectionCitations" : [ {
+    "Creator" : "AIRS Science Team/Larrabee Strow",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/AIRICRAD_6.7.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "AIRS/Aqua L1C Infrared (IR) resampled and corrected radiances V6.7",
+    "SeriesName" : "AIRICRAD",
+    "ReleaseDate" : "2019-12-20T00:00:00.000Z",
+    "Version" : "6.7",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "DUST/ASH/SMOKE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "SULFUR DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "INFRARED RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-08-30T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/VWD3DRC07UEN"
+  },
+  "ShortName" : "AIRICRAD",
+  "EntryTitle" : "AIRS/Aqua L1C Infrared (IR) resampled and corrected radiances V6.7 (AIRICRAD) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Evan M. Manning, L. Larrabee Strow, and Hartmut H. Aumann",
+    "PublicationDate" : "2019-01-01T00:00:00.000Z",
+    "Title" : "AIRS version 6.6 and version 7 level-1C products",
+    "Series" : "Proc. SPIE 11127, Earth Observing System XXIV",
+    "Edition" : "111278",
+    "Volume" : "11127",
+    "Pages" : "7",
+    "DOI" : {
+      "DOI" : "10.1117/12.2529400"
+    }
+  }, {
+    "Author" : "Evan M. Manning, Hartmut H. Aumann, and Ali Behrangi",
+    "PublicationDate" : "2014-09-26T00:00:00.000Z",
+    "Title" : "AIRS Level-1C and applications to cross-calibration with MODIS and CrIS",
+    "Series" : "Proc. SPIE 9218, Earth Observing Systems XIX",
+    "Volume" : "92180E",
+    "DOI" : {
+      "DOI" : "10.1117/12.2061967"
+    }
+  }, {
+    "Author" : "Strow, L.L, Hannon, S.E, De-Souza Machado, S., Motteler, H.E., and Tobin, D.C.",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "Validation of the Atmospheric Infrared Sounder radiative transfer algorithm",
+    "Series" : "J. Geophys. Res",
+    "Volume" : "111",
+    "Issue" : "D09S06",
+    "DOI" : {
+      "DOI" : "10.1029/2005JD006146"
+    }
+  }, {
+    "Author" : "Aumann, H.H. Brogerg, S.,Manning, E., and Pagaino, T.",
+    "PublicationDate" : "2019-01-01T00:00:00.000Z",
+    "Title" : "Radiometric Stability Validation of 17 Years of AIRS Data Using Sea Surface Temperatures.",
+    "Series" : "Geophysical REsearch Letters",
+    "Volume" : "46",
+    "Pages" : "12504-12510",
+    "DOI" : {
+      "DOI" : "10.1029/2019GL085098"
+    }
+  }, {
+    "Author" : "Pagano, T.S., Aumann, H.H., Broberg, S., Manning, E., Overoye, K., and Weiler, M.",
+    "PublicationDate" : "2018-01-01T00:00:00.000Z",
+    "Title" : "Updates to the absolute radiometric accuracy of the AIRS on Aqua",
+    "Series" : "Proc SPIE 10781",
+    "Edition" : "Earth Observing Missions and Sensors: Development, Implementation, and Characterization V",
+    "DOI" : {
+      "DOI" : "10.1117/12.2324605"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample image of an AIRICRAD v6.7 radiances",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRICRAD.v6.7.jpg",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/AIRICRAD_6.7.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://airsl1.gesdisc.eosdis.nasa.gov/data/Aqua_AIRS_Level1/AIRICRAD.6.7/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://airsl1.gesdisc.eosdis.nasa.gov/opendap/Aqua_AIRS_Level1/AIRICRAD.6.7/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://airs.jpl.nasa.gov/index.html",
+    "Description" : "AIRS home page at NASA/JPL. General information on the AIRS instrument suite, algorithms, and other AIRS-related activities can be found.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=AIRS%20Documentation",
+    "Description" : "AIRS Documentation Page",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/AIRS/README.AIRICRAD.v6.7.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/AIRS/AIRICRAD.v6.7.ATBD.pdf",
+    "Description" : "Algorithm Theoretical Basis Document",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-11-15T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-11-15T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Atmospheric Infrared Sounder (AIRS) is a grating spectrometer (R = 1200) aboard the second Earth Observing System (EOS) polar-orbiting platform, EOS Aqua. In combination with the Advanced Microwave Sounding Unit (AMSU) and the Humidity Sounder for Brazil (HSB), AIRS constitutes an innovative atmospheric sounding group of visible, infrared, and microwave sensors. The AIRS Infrared (IR) level 1C data set contains AIRS infrared calibrated and geolocated radiances in W/m2/micron/ster. This data set is generated from AIRS level 1B data. The spectral coverage of L1C data is from 3.74 to 15.4 mm. The nominal spectral resolution lambda / delta lambda = 1200. The spectrum is sampled twice per spectral resolution element in a total of 2645 spectral channels. A day of AIRS data is divided into 240 granules (scenes) each of 6-minute duration. For the AIRS IR measurements, an individual granule contains 135 pixels across-track and 90 along-track pixels; there are total of 135 x 90 = 12,150 pixels per granule. AIRS employs a 49.5 degree crosstrack scanning with a 1.1 degree instantaneous field of view (IFOV) to provide twice daily coverage of essentially the entire globe in a 1:30 PM sun synchronous orbit with the 13.5 x 13.5 km2 spatial resolution at nadir. The L1C swath products are derived from the L1B swath products. The primary purpose of the level 1C is to generate the spectra of radiances without spectral gaps caused by the instrument design and bad spectral points. The AIRS L1C data can be used for comparative (with other IR measurements) studies and for weather-climate research.\n\nThis is the latest version of this collection. The DOIs assigned to previous versions, which are no longer available, now direct\nto this page. For this collection the switchover occurred on June 1, 2020.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-11-26T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-06-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "AIRICRAD",
+    "Version" : "6.7",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "6.7",
+  "Projects" : [ {
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System (EOS), Aqua"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "LENA",
+    "LastName" : "IREDELL",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC NASA Goddard Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS",
+      "Fees" : "None"
+    } ]
+  }
+}

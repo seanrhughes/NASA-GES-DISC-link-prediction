@@ -1,0 +1,282 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "EOSDIS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Tropical Rainfall Measuring Mission (TRMM)",
+    "Title" : "TRMM TMI/PR Combined Precipitation L3 1 month 0.5 degree x 0.5 degree V7",
+    "SeriesName" : "TRMM_3B31",
+    "ReleaseDate" : "2011-07-01T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TRMM_3B31_7.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 40,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -40
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD MICROPHYSICS",
+    "VariableLevel2" : "CLOUD LIQUID WATER/ICE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION AMOUNT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1997-12-01T00:00:00.000Z",
+      "EndingDateTime" : "2015-03-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Legacy dataset"
+  },
+  "ShortName" : "TRMM_3B31",
+  "EntryTitle" : "TRMM TMI/PR Combined Precipitation L3 1 month 0.5 degree x 0.5 degree V7 (TRMM_3B31) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Haddad, Z. S., E. A. Smith, C. D. Kummerow, T. Iguchi, M. R. Farrar, S. L. Durden, M. Alves, and W. S. Olson",
+    "PublicationDate" : "1996-01-01T00:00:00.000Z",
+    "Title" : "The TRMM Day-1 Radar/Radiometer Combined Rain-Profiling Algorithm",
+    "DOI" : {
+      "DOI" : "10.2151/jmsj1965.75.4_799"
+    }
+  } ],
+  "Quality" : "The current version of 3B31 only checks various quality flags in the 2A12, but not the 2B31. The recent version of 2B31 has provided an uncertainty index. The quality check of 2B31 will be added in the next version to remove any input data with poor quality. Pixels for which the 2A12 is either zero, or unreliable, currently do not allow the user to reconstruct the 2B31 original solution.\n\t",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TRMM_3B31_7.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TRMM_3B31_7.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/TRMM_L3/TRMM_3B31.7",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/dods/TRMM_3B31_7.info",
+    "Description" : "The GrADS Data Server (GDS) is another form of OPeNDAP that provides subsetting and some analysis services across the Internet.",
+    "Subtype" : "GRADS DATA SERVER (GDS)",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/opendap/TRMM_L3/TRMM_3B31.7/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/thredds/catalog/aggregation/TRMM_3B31.7/catalog.html",
+    "Description" : "Access the data via the THREDDS.",
+    "Subtype" : "THREDDS DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TRMM_3B31",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://trmm.gsfc.nasa.gov/",
+    "Description" : "TRMM Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://pps.gsfc.nasa.gov/Documents/filespec.TRMM.V7.pdf",
+    "Description" : "File specification document.",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://pps.gsfc.nasa.gov/Documents/formatChangesV7.pdf",
+    "Description" : "Comparison between TRMM versions 6 and 7.",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://www.eorc.jaxa.jp/TRMM/documents/PR_algorithm_product_information/pr_manual/PR_Instruction_Manual_V7_L1.pdf",
+    "Description" : "TRMM Precipitation Radar Instruction Manual (provided by JAXA)",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/TRMM_L3/TRMM_3B31/doc/README.TRMM_V7.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/anomalous.html",
+    "Description" : "TRMM Data Gaps",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2011-07-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2016-04-20T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is a combined rainfall product. 3B31 uses the high quality retrievals done for the narrow swath in 2B31 to calibrate the wide swath retrievals generated in 2A12. For each 0.5 degree box and each vertical layer, an adjustment ratio is calculated for the swath overlap region for one month. Only TMI pixels with 2A12 pixelStatus equal to zero are included in monthly averages, which effectively removes sea ice.\n\t",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "TROPICS"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2011-07-15T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-27T16:27:09.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2019-10-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "7",
+  "Projects" : [ {
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ROBERT",
+    "LastName" : "MENEGHINI",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Mailstop 612" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5652"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5492"
+      }, {
+        "Type" : "Email",
+        "Value" : "robert.meneghini-1@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission",
+    "Instruments" : [ {
+      "ShortName" : "PR",
+      "LongName" : "TRMM Precipitation Radar"
+    }, {
+      "ShortName" : "TMI",
+      "LongName" : "TRMM Microwave Imager"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF",
+      "Fees" : "None"
+    } ]
+  }
+}

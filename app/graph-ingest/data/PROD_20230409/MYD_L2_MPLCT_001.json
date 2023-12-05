@@ -1,0 +1,223 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Yuan, T.",
+    "Title" : "MODIS Aqua L2 model predicted low cloud types of chopped blocks in which low cloud dominates (block size: 128pixels by 128 pixels) V001",
+    "SeriesName" : "MYD_L2_MPLCT",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MYD_L2_MPLCT_001.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 60,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -60
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CONVECTIVE CLOUDS/SYSTEMS (OBSERVED/ANALYZED)",
+    "VariableLevel2" : "DEEP CONVECTIVE CLOUD SYSTEMS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2007-01-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/8TDZURGRLN9I"
+  },
+  "ShortName" : "MYD_L2_MPLCT",
+  "EntryTitle" : "MODIS Aqua L2 model predicted low cloud types of chopped blocks in which low cloud dominates (block size: 128pixels x 128pixels) V001 (MYD_L2_MPLCT) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Yuan, T., Song, H., Wood, R., Mohrmann, J., Meyer, K., Oreopoulos, L., and Platnick, S",
+    "PublicationDate" : "2020-01-01T00:00:00.000Z",
+    "Title" : "Applying deep learning to NASA MODIS data to create a community record of marine low-cloud mesoscale morphology",
+    "Volume" : "13",
+    "Issue" : "12",
+    "Pages" : "6989-6997",
+    "OnlineResource" : {
+      "Linkage" : "https://amt.copernicus.org/articles/13/6989/2020/"
+    },
+    "DOI" : {
+      "DOI" : "10.5194/amt-13-6989-2020"
+    }
+  } ],
+  "Quality" : "Model predictions of cloud classification for low cloud dominated blocks (128 pixels x 128 pixels size) from the MODIS Aqua granule data (MYD021KM, MYD03, MYD06_L2). Low cloud dominated blocks are defined by the conditions: the ratio of high cloud fraction and low cloud fraction is smaller than 0.2, with high cloud fraction < 0.3 and low cloud fraction > 0.05. Only daytime granule data are included. Blocks with sensor zenith angle > 45 and blocks over land are excluded.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MYD_L2_MPLCT_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MYD_L2_MPLCT_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/CloudObjects/MYD_L2_MPLCT.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=MYD_L2_MPLCT_001",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/CloudObjects/MYD_L2_MPLCT.001/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/CloudObjects/MYD_L2_MPLCT.001/doc/README.CLOUD_MODIS.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto",
+    "Description" : "How to read and plot the data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-10-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-12-08T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This product is composed of a beta version for a product from the MODerate resolution Imaging Spectrometer (MODIS) on board the Aqua satellite.\n\nThis dataset contains model predicted low cloud morphology type classifications (MPLCT) of each of the chopped blocks as part of our global MODIS Aqua data from the 2017 MEaSUREs project, A Comprehensive Data Record of Marine Low-level and Deep Convective Cloud Systems Using an Object-Oriented Approach.\n\nThese data are the model predictions of cloud types for low-cloud-dominated blocks over the oceans for individual MODIS Aqua granule data, chopped into small blocks in shape (np_x, np_y), where np_x = 128 pixels and np_y = 128 pixels. These low-cloud-dominated blocks are defined by the conditions: the ratio of high-cloud fraction and low-cloud fraction is smaller than 0.2, with high-cloud fraction < 0.3 and low-cloud fraction > 0.05. Only daytime granule data are included and blocks with sensor zenith angle > 45 and blocks over land are excluded.\n\nThe variables include:\nblock_low: the name of the low-cloud-dominated block, based on which the location of the chopped block in the granule data can be found.\npred_cat: the predicted cloud type of each block.\npred_prob: the prediction probability of cloud type\nlcf: the low-cloud fraction of the low-cloud-dominated block.\nsensor_zenith: the sensor zenith angle at the center of the low-cloud-dominated block\nFive latitude and longitude points for the four corners and center of the chopped blocks\n\nThe DOIs of the related datasets in this project are:\nMYD_L2_CB_001 DOI: 10.5067/DFDGJR6707D8\nMYD_L3_OFLCT_001 DOI: 10.5067/3FAIC739DQRH\n",
+  "MetadataDates" : [ {
+    "Date" : "2021-10-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-03-18T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ASHLEY",
+    "LastName" : "HEATH",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5088"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "ashley.l.heath@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Tianle",
+    "LastName" : "Yuan",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "tianle.yuan@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Divis ion, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "MODIS",
+      "LongName" : "Moderate-Resolution Imaging Spectroradiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

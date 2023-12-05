@@ -1,0 +1,295 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "PBLTOP", "Pressure at PBL Top", "TROPPB", "Blended Based Tropopause Pressure", "TROPPT", "T-Based Tropopause Pressure", "TROPPV", "PV-Based Tropopause Pressure", "Tropopause Pressure", "PS", "Surface Pressure", "TS", "Surface Skin Temperature", "U10M", "Eastward Wind Component", "Eastward Wind at 10m Above Displacement Height", "V10M", "Northward Wind Component", "Northward Wind at 10m Above Displacement Height" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Joanna Joiner",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMVFPSLV_004.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "GEOS-5 FP-IT 3D Time-Averaged Single-Level Diagnostics Geo-Colocated to OMI/Aura VIS 1-Orbit L2 Swath 13x24km V4",
+    "SeriesName" : "OMVFPSLV",
+    "OtherCitationDetails" : "https://aura.gsfc.nasa.gov/",
+    "ReleaseDate" : "2022-12-01T00:00:00.000Z",
+    "Version" : "004",
+    "ReleasePlace" : "NASA Goddard Space Flight Center"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "PLANETARY BOUNDARY LAYER HEIGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "PRESSURE THICKNESS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "SURFACE WINDS",
+    "VariableLevel2" : "U/V WIND COMPONENTS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "UPPER LEVEL WINDS",
+    "VariableLevel2" : "U/V WIND COMPONENTS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2004-10-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aura/OMI/DATA2437"
+  },
+  "ShortName" : "OMVFPSLV",
+  "EntryTitle" : "GEOS-5 FP-IT 3D Time-Averaged Single-Level Diagnostics Geo-Colocated to OMI/Aura VIS 1-Orbit L2 Swath 13x24km V4 (OMVFPSLV) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Lucchesi, R.",
+    "PublicationDate" : "2015-01-01T00:00:00.000Z",
+    "Title" : "File Specification for GEOS-5 FP-IT",
+    "Series" : "GMAO Office Note No. 2",
+    "Edition" : "Version 1.2",
+    "Pages" : "64",
+    "OnlineResource" : {
+      "Linkage" : "https://gmao.gsfc.nasa.gov/pubs/docs/Lucchesi865.pdf"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMVFPSLV_004.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMVFPSLV_004.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2/OMVFPSLV.004/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMVFPSLV_004",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/opendap/Aura_OMI_Level2/OMVFPSLV.004/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OMI/AURA-OMI-KNMI-L01B-0005-SD-iods-v024148-20210702.pdf",
+    "Description" : "OMI v4 L01B Algorithm Theoretical Basis Documents",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2/OMVFPSLV.004/doc/OMxFPSLV_README.pdf",
+    "Description" : "Product README",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OMI/OMVFPSLV.fs",
+    "Description" : "File Specification Document",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://aura.gsfc.nasa.gov/",
+    "Description" : "Aura Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/",
+    "Description" : "OMI KNMI Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/research/documents/",
+    "Description" : "List of Publications",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2022-11-29T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-11-29T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The GEOS-5 FP-IT 3D Time-Averaged Single-Level Diagnostics Geo-Colocated to OMI/Aura VIS 1-Orbit L2 Swath 13x24km (OMVFPSLV) provides selected parameters from GEOS-5 Forward Processing for Instrument Teams (FP-IT) assimilated product produced by the Global Modeling and Assimilation Office (GMAO) co-located in space and time with the OMI UV-2 swath.\n\nThe fields in this product include boundary layer top pressure, tropopause pressure, surface pressure, surface skin temperature, and vertical wind profiles at 10m. The OMI team also provides a corresponding product for the OMI UV2 swath, OMUFPSLV. The product has been generated for convenient use by the OMI/Aura team in their L2 algorithms, and for research where those L2 products are used. The original GEOS-5 FP-IT data are reported on a 0.625 deg longitude by 0.5 deg latitude grid, whereas the OMI UV-2 spatial resolution is 13km x 24km at nadir.\n\nThe OMVFPSLV files are in netCDF4 format which is compatible with most netCDF and HDF5 readers and tools.  Each file is approximately 45mb in size. The lead for this product is Zachary Fasnacht of SSAI. Joanna Joiner is the responsible NASA official.",
+  "LocationKeywords" : [ {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "BOUNDARY LAYER"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2022-11-29T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-11-29T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "004",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOANNA",
+    "LastName" : "JOINER, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center, Code 613.3, Bldg 33" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6247"
+      }, {
+        "Type" : "Email",
+        "Value" : "Joanna.Joiner@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  }, {
+    "Type" : "Models",
+    "ShortName" : "GEOS-5",
+    "LongName" : "Goddard EOS Data Assimilation System-5",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

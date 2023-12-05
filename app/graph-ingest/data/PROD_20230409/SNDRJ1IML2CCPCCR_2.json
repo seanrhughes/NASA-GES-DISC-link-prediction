@@ -1,0 +1,323 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "ATMOSPHERE", "CALIBRATED", "GEOLOCATED", "EOSDIS", "Sounder", "Brightness Temperature", "Cloud Cleared Radiance", "CLIMCAPS", "CrIMSS", "JPSS-1", "NOAA-20" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Chris Barnet",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SNDRJ1IML2CCPCCR_2.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Sounder SIPS: JPSS-1 CrIS Level 2 CLIMCAPS: Cloud Cleared Radiances V2",
+    "SeriesName" : "SNDRJ1IML2CCPCCR",
+    "ReleaseDate" : "2019-12-15T00:00:00.000Z",
+    "Version" : "2",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "INFRARED RADIANCE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "MICROWAVE RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2018-02-17T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/KE4WCXM829A3"
+  },
+  "ShortName" : "SNDRJ1IML2CCPCCR",
+  "EntryTitle" : "Sounder SIPS: JPSS-1 CrIS Level 2 CLIMCAPS: Cloud Cleared Radiances V2 (SNDRJ1IML2CCPCCR) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Smith, N. and Barnet, C.",
+    "PublicationDate" : "2019-05-23T00:00:00.000Z",
+    "Title" : "Uncertainty Characterization and Propagation in the Community Long-Term Infrared Microwave Combined Atmosphereic Product System (CLIMCAPS)",
+    "Series" : "Remote Sensing",
+    "Volume" : "11",
+    "Pages" : "25",
+    "DOI" : {
+      "DOI" : "10.3390/rs11101227"
+    }
+  }, {
+    "Author" : "Gambacorta, A. and Barnet, C.D.",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Methodology and information content of the NOAA NESDIS operational channel selection for the Cross-Track Infrared Sounder (CrIS)",
+    "Series" : "IEEE transactions on Geoscience and Remote Sensing",
+    "Volume" : "51",
+    "Issue" : "6",
+    "Pages" : "3207-3216",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2012.2220369"
+    }
+  }, {
+    "Author" : "Bomin Sun ; Anthony Reale ; Franklin H. Tilley ; Michael E. Pettey ; Nicholas R. Nalli ; Christopher D. Barnet",
+    "PublicationDate" : "2017-06-01T00:00:00.000Z",
+    "Title" : "Assessment of NUCAPS S-NPP CrIS/ATMS Sounding Products Using Reference and Conventional Radiosonde Observations",
+    "Series" : "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "Volume" : "10",
+    "Issue" : "6",
+    "Pages" : "2499 - 2509",
+    "DOI" : {
+      "DOI" : "10.1109/JSTARS.2017.2670504"
+    }
+  }, {
+    "Author" : "Strow, L.L., H.E. Motteler, R.G. Benson, S.E. Hannon and S. De Souza-Machado",
+    "PublicationDate" : "1998-01-01T00:00:00.000Z",
+    "Title" : "Fast- computation of monochromatic infrared atmospheric transmittances using compressed look-up tables",
+    "Series" : "J. Quant. Spectrosc",
+    "Volume" : "59",
+    "Pages" : "303-317",
+    "DOI" : {
+      "DOI" : "10.1016/S0022-4073(97)00169-6"
+    }
+  }, {
+    "Author" : "Joel Susskind, Christopher D. Barnet, and John M. Blaisdell",
+    "PublicationDate" : "2003-04-29T00:00:00.000Z",
+    "Title" : "Retrieval of Atmospheric and Surface Parameters From AIRS/AMSU/HSB Data in the Presence of Clouds",
+    "Series" : "EEE Trans. Geosci. Remote Sensing",
+    "Volume" : "41",
+    "Issue" : "2",
+    "Pages" : "390-409",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2002.808236"
+    }
+  }, {
+    "Author" : "Journal Editors",
+    "PublicationDate" : "2006-05-01T00:00:00.000Z",
+    "Title" : "Validation of Atmospheric Infrared Sounder Observations",
+    "Series" : "J. Geophys, Res. Atmospheres",
+    "Volume" : "111",
+    "Issue" : "9",
+    "OtherReferenceDetails" : "This special issue contains several relevant articles.",
+    "DOI" : {
+      "DOI" : "10.1029/2005/JD007020"
+    }
+  }, {
+    "Author" : "Barnet, C. D.; Smith, N.; Wheeler, A. A.",
+    "PublicationDate" : "1970-01-01T00:00:00.000Z",
+    "Title" : "CLIMCAPS: Creation of an AIRS/AMSU and CrIS/ATMS continuity sounding product",
+    "Series" : "American Geophysical Union, Fall Meeting 2018",
+    "ReportNumber" : "abstract #A33J-3281",
+    "Publisher" : "AGU",
+    "OtherReferenceDetails" : "Bibliographic Code: 2018AGUFM.A33J3281B"
+  } ],
+  "Quality" : "Quality Control values of 0 (best), 1 (good), and 2 (don't use) are provided for each variable.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "GEOSCIENTIFIC INFORMATION" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample plot of NOAA-20 (JPSS-1) CrIS/ATMS CLIMCAPS Level 2 Cloud Cleared Radiances.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SNDRJ1IML2CCPCCR_2.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SNDRJ1IML2CCPCCR_2.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/data/JPSS1_Sounder_Level2/SNDRJ1IML2CCPCCR.2/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/opendap/JPSS1_Sounder_Level2/SNDRJ1IML2CCPCCR.2/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SNDRJ1IML2CCPCCR+2",
+    "Description" : "Search the Earthdata website.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/CLIMCAPS.V2.README.pdf",
+    "Description" : "CLIMCAPS L2 Product User Guide:File Format and Definition",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/CLIMCAPS.V1.ATBD.pdf",
+    "Description" : "CLIMCAPS ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/CLIMCAPS.V2.Test.Report.pdf",
+    "Description" : "Product quality assessment guide",
+    "Subtype" : "PRODUCT QUALITY ASSESSMENT",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "Description" : "CLIMCAPS Science Application Guide (Digital version)",
+    "URL" : "https://airs.jpl.nasa.gov/data/guides-docs/climcaps-science/",
+    "Subtype" : "PRODUCT USAGE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/CLIMCAPS_V2_L2_science_guides.pdf",
+    "Description" : "CLIMCAPS Science Application Guide",
+    "Subtype" : "PRODUCT USAGE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The CLIMCAPS (Community Long-term Infrared Microwave Coupled Product System) algorithm is used to analyze data from the Cross-track Infrared Sounder/Advanced Technology Microwave Sounder (CrIS/ATMS) instruments, also known as CrIMSS (Cross-track Infrared and Microwave Sounding Suite). The CrIS/ATMS instruments used for this product are on board the NOAA-20 platform, also known as JPSS-1. The CrIS instrument is a Fourier transform spectrometer with a total of 2211 FSR (Full Spectral Resolution) infrared sounding channels covering the longwave (645-1095 cm-1), midwave (1210-1750 cm-1), and shortwave (2100-2550 cm-1) spectral regions. The ATMS instrument  is a cross-track scanner with 22 channels in spectral bands from 23 GHz through 183 GHz.\n \nCloud clearing is the process of computing the clear column radiance for a given channel n, and represents what the channel would have observed if the entire scene were cloud free. The entire scene is defined as the ATMS field of regard (FOR) which includes and array of 3x3 CrIS field of views (FOV). The basic assumption of cloud-clearing is that if the observed radiances in each field-of-view are different, the differences in the observed radiances are solely attributed to the differences in the fractional cloudiness in each field of view while everything else (surface properties and atmospheric state) is uniform across the field of regard. \n\nA level 2 granule has been set as 6 minutes of data, 30 footprints cross track by 45 lines along track. There are 240 granules per day, with an orbit repeat cycle of approximately 16 day.\n \n The CLIMCAPS algorithm uses data from the second Modern-Era Retrospective analysis for Research and Applications (MERRA-2) as a first-guess for the atmospheric state.  Because MERRA-2 products typically have a latency from 3 to 7 weeks, so too do the CLIMCAPS products.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-11-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "SNDRJ1IML2CCPCCR",
+    "Version" : "2",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "2",
+  "Projects" : [ {
+    "ShortName" : "JPSS",
+    "LongName" : "Joint Polar Satellite System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Lena",
+    "LastName" : "Iredell",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "DISTRIBUTOR" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-20",
+    "LongName" : "Joint Polar Satellite System - 1",
+    "Instruments" : [ {
+      "ShortName" : "CrIS",
+      "LongName" : "Cross-track Infrared Sounder"
+    }, {
+      "ShortName" : "ATMS",
+      "LongName" : "Advanced Technology Microwave Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "STS-51B", "STS-45", "STS-56", "STS-66" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Michael R. Gunson",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/ATMOSL1_3.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "ATMOS L1 Spectra and Runlogs V3",
+    "SeriesName" : "ATMOSL1",
+    "ReleaseDate" : "2001-03-14T00:00:00.000Z",
+    "Version" : "3",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "NO_SPATIAL",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 75,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -73
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "INFRARED RADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1985-04-30T00:00:00.000Z",
+      "EndingDateTime" : "1985-05-01T23:59:59.999Z"
+    }, {
+      "BeginningDateTime" : "1992-03-25T00:00:00.000Z",
+      "EndingDateTime" : "1992-04-02T23:59:59.999Z"
+    }, {
+      "BeginningDateTime" : "1993-04-08T00:00:00.000Z",
+      "EndingDateTime" : "1993-04-16T23:59:59.999Z"
+    }, {
+      "BeginningDateTime" : "1994-11-03T00:00:00.000Z",
+      "EndingDateTime" : "1994-11-12T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/ATMOS/DATA1001"
+  },
+  "ShortName" : "ATMOSL1",
+  "EntryTitle" : "ATMOS L1 Spectra and Runlogs V3 (ATMOSL1) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/ATMOS_Logo.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/ATMOSL1_3.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/ATMOS/ATMOSL1.3/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=ATMOSL1_3",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/ATMOS/ATMOSL1.3/doc/README.ATMOS_V3.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://remus.jpl.nasa.gov/atmos/pub.list.html",
+    "Description" : "List of publications.",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://doi.org/10.1364/AO.41.006968",
+    "Description" : "Version 3 ATMOS Algorithm Description",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://remus.jpl.nasa.gov/atmos/atmos.html",
+    "Description" : "ATMOS Home Page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2001-03-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2001-03-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the version 3 Atmospheric Trace Molecule Spectroscopy (ATMOS) Level 1 product containing spectra and runlog (i.e. ) information in a netCDF format. ATMOS is an infrared spectrometer (a Fourier transform interferometer) designed to derive vertical concentrations of various trace gases in the atmosphere, particularly the ozone depleting chlorine and fluorine based molecules. The transmission spectra are ratioed from ATMOS high sun observations, on a scale of 0 to 1. Data files also include time, geolocation and other information.\nThe data were collected during four space shuttle missions: STS-51B/Spacelab 3 (April 30 to May 1, 1985), STS-45/ATLAS-1 (March 25 to April 2, 1992), STS-55/ATLAS-2 (April 8 to 16, 1993), and STS-66/ATLAS-3 (November 3 to 12, 1994). Data are written to separate files grouped by mission (sl3, at1, at2 or at3), and occultation type (sunrise or sunset) and number.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "MESOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2022-03-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-03-04T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "3",
+  "Projects" : [ {
+    "ShortName" : "EOSDIS",
+    "LongName" : "Earth Observing System Data Information System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "MICHAEL",
+    "LastName" : "GUNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Mail Stop 183-601", "Jet Propulsion Laboratory", "4800 Oak Grove Drive" ],
+        "City" : "Pasadena",
+        "StateProvince" : "CA",
+        "PostalCode" : "91109",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Michael.R.Gunson@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "BILL",
+    "LastName" : "IRION",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Mail Stop 183-601", "Jet Propulsion Laboratory", "4800 Oak Grove Drive" ],
+        "City" : "Pasadena",
+        "StateProvince" : "CA",
+        "PostalCode" : "91109",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Bill.Irion@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "Spacelab-3",
+    "Instruments" : [ {
+      "ShortName" : "ATMOS",
+      "LongName" : "Atmospheric Trace Molecule Spectroscopy"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "ATLAS-1",
+    "LongName" : "Atmospheric Laboratory for Applications and Science-1",
+    "Instruments" : [ {
+      "ShortName" : "ATMOS",
+      "LongName" : "Atmospheric Trace Molecule Spectroscopy"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "ATLAS-2",
+    "LongName" : "Atmospheric Laboratory for Applications and Science-2",
+    "Instruments" : [ {
+      "ShortName" : "ATMOS",
+      "LongName" : "Atmospheric Trace Molecule Spectroscopy"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "ATLAS-3",
+    "LongName" : "Atmospheric Laboratory for Applications and Science-3",
+    "Instruments" : [ {
+      "ShortName" : "ATMOS",
+      "LongName" : "Atmospheric Trace Molecule Spectroscopy"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

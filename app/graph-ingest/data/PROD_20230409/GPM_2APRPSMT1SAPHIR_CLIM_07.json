@@ -1,0 +1,258 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Atmosphere, Precipitation, Water Vapor" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Christopher Kidd",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPM_2APRPSMT1SAPHIR_CLIM_07.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "GPM SAPHIR on MT1 (PRPS) Climate-based Radiometer Precipitation Profiling L2 1.5 hours 10 km V07",
+    "SeriesName" : "GPM_2APRPSMT1SAPHIR_CLIM",
+    "ReleaseDate" : "2021-07-29T00:00:00.000Z",
+    "Version" : "07",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 30,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -30
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2011-10-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/GPM/SAPHIR/MT1/PRPSCLIM/2A/07"
+  },
+  "ShortName" : "GPM_2APRPSMT1SAPHIR_CLIM",
+  "EntryTitle" : "GPM SAPHIR on MT1 (PRPS) Climate-based Radiometer Precipitation Profiling L2 1.5 hours 10 km V07 (GPM_2APRPSMT1SAPHIR_CLIM) at GES DISC",
+  "Quality" : "The major sources of systematic errors in these algorithms are the quality of the a-priori database, and the estimate of the model uncertainties that are needed to construct a Bayesian algorithm. Some error can also be introduced by the ancillary information (surface type, surface temperature, and total precipitable water) used to subset the a-priori database in the algorithm. Because passive microwave signatures at the pixel level represent primarily integrated quantities, neither the vertical structure nor the near-surface precipitation from radiometers are typically as good as their radar counterparts. Solutions are also smoothed by the Bayesian scheme, leading to fewer extremes relative to a radar.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "GPM SAPHIR on MT1 (PRPS) Radiometer Precipitation Profiling L2 1.5 hours 10 km (GPM_2APRPSMT1SAPHIR)",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/GPM_2APRPSMT1SAPHIR.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPM_2APRPSMT1SAPHIR_CLIM_07.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L2/GPM_2APRPSMT1SAPHIR_CLIM.07/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/opendap/GPM_L2/GPM_2APRPSMT1SAPHIR_CLIM.07/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPM_2APRPSMT1SAPHIR_CLIM_07",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm.nasa.gov",
+    "Description" : "GPM Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://pps.gsfc.nasa.gov/Documents/20180203_SAPHIR-ATBD.pdf",
+    "Description" : "The PRPS Algorithm Theoretical Base Document",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://pps.gsfc.nasa.gov/atbd.html",
+    "Description" : "All available GPM Algorithm Theoretical Base Documents",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L2/doc/README.GPM.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/pub/GPMfilespec/filespec.GPM.pdf",
+    "Description" : "FILE SPECIFICATION DOCUMENT",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://www.star.nesdis.noaa.gov/mirs/saphir.php",
+    "Description" : "Instrument Description",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/gpm_anomalous.html",
+    "Description" : "GPM and partner sensors anomalous events",
+    "Subtype" : "ANOMALIES",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-07-21T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-07-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Version 07 is the current version of this dataset. Older versions are no longer available and have been superseded by Version 07.\n\nThe Precipitation Retrieval and Profiling Scheme (PRPS)is designed to provide a best estimate of precipitation based upon matched SAPHIR-DPR observations. This fulfils in part the essence of GPM (and its predecessor, TRMM) in which the core observatory acts as a calibrator of precipitation retrievals for the international constellation of passive microwave instruments. In doing so the retrievals from the partner constellation sensors are able to provide greater temporal sampling and great spatial coverage than is possible from the DPR instrument alone. However, the limitations of the DPR instrument are transferred through the retrieval scheme to the resulting precipitation products.\n\nFundamental to the design of the PRPS is the independence from any dynamic ancillary data sets: the retrieval is based solely upon the satellite radiances, a static a priori radiance-rainrate database (and index), and (static) topographical data. Critically, the technique is independent of any model information, unlike the retrievals generated through the Goddard PROFiling (GPROF) scheme: this independence is advantageous when generating products across time scales from near real-time (inaccessibility to model data) to climatological scales (circumventing trends in model data).\n\nThe algorithm is designed to generate instantaneous estimates of precipitation at a constant resolution (regardless of scan position), for all scan positions and scan lines. In addition to the actual precipitation estimate, an assessment of the error is made, and a measure of the ‘fit’ of the observations to the database provided. A quality flag is also provided, with any bad data generating a ‘missing flag’ in the retrieval.\n\n",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "TROPICS"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-04-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-04-28T00:00:00.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2021-12-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "07",
+  "Projects" : [ {
+    "ShortName" : "GPM",
+    "LongName" : "Global Precipitation Measurement"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CHRIS",
+    "LastName" : "KIDD",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Greenbelt Road" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "Maryland",
+        "PostalCode" : "20770",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6091"
+      }, {
+        "Type" : "Email",
+        "Value" : "chris.kidd@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "MT1",
+    "LongName" : "Megha-Tropiques",
+    "Instruments" : [ {
+      "ShortName" : "SAPHIR"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

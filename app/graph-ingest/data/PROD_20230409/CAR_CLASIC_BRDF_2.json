@@ -1,0 +1,231 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Charles Gatebe; Michael King; Rajesh Poudyal",
+    "Title" : "CAR CLASIC BRDF Measurements V2",
+    "SeriesName" : "CAR_CLASIC_BRDF",
+    "ReleaseDate" : "2019-05-29T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "2",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/CAR_CLASIC_BRDF_2.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -98.0795,
+          "NorthBoundingCoordinate" : 36.8193,
+          "EastBoundingCoordinate" : -97.0694,
+          "SouthBoundingCoordinate" : 34.9401
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "REFLECTANCE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE RADIATIVE PROPERTIES",
+    "VariableLevel1" : "REFLECTANCE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN OPTICS",
+    "VariableLevel1" : "REFLECTANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2007-06-13T00:00:00.000Z",
+      "EndingDateTime" : "2007-06-25T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/0JRNK6HDB9ZG"
+  },
+  "ShortName" : "CAR_CLASIC_BRDF",
+  "EntryTitle" : "CAR CLASIC BRDF Measurements V2 (CAR_CLASIC_BRDF) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Charles K. Gatebe and Michael D. King",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "Airborne spectral BRDF of various surface types (ocean, vegetation, snow, desert, wetlands, cloud decks, smoke layers) for remote sensing applications"
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/CAR_CLASIC_L1C_1.jpg",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/CAR_CLASIC_BRDF_2.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://car.gsfc.nasa.gov/",
+    "Description" : "CAR Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/hyrax/CAR/CAR_CLASIC_BRDF.2/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/CAR/CAR_CLASIC_BRDF.2/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/CAR/CAR_BRDF_README-v2.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=CAR_CLASIC_BRDF",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-01-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-01-27T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "CLASIC (Cloud and Land Surface Interaction Campaign) focuses on advancing the understanding of how land surface processes influence cumulus convection. CLASIC was conducted in the Southern Great Plains (SGP &#8211; a region comprising Kansas, Oklahoma, and Texas) of the United States during June 2007. The SGP site consists of in situ and remote-sensing instrument clusters arrayed across approximately 55,000 square miles (143,000 square kilometers) in north-central Oklahoma, making it the largest and most extensive climate research field site in the world. The CAR flew aboard Sky Research Jetstream-31 and measured spectral and angular distribution of scattered light by clouds and aerosols, and provided bidirectional reflectance of various surfaces, and imagery of cloud and Earth surface features. By making such diverse measurements, our goal is to widen the audience of potential end-users and to foster collaborations among campaign participants and with outside users.\n\nThis data set consists of observations made with the CAR instrument and includes values for bidirectional reflectance factor at varying spectral bands.",
+  "LocationKeywords" : [ {
+    "Category" : "OCEAN",
+    "Type" : "ATLANTIC OCEAN"
+  }, {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA",
+    "Subregion1" : "UNITED STATES OF AMERICA",
+    "Subregion2" : "VIRGINIA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-03-06T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-29T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "CAR_CLASIC_BRDF",
+    "Version" : "2",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "2",
+  "Projects" : [ {
+    "ShortName" : "CAR",
+    "LongName" : "Cloud Absorption Radiometer"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CHARLES",
+    "LastName" : "GATEBE",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6228"
+      }, {
+        "Type" : "Email",
+        "Value" : "gatebe@climate.gsfc.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "LENA",
+    "LastName" : "IREDELL",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC NASA Goddard Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Jet",
+    "ShortName" : "J-31",
+    "LongName" : "J-31 aircraft",
+    "Instruments" : [ {
+      "ShortName" : "CAR",
+      "LongName" : "Cloud Absorption Radiometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

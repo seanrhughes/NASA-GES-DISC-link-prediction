@@ -1,0 +1,263 @@
+{
+  "AncillaryKeywords" : [ "Fire", "NEESPI", "MAIRS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "GES DISC Northern Eurasian Earth Science Partnership Initiative Project",
+    "IssueIdentification" : "MOD14CM1",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MOD14CM1_005.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "MODIS/Terra 1 degree Gridded MODIS Active Fire Product V005",
+    "SeriesName" : "MOD14CM1",
+    "ReleaseDate" : "2006-11-01T00:00:00.000Z",
+    "Version" : "005",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "ECOLOGICAL DYNAMICS",
+    "VariableLevel1" : "FIRE ECOLOGY",
+    "VariableLevel2" : "FIRE OCCURRENCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2000-11-01T00:00:00.000Z",
+      "EndingDateTime" : "2015-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/E2SUOSLR8VEW"
+  },
+  "ShortName" : "MOD14CM1",
+  "EntryTitle" : "MODIS/Terra 1 degree Gridded MODIS Active Fire Product V005 (MOD14CM1) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Giglio, L., I. Csiszar and C.O. Justice",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "Global Distribution and Seasonality of Active Fires as Observed with the Terra and Aqua MODIS Sensors"
+  }, {
+    "Author" : "Giglio, L., Descloitres, J., Justice, C. O., and Kaufman, Y.",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "An enhanced contextual fire detection algorithm for MODIS"
+  }, {
+    "Author" : "Kaufman, Y.J., Justice, C.O., Flynn, L.P., Kendall, J.D., Prins, E.M., Giglio, L., Ward, D.E., Menzel, W.P., and Setzer, A.W.",
+    "PublicationDate" : "1998-01-01T00:00:00.000Z",
+    "Title" : "Potential Global Fire Monitoring from EOS-MODIS"
+  } ],
+  "ISOTopicCategories" : [ "BIOTA", "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "GEOSCIENTIFIC INFORMATION" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample image of MODIS-Terra global monthly cloud and overpass corrected fire pixel count at 1x1 degree, July 2010",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MOD14CM1_005.gif",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MOD14CM1_005.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/data/Fire/MOD14CM1.005",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=MOD14CM1",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/data/Fire/MOD14CM1.005/doc/README.MODIS_Fire_1deg.005.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2005-10-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-12-31T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The gridded MODIS active fire products present statistical summaries of fire pixel information (Giglio et al., 2003).  The global monthly products are generated at 1x1 degree spatial resolution for time period of one calendar month. These products are derived from MODIS CMG 0.5 degree products (Giglio et al., 2006) for Northern Eurasia Earth Science Partnership Initiative (NEESPI) program in supporting researches on surface processes and climate modeling.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2005-10-23T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-09-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "Derived from MOD14A1 Collection 005",
+  "Version" : "005",
+  "Projects" : [ {
+    "ShortName" : "NEESPI NASA",
+    "LongName" : "NASA NEESPI Data and Service Center"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "STEVEN",
+    "MiddleName" : "J.",
+    "LastName" : "KEMPLER",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "steven.j.kempler@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "IVAN",
+    "MiddleName" : "ANDRAS",
+    "LastName" : "CSISZAR",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "University of Maryland", "Department of Geography", "LeFrak 1121" ],
+        "City" : "College Park",
+        "StateProvince" : "MD",
+        "PostalCode" : "20742",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-405-8696"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-314-6503"
+      }, {
+        "Type" : "Email",
+        "Value" : "csiszar@hermes.geog.umd.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "TATIANA",
+    "LastName" : "LOBODA, PHD",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "University of Maryland Geography Department", "2181 LeFrak Hall" ],
+        "City" : "College Park",
+        "StateProvince" : "MD",
+        "PostalCode" : "20742",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-405-8891"
+      }, {
+        "Type" : "Email",
+        "Value" : "tloboda@hermes.geog.umd.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "SUHUNG",
+    "LastName" : "SHEN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC", "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5088"
+      }, {
+        "Type" : "Email",
+        "Value" : "suhung.shen@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Terra",
+    "LongName" : "Earth Observing System, Terra (AM-1)",
+    "Instruments" : [ {
+      "ShortName" : "MODIS",
+      "LongName" : "Moderate-Resolution Imaging Spectroradiometer"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF",
+      "Fees" : "None"
+    } ]
+  }
+}

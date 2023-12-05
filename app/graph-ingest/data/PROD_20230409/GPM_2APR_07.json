@@ -1,0 +1,292 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "EOSDIS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Tropical Rainfall Measuring Mission (TRMM)",
+    "Title" : "GPM PR on TRMM Reflectivity, Precipitation Characteristics and Rate, at Surface and Profile L2 1.5 hours V07",
+    "SeriesName" : "GPM_2APR",
+    "ReleaseDate" : "2021-07-29T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPM_2APR_07.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "GEODETIC",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 38,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -38
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "RADAR",
+    "VariableLevel1" : "SIGMA NAUGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1997-12-07T00:00:00.000Z",
+      "EndingDateTime" : "2015-04-01T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/GPM/PR/TRMM/2A/07"
+  },
+  "ShortName" : "GPM_2APR",
+  "EntryTitle" : "GPM PR on TRMM Reflectivity, Precipitation Characteristics and Rate, at Surface and Profile L2 1.5 hours V07 (GPM_2APR) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Taylor I.J., G.M. Heymsfield, R. Meneghini, and L.S. Miller",
+    "PublicationDate" : "1997-01-01T00:00:00.000Z",
+    "Title" : "Correction of sampling errors in ocean surface cross-sectional estimates from nadir-looking  weather radar.",
+    "Series" : "J. Atmos. Oceanic Technol",
+    "Volume" : "14",
+    "Pages" : "203-210"
+  }, {
+    "Author" : "Iguchi, T. and R. Meneghini",
+    "PublicationDate" : "1994-01-01T00:00:00.000Z",
+    "Title" : "Intercomparisons of single-frequency methods for retrieving a vertical rain profile from airborne or spaceborne radar data.",
+    "Series" : "J. Atmos. Oceanic Technol.",
+    "Volume" : "11",
+    "Pages" : "1507-1516"
+  }, {
+    "Author" : "Kozu, T.",
+    "PublicationDate" : "1995-01-01T00:00:00.000Z",
+    "Title" : "A generalized surface echo radar equation for down-looking pencil beam radar.",
+    "Series" : "IEICE Trans. Commun.",
+    "Volume" : "E78-B",
+    "Pages" : "1245-1248"
+  }, {
+    "Author" : "Marzoug, M. and P. Amayenc",
+    "PublicationDate" : "1994-01-01T00:00:00.000Z",
+    "Title" : "A class of single- and dual-frequency algorithms for rain rate profiling from a spaceborne radar. Part I: Principle and tests from numerical simulations.",
+    "Series" : "J. Atmos. Oceanic Technol.,",
+    "Volume" : "11",
+    "Pages" : "1480-1506"
+  }, {
+    "Author" : "Meneghini, R. and K. Nakamura",
+    "PublicationDate" : "1990-01-01T00:00:00.000Z",
+    "Title" : "Range profiling of the rain rate by an airborne weather radar.",
+    "Series" : "Remote Sens. Environ.",
+    "Volume" : "31",
+    "Pages" : "193-209"
+  }, {
+    "Author" : "Stoker, E., F. Alquaied, S. Bilanow, Y. Ji, and L. Jones",
+    "PublicationDate" : "2018-01-01T00:00:00.000Z",
+    "Title" : "TRMM Version 8 Reprocessing Improvements and Incorporation into the GPM Data Suite",
+    "Series" : "Journal of Atmospheric and Oceanic Technology",
+    "Volume" : "35",
+    "Pages" : "1457-1470"
+  } ],
+  "Quality" : "A Table structure (called Scan Status) is included in the HDF file, containing entries on a scan-by-scan basis. These entries include a geolocation flag and a data quality flag, indicating the percentage of pixels along each scan with values within a pre-defined range.",
+  "ISOTopicCategories" : [ "GEOSCIENTIFIC INFORMATION" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/GPM_2APR.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPM_2APR_07.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/TRMM_L2/GPM_2APR.07",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/opendap/TRMM_L2/GPM_2APR.07/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPM_2APR",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm.nasa.gov",
+    "Description" : "TRMM Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://www.eorc.jaxa.jp/TRMM/documents/PR_algorithm_product_information/pr_manual/PR_Instruction_Manual_V7_L1.pdf",
+    "Description" : "TRMM Precipitation Radar Instruction Manual (old format, provided by JAXA)",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/README.TRMM.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/anomalous.html",
+    "Description" : "TRMM Data Gaps",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/pub/GPMfilespec/filespec.GPM.pdf",
+    "Description" : "FILE SPECIFICATION DOCUMENT",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-07-21T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-07-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the new, GPM-like, format for TRMM Precipitation Radar L2 data that now incorporates what was known as 2A21, 2A23 and 2A25 datasets.\n\nThe primary purpose of 2A21 is to compute the path-integrated attenuation (PIA) using the surface reference technique (SRT). The surface reference technique rests on the assumption that the difference between the measurements of the normalized surface cross section outside and within the rain provides an estimate of the PIA. The secondary purpose of 2A21 is to compute the normalized radar cross sections (\"sigma-not\" or Normalized Radar Cross-Sectin (NRTS)) of the surface under rain-free conditions. \n\nMain objectives of 2A23 are as follows:\n(a) Detection of bright band (BB) and determination of the height of BB, the\nstrength of BB, and the width (i.e. thickness) of BB when BB exists.\n(b) Classification of rain type into the following three categories:\n- stratiform,\n - convective,\n - other,\nwhere \"other\" means (ice) cloud only and/or maybe noise.\n (c) Detection of shallow isolated and shallow non-isolated.\n (d) Output of Rain/No-rain flag.\n (e) Computation of the estimated height of freezing level.\n (f) Output of the height of storm top. \n\nThe objectives of 2A25 are to correct for the rain attenuation in measured radar reflectivity (Zm) and to estimate the instantaneous three-dimensional distribution of rain from the TRMM Precipitation Radar (PR) data. The estimated vertical profiles of attenuation-corrected radar reflectivity factor (Ze) and rainfall rate (R) are given at each resolution cell of the PR. The estimated rainfall rate at the actual surface height and the average rainfall rate between the two predefined altitudes (2 and 4 km) are also calculated for each beam position.\n\nChanges in horizontal resolution resulting from the TRMM boost that occurred on 24 August 2001:\n\nPre-Boost (before 7 August 2001): Temporal Resolution: 91.5 min/orbit ~ 16 orbits/day; Swath Width: 215 km; Horizontal Resolution: 4.3 km \n\nPost-Boost (after 24 August 2001): Temporal Resolution: 92.5 min/orbit ~ 16 orbits/day; Swath Width: 247 km; Horizontal Resolution: 5.0 km",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "TROPICS"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-04-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-04-28T00:00:00.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2021-12-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "07",
+  "Projects" : [ {
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JUN",
+    "LastName" : "AWAKA",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Hokkaido Tokai University", "Department of Electronics and Information Engineering", "Minami-ku, Minami-sawa, 5-1-1-1" ],
+        "City" : "Sapporo",
+        "StateProvince" : "Hokkaido",
+        "PostalCode" : "005-8601",
+        "Country" : "JAPAN"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "+81-115-71-5111"
+      }, {
+        "Type" : "Email",
+        "Value" : "awaka@de.htokai.ac.jp"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission",
+    "Instruments" : [ {
+      "ShortName" : "PR",
+      "LongName" : "TRMM Precipitation Radar"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

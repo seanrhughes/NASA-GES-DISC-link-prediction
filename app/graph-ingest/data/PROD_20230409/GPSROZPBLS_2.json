@@ -1,0 +1,283 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Boundary Layer Height", "Boundary Layer Thickness" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Chi Ao, Peter Kalmus, Matthew Lebsock, Joao Teixeira",
+    "Title" : "GPS Radio Occultation Boundary Layer Depth Seasonal L3",
+    "SeriesName" : "GPSROZPBLS",
+    "ReleaseDate" : "2022-03-04T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "2",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPSROZPBLS_2.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "PLANETARY BOUNDARY LAYER HEIGHT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2006-06-01T00:00:00.000Z",
+      "EndingDateTime" : "2019-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/DKDMKV7IOB1P"
+  },
+  "ShortName" : "GPSROZPBLS",
+  "EntryTitle" : "GPS Radio Occultation Boundary Layer Depth Seasonal L3 V2 (GPSROZPBLS) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Ao, Chi O. and Waliser, Duane E. and Chan, Steven K. and Li, Jui-Lin and Tian, Baijun and Xie, Feiqin and Mannucci, Anthony J.",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Planetary boundary layer heights from GPS radio occultation refractivity and humidity profiles",
+    "Series" : "Journal of Geophysical Research: Atmospheres",
+    "Edition" : "D16",
+    "Volume" : "117",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "DOI" : {
+      "DOI" : "10.1029/2012JD017598"
+    }
+  }, {
+    "Volume" : "276",
+    "Title" : "A high-resolution planetary boundary layer height seasonal climatology from GNSS radio occultations}",
+    "DOI" : {
+      "DOI" : "10.1016/j.rse.2022.113037"
+    },
+    "Issue" : "0034-4257",
+    "PublicationDate" : "2022-01-01T00:00:00.000Z",
+    "Author" : "Peter Kalmus and Chi O. Ao and Kuo-Nung Wang and Maria Paola Manzi and João Teixeira",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "Series" : "Remote Sensing of Environment",
+    "Pages" : "113037"
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/BLH/Images/GPSROZPBLS_2.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPSROZPBLS_2.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/BoundaryLayerDepth/GPSROZPBLS.2/",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/BoundaryLayerDepth/GPSROZPBLS.2/",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/BoundaryLayerDepth/GPSROZPBLS.2/doc/README_BoundaryLayerDepth_V2.pdf",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPSROZPBLS",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://genesis.jpl.nasa.gov/genesis/",
+    "Description" : "COSMIC and TerraSAR-X data are routinely processed at JPL and publicly distributed.",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2018-07-02T16:37:29.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-07-02T16:37:29.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This dataset provides a seasonal average climatology of global planetary boundary layer (PBL) height derived from COSMIC/FORMOSAT-3, TerraSAR-X, KOMPSAT-5, and PAZ Global Positioning System (GPS) radio occultation (RO) measurements.  The COSMIC/FORMOSAT-3 mission consists of a six-satellite constellation launched in 2006.  Each satellite carries an Integrated GPS Occultation Receiver (IGOR) GPS receiver and is equipped with fore and aft looking antenna to track both setting and rising occultations.  The constellation provides globally distributed measurements across different local times.  The instrument tracks the L-band microwave signal broadcast by a GPS satellite in a limb-viewing geometry. The IGOR receivers are capable of tracking the GPS signals in open loop through the middle to lower troposphere, which is essential for obtaining data with high quality for PBL height estimation, especially at low latitudes.  The refractivity profiles form the basis for this PBL height product. For each occultation, the PBL height is calculated as the height where the vertical gradient of the refractivity (dN/dz) is minimum.  This algorithm is designed to locate the height where a large vertical change in refractivity occurs, corresponding to the transition from the free troposphere to the PBL.   More details can be found in Ao et al. (2012).  This is the latest version of this collection which supersedes previous versions.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL OCEAN"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2018-07-19T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-03-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "The first version of the dataset.",
+  "Version" : "2",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "MiddleName" : "JOSEPH",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOAO",
+    "LastName" : "TEIXEIRA",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Joao.Teixeira@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CHI",
+    "LastName" : "Ao",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "chi.o.ao@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Matthew",
+    "LastName" : "Lebsock",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Matthew.D.Lebsock@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Peter",
+    "LastName" : "Kalmus",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Peter.M.Kalmus@jpl.nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TSX",
+    "LongName" : "TerraSAR-X",
+    "Instruments" : [ {
+      "ShortName" : "IGOR",
+      "LongName" : "Integrated GPS Occultation Receiver"
+    } ]
+  }, {
+    "Type" : "Solar/Space Observation Satellites",
+    "ShortName" : "COSMIC/FORMOSAT-3",
+    "LongName" : "Constellation Observing System for Meteorology, Ionosphere and Climate",
+    "Instruments" : [ {
+      "ShortName" : "IGOR",
+      "LongName" : "Integrated GPS Occultation Receiver"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "PAZ",
+    "LongName" : "SAR Observation Spanish Satellite",
+    "Instruments" : [ {
+      "ShortName" : "IGOR",
+      "LongName" : "Integrated GPS Occultation Receiver"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "KOMPSAT-5",
+    "LongName" : "Korea Multi-Purpose Satellite - 5",
+    "Instruments" : [ {
+      "ShortName" : "IGOR",
+      "LongName" : "Integrated GPS Occultation Receiver"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

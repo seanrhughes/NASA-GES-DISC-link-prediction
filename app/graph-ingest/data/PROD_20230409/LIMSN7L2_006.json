@@ -1,0 +1,298 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Remsberg, Ellis, Praful Bhatt, Quelley Boney, V. Lynn Harvey, Larry Gordley, B. Thomas Marshall,  Mark Melbert, and Earl Thompson",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/LIMSN7L2_006.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "LIMS/Nimbus-7 Level 2 Vertical Profiles of O3, NO2, H2O, HNO3, Geopotential Height, and Temperature V006",
+    "SeriesName" : "LIMSN7L2",
+    "ReleaseDate" : "2008-11-14T00:00:00.000Z",
+    "Version" : "006",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 84,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -65
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "GEOPOTENTIAL HEIGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC NITRIC ACID"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROGEN DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROFILES",
+    "VariableLevel2" : "WATER VAPOR MIXING RATIO PROFILES"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1978-10-25T00:00:00.000Z",
+      "EndingDateTime" : "1979-05-28T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "LIMSN7L2",
+  "EntryTitle" : "LIMS/Nimbus-7 Level 2 Vertical Profiles of O3, NO2, H2O, HNO3, Geopotential Height, and Temperature V006 (LIMSN7L2) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Remsberg, E.E., K.V. Haggard, and J.M. Russell III",
+    "PublicationDate" : "1990-01-01T00:00:00.000Z",
+    "Title" : "Estimation of synoptic fields of middle atmosphere parameters from Nimbus-7 LIMS profile data",
+    "Series" : "J. Atmos. Ocean. Tech.",
+    "Edition" : "7",
+    "Pages" : "689-705",
+    "OnlineResource" : {
+      "Linkage" : "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0426%281990%29007%3C0689:EOSFOM%3E2.0.CO%3B2"
+    }
+  }, {
+    "Author" : "Remsberg, E.E., L.L. Gordley, B.T. Marshall, R.E. Thompson, J. Burton, P. Bhatt, V.L. Harvey, G.S. Lingenfelser, and M. Natarajan",
+    "PublicationDate" : "2004-01-01T00:00:00.000Z",
+    "Title" : "The Nimbus 7 LIMS version 6 radiance conditioning and temperature retrieval methods and results",
+    "Series" : "J. of Quant. Spectrosc. Rad. Transf.",
+    "Edition" : "86",
+    "Pages" : "395-424",
+    "DOI" : {
+      "DOI" : "doi:10.1016/j.jqsrt.2003.12.007"
+    }
+  }, {
+    "Author" : "Remsberg, E., G. Lingenfelser, M. Natarajan, L. Gordley, B.T. Marshall, and E. Thompson",
+    "PublicationDate" : "2007-01-01T00:00:00.000Z",
+    "Title" : "On the quality of the Nimbus 7 LIMS version 6 ozone for studies of the middle atmosphere",
+    "Series" : "J. Quant. Spectrosc. Rad. Trans.",
+    "Edition" : "105",
+    "Pages" : "492-518",
+    "DOI" : {
+      "DOI" : "doi:10.1016/j.jqsrt.2006.12.005"
+    }
+  }, {
+    "Author" : "Remsberg, E. E., M. Natarajan, G. S. Lingenfelser, R. E. Thompson, B. T. Marshall, and L. L. Gordley",
+    "PublicationDate" : "2009-01-01T00:00:00.000Z",
+    "Title" : "On the quality of the Nimbus 7 LIMS version 6 water vapor profiles and distributions",
+    "Series" : "Atmos. Chem. Phys.",
+    "Volume" : "9",
+    "Pages" : "9155-9167",
+    "DOI" : {
+      "DOI" : "doi:10.5194/acp-9-9155-2009"
+    }
+  }, {
+    "Author" : "Remsberg, E., M. Natarajan, B. T. Marshall, L. L. Gordley, R. E. Thompson, and G. Lingenfelser",
+    "PublicationDate" : "2010-01-01T00:00:00.000Z",
+    "Title" : "Improvements in the profiles and distributions of nitric acid and nitrogen dioxide with the LIMS version 6 dataset",
+    "Series" : "Atmos. Chem. Phys.",
+    "Volume" : "10",
+    "Pages" : "4741-4756",
+    "DOI" : {
+      "DOI" : "10.5194/acp-10-4741-2010"
+    }
+  }, {
+    "Author" : "Remsberg, E., Harvey, V. L., Krueger, A., and Natarajan, M.",
+    "PublicationDate" : "2021-01-01T00:00:00.000Z",
+    "Title" : "Residual temperature bias effects in stratospheric species distributions from LIMS",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "14",
+    "DOI" : {
+      "DOI" : "10.5194/amt-14-2185-2021"
+    }
+  } ],
+  "Quality" : "Consult the User's Guide and PI comments. Also check the data screening files that accompany each data file.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/LIMSN7L2_006.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/LIMSN7L2_006.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus7_LIMS_Level2/LIMSN7L2/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=LIMSN7L2",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus7_LIMS_Level2/LIMSN7L2/doc/README.LIMSN7L2.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.2_Product_Rqmts_Design/LIMS_Users_Guide.pdf",
+    "Description" : "LIMS Users Guide",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.2_Product_Rqmts_Design/NimbusVIIUG.pdf",
+    "Description" : "Nimbus 7 Users Guide",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/Comments_file_Oct78_May79.pdf",
+    "Description" : "PI's notes about LIMS data quality",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2008-11-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2008-11-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Limb Infrared Monitor of the Stratosphere (LIMS) version 6 Level-2 data product consists of daily, geolocated, vertical profiles of temperature, geopotential height, and mixing ratios of ozone (O3), nitrogen dioxide (NO2), water vapor (H2O), and nitric acid (HNO3). Version 6 LIMS data have improved spatial resolution in both the vertical and along the orbital track, as well as improved accuracy and precision of measured geophysical parameters.\n\nThe data files are in an ASCII text format and each data file is accompanied by three data screening files. The LIMS instrument was launched on the Nimbus-7 satellite and was operational from 25 October 1978 until May 28, 1979.\n\nThese data supersede the previous version 5 product, known as the LIMS Inverted Profile Archival Tape (LAIPAT).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2005-06-30T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-03-23T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "006",
+  "Projects" : [ {
+    "ShortName" : "Nimbus"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-7",
+    "LongName" : "Nimbus-7",
+    "Instruments" : [ {
+      "ShortName" : "LIMS",
+      "LongName" : "Limb Infrared Monitor of the Stratosphere"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "SSI" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Tom Woods",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SOR3XPS6_011.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "SORCE XPS Level 3 Solar Spectral Irradiance 6-Hour Means V011",
+    "SeriesName" : "SOR3XPS6",
+    "ReleaseDate" : "2017-04-18T00:00:00.000Z",
+    "Version" : "011",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "NO_SPATIAL"
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SUN-EARTH INTERACTIONS",
+    "Term" : "SOLAR ACTIVITY",
+    "VariableLevel1" : "SOLAR IRRADIANCE",
+    "DetailedVariable" : "SOLAR SPECTRAL IRRADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2003-02-10T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/TTHZJRPNDJ9V"
+  },
+  "ShortName" : "SOR3XPS6",
+  "EntryTitle" : "SORCE XPS Level 3 Solar Spectral Irradiance 6-Hour Means V011 (SOR3XPS6) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SOR3XPS6_011.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SOR3XPS6_011.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/SORCE_Level3/SOR3XPS6.011/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SOR3XPS6_011",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/data/sorce/file_readers/read_lasp_ascii_file.pro",
+    "Description" : "IDL-based read software.",
+    "Type" : "DOWNLOAD SOFTWARE",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/sorce/",
+    "Description" : "SORCE Project Home Page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/sorce/instruments/xps/xps-data-product-release-notes/",
+    "Description" : "XPS Release Notes",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://eospso.nasa.gov/sites/default/files/atbd/ATBD-SOR-01.pdf",
+    "Description" : "SORCE ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/sorce/reference/publications/",
+    "Description" : "List of publications.",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2017-04-18T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-04-18T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The SORCE XUV Photometer System (XPS) Solar Spectral Irradiance (SSI) 6-Hour Data Product SOR3XPS6 contains solar extreme ultraviolet irradiances in the 0.1 to 27 nm range, as well as Lyman-alpha, in broad bands (7-10 nm resolution) as listed below:\n\n* Diode  1:   0.1 -   7.0 nm\n* Diode  2:   0.1 -   7.0 nm\n* Diode  3:  17.0 -  23.0 nm\n* Diode  6:   0.1 -  11.0 nm\n* Diode  7:   0.1 -   7.0 nm\n* Diode  9:   0.1 -   7.0 nm\n* Diode 11: 121.0 - 122.0 nm\n\nThe data are reported at a mean solar distance of 1 AU and zero relative line-of-sight velocity with respect to the Sun. The accuracy for the XPS Level 3 irradiance is 12-30%, photometer dependent, and the long-term repeatability is 1% per year. The SOR3XPS6 data are arranged in a single tabular ASCII text file which can be easily read into a spreadsheet application. The columns contain the date, Julian day, average measurement date, standard deviation of measurement date, diode number, minimum wavelength, maximum wavelength, instrument mode, data version number, median irradiance, mean irradiance, absolute uncertainty, measurement precision, calculation precision, degradation model, degradation version, and number of data points. The rows are arranged with data for each 6 hour time increment, repeating for each diode wavelength.",
+  "LocationKeywords" : [ {
+    "Category" : "SPACE",
+    "Type" : "SOLAR REGION",
+    "Subregion1" : "PHOTOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2017-04-18T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-10-23T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "011",
+  "Projects" : [ {
+    "ShortName" : "SORCE",
+    "LongName" : "Solar Radiation and Climate Experiment"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "TOM",
+    "LastName" : "WOODS",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "University of Colorado", "Laboratory for Atmospheric and Space Physics", "1234 Innovation Drive" ],
+        "City" : "Boulder",
+        "StateProvince" : "Colorado",
+        "PostalCode" : "80303-7814",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "303-492-4224"
+      }, {
+        "Type" : "Email",
+        "Value" : "tom.woods@lasp.colorado.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  }, {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "UCO/LASP/SORCE",
+    "LongName" : "SORCE Science Team, Laboratory for Atmospheric and Space Physics, University of Colorado",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://lasp.colorado.edu/home/sorce/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactPersons" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "FirstName" : "TOM",
+      "LastName" : "WOODS",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "University of Colorado", "Laboratory for Atmospheric and Space Physics", "1234 Innovation Drive" ],
+          "City" : "Boulder",
+          "StateProvince" : "Colorado",
+          "PostalCode" : "80303-7814",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "303-492-4224"
+        }, {
+          "Type" : "Email",
+          "Value" : "tom.woods@lasp.colorado.edu"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Solar/Space Observation Satellites",
+    "ShortName" : "SORCE",
+    "LongName" : "Solar Radiation and Climate Experiment",
+    "Instruments" : [ {
+      "ShortName" : "XPS",
+      "LongName" : "XUV Photometer System"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

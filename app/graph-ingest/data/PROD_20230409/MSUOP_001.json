@@ -1,0 +1,278 @@
+{
+  "AncillaryKeywords" : [ "EOSDIS", "LIMB93", "DAILY", "OCEANIC PRECIPITATION" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Spencer R., Christy J.R.",
+    "Title" : "MSU Daily Oceanic Precipitation with Limb93 Correction",
+    "SeriesName" : "MSUOP",
+    "ReleaseDate" : "1996-01-01T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "001",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MSUOP_001.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 60,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -60
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN",
+    "DetailedVariable" : "OCEANIC PRECIPITATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION AMOUNT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "MICROWAVE",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1979-01-01T00:00:00.000Z",
+      "EndingDateTime" : "1994-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable"
+  },
+  "ShortName" : "MSUOP",
+  "EntryTitle" : "MSU Daily Oceanic Precipitation with Limb93 Correction L3 1 day 2.5 degree x 2.5 degree V001 (MSUOP) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MSUOP_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MSUOP_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc1.gesdisc.eosdis.nasa.gov/data/msu/MSUOP.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc1.gesdisc.eosdis.nasa.gov/opendap/lim93/MSUOP.001/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc1.gsfc.nasa.gov/data/msu/MSUOP.001/doc/README.lim93.pdf",
+    "Description" : "Microwave Sounding Unit (MSU) Limb93 Data Documentation.",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MSU/GES_DISC_MSU_Data_Guide.pdf",
+    "Description" : "This is an MSU legacy data guide.  Some information may be obsolete.",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Microwave Sounding Unit (MSU) Ocean Precipitation product (MSUOP) provides gridded upper tropospheric temperatures derived from MSU instruments on several different platforms. The precipitation estimates follow the method of Spencer (1993).  Oceanic precipitation is estimated by increased warming in MSU channel 1 over a threshold. The increased warming is attributable to emission by liquid water in the lower troposphere. MSU channels 2 and 3 are used to remove warming due to air mass differences. The MSU instruments measure the thermal emission of radiation by molecular oxygen at four frequencies near 60 GHz.",
+  "LocationKeywords" : [ {
+    "Category" : "OCEAN",
+    "Type" : "ARCTIC OCEAN"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "ATLANTIC OCEAN"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "INDIAN OCEAN"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "PACIFIC OCEAN"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "POLAR"
+  }, {
+    "Category" : "OCEAN",
+    "Type" : "SOUTHERN OCEAN"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2008-11-12T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-08-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "TOVS Pathfinder",
+    "LongName" : "TOVS Path A"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ROY",
+    "MiddleName" : "W.",
+    "LastName" : "SPENCER",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TIROS-N",
+    "LongName" : "Television Infrared Observation Satellite-N",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-12",
+    "LongName" : "National Oceanic & Atmospheric Administration-12",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-11",
+    "LongName" : "National Oceanic & Atmospheric Administration-11",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-10",
+    "LongName" : "National Oceanic & Atmospheric Administration-10",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-9",
+    "LongName" : "National Oceanic & Atmospheric Administration-9",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-7",
+    "LongName" : "National Oceanic & Atmospheric Administration-7",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-6",
+    "LongName" : "National Oceanic & Atmospheric Administration-6",
+    "Instruments" : [ {
+      "ShortName" : "MSU",
+      "LongName" : "Microwave Sounding Unit"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "On-line" ],
+      "Format" : "HDF"
+    } ]
+  }
+}

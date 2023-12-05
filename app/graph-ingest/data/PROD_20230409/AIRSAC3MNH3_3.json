@@ -1,0 +1,276 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "ATMOSPHERE", "EOSDIS", "Ammonia", "AIRS/AMSU" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Juying Warner",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/AIRSAC3MNH3_3.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Atmospheric Composition Ammonia Volume Mixing Ratio L3",
+    "SeriesName" : "AIRSAC3MNH3",
+    "ReleaseDate" : "2019-06-05T00:00:00.000Z",
+    "Version" : "3",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "AMMONIA"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-09-01T00:00:00.000Z",
+      "EndingDateTime" : "2016-08-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/06YIT7GX74FN"
+  },
+  "ShortName" : "AIRSAC3MNH3",
+  "EntryTitle" : "Atmospheric Composition Ammonia Volume Mixing Ratio L3 (AIRSAC3MNH3 V3) from AIRS/AMSU on NASA Aqua at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Warner, J., Carminati, F., Wei, Z., Lahoz, W., and Attiem J-L",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Title" : "Tropospheric carbon monoxide variability from AIRS under clear and cloudy conditions",
+    "Series" : "Atmos. Chem. Phys.",
+    "Edition" : "13",
+    "Pages" : "12469-12479",
+    "DOI" : {
+      "DOI" : "10.5194/acp-13-12469-2013"
+    }
+  }, {
+    "Author" : "Warner, J. X., Z. Wei, L. L. Strow, R. R. Dickerson, and J. B. Nowak",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "The global tropospheric ammonia distribution as seen in the 13-year AIRS measurement record",
+    "Series" : "Atmos. Chem. Phys",
+    "Edition" : "16",
+    "Pages" : "5467-5479",
+    "DOI" : {
+      "DOI" : "10.5194/acp-16-5467-2016"
+    }
+  }, {
+    "Author" : "Warner, J. X., R. R. Dickerson, Z. Wei, L. L. Strow, Y. Wang, and Q. Liang",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "Increased atmospheric ammonia over the worlds major agricultural areas detected from space",
+    "Series" : "Geophys. Res. Lett.",
+    "Edition" : "44",
+    "DOI" : {
+      "DOI" : "10.1002/2016GL072305"
+    }
+  }, {
+    "Author" : "Joel Susskind, John, M. Blaisdell, and Lena Iredell",
+    "PublicationDate" : "2014-03-31T00:00:00.000Z",
+    "Title" : "Improved methodology for surface and atmospheric soundings, error estimates, and quality control procedures: the atmospheric infrared sounder science team version-6 retrieval algorithm",
+    "Series" : "J. Appl. Rem. Sens.",
+    "Volume" : "8",
+    "Issue" : "1",
+    "Pages" : "34",
+    "DOI" : {
+      "DOI" : "10.1117/1.JRS.8.084994"
+    }
+  }, {
+    "Author" : "Joel Susskind, Christopher D. Barnet, and John M. Blaisdell",
+    "PublicationDate" : "2003-04-29T00:00:00.000Z",
+    "Title" : "Retrieval of Atmospheric and Surface Parameters From AIRS/AMSU/HSB Data in the Presence of Clouds",
+    "Edition" : "41",
+    "Volume" : "2",
+    "Pages" : "390-409",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2002.808236"
+    }
+  } ],
+  "Quality" : "The current global data products are for daytime over land. The data products are released to the public as is.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "HEALTH" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample plot of mass concentration of ammonia in the atmosphere derived from the AIRS/AMSU satellite data.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRSAC3MNH3.v3.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/AIRSAC3MNH3_3.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Aqua_AIRS_Level3/AIRSAC3MNH3.3/",
+    "Description" : "Https on line data access",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/opendap/Aqua_AIRS_Level3/AIRSAC3MNH3.3/contents.html",
+    "Description" : "OPenDAP access to Ammonia data",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Community/Warner/AIRSAC3MNH3.README.pdf",
+    "Description" : "Level-3 Atmospheric Composition Volume Mixing Ratio Ammonia README",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=AIRSAC3MNH3+3",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Community/Warner/Warner_NH3_ATBD_v3.pdf",
+    "Description" : "Atmospheric Composition Volume Mixing Ratio derived Ammonia ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Community/Warner/AIRSAC3MNH3.UserGuide.pdf",
+    "Description" : "Level-3 Atmospheric Composition Volume Mixing Ratio Ammonia User Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-03-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-03-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The mass concentration ammonia in the atmosphere, consists of products generated for the study of atmospheric ammonia. Atmospheric ammonia is an important component of the global nitrogen cycle. In the troposphere, ammonia reacts rapidly with acids such as sulfuric and nitric to form fine particulate matter. These ammonium containing aerosols affect Earth's radiative balance, both directly by scattering incoming radiation and indirectly as cloud condensation nuclei. Major sources of atmospheric ammonia involve agricultural activities including animal husbandry, especially concentrated animal feeding operations and fertilizer use. Major sinks of atmospheric ammonia involve dry deposition and wet removal by precipitation, as well as conversion to particulate ammonium by reaction with acids. Measurements of ambient NH3 are sparse, but satellites provide a means to monitor atmospheric composition globally. Using the AIRS/AMSU satellite this algorithm provides monthly measurements of derived atmospheric NH3 for September 2002 through August 2016.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-03-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "AIRSAC3MNH3",
+    "Version" : "3",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "3",
+  "Projects" : [ {
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System (EOS), Aqua"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "LENA",
+    "LastName" : "IREDELL",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC NASA Goddard Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    }, {
+      "ShortName" : "AMSU-A",
+      "LongName" : "Advanced Microwave Sounding Unit-A"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

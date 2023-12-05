@@ -1,0 +1,327 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Atmospheric Chemistry", "Total Column Sulfur Dioxide (SO2)", "Pollutant", "EOSDIS", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Human Health", "Transportation", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Nickolay A. Krotkov, Can Li, and Peter Leonard",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMSO2G_003.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMI/Aura Sulphur Dioxide (SO2) Total Column Daily L2 Global Gridded 0.125 degree x 0.125 degree V3",
+    "SeriesName" : "OMSO2G",
+    "ReleaseDate" : "2014-10-02T00:00:00.000Z",
+    "Version" : "003",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "SULFUR DIOXIDE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2004-10-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2G"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aura/OMI/DATA2023"
+  },
+  "ShortName" : "OMSO2G",
+  "EntryTitle" : "OMI/Aura Sulphur Dioxide (SO2) Total Column Daily L2 Global Gridded 0.125 degree x 0.125 degree V3 (OMSO2G) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Li, C., Krotkov, N. A., Leonard, P. J. T., Carn, S., Joiner, J., Spurr, R. J. D., and Vasilkov, A.",
+    "PublicationDate" : "2020-01-01T00:00:00.000Z",
+    "Title" : "Version 2 Ozone Monitoring Instrument SO2 product (OMSO2 V2): new anthropogenic SO2 vertical column density dataset",
+    "Series" : "Atmos. Meas. Tech.",
+    "Volume" : "13",
+    "Pages" : "6174-6191",
+    "DOI" : {
+      "DOI" : "10.5194/amt-13-6175-2020"
+    }
+  }, {
+    "Author" : "Ahmad, S. P., P. F. Levelt, P. K. Bhartia, E. Hilsenrath, G. W. Leppelmeier,and J. E. Johnson",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "Atmospheric Products from the Ozone Monitoring Instrument(OMI)"
+  }, {
+    "Author" : "Brinksma, E. J., K. F. Boersma, and P. F. Levelt",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "OMI-Validation Requirements"
+  }, {
+    "Author" : "Bogumil, K., J. Orphal, T. Homann, S. Voigt, P. Spietz, O.C. Fleischmann, A.Vogel, M. Hartmann, H. Kromminga, H. Bovensmann, J. Frerick, J.P. Burrows",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "Measurements of molecular absorption spectra with the SCIAMACHY pre-flight model: instrument characterization and reference data for atmospheric remote-sensing in the 230-2380nm region"
+  }, {
+    "Author" : "Krotkov, N.A., S.A. Carn, A.J. Krueger, P.K. Bhartia, and K. Yang",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "Band residual difference algorithm for retrieval of SO2 from the Aura Ozone Monitoring Instrument (OMI)",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2005.861932"
+    }
+  }, {
+    "Author" : "Krueger,A. J., N. A. Krotkov, S. Datta, D. Flittner, and O. Dubovik",
+    "PublicationDate" : "2002-01-01T00:00:00.000Z",
+    "Title" : "Algorithm Theoretical Baseline Document: OMI Trace Gas Algorithms"
+  }, {
+    "Author" : "Krueger, A.J., L.S. Walter, P.K. Bhartia, C.C. Schnetzler, N.A. Krotkov, I. Sprod, and G.J.S. Bluth",
+    "PublicationDate" : "1995-01-01T00:00:00.000Z",
+    "Title" : "Volcanic sulfur dioxide measurements from the total ozone mapping spectrometer instruments",
+    "DOI" : {
+      "DOI" : "10.1029/95JD01222"
+    }
+  }, {
+    "Author" : "Levelt, P.F., G.H.J. van den Oord, M.R. Dobber, A. Malkki, H. Visser, J. de Vries, P. Stammes, J. Lundell and H. Saari",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "The Ozone Monitoring Instrument",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.872333"
+    }
+  }, {
+    "Author" : "Levelt, P.F., E. Hilsenrath, G.W. Leppelmeier, G.H.J. van den Oord, P.K. Bhartia, J. Tamminen, J.F. de Haan en J.P. Veefkind",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "Science Objectives of the Ozone Monitoring Instrument",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.872336"
+    }
+  }, {
+    "Author" : "Levelt, P.F., J. P. Veefkind, R. H. M. Voors, and J. de Vries",
+    "PublicationDate" : "2002-01-01T00:00:00.000Z",
+    "Title" : "OMI Instrument, Level 0 - 1B processor, Calibration and Operations"
+  }, {
+    "Author" : "Schoeberl, M.R., A.R. Douglass, E. Hilsenrath, P.K. Bhartia, R. Beer, J.W. Waters, M.R. Gunson, L. Froidevaux, J.C. Gille, J.J. Barnett, P.F. Levelt and P. DeCola",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "Overview of the EOS aura mission",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2005.861950"
+    }
+  } ],
+  "Quality" : "This data set is the second public release of version 003. Quality of data is better than the earlier version. However, this reprocessed data is not fully validated yet.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/Aura_OMI_Level2G/OMSO2G.003/" ]
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMSO2G_003.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMSO2G_003.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/Aura_OMI_Level2G/OMSO2G.003/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMSO2G_003",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2G/OMSO2G.003/doc/README.OMSO2G_2020-06-04.txt",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.2_ProductRequirements_Designs/README.OMI_DUG.pdf",
+    "Description" : "OMI Data User's Guide",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.4_ProductGenerationAlgorithm/ATBD-OMI-04.pdf",
+    "Description" : "OMI Algorithm Theoretical Basis Documents",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OMI/OMSO2G_2020-06-04.fs",
+    "Description" : "File Specification Document",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://aura.gsfc.nasa.gov/",
+    "Description" : "Aura Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/research/news/newsWrap.php?language=only_enhttps://www.knmi.nl/omitimeFrame=latesthttps://www.knmi.nl/omichoise=page",
+    "Description" : "OMI KNMI Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://so2.gsfc.nasa.gov/",
+    "Description" : "SO2 Monitoring Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://projects.knmi.nl/omi/research/documents/",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/HDF-EOS5/Aura_OMI_Level2G/OMSO2G.003/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2004-10-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-26T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This Level-2G daily global gridded product OMSO2G is based on the pixel level OMI Level-2 SO2 product OMSO2.  OMSO2G data product is a special Level-2 gridded product where pixel level products are binned into 0.125x0.125 degree global grids. It contains the data for all scenes that have observation time between UTC times of 00:00:00 and 23:59:59.9999 . All data pixels that fall in a grid box are saved without averaging. Scientists can apply a data filtering scheme of their choice and create new gridded products.\n\nThe OMSO2G data product contains almost all parameters that are contained in OMSO2 files. For example, in addition to three values of SO2 Vertical column corresponding to three a-priori vertical profiles used in the  retrieval algorithm, and ancillary parameters, e.g., UV aerosol index, cloud fraction, cloud pressure, geolocation, solar and satellite viewing angles, and quality flags.\n\nThe OMSO2G files are stored in the version 5 EOS Hierarchical Data Format (HDF-EOS5). Each file contains daily data from approximately 15 orbits. The maximum file size for the OMTO3G data product is about 146 Mbytes.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2008-04-11T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-11-23T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "003",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CAN",
+    "LastName" : "LI",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "Goddard Space Flight Center", "Mailstop 614" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5616"
+      }, {
+        "Type" : "Email",
+        "Value" : "Can.Li@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JENNIFER",
+    "MiddleName" : "C",
+    "LastName" : "WEI",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6558"
+      }, {
+        "Type" : "Email",
+        "Value" : "jennifer.c.wei@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS5",
+      "Fees" : "None"
+    } ]
+  }
+}

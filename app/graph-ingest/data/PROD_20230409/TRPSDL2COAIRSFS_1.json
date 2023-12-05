@@ -1,0 +1,329 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "MUSES", "CO" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Kevin W. Bowman",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TRPSDL2COAIRSFS_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TROPESS AIRS-Aqua L2 Carbon Monoxide for Forward Stream, Standard Product V1",
+    "SeriesName" : "TRPSDL2COAIRSFS",
+    "ReleaseDate" : "2021-05-27T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "CARBON MONOXIDE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2021-02-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/I1NONOEPXLHS"
+  },
+  "ShortName" : "TRPSDL2COAIRSFS",
+  "EntryTitle" : "TROPESS AIRS-Aqua L2 Carbon Monoxide for Forward Stream, Standard Product V1 (TRPSDL2COAIRSFS) at GES DISC",
+  "PublicationReferences" : [ {
+    "OnlineResource" : {
+      "Linkage" : "https://advances.sciencemag.org/content/7/24/eabf7460"
+    },
+    "Volume" : "7",
+    "Publisher" : "American Association for the Advancement of Science",
+    "Title" : "Global tropospheric ozone responses to reduced NOx emissions linked to the COVID-19 worldwide lockdowns",
+    "DOI" : {
+      "DOI" : "10.1126/sciadv.abf7460"
+    },
+    "Issue" : "24",
+    "PublicationDate" : "2021-01-01T00:00:00.000Z",
+    "Author" : "Miyazaki, K., Bowman, K., Sekiya, T., Takigawa, M., Neu, J. L., Sudo, K., Osterman, G., & Eskes, H.",
+    "Series" : "Science Advances"
+  }, {
+    "Author" : "Luo, M., Rinsland, C. P., Rodgers, C. D., Logan, J. A., Worden, H., Kulawik, S., Eldering, A., Goldman, A., Shephard, M. W., Gunson, M., & Lampel, M.",
+    "PublicationDate" : "2007-01-01T00:00:00.000Z",
+    "Title" : "Comparison of carbon monoxide measurements by TES and MOPITT: Influence of a priori data and instrument characteristics on nadir atmospheric species retrievals",
+    "Series" : "Journal of Geophysical Research: Atmospheres",
+    "Volume" : "112",
+    "Issue" : "D9",
+    "OnlineResource" : {
+      "Linkage" : "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2006JD007663"
+    },
+    "DOI" : {
+      "DOI" : "10.1029/2006JD007663"
+    }
+  }, {
+    "Author" : "Luo, M., Rinsland, C., Fisher, B., Sachse, G., Diskin, G., Logan, J., Worden, H., Kulawik, S., Osterman, G., Eldering, A., Herman, R., & Shephard, M.",
+    "PublicationDate" : "2007-01-01T00:00:00.000Z",
+    "Title" : "TES carbon monoxide validation with DACOM aircraft measurements during INTEX-B 2006",
+    "Series" : "Journal of Geophysical Research: Atmospheres",
+    "Volume" : "112",
+    "Issue" : "D23",
+    "OnlineResource" : {
+      "Linkage" : "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2007JD008803"
+    },
+    "DOI" : {
+      "DOI" : "10.1029/2007JD008803"
+    }
+  }, {
+    "OnlineResource" : {
+      "Linkage" : "https://amt.copernicus.org/articles/9/2567/2016/"
+    },
+    "Volume" : "9",
+    "Title" : "High-resolution tropospheric carbon monoxide profiles retrieved from CrIS and TROPOMI",
+    "DOI" : {
+      "DOI" : "10.5194/amt-9-2567-2016"
+    },
+    "Issue" : "6",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Author" : "Fu, D., Bowman, K. W., Worden, H. M., Natraj, V., Worden, J. R., Yu, S., Veefkind, P., Aben, I., Landgraf, J., Strow, L., & Han, Y.",
+    "Series" : "Atmospheric Measurement Techniques",
+    "Pages" : "2567-2579"
+  }, {
+    "Author" : "Rebecca R. Buchholz and Helen M. Worden and Mijeong Park and Gene Francis and Merritt N. Deeter and David P. Edwards and Louisa K. Emmons and Benjamin Gaubert and John Gille and Sara Martínez-Alonso and Wenfu Tang and Rajesh Kumar and James R. Drummond and Cathy Clerbaux and Maya George and Pierre-François Coheur and Daniel Hurtmans and Kevin W. Bowman and Ming Luo and Vivienne H. Payne and John R. Worden and Mian Chin and Robert C. Levy and Juying Warner and Zigang Wei and Susan S. Kulawik",
+    "PublicationDate" : "2021-01-01T00:00:00.000Z",
+    "Title" : "Air pollution trends measured from Terra: CO and AOD over industrial, fire-prone, and background regions",
+    "Series" : "Remote Sensing of Environment",
+    "Volume" : "256",
+    "Pages" : "112275",
+    "OnlineResource" : {
+      "Linkage" : "https://www.sciencedirect.com/science/article/pii/S0034425720306489"
+    },
+    "DOI" : {
+      "DOI" : "10.1016/j.rse.2020.112275"
+    }
+  }, {
+    "OnlineResource" : {
+      "Linkage" : "https://acp.copernicus.org/articles/13/837/2013/"
+    },
+    "Volume" : "13",
+    "Title" : "Decadal record of satellite carbon monoxide observations",
+    "DOI" : {
+      "DOI" : "10.5194/acp-13-837-2013"
+    },
+    "Issue" : "2",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Author" : "Worden, H. M. and Deeter, M. N. and Frankenberg, C. and George, M. and Nichitiu, F. and Worden, J. and Aben, I. and Bowman, K. W. and Clerbaux, C. and Coheur, P. F. and de Laat, A. T. J. and Detweiler, R. and Drummond, J. R. and Edwards, D. P. and Gille, J. C. and Hurtmans, D. and Luo, M. and Martínez-Alonso, S. and Massie, S. and Pfister, G. and Warner, J. X.",
+    "Series" : "Atmospheric Chemistry and Physics",
+    "Pages" : "837-850"
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/TROPESS_Standard/TRPSDL2COAIRSFS.1/" ]
+  },
+  "RelatedUrls" : [ {
+    "Description" : "TROPESS AIRS-Aqua CO (Forward Stream, Standard Product) at 383 hPa on 01 April 2021.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TROPESS/images/TRPSDL2COAIRSFS_Sample.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TRPSDL2COAIRSFS_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://tropess.gesdisc.eosdis.nasa.gov/data/TROPESS_Standard/TRPSDL2COAIRSFS.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TRPSDL2COAIRSFS_1",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://tropess.gesdisc.eosdis.nasa.gov/opendap/TROPESS_Standard/TRPSDL2COAIRSFS.1/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://tropess.gesdisc.eosdis.nasa.gov/data/TROPESS_Standard/TRPSDL2COAIRSFS.1/doc/TROPESS_Forward_Stream_README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TROPESS/User_Guides/TROPESS-AIRS-CrIS_CO_L2_Product_User_Guide_v1_2-22-21.pdf",
+    "Description" : "User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TROPESS/TROPESS_ATBDv1.1.pdf",
+    "Description" : "ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://tes.jpl.nasa.gov/tropess/",
+    "Description" : "TROPESS Project Home Page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-05-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-05-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The TROPESS AIRS-Aqua L2 Carbon Monoxide for Forward Stream, Standard Product contains the vertical distribution of the retrieved atmospheric state of carbon monoxide (CO), formal uncertainties, and diagnostic information measured by the AIRS instrument on the EOS Aqua satellite. The forward stream standard product is global for the time period from 2021-02-01 to present. The NASA TRopospheric Ozone and Precursors from Earth System Sounding (TROPESS) project, uses an optimal estimation algorithm, known as the MUlti-SpEctra, MUlti-SpEcies, Multi-SEnsors (MUSES).\n\nThe data files are written in the netCDF version 4 file format, and each file contains one day of data. The data have a spatial resolution of 13.5 km (AIRS nadir FOV), and are reported at 14 vertical levels from the surface to 0.1 hPa. The principal investigator for the TROPESS project is Kevin W. Bowman.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-04-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-06-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "TROPESS",
+    "LongName" : "TRopospheric Ozone and its Precursors from Earth System Sounding"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "KEVIN",
+    "MiddleName" : "W",
+    "LastName" : "BOWMAN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "4800 Oak Grove Drive", "MS 233-200" ],
+        "City" : "Pasadena",
+        "StateProvince" : "CA",
+        "PostalCode" : "91109",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "818-354-2995"
+      }, {
+        "Type" : "Email",
+        "Value" : "kevin.w.bowman@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-help-disc@lists.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

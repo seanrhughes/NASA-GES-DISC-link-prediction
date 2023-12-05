@@ -1,0 +1,15 @@
+click==8.0.3
+itsdangerous==2.0.1
+MarkupSafe==2.0.1
+numpy==1.21.4
+smart-open==5.2.1
+Werkzeug==2.0.2
+fastapi>=0.68.0,<0.69.0
+pydantic>=1.8.0,<2.0.0
+uvicorn>=0.15.0,<0.16.0
+simplejson==3.17.6
+neo4j
+py2neo
+weaviate-client
+graphdatascience==2.4
+scipy

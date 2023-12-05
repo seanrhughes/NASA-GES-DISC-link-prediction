@@ -1,0 +1,204 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "CLOUD COVER" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Goddard Space Flight Center (GSFC)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/HIRSN6IM_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "HIRS/Nimbus-6 Images of Brightness Temperature on 70 mm Film V001",
+    "SeriesName" : "HIRSN6IM",
+    "ReleaseDate" : "2022-12-12T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SPECTRAL/ENGINEERING",
+    "Term" : "INFRARED WAVELENGTHS",
+    "VariableLevel1" : "BRIGHTNESS TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1975-06-13T00:00:00.000Z",
+      "EndingDateTime" : "1976-05-26T23:59:59.999Z"
+    } ]
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "1"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/9WU2QOOK6100"
+  },
+  "ShortName" : "HIRSN6IM",
+  "EntryTitle" : "HIRS/Nimbus-6 Images of Brightness Temperature on 70 mm Film V001 (HIRSN6IM) at GES DISC",
+  "Quality" : "The data should be used with care and one should first read the Nimbus-6 User's Guide. Users should cite this data product in their research.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "HIRS",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/HIRSN6IM_001.jpg",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/HIRSN6IM_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus6_HIRS_SCAMS_Level1/HIRSN6IM.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Nimbus6_HIRS_SCAMS_Level1/HIRSN6IM.001/doc/README.HIRSN6IM.001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/NimbusVIUG.pdf",
+    "Description" : "Nimbus 6 User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/Nimbus/3.3_Product_Documentation/3.3.5_Product_Quality/DataCatalogNimbus6.tar.gz",
+    "Description" : "Nimbus 6 Data Catalog",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2022-01-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-01-27T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The HIRSN6IM data product consists of images of brightness temperatures on 70 mm film strips from the Nimbus-6 High Resolution Infrared Radiation Sounder. Each display contains black and white images at either full vertical scale (F) or partial vertical scale (P). A full scale mode image will contain one orbit of data or 125 minutes of data, while a partial scale mode image will contain twice the vertical scale and thus requires two images for an orbit of data (the last 60 minutes on the first image, P1 and the remaining data on the second image, P2). There are 10 channels (swaths) for an orbit on each image, with a header identifying the channel (1-1, 6-6, etc.). An 18-step gray scale is found at the bottom. Time and geographic information is encoded in the center of the image. Conversion from the 18-step gray scale to brightness temperatures can be found in a table in each of the first six volumes of \"The Nimbus 6 Data Catalog.\"\n\nThe HIRS experiment on Nimbus-6 is a follow on to the successful Nimbus-5 ITPR experiment. HIRS was a multi-channel filter radiometer with a Cassegrain telescope before the chopper assembly. The instrument scans in the cross track direction with 21 scans on each side of the subtrack point with about 30 km x 55 km resolution at nadir. HIRS measured radiances primarily in five spectral regions: (1) seven channels near the 15-micrometer CO2 absorption band, (2) two channels (11.1 and 3.7 micrometers) in the IR window, (3) two channels (8.2 and 6.7 micrometers) in the water vapor absorption band, (4) five channels in the 4.3-micrometer band, and (5) one channel in the visible 0.69-micrometer region.\n\nThe HIRS Principal Investigator was Mr. W. L. Smith from the NOAA National Environmental Satellite Service. The Nimbus-6 HIRS data are available from August 17, 1975 (day of year 229) through March 4, 1976 (day of year 238).\n\nThese data were previously archived at NASA NSSDC under the entry ID ESAD-00094 (old id 75-052A-02A).",
+  "Purpose" : "These images can be used to supplement the radiance data files from the HIRSN6L2CH67 and HIRSN6L2CH115 data products.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2022-12-12T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-12-12T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "CWIC",
+    "LongName" : "CEOS WGISS Integrated Catalog"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-6",
+    "Instruments" : [ {
+      "ShortName" : "HIRS",
+      "LongName" : "High Resolution Infrared Radiation Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "TIFF",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

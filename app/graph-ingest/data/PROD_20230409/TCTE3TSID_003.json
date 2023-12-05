@@ -1,0 +1,253 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "TSI", "solar constant", "solar variability" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Kopp, G.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TCTE3TSID_003.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TCTE Level 3 Total Solar Irradiance Daily Means V003",
+    "SeriesName" : "TCTE3TSID",
+    "ReleaseDate" : "2019-04-23T00:00:00.000Z",
+    "Version" : "003",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "NO_SPATIAL"
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SUN-EARTH INTERACTIONS",
+    "Term" : "SOLAR ACTIVITY",
+    "VariableLevel1" : "SOLAR IRRADIANCE",
+    "DetailedVariable" : "TOTAL SOLAR IRRADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2013-12-13T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/TCTE/TIM/DATA306"
+  },
+  "ShortName" : "TCTE3TSID",
+  "EntryTitle" : "TCTE Level 3 Total Solar Irradiance Daily Means V003 (TCTE3TSID) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TCTE3TSID_003.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TCTE3TSID_003.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/TCTE_Level3/TCTE3TSID.003/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TCTE3TSID_003",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/data/sorce/file_readers/read_lasp_ascii_file.pro",
+    "Description" : "IDL-based read software.",
+    "Type" : "DOWNLOAD SOFTWARE",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/tcte/",
+    "Description" : "TCTE Project Home Page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/tcte/data/tcte-tim-data-products-release-notes/",
+    "Description" : "TIM Release Notes",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://eospso.nasa.gov/sites/default/files/atbd/ATBD-SOR-01.pdf",
+    "Description" : "SORCE ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/tcte/data/#references",
+    "Description" : "List of publications.",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-04-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-04-10T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "TCTE3TSID Version 003 is the current version of this data product, and supersedes all previous versions.\n\nThe Total Solar Irradiance (TSI) Calibration Transfer Experiment (TCTE) data set TCTE3TSID contains daily averaged total solar irradiance (a.k.a solar constant) data collected by the Total Irradiance Monitor (TIM) instrument covering the full wavelength spectrum. The data are normalized to one astronomical unit (1 AU).\n\nThe TCTE/TIM instrument measures the Total Solar Irradiance (TSI), monitoring changes in incident sunlight to the Earth's atmosphere using an ambient temperature active cavity radiometer to a designed absolute accuracy of 350 parts per million (ppm, 1 ppm=0.0001% at 1-sigma), and a precision and long-term relative accuracy of 10 ppm per year. Due to the small size of these data and to maximize ease of use to end-users, each delivered TSI product contains science results for the entire mission in an ASCII column formatted file.\n\nEarly in the mission, between Dec 2013 and May 2014, TCTE acquired daily measurements to establish good overlap with the SORCE TIM. From May 2014 to Dec 2014, the TCTE measurements were reduced to weekly, which greatly subsample the true solar variability, and thus have little value for solar research. Beginning in Jan 2015, daily obervations were resumed.\n",
+  "LocationKeywords" : [ {
+    "Category" : "SPACE",
+    "Type" : "SOLAR REGION",
+    "Subregion1" : "PHOTOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-04-23T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-04-23T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "TCTE3TSID Version 003 is the current version of this data product, and supersedes all previous versions. Please see the TCTE Release Notes for detailed description and differences of this and previous versions.\n\nVersion 003 - released 23 Apr 2019 - doi:10.5067/TCTE/TIM/DATA306\nData availability: 2013/12/13 to current.\n\nVersion 002 - released 25 Apr 2015 - doi:10.5067/TCTE/TIM/DATA303\nData availability: 2013/12/13 to 2019/04/03.\nApplied dark and degradation corrections to the data.\n\nVersion 001 - released 16 Jul 2014\nData availability: 2013/12/13 to 2015/03/01.\nFirst public release of TCTE TIM data. Estimated absolute accuracies are 0.1% (1000 ppm) and will be improved in future versions as additional corrections are applied.",
+  "Version" : "003",
+  "Projects" : [ {
+    "ShortName" : "TCTE",
+    "LongName" : "Total Solar Irradiance Calibration Transfer Experiment"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GREG",
+    "LastName" : "KOPP",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Laboratory for Atmospheric and Space Physics", "University of Colorado", "1234 Innovation Dr." ],
+        "City" : "Boulder",
+        "StateProvince" : "CO",
+        "PostalCode" : "80303-7814",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(303) 735-0934"
+      }, {
+        "Type" : "Fax",
+        "Value" : "(303) 492-6444"
+      }, {
+        "Type" : "Email",
+        "Value" : "Greg.Kopp@lasp.colorado.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  }, {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "UCO/LASP/TCTE",
+    "LongName" : "TCTE Science Team, Laboratory for Atmospheric and Space Physics, University of Colorado",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://lasp.colorado.edu/home/tcte/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactPersons" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "FirstName" : "TOM",
+      "LastName" : "WOODS",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "University of Colorado", "Laboratory for Atmospheric and Space Physics", "1234 Innovation Drive" ],
+          "City" : "Boulder",
+          "StateProvince" : "Colorado",
+          "PostalCode" : "80303-7814",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "303-492-4224"
+        }, {
+          "Type" : "Email",
+          "Value" : "tom.woods@lasp.colorado.edu"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Solar/Space Observation Satellites",
+    "ShortName" : "STPSat-3",
+    "LongName" : "U.S. Air Force Space Test Program Satellite 3",
+    "Instruments" : [ {
+      "ShortName" : "TIM",
+      "LongName" : "Total Irradiance Monitor"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Huffman, G.J., A. Behrangi, D.T. Bolvin, E.J. Nelkin",
+    "Editor" : "Huffman, G.J., A. Behrangi, D.T. Bolvin, E.J. Nelkin",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPCPDAY_3.1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "GPCP Version 3.1 Daily Precipitation Data Set",
+    "SeriesName" : "GPCPDAY",
+    "ReleaseDate" : "2021-06-09T00:00:00.000Z",
+    "Version" : "3.1",
+    "ReleasePlace" : "Greenbelt, Maryland, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION RATE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2000-06-01T00:00:00.000Z",
+      "EndingDateTime" : "2019-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/GPCP/DATA303"
+  },
+  "ShortName" : "GPCPDAY",
+  "EntryTitle" : "GPCP Precipitation Level 3 Daily 0.5-Degree V3.1 (GPCPDAY) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Huffman, G.J., R.F. Adler, A. Behrangi, D.T. Bolvin, E.J. Nelkin,  and Y. Song ",
+    "PublicationDate" : "2021-06-09T00:00:00.000Z",
+    "Title" : "Algorithm Theoretical Basis Document (ATBD) for Global Precipitation Climatology Project Version 3.1 Daily Precipitation Data"
+  } ],
+  "Quality" : "Gridbox-by-gridbox estimates of random error are under development.  A current scheme does not exist for a similar estimate of bias.  However, the Monthly GPCP Satellite-Gauge estimates are constructed using calibration to state-of-the-art climatologies.  Validation studies are being undertaken where sufficient data exist, mostly over land, with some coverage in tropical ocean regions.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "A sample map for precip",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/GPCPDAY_V31.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPCPDAY_3.1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/GPCP/GPCPDAY.3.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPCPDAY_3.1",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=GPCPDAY",
+    "Description" : "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a Web-based tool that allows users to interactively visualize and analyze data.",
+    "Subtype" : "GIOVANNI",
+    "Type" : "GET RELATED VISUALIZATION",
+    "URLContentType" : "VisualizationURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/GPCP/GPCPDAY.3.1/",
+    "Description" : "Access to the data via OPeNDAP protocol",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/GPCP/GPCPDAY.3.1/doc/README.GPCPV3.1_Daily.pdf",
+    "Description" : "README document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/GPCP/GPCP_ATBD_V3.1_Daily.pdf",
+    "Description" : "GPCP_ATBD_V3.1_Daily.pdf",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00979",
+    "Description" : "More information about the GPCP project",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-06-09T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-06-09T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This version has been superseded by Version 3.2 (DOI: 10.5067/MEASURES/GPCP/DATA305).\n\nThe Global Precipitation Climatology Project (GPCP) is the precipitation component of an internationally coordinated set of (mainly) satellite-based global products dealing with the Earth's water and energy cycles, under the auspices of the Global Water and Energy Exchange (GEWEX) Data and Assessment Panel (GDAP) of the World Climate Research Programme.  As the follow-on to the GPCP Version 1.3 One Degree Daily product, GPCP Version 3 (GPCP V3.1) seeks to continue the long, homogeneous precipitation record using modern merging techniques and input data sets.  The GPCPV3 suite currently consists of the 0.5-degree Monthly and 0.5-degree Daily. Additional products may be added, which consist of (1) 0.5-degree pentad and (2) 0.1-degree 3-hourly.  All GPCPV3 products will be internally consistent.  The Daily product spans June 2000-December 2019. Inputs consist of GPM IMERG in the span 55°N-S, and TOVS/AIRS estimates, adjusted climatologically to IMERG, outside 55°N-S.  The Daily estimates are scaled to approximately sum to the Monthly value at each 0.5° grid box.  In addition to the final precipitation field, probability of liquid precipitation estimates are provided globally.",
+  "Purpose" : "The purpose of this document is to describe the algorithm used to create the Global Precipitation Climatology Project (GPCP) Version 3 Daily Satellite analysis.  It was developed primarily under a current NASA Making Earth Science Data Records for Use in Research Environments (MEaSUREs) program (PI: Ali Behrangi, University of Arizona).  The GPCP is computed as a contribution to the World Climate Research Program (WCRP) and Global Water and Energy Exchange (GEWEX) activities, and is part of the array of data sets describing the water and energy cycles of the planet.  Prior versions of the GPCP analysis have been produced by a consortium of individual scientists at various government and university institutions and most recently as part of the NOAA Climate Data Record (CDR) Program.  The current GPCP Daily product described here creates a global daily satellite product using the Integrated Multi-satellitE Retrievals for the Global Precipitation Measurement (GPM) mission (IMERG) half-hourly Final Run product at low and middle latitudes, and daily retrievals from Television InfraRed Operational Satellite (TIROS) Operational Vertical Sounder (TOVS) and Atmospheric Infrared Sounder (AIRS) at high latitudes, with calibration to the GPCP V3.1 Monthly SG product.  The intent here is to provide a guide to understanding the algorithm from a scientific perspective.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-06-09T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-06-09T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "GPCPDAYV3.1",
+  "Version" : "3.1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy.\n\nThe data providers urge that: \n1. New users obtain their own current, clean copy from an official archive, rather than taking a version from a third party that might be damaged or out of date; and \n2. Errors and difficulties in the original datasets be reported to the dataset creators, while access and format issues at third-party sites should be directed to their contacts."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GEORGE",
+    "LastName" : "HUFFMAN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Mailstop 612" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6308"
+      }, {
+        "Type" : "Email",
+        "Value" : "George.J.Huffman@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Zhong",
+    "LastName" : "Liu",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Earth Sciences Data (GES) and Information Services Center (DISC)", "Mailstop 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "United States"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "zhong.liu@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "NASA Goddard Earth Sciences Data (GES) and Information Services Center (DISC)", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "United States"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP",
+    "LongName" : "Defense Meteorological Satellite Program",
+    "Instruments" : [ {
+      "ShortName" : "SSMIS",
+      "LongName" : "Special Sensor Microwave Imager/Sounder"
+    }, {
+      "ShortName" : "SSM/I",
+      "LongName" : "Special Sensor Microwave/Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA POES",
+    "LongName" : "NOAA Polar Orbiting Environmental Satellites",
+    "Instruments" : [ {
+      "ShortName" : "TOVS",
+      "LongName" : "TIROS Operational Vertical Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GOES",
+    "LongName" : "NOAA Geostationary Operational Environmental Satellites",
+    "Instruments" : [ {
+      "ShortName" : "GOES-15 Imager",
+      "LongName" : "Geostationary Operational Environmental Satellite 15-Imager"
+    }, {
+      "ShortName" : "GOES-16 Imager",
+      "LongName" : "Geostationary Operational Environmental Satellite 16-Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "METEOSAT",
+    "LongName" : "Meteosat Operational Programme",
+    "Instruments" : [ {
+      "ShortName" : "VISSR-METEOSAT",
+      "LongName" : "Visible and Infrared Spin Scan Radiometer (METEOSAT Series)"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GMS",
+    "LongName" : "Japan Geostationary Meteorological Satellite",
+    "Instruments" : [ {
+      "ShortName" : "VISSR-GMS",
+      "LongName" : "Visible and Infrared Spin Scan Radiometer (GMS Series)"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "MTSAT",
+    "LongName" : "Multi-functional Transport Satellite",
+    "Instruments" : [ {
+      "ShortName" : "MTSAT 1R Imager"
+    }, {
+      "ShortName" : "MTSAT 2 Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Himawari-8",
+    "Instruments" : [ {
+      "ShortName" : "AHI",
+      "LongName" : "Advanced Himawari Imager"
+    } ]
+  }, {
+    "Type" : "Permanent Land Sites",
+    "ShortName" : "WEATHER STATIONS",
+    "LongName" : "WEATHER STATIONS",
+    "Instruments" : [ {
+      "ShortName" : "RAIN GAUGES"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

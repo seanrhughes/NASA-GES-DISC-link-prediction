@@ -1,0 +1,284 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Natalya A. Kramarova",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_LP_L2_O3_DAILY_2.6.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMPS-NPP L2 LP Ozone (O3) Vertical Profile swath daily Center slit V2.6",
+    "SeriesName" : "OMPS_NPP_LP_L2_O3_DAILY",
+    "ReleaseDate" : "2023-01-24T00:00:00.000Z",
+    "Version" : "2.6",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2012-02-07T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/8MO7DEDYTBH7"
+  },
+  "ShortName" : "OMPS_NPP_LP_L2_O3_DAILY",
+  "EntryTitle" : "OMPS-NPP L2 LP Ozone (O3) Vertical Profile swath daily Center slit V2.6 (OMPS_NPP_LP_L2_O3_DAILY) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Chen, Z., M. DeLand, and P. K. Bhartia",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "A new algorithm for detecting cloud height using OMPS/LP measurements",
+    "Volume" : "9",
+    "Publisher" : "Atmos. Meas. Tech.",
+    "Pages" : "1239-1246",
+    "DOI" : {
+      "DOI" : "10.5194/amt-9-1239-2016"
+    }
+  }, {
+    "Author" : "Jaross, G., P. K. Bhartia, G. Chen, M. Kowitt, M. Haken, Z. Chen, P. Xu, J. Warner, and T. Kelly",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "OMPS Limb Profiler instrument performance assessment",
+    "Volume" : "119",
+    "Issue" : "7",
+    "Publisher" : "J. Geophys. Res. Atmos.",
+    "Pages" : "4399-4412",
+    "DOI" : {
+      "DOI" : "10.1002/2013JD020482"
+    }
+  }, {
+    "Author" : "McPeters, R. D., and G. J. Labow",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Climatology 2011:  An MLS and sonde derived ozone climatology for satellite retrieval algorithms",
+    "Volume" : "117",
+    "Publisher" : "J. Geophys. Res.",
+    "Pages" : "D10303",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD017006"
+    }
+  }, {
+    "Author" : "Moy, L., P. K. Bhartia, G. Jaross, R. Loughman, N. Kramarova, Z. Chen, G. Taha, G. Chen, and P. Xu",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "Altitude registration of limb-scattered radiation",
+    "Volume" : "10",
+    "Publisher" : "Atmos. Meas. Tech.",
+    "Pages" : "167-178",
+    "DOI" : {
+      "DOI" : "10.5194/amt-10-167-2017"
+    }
+  }, {
+    "Author" : "Rault, D. F., and R. P. Loughman",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Title" : "The OMPS Limb Profiler Environmental Data Record Algorithm Theoretical Basis Document and expected performance",
+    "Volume" : "51",
+    "Publisher" : "IEEE Trans. Geosci. Rem. Sens.",
+    "Pages" : "2505-2527",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2012.2213093"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMPS_NPP_LP_L2_O3_DAILY_2.6.jpeg",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_LP_L2_O3_DAILY_2.6.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://omps.gesdisc.eosdis.nasa.gov/data/SNPP_OMPS_Level2/OMPS_NPP_LP_L2_O3_DAILY.2.6/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://omps.gesdisc.eosdis.nasa.gov/opendap/SNPP_OMPS_Level2/OMPS_NPP_LP_L2_O3_DAILY.2.6/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMPS_NPP_LP_L2_O3_DAILY_2.6",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://omps.gesdisc.eosdis.nasa.gov/data/SNPP_OMPS_Level2/OMPS_NPP_LP_L2_O3_DAILY.2.6/doc/README.OMPS_NPP_LP_L2_O3_DAILY_V2.6.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://www.nesdis.noaa.gov/current-satellite-missions/currently-flying/joint-polar-satellite-system",
+    "Description" : "Joint Polar Satellite System (JPSS) mission home page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2022-12-20T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-12-20T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Version 2.6 is the current version of this data product, and supersedes all previous versions.\n\nThe OMPS-NPP L2 LP Ozone (O3) Vertical Profile swath daily Center slit collection contains ozone measured by the Ozone Mapping and Profiling Suite (OMPS) Limb-Profiler (LP) sensor on the Suomi-NPP satellite. The LP ozone product measures the vertical distribution of ozone in the stratosphere and lower mesosphere. The algorithm derives ozone profile values along with errors in the UV from 29.5 km and 52.5 km, and in the visible from cloud top to 37.5 km (when there are no clouds the lower limit is 12.5 km). See the README for full description of the product and updated retrieval algorithm. \n\nEach granule contains data from the daylight portion of each orbit measured for a full day. Spatial coverage is global (-90 to  90 degrees latitude), and there are about 14.5 orbits per day, the data from the center of the LP three slits are used to make a vertical profile. The profile is measured from the ground up to about 60 km with a vertical resolution of the retrieved profiles of approximately 1.8 km.\n\nThe data are written using the Hierarchical Data Format Version 5 or HDF5.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "MESOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2022-12-20T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2023-01-24T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "OMPS_NPP_LP_L2_O3_DAILY Version 2.6 is the current version of this data product, and supersedes all previous versions. Please see the Readme for detailed description and differences of this and previous versions:\n\nVersion 2.5 - released 20 July 2017 - doi:10.5067/X1Q9VA07QDS7\nDate range: 2012/02/07 to 2022/12/18",
+  "Version" : "2.6",
+  "Projects" : [ {
+    "ShortName" : "NPP-JPSS",
+    "LongName" : "National Polar Orbiting Partnership-Joint Polar Satellite System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "NATALYA",
+    "MiddleName" : "A",
+    "LastName" : "KRAMAROVA",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "Goddard Space Flight Center", "Mailstop 614" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5115"
+      }, {
+        "Type" : "Email",
+        "Value" : "Natalya.A.Kramarova@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "OMPS",
+      "LongName" : "Ozone Mapping and Profiler Suite"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

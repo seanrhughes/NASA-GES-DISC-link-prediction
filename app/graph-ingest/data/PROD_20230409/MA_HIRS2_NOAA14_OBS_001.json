@@ -1,0 +1,239 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Global Modeling and Assimilation Office (GMAO)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MA_HIRS2_NOAA14_OBS_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Gridded Monthly Time-Mean Observation (obs) Values V001",
+    "SeriesName" : "MA_HIRS2_NOAA14_OBS",
+    "ReleaseDate" : "2011-06-01T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "BAROMETRIC ALTITUDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "TOPOGRAPHY",
+    "VariableLevel1" : "TERRAIN ELEVATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "LAND USE/LAND COVER",
+    "VariableLevel1" : "LAND USE/LAND COVER CLASSIFICATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1995-05-01T00:00:00.000Z",
+      "EndingDateTime" : "2006-09-30T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Dataset will be retired soon"
+  },
+  "ShortName" : "MA_HIRS2_NOAA14_OBS",
+  "EntryTitle" : "Gridded Monthly Time-Mean Observation (obs) Values 0.5 x 0.667 degree V001 (MA_HIRS2_NOAA14_OBS) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "ELEVATION", "GEOSCIENTIFIC INFORMATION", "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "RelatedUrls" : [ {
+    "Description" : "MA_HIRS2_NOAA14_OBS variable",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MA_HIRS2_NOAA14_OBS_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MA_HIRS2_NOAA14_OBS_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://goldsmr1.gesdisc.eosdis.nasa.gov/data/s4pa/MERRAOBS_MONTHLY/MA_HIRS2_NOAA14_OBS.001/",
+    "Description" : "Access the data via HTTP.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gmao.gsfc.nasa.gov/",
+    "Description" : "The GMAO home page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datasets?keywords=%22MERRA%22",
+    "Description" : "The user unified interface at the GES DISC",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://goldsmr1.gesdisc.eosdis.nasa.gov/data/s4pa/MERRAOBS_MONTHLY/MA_HIRS2_NOAA14_OBS.001/doc/MERRAOBS.README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "ContactGroups" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "GroupName" : "GLOBAL MODELING AND ASSIMILATION OFFICE",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.1" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6142"
+      }, {
+        "Type" : "Email",
+        "Value" : "data@gmao.gsfc.nasa.gov"
+      } ]
+    }
+  } ],
+  "DataDates" : [ {
+    "Date" : "2007-06-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-07-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The differences between the observations and the forecast background used for the analysis (the innovations or O-F for short) and those between the observations and the final analysis (O-A) are by-products of any assimilation system and provide information about the quality of the analysis and the impact of the observations. Innovations have been traditionally used to diagnose observation, background and analysis errors at observation locations (Hollingsworth and Lonnberg 1989; Dee and da Silva 1999). At the most simplistic level, innovation variances can be used as an upper bound on background errors, which are, in turn, an upper bound on the analysis errors. With more processing (and the assumption of optimality), the O-F and O-A statistics can be used to estimate observation, background and analysis errors (Desroziers et al. 2005). They can also be used to estimate the systematic and random errors in the analysis fields. Unfortunately, such data are usually not readily available with reanalysis products. With MERRA, however, a gridded version of the observations and innovations used in the assimilation process is being made available. The dataset allows the user to conveniently perform investigations related to the observing system and to calculate error estimates. Da Silva (2011) provides an overview and analysis of these datasets for MERRA. \n\t\t\t\n\t\t\tThe innovations may be thought of as the correction to the background required by a given instrument, while the analysis increment (A-F) is the consolidated correction once all instruments, observation errors, and background errors have been taken into consideration. The extent to which the O-F statistics for the various instruments are similar to the A-F statistics reflects the degree of homogeneity of the observing system as a whole. Using the joint probability density function (PDF) of innovations and analysis increments, da Silva (2011) introduces the concepts of the effective gain (by analogy with the Kalman gain) and the contextual bias. In brief, the effective gain for an observation is a measure of how much the assimilation system has drawn to that type of observation, while the contextual bias is a measure of the degree of agreement between a given observation type and all other observations assimilated.\n\t\t\t\n\t\t\tWith MERRAs gridded observation and innovation data sets, a wealth of information is available for examination of the quality of the analyses and how the different observations impact the analyses and interact with each other. Such examinations can be conducted regionally or globally and should provide useful information for the next generation of reanalyses.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2007-06-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-07-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "This is the first version of this data produced",
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "MERRA TIME-MEAN OBSERVATION DATA",
+    "LongName" : "MERRA for Research and Applications Gridded Monthly Time-Mean Observation Dataset"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "DANA",
+    "LastName" : "OSTRENGA",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2 Bldg 32 Rm S151", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "21230",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5475"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "dana.ostrenga@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ARLINDO",
+    "LastName" : "DASILVA",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA/Goddard Space Flight Center", "Global Modeling and Assimilation Office", "Code 610.1" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Arlindo.Dasilva@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "MERRA",
+    "LongName" : "Modern-Era Retrospective Analysis for Research and Applications",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "Free"
+    } ]
+  }
+}

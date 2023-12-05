@@ -1,0 +1,251 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Simon Carn",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MSVOLSO2L4_4.html"
+    },
+    "Publisher" : "Goddard Earth Science Data and Information Services Center (GES DISC)",
+    "Title" : "Multi-Satellite Volcanic Sulfur Dioxide L4 Long-Term Global Database V4",
+    "SeriesName" : "MSVOLSO2L4",
+    "ReleaseDate" : "2022-05-01T00:00:00.000Z",
+    "Version" : "4",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "SULFATE PARTICLES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY",
+    "VariableLevel1" : "SULFUR OXIDES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "SULFUR DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "HUMAN DIMENSIONS",
+    "Term" : "NATURAL HAZARDS",
+    "VariableLevel1" : "VOLCANIC ERUPTIONS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1978-10-31T00:00:00.000Z",
+      "EndingDateTime" : "2022-05-04T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/SO2/DATA405"
+  },
+  "ShortName" : "MSVOLSO2L4",
+  "EntryTitle" : "Multi-Satellite Volcanic Sulfur Dioxide L4 Long-Term Global Database V4 (MSVOLSO2L4) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/MSVOLSO2L4.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MSVOLSO2L4_4.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/SO2/MSVOLSO2L4.4",
+    "Description" : "Access the data via HTTP.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://earthdata.nasa.gov/community/community-data-system-programs/measures-projects/multi-decadal-sulfur-dioxide-climatology-from-satellite-instruments",
+    "Description" : "Project summary goals and description",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://measures.gsfc.nasa.gov/data/SO2/MSVOLSO2L4.4/doc/README.MSVOLSO2L4_V4.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=MSVOLSO2L4",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2022-05-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-05-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Version 4 is the current version of the data set. Older versions are no longer available and have been superseded by Version 4.\n\nThese data are a part of MEaSUREs 2012 projects. The particular project, \"Multi-Decadal Sulfur Dioxide Climatology from Satellite Instruments\", is expected to produce SO2 Earth Science Data Record by means of combining measurements from backscatter Ultraviolet (BUV), thermal infrared (IR) and microwave (MLS) instruments on multiple satellites. The data represent best estimates of the volcanic and anthropogenic contribution to global atmospheric SO2 concentrations. Since SO2 is the major precursor of sulfate aerosol, which has climate and air quality impact, SO2 measurements will contribute to better understanding of the sulfate aerosol distributions and its atmospheric impact.\"\n\nThe released data file is a long-term database of volcanic SO2 emission derived from ultraviolet satellite measurements from October 31, 1978, to present.\n\nData are in a table format in simple ASCII format:\n\nColumn Descriptions:\nColumn 1 = Name of volcano.\nColumn 2 = Latitude of volcano.\nColumn 3 = Longitude of volcano.\nColumn 4 = Altitude of volcano (km).\nColumn 5 = Eruption year.\nColumn 6 = Eruption month of year.\nColumn 7 = Eruption day of month.\nColumn 8 = Eruption style: exp = explosive, eff = effusive.\nColumn 9 = Eruption volcanic explosivity index (nd = no data or undetermined).\nColumn 10 = Observed plume altitude (km) where known.\nColumn 11 = Estimated plume altitude (km) above vent: 10 km for explosive, 5 km for effusive.\nColumn 12 = Measured SO2 mass in kilotons (= 1000 metric tons).",
+  "MetadataDates" : [ {
+    "Date" : "2021-03-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-05-09T00:00:00.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2022-12-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "VersionDescription" : "Not provided",
+  "Version" : "4",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "SIMON",
+    "LastName" : "CARN",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "scarn@mtu.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "PETER",
+    "LastName" : "LEONARD",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "pleonard@sesda3.com"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "OMPS",
+      "LongName" : "Ozone Mapping and Profiler Suite"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-7",
+    "LongName" : "Nimbus-7",
+    "Instruments" : [ {
+      "ShortName" : "TOMS",
+      "LongName" : "Total Ozone Mapping Spectrometer"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "EP-TOMS",
+    "LongName" : "Earth Probe-TOMS",
+    "Instruments" : [ {
+      "ShortName" : "TOMS",
+      "LongName" : "Total Ozone Mapping Spectrometer"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

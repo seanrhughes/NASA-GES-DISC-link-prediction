@@ -1,0 +1,263 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Atmosphere, Precipitation, Water Vapor" ],
+  "CollectionCitations" : [ {
+    "Creator" : "GPM Science Team",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPM_3GPROFMETOPAMHS_CLIM_07.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "GPM MHS on METOP-A (GPROF) Radiometer Precipitation Profiling L3 1 month 0.25 degree x 0.25 degree V07",
+    "SeriesName" : "GPM_3GPROFMETOPAMHS_CLIM",
+    "ReleaseDate" : "2022-05-09T00:00:00.000Z",
+    "Version" : "07",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2006-11-01T00:00:00.000Z",
+      "EndingDateTime" : "2019-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/GPM/MHS/METOPA/GPROFCLIM/3A-MONTH/07"
+  },
+  "ShortName" : "GPM_3GPROFMETOPAMHS_CLIM",
+  "EntryTitle" : "GPM MHS on METOP-A (GPROF) Radiometer Precipitation Profiling L3 1 month 0.25 degree x 0.25 degree V07 (GPM_3GPROFMETOPAMHS_CLIM) at GES DISC",
+  "Quality" : "The primary limitation of the 3GPROF product is the reliance on a single sensor for each output file, thus limiting the available sampling to two times a day or less, except at high latitudes. In addition, with the exception of the GMI, TMI, and SAPHIR sensors, all of the other sensors are in Sun-synchronous orbits, meaning that they observe a given point on the Earth's surface at the same local times each day. Over land regions in particular, this can lead to large sampling errors associated with the diurnal cycle. Errors due to the limited sampling and differences in the sampling times between Sun-synchronous satellites (e.g., F16, F17, F18, NOAA-18, NOAA-19, NPP, METOP-A, METOP-B, and GCOM-W1) can lead to significant differences in the monthly mean values between satellites/sensors. The sampling errors are largest over land regions with large diurnal cycles in precipitation. Other sources of error that can significantly impact the 3GPROF products include difficulties over certain surface types such as sea ice, snow, frozen ground, and deserts, and limited sensitivity of the sounder instruments (in particular to light precipitation and/or shallow warm rain systems). The sounders include the ATMS, MHS, and SAPHIR sensors, which do not have channels with sensitivity to the surface and/or lower atmosphere.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Surface Precipitation from GPM MHS on METOP-A GPROF (0.25 degree x 0.25 degree) (GPM_3GPROFMETOPAMHS)",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/GPM_3GPROFMETOPAMHS_CLIM_07.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPM_3GPROFMETOPAMHS_CLIM_07.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/GPM_3GPROFMETOPAMHS_CLIM.07/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/opendap/GPM_L3/GPM_3GPROFMETOPAMHS_CLIM.07/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPM_3GPROFMETOPAMHS_CLIM_07",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm.nasa.gov",
+    "Description" : "GPM Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/doc/README.GPM.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/pub/stout/helpdesk/filespec.GPM.V7.pdf",
+    "Description" : "FILE SPECIFICATION DOCUMENT",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://pps.gsfc.nasa.gov/Documents/ATBD_GPM_V5B_April15_2018.pdf",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://www.eumetsat.int/mhs",
+    "Description" : "Instrument Description from EUMETSAT",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://www.star.nesdis.noaa.gov/mirs/mhs.php",
+    "Description" : "Instrument Description from NOAA",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/gpm_anomalous.html",
+    "Description" : "GPM and partner sensors anomalous events",
+    "Subtype" : "ANOMALIES",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2022-05-09T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-05-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Version 07 is the current version of the data set. Older versions are no longer available and have been superseded by Version 07. \n\nThe \"CLIM\"  products differ from their \"regular\" counterparts (without the \"CLIM\" in the name) by the ancillary data they use. They are Climate-Reference products, which requires homogeneous ancillary data over the climate time series.  Hence, the ECMWF-Interim (European Centre for Medium-Range Weather Forecasts, 2-3 months lag behind the regular production) reanalysis is used as ancillary data to derive surface and atmospheric conditions required by the GPROF algorithm for the \"CLIM\" output. The GPROF databases are also adjusted accordingly for these climate-referenced retrievals.\n\n3GPROF products provide global gridded monthly/daily precipitation averages from multiple satellites that can be used for climate studies. The 3GPROF products are based on retrievals from high-quality microwave sensors, which are sensitive to liquid and ice-phase precipitation hydrometeors in the atmosphere.",
+  "Purpose" : "The purpose of the 3GPROF algorithm is to provide monthly and daily mean precipitation and related retrieved parameters from the Level 2 GPROF precipitation profiling algorithm for the GPM core and constellation satellites. Each 3GPROF product contains global 0.25 degree x 0.25 degree gridded monthly/daily means. Because this product is an accumulation of the Level 2 retrieval products, much more information is available via the GPROF Level 2 documentation.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "TROPICS"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-04-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-06-03T19:03:02.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2022-12-30T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "07",
+  "Projects" : [ {
+    "ShortName" : "GPM",
+    "LongName" : "Global Precipitation Measurement"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CHRISTIAN",
+    "LastName" : "KUMMEROW",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Department of Atmospheric Science", "Colorado State University" ],
+        "City" : "Fort Collins",
+        "StateProvince" : "CO",
+        "PostalCode" : "80523",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "1-970-491-7473"
+      }, {
+        "Type" : "Fax",
+        "Value" : "1-970-491-8449"
+      }, {
+        "Type" : "Email",
+        "Value" : "kummerow@atmos.colostate.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "METOP-A",
+    "LongName" : "Meteorological Operational Satellite - A",
+    "Instruments" : [ {
+      "ShortName" : "MHS",
+      "LongName" : "Microwave Humidity Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

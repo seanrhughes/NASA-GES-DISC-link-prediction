@@ -1,0 +1,472 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "STS-51B", "STS-45", "STS-56", "STS-66", "H2O", "Water Vapor", "CO2", "Carbon Dioxide", "O3", "Ozone", "N2O", "Nitous Oxide", "CO", "Carbon Monoxide", "CH4", "Methane", "NO", "Nitric Oxide", "NO2", "Nitrogen Dioxide", "HNO3", "Nitric Acid", "HF", "Hydrogen Fluoride", "HCl", "Hydrogen Chloride", "OCS", "Carbonyl Sulfide", "H2CO", "HCHO", "Formaldehyde", "HOCl", "Hypochlorous Acid", "Hydrogen Hypochlorite", "Chlorine Hydroxide", "Hypochloric Acid", "H2O2", "Hydrogen Peroxide", "HO2NO2", "HNO4", "Peroxynitric Acid", "Hydroxy Nitrate", "N2O5", "Dinitrogen Pentoxide", "Nitrogen Pentoxide", "Nitric Anhydride", "ClONO2", "Chlorine Nitrate", "HCN", "Hydrogen Cyanide", "CH3F", "Fluoromethane", "Methyl Fluoride", "R-41", "Freon-41", "CH3Cl", "Chloromethane", "Methyl Chloride", "R-40", "Freon-40", "CF4", "Tetrafluoromethane", "Carbon Tetrafluoride", "R-14", "Freon-14", "CCl2F2", "Dichlorodifluoromethane", "CF2Cl2", "Difluorodichloromethane", "CFC-12", "R-12", "Freon-12", "CCl3F", "Trichlorochloromethane", "CFClF", "Fluorotrichloromethane", "CFC-11", "R-11", "Freon-11", "CCl4", "Tetrachloromethane", "Carbon Tetrachloride", "R-10", "Freon-10", "COF2", "Carbonyl fluoride", "Carbonyl difluoride", "C2H6", "Ethane", "C2H2", "Acetylene", "Ethyene", "N2", "Nitrogen", "CHF2Cl", "Chlorodifluoromethane", "Difluoromonochloromethane", "HCFC-22", "R-22", "Freon-22", "HCOOH", "Formic Acid", "HDO", "Semiheavy water", "Deuterium hydrogen monoxide", "SF6", "Sulfur Hexafluoride", "Diurnally Corrected", "CH3D", "Monodeuterated Methane" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Michael R. Gunson",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/ATMOSL2AF_3.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "ATMOS L2 Trace Gases on Altitude Grid, Fixed Field Format V3",
+    "SeriesName" : "ATMOSL2AF",
+    "ReleaseDate" : "2001-03-14T00:00:00.000Z",
+    "Version" : "3",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 75,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -73
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "WATER VAPOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC CARBON DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROUS OXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC CARBON MONOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "METHANE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITRIC OXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROGEN DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC NITRIC ACID"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "HYDROGEN FLUORIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "HYDROGEN CHLORIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "CARBONYL SULFIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "FORMALDEHYDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "HYPOCHLOROUS ACID"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "HYDROGEN PEROXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "PEROXYNITRIC ACID"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "DINITROGEN PENTOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CHLORINE NITRATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "HYDROGEN CYANIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "METHYL FLUORIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "METHYL CHLORIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CARBON TETRAFLUORIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CHLOROFLUOROCARBONS",
+    "VariableLevel3" : "CFC-12"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CHLOROFLUOROCARBONS",
+    "VariableLevel3" : "CFC-11"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CARBON TETRACHLORIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "CARBONYL FLUORIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "ETHANE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "ACETYLENE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROGEN"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HALOCARBONS AND HALOGENS",
+    "VariableLevel2" : "HYDROCHLOROFLUOROCARBONS",
+    "VariableLevel3" : "HCFC-22"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "FORMIC ACID"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "HYDROGEN COMPOUNDS",
+    "VariableLevel2" : "HYDROGEN-DEUTERIUM OXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "SULFUR HEXAFLUORIDE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1985-04-30T00:00:00.000Z",
+      "EndingDateTime" : "1985-05-01T23:59:59.999Z"
+    }, {
+      "BeginningDateTime" : "1992-03-25T00:00:00.000Z",
+      "EndingDateTime" : "1992-04-02T23:59:59.999Z"
+    }, {
+      "BeginningDateTime" : "1993-04-08T00:00:00.000Z",
+      "EndingDateTime" : "1993-04-16T23:59:59.999Z"
+    }, {
+      "BeginningDateTime" : "1994-11-03T00:00:00.000Z",
+      "EndingDateTime" : "1994-11-12T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/ATMOS/DATA2002"
+  },
+  "ShortName" : "ATMOSL2AF",
+  "EntryTitle" : "ATMOS L2 Trace Gases on Altitude Grid, Fixed Field Format V3 (ATMOSL2AF) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/ATMOS_Logo.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/ATMOSL2AF_3.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/ATMOS/ATMOSL2AF.3/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=ATMOSL2AF_3",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/ATMOS/ATMOSL1.3/doc/README.ATMOS_V3.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://remus.jpl.nasa.gov/atmos/pub.list.html",
+    "Description" : "List of publications.",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://doi.org/10.1364/AO.41.006968",
+    "Description" : "Version 3 ATMOS Algorithm Description",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://remus.jpl.nasa.gov/atmos/atmos.html",
+    "Description" : "ATMOS Home Page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2001-03-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2001-03-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the version 3 Atmospheric Trace Molecule Spectroscopy (ATMOS) Level 2 product containing trace gases on a vertical altitude (km) grid with data stored in an ASCII table using a FORTRAN friendly fixed field format. ATMOS is an infrared spectrometer (a Fourier transform interferometer) designed to derive vertical concentrations of various trace gases in the atmosphere, particularly the ozone depleting chlorine and fluorine based molecules. Measured species include: H2O, CO2, O3, N2O, CO, CH4, NO and NO2 (both diurnally and not diurnally corrected), HNO3, HF, HCl, OCS, H2CO, HOCl, H2O2, HO2NO2, N2O5, ClONO2, HCN, CH3F, CH3Cl, CF4, CCl2F2, CCl3F, CCl4, COF2, C2H6, C2H2, N2, CHF2Cl, HCOOH, HDO, SF6 and CH3D reported at 100 levels from 0.5 to 99.5 km. Data files also include time, geolocation and other information.\nThe data were collected during four space shuttle missions: STS-51B/Spacelab 3 (April 30 to May 1, 1985), STS-45/ATLAS-1 (March 25 to April 2, 1992), STS-55/ATLAS-2 (April 8 to 16, 1993), and STS-66/ATLAS-3 (November 3 to 12, 1994). Data are written to separate files grouped by mission (sl3, at1, at2 or at3), and occultation type (sunrise or sunset) and number.\nA similar product (ATMOSL2AT) exists that contains these same data in a spreadsheet friendly tab delimited format.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "MESOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2022-03-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-03-04T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "3",
+  "Projects" : [ {
+    "ShortName" : "EOSDIS",
+    "LongName" : "Earth Observing System Data Information System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "MICHAEL",
+    "LastName" : "GUNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Mail Stop 183-601", "Jet Propulsion Laboratory", "4800 Oak Grove Drive" ],
+        "City" : "Pasadena",
+        "StateProvince" : "CA",
+        "PostalCode" : "91109",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Michael.R.Gunson@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "BILL",
+    "LastName" : "IRION",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Mail Stop 183-601", "Jet Propulsion Laboratory", "4800 Oak Grove Drive" ],
+        "City" : "Pasadena",
+        "StateProvince" : "CA",
+        "PostalCode" : "91109",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Bill.Irion@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "Spacelab-3",
+    "Instruments" : [ {
+      "ShortName" : "ATMOS",
+      "LongName" : "Atmospheric Trace Molecule Spectroscopy"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "ATLAS-1",
+    "LongName" : "Atmospheric Laboratory for Applications and Science-1",
+    "Instruments" : [ {
+      "ShortName" : "ATMOS",
+      "LongName" : "Atmospheric Trace Molecule Spectroscopy"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "ATLAS-2",
+    "LongName" : "Atmospheric Laboratory for Applications and Science-2",
+    "Instruments" : [ {
+      "ShortName" : "ATMOS",
+      "LongName" : "Atmospheric Trace Molecule Spectroscopy"
+    } ]
+  }, {
+    "Type" : "Space Stations/Crewed Spacecraft",
+    "ShortName" : "ATLAS-3",
+    "LongName" : "Atmospheric Laboratory for Applications and Science-3",
+    "Instruments" : [ {
+      "ShortName" : "ATMOS",
+      "LongName" : "Atmospheric Trace Molecule Spectroscopy"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

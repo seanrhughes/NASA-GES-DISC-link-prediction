@@ -1,0 +1,348 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Global Modeling and Assimilation Office (GMAO)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MATMCPODT_5.2.0.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "tavgM_3d_odt_Cp: MERRA 3D IAU Tendency, Ozone, Monthly Mean  V5.2.0",
+    "SeriesName" : "MATMCPODT",
+    "ReleaseDate" : "2008-07-23T00:00:00.000Z",
+    "Version" : "5.2.0",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "HEAT FLUX"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "HUMIDITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "TOTAL PRECIPITABLE WATER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "WATER VAPOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION RATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1979-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2016-02-29T23:59:59.999Z"
+    } ]
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/L4R625MTJQMD"
+  },
+  "ShortName" : "MATMCPODT",
+  "EntryTitle" : "tavgM_3d_odt_Cp: MERRA 3D IAU Tendency, Ozone, Monthly Mean  1.25 x 1.25 degree V5.2.0 (MATMCPODT) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Bloom, S., L. Takacs, A. DaSilva, and D. Ledvina",
+    "PublicationDate" : "1996-01-01T00:00:00.000Z",
+    "Title" : "Data assimilation using incremental analysis updates",
+    "Series" : "Monthly Weather Review",
+    "Issue" : "124",
+    "Pages" : "1256-1271"
+  }, {
+    "Author" : "Bloom, S., A. da Silva, D. Dee, M. Bosilovich, J.-D. Chern, S. Pawson, S. Schubert, M. Sienkiewicz, I. Stajner, W.-W. Tan, M.-L. Wu",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "Documentation and Validation of the Goddard Earth Observing System (GEOS) Data Assimilation System - Version 4",
+    "Series" : "Technical Report Series on Global Modeling and Data Assimilation",
+    "Edition" : "104606",
+    "Volume" : "26"
+  }, {
+    "Author" : "Collins, N., G. Theurich, C. DeLuca, M. Suarez, A. Trayanov, V. Balaji, P. Li, W. Yang, C. Hill, and A. da Silva",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "Design and implementation of components in the Earth System Modeling Framework",
+    "Series" : "International Journal of High Performance Computing Applications",
+    "Volume" : "19",
+    "Pages" : "341-350",
+    "DOI" : {
+      "DOI" : "10.1177/1094342005056120"
+    }
+  }, {
+    "Author" : "Koster, R. D., M. J. Suarez, A. Ducharne, M. Stieglitz, and P. Kumar",
+    "PublicationDate" : "2000-01-01T00:00:00.000Z",
+    "Title" : "A catchment-based approach to modeling land surface processes in a GCM, Part 1, Model Structure",
+    "Series" : "Journal of Geophysical Res.",
+    "Edition" : "105",
+    "Pages" : "24809-24822"
+  }, {
+    "Author" : "Purser, R. J., W.-S. Wu, D. F. Parrish, and N. M. Roberts",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "Numerical aspects of the application of recursive filters to variational statistical analysis. Part I: Spatially homogeneous and isotropic Gaussian covariances",
+    "Series" : "Monthly Weather Review",
+    "Edition" : "131",
+    "Pages" : "1524-1535"
+  }, {
+    "Author" : "Purser, R. J., W.-S. Wu, D. F. Parrish, and N. M. Roberts",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "Numerical aspects of the application of recursive filters to variational statistical analysis. Part II: Spatially inhomogeneous and anisotropic general covariances",
+    "Series" : "Monthly Weather Review",
+    "Edition" : "131",
+    "Pages" : "1536-1548"
+  }, {
+    "Author" : "Wu, W.-S., R.J. Purser and D.F. Parrish",
+    "PublicationDate" : "2002-01-01T00:00:00.000Z",
+    "Title" : "Three-dimensional variational analysis with spatially inhomogeneous covariances",
+    "Series" : "Monthly Weather Review",
+    "Edition" : "130",
+    "Pages" : "2905-2916"
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "ELEVATION", "GEOSCIENTIFIC INFORMATION", "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "RelatedUrls" : [ {
+    "Description" : "MATMCPODT variable",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MATMCPODT_5.2.0.gif",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=MERRA",
+    "Description" : "How to read and plot the data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MATMCPODT_5.2.0.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://goldsmr3.gesdisc.eosdis.nasa.gov/data/MERRA_MONTHLY/MATMCPODT.5.2.0/",
+    "Description" : "Access the data via HTTP.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=MATMCPODT",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://goldsmr3.gesdisc.eosdis.nasa.gov/dods/MATMCPODT.info",
+    "Description" : "The GrADS Data Server (GDS) is another form of OPeNDAP that provides subsetting and some analysis services across the Internet.",
+    "Subtype" : "GRADS DATA SERVER (GDS)",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://goldsmr3.gesdisc.eosdis.nasa.gov/opendap/MERRA_MONTHLY/MATMCPODT.5.2.0/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gmao.gsfc.nasa.gov/",
+    "Description" : "The GMAO home page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gmao.gsfc.nasa.gov/pubs/docs/Lucchesi528.pdf",
+    "Description" : "MERRA File Specification Document",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://goldsmr3.gesdisc.eosdis.nasa.gov/data/MERRA_MONTHLY/MATMCPODT.5.2.0/doc/MERRA.README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "ContactGroups" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "GroupName" : "GLOBAL MODELING AND ASSIMILATION OFFICE",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.1" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6142"
+      }, {
+        "Type" : "Email",
+        "Value" : "data@gmao.gsfc.nasa.gov"
+      } ]
+    }
+  } ],
+  "DataDates" : [ {
+    "Date" : "2007-06-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-07-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The MATMCPODT or tavgM_3d_odt_Cp data product is the MERRA Data Assimilation System 3-Dimensional ozone tendencies that is time averaged on pressure levels at a reduced resolution. It is a history file that is produced from the GCM during the corrector segment of the IAU cycle. All collections from this group are at reduced horizontal resolution. MERRA, or the Modern Era Retrospective-analysis for Research and Application, is a NASA reanalysis for the satellite era (1979-2016) using the Goddard Earth Observing System Data Assimilation System Version 5 (GEOS-5 DAS).\n\nThis data product contains 3-dimensional fields that do not vary during the reanalysis.\n\nThe data are on the GEOS-5 native 288 x 144 grid with 1.25 degree longitude x 1.25 degree latitude resolution. The pressure-level data will be output in 42 pressure levels. The files contains the monthly means. Data are archived in the HDF-EOS2 (Grid) format, based on HDF4.\n\nSign Up for the MERRA-2 Mailing List\n\nSign up for the MERRA-2 listserv to receive announcements on the latest data information, tools and services that become available, data announcements from GMAO and more! Contact the GES DISC User Services (gsfc-dl-help-disc@mail.nasa.gov) to be added to the list.\n\nMERRA-2 Science Data and Data Processing Questions\n\nDo you have a question about MERRA/MERRA-2? Take a look at the File Specification Document and if that doesn't answer your question, users can contact staff with questions on the data, data processing and science. Send questions to merra-questions@lists.nasa.gov.\n    ",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2007-06-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-07-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "The GEOS-5 model version used for processing MERRA",
+  "Version" : "5.2.0",
+  "Projects" : [ {
+    "ShortName" : "MERRA",
+    "LongName" : "Modern Era Retrospective-analysis for Research and Applications"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "DANA",
+    "LastName" : "OSTRENGA",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2 Bldg 32 Rm S151", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "21230",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5475"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "dana.ostrenga@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "MICHAEL",
+    "LastName" : "BOSILOVICH",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA/Goddard Space Flight Center", "Global Modeling and Assimilation Office", "Code 610.1" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Michael.Bosilovich@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "MERRA",
+    "LongName" : "Modern-Era Retrospective Analysis for Research and Applications",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS",
+      "Fees" : "Free"
+    } ]
+  }
+}

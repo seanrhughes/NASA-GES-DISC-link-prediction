@@ -1,0 +1,260 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "RH", "GPH", "U WIND", "V WIND" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Miller, Alvin Jim, et al.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/UARZCNMC_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "UARS Correlative NMC Daily Gridded Stratospheric Assimilated Data V001",
+    "SeriesName" : "UARZCNMC",
+    "ReleaseDate" : "1994-10-24T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ALTITUDE",
+    "VariableLevel1" : "GEOPOTENTIAL HEIGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "UPPER AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "HUMIDITY",
+    "VariableLevel3" : "RELATIVE HUMIDITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "UPPER LEVEL WINDS",
+    "DetailedVariable" : "U WIND COMPONENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "UPPER LEVEL WINDS",
+    "DetailedVariable" : "V WIND COMPONENT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1991-09-12T00:00:00.000Z",
+      "EndingDateTime" : "2001-09-30T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "UARZCNMC",
+  "EntryTitle" : "UARS Correlative NMC Daily Gridded Stratospheric Assimilated Data V001 (UARZCNMC) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/UARZCNMC_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/UARZCNMC_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/UARS_Correlative_Level4/UARZCNMC/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=UARZCNMC",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://uars.gsfc.nasa.gov/",
+    "Description" : "The UARS Project Homepage.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/UARS_Correlative_Level4/UARZCNMC/doc/README.UARCorr.doc",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "ContactGroups" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5224"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+      } ]
+    }
+  } ],
+  "DataDates" : [ {
+    "Date" : "1991-09-12T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1991-09-12T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The UARS Correlative assimilation data from NOAA's National Meteorological Center (NMC) consists of daily model runs at 12 GMT as a means of providing an independent analysis for comparison with data from the UARS instruments. The NMC data product includes temperature (Kelvin), humidity (%), geopotential height (m), and zonal and meridional wind components (m/s).\n\nGeopotential height and atmospheric temperature data are derived from two analysis systems: 1) tropospheric fields from 1000 to 100 mb, and 2) stratospheric analyses from 70 to 0.4 mb. The tropospheric fields are the 12 GMT gridded fields which are part of the Global Daily Assimilation System (GDAS), where data from radiosondes, aircraft, satellites, ships, bouys, or any other conventional means are assimilated and merged into meteorological fields (heights, temperature, winds). The stratospheric analyses are 12 GMT operational analyses at the 70 - 0.4 mb pressure levels produced from satellite temperature retrievals and RAOBS via a modified Cressman analysis. Tropospheric temperature analyses use combined NOAA-10 and NOAA-11 data. Moisture (northern hemisphere only) and Winds data are obtained from the NMC GDAS.\n\nThe gridded fields are on the standard 65 x 65 NMC polar stereographic grid oriented 80W (grid increment 381 km at 60N), and 100E (grid increment 381 km at 60S); Pole at (33,33). The NMC uses 18 standard pressure levels for data at 1000, 850, 700, 500, 400, 300, 250, 200, 150, 100, 70, 50, 30, 10, 5, 2, 1, 0.4 millibars. Height and temperature data are produced at all 18 pressure levels from 1000 mb to 0.4 mb. Moisture data are only produced in the northern hemisphere for the 6 lowest altitude pressure levels. Wind data are produced for the 12 lowest altitude levels in the northern hemisphere, and at the 4 levels 1000, 500, 300, and 250 mb in the southern hemisphere.\n\nThere are four data files representing each subtype per day. Included in the NMC correlative data set will be a geographical data richness file. This file is used by the NMC access routines, and indicates the radiosonde coverage for each point on the NMC grid. The data files are available in a binary record oriented format.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2007-01-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "UARS",
+    "LongName" : "Upper Atmosphere Research Satellite"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ALVIN",
+    "MiddleName" : "JIM",
+    "LastName" : "MILLER",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NOAA/NWS", "5200 Auth Rd, Room 808" ],
+        "City" : "Washington",
+        "StateProvince" : "DC",
+        "PostalCode" : "20233",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(301) 763-8071"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "GDAS",
+    "LongName" : "Global Data Assimilation System",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

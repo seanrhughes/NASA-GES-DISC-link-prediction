@@ -1,0 +1,293 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "EOSDIS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Huffman, G.J., D.T. Bolvin, E.J. Nelkin, and R.F. Adler",
+    "Editor" : "Andrey Savtchenko",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TRMM_3B42_Daily_7.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TRMM (TMPA) Precipitation L3 1 day 0.25 degree x 0.25 degree V7",
+    "SeriesName" : "TRMM_3B42_Daily",
+    "ReleaseDate" : "2016-05-15T00:00:00.000Z",
+    "Version" : "7"
+  } ],
+  "SpatialExtent" : {
+    "SpatialCoverageType" : "HORIZONTAL",
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 50,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -50
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "TOTAL SURFACE PRECIPITATION RATE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1998-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2019-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/TRMM/TMPA/DAY/7"
+  },
+  "ShortName" : "TRMM_3B42_Daily",
+  "EntryTitle" : "TRMM (TMPA) Precipitation L3 1 day 0.25 degree x 0.25 degree V7 (TRMM_3B42_Daily) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Huffman, G.J.",
+    "PublicationDate" : "1997-01-01T00:00:00.000Z",
+    "Title" : "Estimates of Root-Mean-Square Random Error for Finite Samples of Estimated Precipitation",
+    "Series" : "J. Appl. Meteor.",
+    "Volume" : "14",
+    "Pages" : "1191-1201"
+  }, {
+    "Author" : "Huffman, G.J., R.F. Adler, D.T. Bolvin, G. Gu, E.J. Nelkin, K.P. Bowman, Y. Hong, E.F. Stocker, D.B. Wolff",
+    "PublicationDate" : "2007-01-01T00:00:00.000Z",
+    "Title" : "The TRMM Multi-satellite Precipitation Analysis: Quasi- Global, Multi-Year, Combined-Sensor Precipitation Estimates at Fine Scale.",
+    "Series" : "J. Hydrometeor",
+    "Volume" : "8",
+    "Pages" : "38-55"
+  }, {
+    "Author" : "Huffman, G.J., R.F. Adler, D.T. Bolvin, E.J. Nelkin",
+    "PublicationDate" : "2010-01-01T00:00:00.000Z",
+    "Title" : "The TRMM Multi-satellite Precipitation Analysis (TMPA). Chapter 1 in Satellite Rainfall Applications for Surface Hydrology",
+    "DOI" : {
+      "DOI" : "10.1007/978-90-481-2915-7"
+    }
+  } ],
+  "Quality" : "Random error estimates (mislabeled relative error for historical reasons) are provided for each 0.25 x 0.25 degree box. The quality of the 3B42 product is highly sensitive to the quality of the input data: TMI (product 2A12), TRMM Combined Instrument (TCI; product 2B31), and the other input datasets listed in the Summary. If the quality of the input data is less than anticipated, then the quality of 3B42 will also be less.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/TRMM_3B42_Daily.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TRMM_3B42_Daily_7.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/TRMM_L3/TRMM_3B42_Daily.7",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TRMM_3B42_Daily",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/dods/TRMM_3B42_Daily_7.info",
+    "Description" : "The GrADS Data Server (GDS) is another form of OPeNDAP that provides subsetting and some analysis services across the Internet.",
+    "Subtype" : "GRADS DATA SERVER (GDS)",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/opendap/TRMM_L3/TRMM_3B42_Daily.7/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/thredds/catalog/aggregation/TRMM_3B42_Daily.7/catalog.html",
+    "Description" : "Access the data via the THREDDS.",
+    "Subtype" : "THREDDS DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/faqs?groups=Precipitation",
+    "Description" : "View frequently asked questions about TRMM.",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/3B42_3B43_doc_V7.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://pmm.nasa.gov/sites/default/files/document_files/3B42_3B43_TMPA_restart.pdf",
+    "Description" : "Transition from Monthly TMPA to Climatological Calibration/Adjustment",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/TMPA-to-IMERG_transition.pdf",
+    "Description" : "Transition from TMPA to IMERG",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/anomalous.html",
+    "Description" : "TRMM Data Gaps",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2016-04-19T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2016-04-29T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "TMPA (3B42_Daily) dataset have been discontinued as of Dec. 31, 2019, and users are strongly encouraged to shift to the successor IMERG dataset (doi: 10.5067/GPM/IMERGDF/DAY/06).\n\nThis daily accumulated precipitation product is generated from the research-quality 3-hourly TRMM Multi-Satellite Precipitation Analysis TMPA (3B42). It is produced at the NASA GES DISC, as a value added product.  Simple summation of valid retrievals in a grid cell is applied for the data day. The result is given in (mm). The beginning and ending time for every daily granule are listed in the file global attributes, and are taken correspondingly from the first and the last 3-hourly granules participating in the aggregation. Thus the time period covered by one daily granule amounts to 24 hours, which can be inspected in the file global attributes. \n\nCounts of valid retrievals for the day are provided for every variable, making it possible to compute conditional and unconditional mean precipitation for grid cells where less than 8 retrievals for the day are available.\n\nEfforts have been made to make the format of this  derived product as similar as possible to the new Global Precipitation Measurement CF-compliant file format.\n\nThe information provided here on the TRMM mission, and on the original 3-hr 3B42 product, remain relevant for this derived product. Note, however, this product is in netCDF-4 format.\n\n\n\nThe following describes the derivation in more details.\n\nThe daily accumulation is derived by summing *valid* retrievals in a grid cell for the data day. Since the 3-hourly source data are in mm/hr, a factor of 3 is applied to the sum. Thus, for every grid cell we have                \n\nPdaily     = 3 * SUM{Pi * 1[Pi valid]}, i=[1,Nf]\nPdaily_cnt = SUM{1[Pi valid]}\n\nwhere:\nPdaily          - Daily accumulation (mm)\nPi              - 3-hourly input, in (mm/hr)\nNf              - Number of 3-hourly files per day, Nf=8\n1[.]            - Indicator function; 1 when Pi is valid, 0 otherwise\nPdaily_cnt      - Number of valid retrievals in a grid cell per day.\n\nGrid cells for which Pdaily_cnt=0, are set to fill value in the Daily files.\nNote that Pi=0 is a valid value.\n\n\nOn occasion, the 3-hourly source data have fill values for Pi in a very few grid cells. The total accumulation for such grid cells is still issued, inspite of the likelihood that thus resulting accumulation has a larger uncertainty in representing the \"true\" daily total. These events are easily detectable using \"counts\" variables that contain Pdaily_cnt, whereby users can screen out any grid cells for which\n Pdaily_cnt less than Nf.\n\n\nThere are various ways the accumulated daily error could be estimated from the source 3-hourly error. In this release, the daily error provided in the data files is calculated as follows. First, squared 3-hourly errors are summed, and then square root of the sum is taken. Similarly to the precipitation, a factor of 3 is finally applied:\n\nPerr_daily = 3 * { SUM[ (Perr_i * 1[Perr_i valid])^2 ] }^0.5 , i=[1,Nf]\nNcnt_err   = SUM( 1[Perr_i valid] )\n\nwhere:\nPerr_daily\t- Magnitude of the daily accumulated error power, (mm)\nNcnt_err\t- The counts for the error variable\n\nThus computed Perr_daily represents the worst case scenario that assumes the error in the 3-hourly source data, which is given in mm/hr, accumulates first within the 3-hour period of the source data, and then continues to accumulate during the day. These values, however, can easily be converted to root mean square error estimate of the rainfall rate:\n\nrms_err =   { (Perr_daily/3) ^2 / Ncnt_err }^0.5\t(mm/hr)\n\n\nThis estimate assumes that the error given in the 3-hourly files is representative of the error of the rainfall rate (mm/hr) within the 3-hour window of the files, and it is random throughout the day. Note, this should be interpreted as the error of the rainfall rate (mm/hr) for the day, not the daily accumulation.\n\n\n",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2016-04-19T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-12-01T09:59:02.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "7",
+  "Projects" : [ {
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GEORGE",
+    "LastName" : "HUFFMAN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Mailstop 612" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6308"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5492"
+      }, {
+        "Type" : "Email",
+        "Value" : "George.J.Huffman@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "TMPA",
+    "LongName" : "TRMM Multi-Satellite Precipitation Analysis",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "none"
+    } ]
+  }
+}

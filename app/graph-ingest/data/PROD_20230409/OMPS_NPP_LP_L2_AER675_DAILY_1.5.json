@@ -1,0 +1,301 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Pawan K. Bhartia and Omar O. Torres",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_LP_L2_AER675_DAILY_1.5.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMPS-NPP L2 LP Aerosol Extinction Vertical Profile swath daily 3slit V1.5",
+    "SeriesName" : "OMPS_NPP_LP_L2_AER675_DAILY",
+    "ReleaseDate" : "2019-02-22T00:00:00.000Z",
+    "Version" : "1.5",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "AEROSOL EXTINCTION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2012-04-02T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/GZJJYA7L0YW2"
+  },
+  "ShortName" : "OMPS_NPP_LP_L2_AER675_DAILY",
+  "EntryTitle" : "OMPS-NPP L2 LP Aerosol Extinction Vertical Profile swath daily 3slit V1.5 (OMPS_NPP_LP_L2_AER675_DAILY) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Chahine, M. T.",
+    "PublicationDate" : "1968-01-01T00:00:00.000Z",
+    "Title" : "Determination of the temperature profile in an atmosphere from its outgoing radiance",
+    "Volume" : "58",
+    "Issue" : "12",
+    "Publisher" : "J. Opt. Soc. Amer.",
+    "Pages" : "1634-1637",
+    "DOI" : {
+      "DOI" : "10.1364/JOSA.58.001634"
+    }
+  }, {
+    "Author" : "Chen, Z., M. DeLand, and P. K. Bhartia",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "A new algorithm for detecting cloud height using OMPS/LP measurements",
+    "Volume" : "9",
+    "Issue" : "3",
+    "Publisher" : "Atmos. Meas. Tech.",
+    "Pages" : "1239-1246",
+    "DOI" : {
+      "DOI" : "10.5194/amt-9-1239-2016"
+    }
+  }, {
+    "Author" : "Jaross, G., P. K. Bhartia, G. Chen, M. Kowitt, M. Haken, Z. Chen, P. Xu, J. Warner, and T. Kelly",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "OMPS Limb Profiler instrument performance assessment",
+    "Volume" : "119",
+    "Issue" : "7",
+    "Publisher" : "J. Geophys. Res. Atmos.",
+    "Pages" : "4399-4412",
+    "DOI" : {
+      "DOI" : "10.1002/2013JD020482"
+    }
+  }, {
+    "Author" : "McPeters, R. D., and G. J. Labow",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Climatology 2011:  An MLS and sonde derived ozone climatology for satellite retrieval algorithms",
+    "Volume" : "117",
+    "Issue" : "D10",
+    "Publisher" : "J. Geophys. Res.",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD017006"
+    }
+  }, {
+    "Author" : "Pueschel, R. F., P. B. Russell, D. A. Allen, G. V. Ferry, K. G. Snetsinger, J. M. Livingston, and S. Verma",
+    "PublicationDate" : "1994-01-01T00:00:00.000Z",
+    "Title" : "Physical and optical properties of the Pinatubo volcanic aerosol:  Aircraft observations with impactors and a Sun-tracking photometer",
+    "Volume" : "99",
+    "Issue" : "D6",
+    "Publisher" : "J. Geophys. Res.",
+    "Pages" : "12,915-12,922",
+    "DOI" : {
+      "DOI" : "10.1029/94JD00621"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMPS_NPP_LP_L2_AER675_DAILY_1.5.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_LP_L2_AER675_DAILY_1.5.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://snpp-omps.gesdisc.eosdis.nasa.gov/data/SNPP_OMPS_Level2/OMPS_NPP_LP_L2_AER675_DAILY.1.5/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://snpp-omps.gesdisc.eosdis.nasa.gov/opendap/SNPP_OMPS_Level2/OMPS_NPP_LP_L2_AER675_DAILY.1.5/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMPS_NPP_LP_L2_AER675_DAILY_1.5",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://snpp-omps.gesdisc.eosdis.nasa.gov/data/SNPP_OMPS_Level2/OMPS_NPP_LP_L2_AER675_DAILY.1.5/doc/README.OMPS_NPP_LP_L2_AER675_DAILY.1.5.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://jointmission.gsfc.nasa.gov/",
+    "Description" : "Joint Polar Satellite System (JPSS) mission home page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-02-21T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-02-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Version 1.5 is the current version of this data product, and supersedes all previous versions.\n\nThe OMPS-NPP L2 LP Aerosol Extinction Vertical Profile swath daily 3slit collection contains the retrieved aerosol extinction coefficients at 675 nm (AER675) measured by the Ozone Mapping and Profiling Suite (OMPS) Limb-Profiler (LP) sensor on the Suomi-NPP satellite. The AER675 product measures stratospheric aerosol abundance and evolution to complement the OMPS LP measurements of stratospheric and mesospheric profile ozone.\n\nEach granule contains data from the daylight portion of each orbit measured for a full day. Spatial coverage is global (-90 to  90 degrees latitude), and there are about 14.5 orbits per day each measuring three limb profiles spaced approximately 250 km in the cross-track direction. The profiles are measured from the ground up to about 80 km with a vertical resolution of the retrieved profiles of approximately 1.8 km.\n\nThe files are written using the Hierarchical Data Format Version 5 or HDF5.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-02-21T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-07-23T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "Version 1.5 is the current version of this data product, and supersedes all previous versions. Please see the README document for detailed description and differences for this and previous versions.\n\nVersion 1.5 - released 21 Feb 2019 - doi:10.5067/GZJJYA7L0YW2\nData availability: 2012/02/07 to current.  The particle size distribution used in the retrieval algorithm has been revised to follow model simulations that closely reproduce long-term balloon measurements, which reduces the error in the retrieved extinction profiles.  The aerosol extinction coefficient data quality compares well with concurrent measurements from the SAGE III instrument on the International Space Station during 2017.\n\nVersion 1 - released 31 Jan 2017 - doi:10.5067/2CB3QR9SMA3F\nData availability: 2012/02/07 to 2019/02/08. First public release of this data product.",
+  "Version" : "1.5",
+  "Projects" : [ {
+    "ShortName" : "NPP-JPSS",
+    "LongName" : "National Polar Orbiting Partnership-Joint Polar Satellite System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "PAWAN",
+    "MiddleName" : "K",
+    "LastName" : "BHARTIA, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "Goddard Space Flight Center", "Mailstop 613.3" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5731"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5903"
+      }, {
+        "Type" : "Email",
+        "Value" : "Pawan.K.Bhartia@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "OMAR",
+    "MiddleName" : "O.",
+    "LastName" : "TORRES, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 614" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6776"
+      }, {
+        "Type" : "Email",
+        "Value" : "omar.o.torres@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "OMPS",
+      "LongName" : "Ozone Mapping and Profiler Suite"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology", "Climate", "Trends", "Indicators", "National Climate Assessment" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Jasinski, M.F., J.S. Borak, S.V. Kumar, D.M. Mocko, C.D. Peters-Lidard, M. Rodell, H. Rui, H.K. Beaudoing, B.E. Vollmer, K.R. Arsenault, B. Li, J.D. Bolten, and N. Tangdamrongsub",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/NCALDAS_NOAH0125_Trends_2.0.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "NCA-LDAS Noah-3.3 Land Surface Model L4 Trends 0.125 x 0.125 degree V2.0",
+    "SeriesName" : "NCALDAS_NOAH0125_Trends",
+    "ReleaseDate" : "2019-09-30T00:00:00.000Z",
+    "Version" : "2.0",
+    "ReleasePlace" : "Greenbelt, Maryland, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -125,
+          "NorthBoundingCoordinate" : 53,
+          "EastBoundingCoordinate" : -67,
+          "SouthBoundingCoordinate" : 25
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CLIMATE INDICATORS",
+    "Term" : "ATMOSPHERIC/OCEAN INDICATORS",
+    "VariableLevel1" : "PRECIPITATION INDICATORS",
+    "VariableLevel2" : "PRECIPITATION TRENDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "SOLID PRECIPITATION",
+    "VariableLevel2" : "SNOW"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CLIMATE INDICATORS",
+    "Term" : "ATMOSPHERIC/OCEAN INDICATORS",
+    "VariableLevel1" : "TEMPERATURE INDICATORS",
+    "VariableLevel2" : "TEMPERATURE TRENDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "NET RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPOTRANSPIRATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPORATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "SURFACE WATER",
+    "VariableLevel1" : "SURFACE WATER PROCESSES/MEASUREMENTS",
+    "VariableLevel2" : "RUNOFF",
+    "VariableLevel3" : "TOTAL RUNOFF"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "SNOW/ICE",
+    "VariableLevel1" : "SNOW WATER EQUIVALENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "SNOW/ICE",
+    "VariableLevel1" : "SNOW COVER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CLIMATE INDICATORS",
+    "Term" : "LAND SURFACE/AGRICULTURE INDICATORS",
+    "VariableLevel1" : "SOIL MOISTURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL MOISTURE/WATER CONTENT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1979-10-01T00:00:00.000Z",
+      "EndingDateTime" : "2015-09-30T23:59:59.999Z"
+    } ]
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/QFZZBKCO5YJG"
+  },
+  "ShortName" : "NCALDAS_NOAH0125_Trends",
+  "EntryTitle" : "NCA-LDAS Noah-3.3 Land Surface Model L4 Trends 0.125 x 0.125 degree V2.0 (NCALDAS_NOAH0125_Trends) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Jasinski, M. F., J. S. Borak, S. V. Kumar, D. M. Mocko, C. D. Peters-Lidard, M. Rodell, H. Rui, H. K. Beaudoing, B. E. Vollmer, K. R. Arsenault, B. Li, J. D. Bolten, and N. Tangdamrongsub",
+    "PublicationDate" : "2019-01-01T00:00:00.000Z",
+    "Title" : "NCA-LDAS: Overview and Analysis of Hydrologic Trends for the National Climate Assessment",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "DOI" : {
+      "DOI" : "10.1175/JHM-D-17-0234.1"
+    }
+  }, {
+    "Author" : "Kumar, S., M. Jasinski, D.M. Mocko, M. Rodell, J. Borak, B. Li, H. Kato Beaudoing, and C. Peters-Lidard",
+    "PublicationDate" : "2019-01-01T00:00:00.000Z",
+    "Title" : "NCA-LDAS land analysis: Development and performance of a multisensor, multivariate land data assimilation system for the National Climate Assessment",
+    "DOI" : {
+      "DOI" : "10.1175/JHM-D-17-0125.1"
+    }
+  }, {
+    "Author" : "Kumar, S.V., et al.",
+    "PublicationDate" : "1970-01-01T00:00:00.000Z",
+    "Title" : "Quantifying the added value of snow cover area observations in passive microwave snow depth data assimilation",
+    "DOI" : {
+      "DOI" : "10.1175/JHM-D-15-0021.1"
+    }
+  }, {
+    "Author" : "Kumar, S.V., et al.",
+    "PublicationDate" : "1970-01-01T00:00:00.000Z",
+    "Title" : "Evaluating the utility of satellite soil moisture retrievals over irrigated areas and the ability of land data assimilation methods to correct for unmodeled processes",
+    "DOI" : {
+      "DOI" : "10.5194/hess-19-4463-2015"
+    }
+  }, {
+    "Author" : "Liu, Y., et al.",
+    "PublicationDate" : "2015-01-01T00:00:00.000Z",
+    "Title" : "Blending satellite-based snow depth products with in situ observations for streamflow predictions in the Upper Colorado River Basin",
+    "DOI" : {
+      "DOI" : "10.1002/2014WR016606"
+    }
+  }, {
+    "Author" : "Kumar, S.V., et al.",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "Assimilation of remotely sensed soil moisture and snow depth retrievals for drought estimation",
+    "DOI" : {
+      "DOI" : "10.1175/JHM-D-13-0132.1"
+    }
+  }, {
+    "Author" : "Xia, Y., et al.",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Continental-scale water and energy flux analysis and validation for the North American Land Data Assimilation System project phase 2 (NLDAS-2): 1. Intercomparison and application of model products",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD016048"
+    }
+  }, {
+    "Author" : "Ozdogan, M., et al.",
+    "PublicationDate" : "2010-01-01T00:00:00.000Z",
+    "Title" : "Simulating the Effects of Irrigation over the United States in a Land Surface Model Based on Satellite-Derived Agricultural Data",
+    "DOI" : {
+      "DOI" : "10.1175/2009JHM1116.1"
+    }
+  }, {
+    "Author" : "Kumar, S.V., et al.",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "Land Information System - An Interoperable Framework for High Resolution Land Surface Modeling",
+    "DOI" : {
+      "DOI" : "10.1016/j.envsoft.2005.07.004"
+    }
+  } ],
+  "Quality" : "The data are provisional and subject to change as model improvements are implemented and new input data sets become available.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/NCALDAS/NCALDAS_NOAH0125_Trends.2.0/" ]
+  },
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "NCA-LDAS trends in mean evaporative fraction for water years 1980-2015 for p<0.1.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NCALDAS_NOAH0125_Trends_2.0.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/NCALDAS_NOAH0125_Trends_2.0.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NCALDAS/NCALDAS_NOAH0125_Trends.2.0",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=NCALDAS_NOAH0125_Trends",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/opendap/NCALDAS/NCALDAS_NOAH0125_Trends.2.0/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NCALDAS/NCALDAS_NOAH0125_Trends.2.0/doc/README_NCALDAS2.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://ldas.gsfc.nasa.gov/NCA-LDAS/",
+    "Description" : "NCA-LDAS Project Website",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://lis.gsfc.nasa.gov/",
+    "Description" : "The NASA Land Information System (LIS) Documentation",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=hydrology",
+    "Description" : "GES DISC Hydrology How-To Documentation",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Hydrology%20Documentation",
+    "Description" : "GES DISC Hydrology Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-09-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-09-10T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The National Climate Assessment - Land Data Assimilation System, or NCA-LDAS, is a terrestrial water reanalysis in support of the United States Global Change Research Program's NCA activities. NCA-LDAS features high resolution, gridded, daily time series data products of terrestrial water and energy balance stores, states, and fluxes over the continental U.S., derived from land surface hydrologic modeling with multivariate assimilation of satellite Environmental Data Records (EDRs). The overall goal is to provide the highest quality terrestrial hydrology products that enable improved scientific understanding, adaptation, and management of water and related energy resources during a changing climate.\n\nThis dataset consists of a suite of historical trends in terrestrial hydrology over the conterminous United States estimated for the water years of 1980-2015 using the NCA-LDAS daily reanalysis. NCA-LDAS provides gridded daily outputs from the uncoupled Noah version 3.3 land surface model (LSM) at 1/8th degree resolution forced with NLDAS-2 meteorology (Xia et al., 2012), rescaled Climate Prediction Center precipitation, and assimilated satellite-based soil moisture, snow depth, and irrigation products (Jasinski et al., 2019; Kumar et al., 2019).\n\nTrends in annual hydrologic indicators are reported using the nonparametric Mann-Kendall test at p < 0.1 significance. An additional precipitation trend field (annual total), with no significance test applied, is included for comparison purposes. Collectively, these fields represent the bulk of the results presented in Jasinski et al. (2019).",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-09-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-10-23T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "NCA-LDAS version 2.0 is an improvement of the previous version (V001) of the dataset. Several scientific improvements were also made, including the data assimilation of SMAP soil moisture, refinements to the data assimilation techniques and error co-variances, and modifications to the irrigation intensity scheme. This trends dataset is based on NCA-LDAS V2.0.",
+  "Version" : "2.0",
+  "Projects" : [ {
+    "ShortName" : "NCA-LDAS",
+    "LongName" : "National Climate Assessment - Land Data Assimilation System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Carlee",
+    "LastName" : "Loeser",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5200"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "carlee.f.loeser@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "Noah-LSM",
+    "LongName" : "Noah Land Surface Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

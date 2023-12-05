@@ -1,0 +1,182 @@
+{
+  "AncillaryKeywords" : [ "SSDF", "CONUS", "AIRS", "CrIS", "ATMS", "CRiMSS", "Fusion" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Amy Braverman, Peter Kalmus, Hai Nguyen",
+    "Title" : "Spatial Statistical Data Fusion (SSDF) Level 3: CONUS Near-Surface Vapor Pressure Deficit from SNPP CrIMSS and Aqua AIRS",
+    "SeriesName" : "SNDR13IML3SSDFCVPD",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "2",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SNDR13IML3SSDFCVPD_2.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "SpatialCoverageType" : "HORIZONTAL",
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "VAPOR PRESSURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2012-11-28T00:00:00.000Z",
+      "EndingDateTime" : "2020-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/55EOWAJ669WC"
+  },
+  "ShortName" : "SNDR13IML3SSDFCVPD",
+  "EntryTitle" : "Spatial Statistical Data Fusion (SSDF) Level 3: CONUS Near-Surface Vapor Pressure Deficit from SNPP CrIMSS and Aqua AIRS, V2 (SNDR13IML3SSDFCVPD)",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SNDR13IML3SSDFCVPD_2.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SNDR13IML3SSDFCVPD_2.html",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/data/Data_Fusion/SNDR13IML3SSDFCVPD.2/",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://sounder.gesdisc.eosdis.nasa.gov/opendap/Data_Fusion/SNDR13IML3SSDFCVPD.2/",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SNDR13IML3SSDFCVPD+2",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/SSDF.V2.README.pdf",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://airs.jpl.nasa.gov/index.html",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Sounder/SSDF.V2.ATBD.pdf",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2022-04-13T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-04-13T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Spatial Statistical Data Fusion (SSDF) surface continental United States (CONUS) products, fuse data from the Atmospheric InfraRed Sounder (AIRS) instrument on the EOS-Aqua spacecraft with data from the Cross-track Infrared and Microwave Sounding Suite (CrIMSS) instruments on the Suomi-NPP spacecraft.  The CrIMSS instrument suite consists of the Cross-track Infrared Sounder (CrIS) infrared sounder and the Advanced Technology Microwave Sounder (ATMS) microwave sounder. This data set provides an estimate of the vapor pressure deficit.  It infers a value for each grid point based on nearby and distant values of the input Level-2 datasets and estimates of the variance of those values, with lower variances given higher weight. These are all daily products on a ¼ x ¼ degree latitude/longitude grid covering the continental United States (CONUS).  \n\nThe SSDF algorithm infers a value for each grid point based on nearby and distant values of the input Level-2 datasets and estimates of the variance of those values, with lower variances given higher weight. Performing the data fusion of two (or more) remote sensing datasets that estimate the same physical state involves four major steps: (1) Filtering input data; (2) Matching the remote sensing datasets to an in situ dataset, taken as a truth estimate; (3) Using these matchups to characterize the input datasets via estimation of their bias and variance relative to the truth estimate; (4) Performing the spatial statistical data fusion. We note that SSDF can also be performed on a single remote sensing input dataset. The SSDF algorithm only ingests the bias-corrected estimates, their latitudes and longitudes, and their estimated variances; the algorithm is agnostic as to which dataset or datasets those estimates, latitudes, longitudes, and variances originated from.",
+  "MetadataDates" : [ {
+    "Date" : "2022-04-13T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-04-13T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "2",
+  "Projects" : [ {
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System (EOS), Aqua"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Amy",
+    "LastName" : "Braverman",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "amy.braverman@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Thomas",
+    "LastName" : "Hearty",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "thomas.j.hearty@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Divis ion, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    }
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "CrIS",
+      "LongName" : "Cross-track Infrared Sounder"
+    }, {
+      "ShortName" : "ATMS",
+      "LongName" : "Advanced Technology Microwave Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

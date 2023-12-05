@@ -1,0 +1,403 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology", "Precipitation", "Rainfall", "Uncertainty" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Colorado State University (Christian Kummerow)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/WC_MULTISEN_PREC_025_001.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TMI/TRMM precipitation and uncertainty (TMPA) L3 3 hour 0.25 degree x 0.25 degree V001",
+    "SeriesName" : "WC_MULTISEN_PREC_025",
+    "ReleaseDate" : "2015-09-01T00:00:00.000Z",
+    "Version" : "001",
+    "ReleasePlace" : "Greenbelt, MD USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 50,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -50
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION AMOUNT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1998-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2010-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/WATERCYCLE/DATA312"
+  },
+  "ShortName" : "WC_MULTISEN_PREC_025",
+  "EntryTitle" : "TMI/TRMM precipitation and uncertainty (TMPA) L3 3 hour 0.25 degree x 0.25 degree V001 (WC_MULTISEN_PREC_025) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Huffman, G.J., R.F. Adler, D.T. Bolvin, G. Gu, E.J. Nelkin, K.P. Bowman, Y. Hong, E.F. Stocker, and D.B. Wolff",
+    "PublicationDate" : "2007-01-01T00:00:00.000Z",
+    "Title" : "The TRMM Multisatellite Precipitation Analysis (TMPA): Quasi-global, multiyear, combined-sensor precipitation estimates at fine scales",
+    "Series" : "Journal of Hydrometeorology",
+    "Volume" : "8",
+    "Pages" : "38-55",
+    "DOI" : {
+      "DOI" : "10.1175/JHM560.1"
+    }
+  }, {
+    "Author" : "Huffman, G.J. and D.T. Bolvin",
+    "PublicationDate" : "2018-01-01T00:00:00.000Z",
+    "Title" : "TRMM and Other Data Precipitation Data Set Documentation",
+    "OnlineResource" : {
+      "Linkage" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/3B42_3B43_doc_V7.pdf"
+    }
+  }, {
+    "Author" : "Bytheway, J.L. and C.D. Kummerow",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Title" : "Inferring the uncertainty of satellite precipitation estimates in data-sparse regions over land",
+    "Series" : "Journal of Geophysical Research: Atmospheres",
+    "Volume" : "118",
+    "Pages" : "9524-9533",
+    "DOI" : {
+      "DOI" : "10.1002/jgrd.50607"
+    }
+  } ],
+  "Quality" : "The 3-hourly precipitation data included in the Global Terrestrial Water Cycle MEaSUREs project results follow the TRMM Multi-satellite Precipitation Analysis (3B42) (Huffman et al., 2007), with associated uncertainty estimates as a function of precipitation rate and regime characteristics. Because the 3B42 product requires a number of passive microwave sensors in orbit simultaneously, it is available only from 1998 onward. Before January 1998, there are insufficient data for 3-hourly products, and, thus, only daily precipitation is available.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "3-hourly accumulated precipitation from TRMM 3B42 product and associated uncertainty (root mean square error), version 001 (WC_MULTISEN_PREC_025_001), 0.25-degree, for June 1, 2010, 03Z",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/WC_MULTISEN_PREC_025_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/WC_MULTISEN_PREC_025_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/TerrestrialWaterCycle/WC_MULTISEN_PREC_025.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=WC_MULTISEN_PREC_025",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/TerrestrialWaterCycle/WC_MULTISEN_PREC_025.001/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/TerrestrialWaterCycle/WC_MULTISEN_PREC_025.001/doc/README.WC_MULTISEN_PREC_025_V001.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2015-05-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-05-04T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "TMI/TRMM precipitation and uncertainty (TMPA) L3 3 hour 0.25 degree x 0.25 degree V001 provides estimates of accumulated precipitation from the Tropical Rainfall Measuring Mission (TRMM) and Other Data Precipitation Data Set (TRMM 3B42; Huffman et al., 2007), along with estimates of the uncertainty in the TRMM 3B42 made by Bytheway and Kummerow (2013). The data set covers both ocean and land from 50 degree North to 50 degree South.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2015-04-15T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-26T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "CHRISTIAN",
+    "LastName" : "KUMMEROW",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Department of Atmospheric Science", "Colorado State University" ],
+        "City" : "Fort Collins",
+        "StateProvince" : "CO",
+        "PostalCode" : "80523",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "970-491-7473"
+      }, {
+        "Type" : "Fax",
+        "Value" : "970-491-8449"
+      }, {
+        "Type" : "Email",
+        "Value" : "kummerow@atmos.colostate.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "WILLIAM",
+    "MiddleName" : "L.",
+    "LastName" : "TENG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2", "Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5164"
+      }, {
+        "Type" : "Email",
+        "Value" : "william.l.teng@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, 610.2, NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Permanent Land Sites",
+    "ShortName" : "METEOROLOGICAL STATIONS",
+    "LongName" : "METEOROLOGICAL STATIONS",
+    "Instruments" : [ {
+      "ShortName" : "RAIN GAUGES"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP 5D-2/F13",
+    "LongName" : "Defense Meteorological Satellite Program-F13",
+    "Instruments" : [ {
+      "ShortName" : "SSM/I",
+      "LongName" : "Special Sensor Microwave/Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP 5D-2/F14",
+    "LongName" : "Defense Meteorological Satellite Program-F14",
+    "Instruments" : [ {
+      "ShortName" : "SSM/I",
+      "LongName" : "Special Sensor Microwave/Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP 5D-2/F15",
+    "LongName" : "Defense Meteorological Satellite Program-F15",
+    "Instruments" : [ {
+      "ShortName" : "SSM/I",
+      "LongName" : "Special Sensor Microwave/Imager"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP 5D-3/F16",
+    "LongName" : "Defense Meteorological Satellite Program-F16",
+    "Instruments" : [ {
+      "ShortName" : "SSMIS",
+      "LongName" : "Special Sensor Microwave Imager/Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP 5D-3/F17",
+    "LongName" : "Defense Meteorological Satellite Program-F17",
+    "Instruments" : [ {
+      "ShortName" : "SSMIS",
+      "LongName" : "Special Sensor Microwave Imager/Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "DMSP 5D-3/F18",
+    "LongName" : "Defense Meteorological Satellite Program-F18",
+    "Instruments" : [ {
+      "ShortName" : "SSMIS",
+      "LongName" : "Special Sensor Microwave Imager/Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AMSR-E",
+      "LongName" : "Advanced Microwave Scanning Radiometer-EOS"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GMS",
+    "LongName" : "Japan Geostationary Meteorological Satellite",
+    "Instruments" : [ {
+      "ShortName" : "INFRARED RADIOMETERS"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "GOES",
+    "LongName" : "NOAA Geostationary Operational Environmental Satellites",
+    "Instruments" : [ {
+      "ShortName" : "INFRARED RADIOMETERS"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "METEOSAT",
+    "LongName" : "Meteosat Operational Programme",
+    "Instruments" : [ {
+      "ShortName" : "INFRARED RADIOMETERS"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "METOP-A",
+    "LongName" : "Meteorological Operational Satellite - A",
+    "Instruments" : [ {
+      "ShortName" : "MHS",
+      "LongName" : "Microwave Humidity Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "METOP-B",
+    "LongName" : "Meteorological Operational Satellite - B",
+    "Instruments" : [ {
+      "ShortName" : "MHS",
+      "LongName" : "Microwave Humidity Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "MTSAT-1R",
+    "LongName" : "Multi-functional Transport Satellite 1 Replacement",
+    "Instruments" : [ {
+      "ShortName" : "INFRARED RADIOMETERS"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "MTSAT-2",
+    "LongName" : "The Multi-functional Transport Satellite 2",
+    "Instruments" : [ {
+      "ShortName" : "INFRARED RADIOMETERS"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-15",
+    "LongName" : "National Oceanic & Atmospheric Administration-15",
+    "Instruments" : [ {
+      "ShortName" : "AMSU-B",
+      "LongName" : "Advanced Microwave Sounding Unit-B"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-16",
+    "LongName" : "National Oceanic & Atmospheric Administration-16",
+    "Instruments" : [ {
+      "ShortName" : "AMSU-B",
+      "LongName" : "Advanced Microwave Sounding Unit-B"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-17",
+    "LongName" : "National Oceanic & Atmospheric Administration-17",
+    "Instruments" : [ {
+      "ShortName" : "AMSU-B",
+      "LongName" : "Advanced Microwave Sounding Unit-B"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-18",
+    "LongName" : "National Oceanic & Atmospheric Administration-18",
+    "Instruments" : [ {
+      "ShortName" : "MHS",
+      "LongName" : "Microwave Humidity Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "NOAA-19",
+    "LongName" : "National Oceanic & Atmospheric Administration-19",
+    "Instruments" : [ {
+      "ShortName" : "MHS",
+      "LongName" : "Microwave Humidity Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission",
+    "Instruments" : [ {
+      "ShortName" : "TMI",
+      "LongName" : "TRMM Microwave Imager"
+    }, {
+      "ShortName" : "PR",
+      "LongName" : "TRMM Precipitation Radar"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

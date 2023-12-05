@@ -1,0 +1,253 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Ariane Verdy",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/CMS_OCE_BGC_CCS_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Ocean Biogeochemistry in the California Current System 2007-2010 L4 Monthly",
+    "SeriesName" : "CMS_OCE_BGC_CCS",
+    "ReleaseDate" : "2017-10-02T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -129,
+          "NorthBoundingCoordinate" : 39.95,
+          "EastBoundingCoordinate" : -114,
+          "SouthBoundingCoordinate" : 27.2
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "ALKALINITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "BIOGEOCHEMICAL CYCLES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "CARBON"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "CARBON DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "DISSOLVED GASES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "NITRATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "OXYGEN"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "PH"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "PHOSPHATE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2007-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2010-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/G854SWM56S7H"
+  },
+  "ShortName" : "CMS_OCE_BGC_CCS",
+  "EntryTitle" : "Ocean Biogeochemistry in the California Current System 2007-2010 L4 Monthly",
+  "ISOTopicCategories" : [ "OCEANS" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/CMS/CMS_OCE_BGC_CCS.1/" ]
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/CMS/CMS_OCE_BGC_CCS.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/CMS_OCE_BGC_CCS_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/CMS_OCE_BGC_CCS.1",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/opendap/CMS/CMS_OCE_BGC_CCS.1",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/CMS_OCE_BGC_CCS.1/doc/README.CMS_OCE_BGC_CCS_V1.pdf",
+    "Description" : "README Document.",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://carbon.nasa.gov/",
+    "Description" : "The NASA Carbon Monitoring System (CMS) page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=CMS_OCE_BGC_CCS",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2017-09-22T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-09-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "A coupled physical-biogeochemical ocean model (the MITgcm with BLING biogeochemistry) is a least squares fit to all available ocean observations in the region of the California Current System. This is accomplished iteratively through the adjoint method, using the methodology developed by the Consortium for Estimating the Circulation and Climate of the Ocean (ECCO). The result is a physically realistic estimate of the ocean state. The model domain extends from 28N to 40N and from 130W to 114W. It has a 1/16-degree horizontal resolution (~7km) and 72 vertical levels.\n\nThe NASA Carbon Monitoring System (CMS) is designed to make significant contributions in characterizing, quantifying, understanding, and predicting the evolution of global carbon sources and sinks through improved monitoring of carbon stocks and fluxes. The System will use the full range of NASA satellite observations and modeling/analysis capabilities to establish the accuracy, quantitative uncertainties, and utility of products for supporting national and international policy, regulatory, and management activities. CMS will maintain a global emphasis while providing finer scale regional information, utilizing space-based and surface-based data and will rapidly initiate generation and distribution of products both for user evaluation and to inform near-term policy development and planning.",
+  "LocationKeywords" : [ {
+    "Category" : "OCEAN",
+    "Type" : "PACIFIC OCEAN",
+    "Subregion1" : "EASTERN PACIFIC OCEAN"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2017-09-20T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-02-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "CMS",
+    "LongName" : "Carbon Monitoring System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Ariane",
+    "LastName" : "Verdy",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Scripps Institution of Oceanography", "9500 Gilman Drive #0230" ],
+        "City" : "La Jolla",
+        "StateProvince" : "CA",
+        "PostalCode" : "92093-0230",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "858-534-9662"
+      }, {
+        "Type" : "Email",
+        "Value" : "averdy@ucsd.edu"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "MITgcm",
+    "LongName" : "Massachusetts Institute of Technology General Circulation Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  }, {
+    "Type" : "Models",
+    "ShortName" : "BLING",
+    "LongName" : "Biology Light Iron Nutrient and Gas model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Atmospheric Dynamics", "Cloud Top Pressure", "Cloud Top Height", "Cloud Fraction", "Cloud Coverage", "Cloud Amount", "EOSDIS", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Human Health", "Transportation", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Pepijn Veefkind",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMCLDO2_003.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMI/Aura Cloud Pressure and Fraction (O2-O2 Absorption) 1-Orbit L2 Swath 13x24km V003",
+    "SeriesName" : "OMCLDO2",
+    "ReleaseDate" : "2006-06-26T00:00:00.000Z",
+    "Version" : "003",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "GEODETIC",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD FRACTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD PROPERTIES",
+    "VariableLevel2" : "CLOUD TOP PRESSURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2004-10-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aura/OMI/DATA2007"
+  },
+  "ShortName" : "OMCLDO2",
+  "EntryTitle" : "OMI/Aura Cloud Pressure and Fraction (O2-O2 Absorption) 1-Orbit L2 Swath 13x24km V003 (OMCLDO2) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Ahmad, S. P., P. F. Levelt, P. K. Bhartia, E. Hilsenrath, G. W. Leppelmeier,and J. E. Johnson",
+    "PublicationDate" : "2003-08-01T00:00:00.000Z",
+    "Title" : "Atmospheric Products from the Ozone Monitoring Instrument(OMI)",
+    "Series" : "Proceedings of SPIE conference on Earth Observing Systems VIII, San Diego, California"
+  }, {
+    "Author" : "Bhartia, P. K., P. F. Levelt, J. Tamminen, O. Torres",
+    "PublicationDate" : "2006-11-28T00:00:00.000Z",
+    "Title" : "Recent results from the Ozone Monitoring Instrument (OMI) on EOS Aura",
+    "Series" : "Proceedings of SPIE conference on Remote Sensing of the Atmosphere and Clouds",
+    "Volume" : "6408"
+  }, {
+    "Author" : "Brinksma, E. J., K. F. Boersma, and P. F. Levelt",
+    "PublicationDate" : "2003-05-16T00:00:00.000Z",
+    "Title" : "OMI-Validation Requirements"
+  }, {
+    "Author" : "Dirksen, R., M.R. Dobber, R. Voors and P. Level",
+    "PublicationDate" : "2006-06-10T00:00:00.000Z",
+    "Title" : "Pre-launch characterization of the Ozone Monitoring Instrument transfer function in the spectral domain",
+    "Series" : "Appl. Optics",
+    "Volume" : "45",
+    "Issue" : "17",
+    "Pages" : "3972-81"
+  }, {
+    "Author" : "Dobber, M.R., R. Dirksen, P. Levelt, G.H.J. van den Oord, R. Voors, Q. Kleipool, G. Jaross, M. Kowalewski, E. Hilsenrath, G. Leppelmeier, J. de Vries, W. Dierssen and N. Rozemeijer",
+    "PublicationDate" : "2006-05-01T00:00:00.000Z",
+    "Title" : "Ozone Monitoring Instrument Calibrtation",
+    "Series" : "IEEE Trans. Geo. Rem. Sens",
+    "Volume" : "44",
+    "Issue" : "5",
+    "Pages" : "1209-1238",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.869987"
+    }
+  }, {
+    "Author" : "Dobber, M.R., R. Dirksen, P. Levelt, G.H.J. van den Oord, R. Voors, Q. Kleipool, G. Jaross en M. Kowalewski",
+    "PublicationDate" : "2005-09-01T00:00:00.000Z",
+    "Title" : "Ozone Monitoring Instrument in-flight performance and calibration",
+    "Series" : "Proceedings SPIE Optical Systems Design 2005, 12-16 September 2005, Jena, Germany, 2006"
+  }, {
+    "Author" : "Kowalewski, J.M.G., G.R. Jaross, R.P Cebula, S.L. Taylor, G.H.J. van den Oord, M.R. Dobber, R.J. Dirksen",
+    "PublicationDate" : "2005-08-01T00:00:00.000Z",
+    "Title" : "Evaluation of OMI pre-launch radiometric calibration and on-orbit performance using in-flight data",
+    "Series" : "Proceedings SPIE's Annual Meeting, San Diego (U.S.A.), 31 July - 4 August 2005, Optical Science, Engineering, and Instrumentation. Earth observing systems",
+    "Edition" : "X",
+    "Volume" : "5882"
+  }, {
+    "Author" : "Levelt, P.F., J. P. Veefkind, R. H. M. Voors, and J. de Vries",
+    "PublicationDate" : "2002-08-01T00:00:00.000Z",
+    "Title" : "Instrument Description, Algorithm Theoretical Baseline Document: OMI Instrument, Level 0 - 1B processor, Calibration & Operations"
+  }, {
+    "Author" : "Oord, G.H.J. van den, N.C. Rozemeijer, V. Schenkelaars, P.F. Levelt, M.R. Dobber, R.H.M. Voors, J. Claas, J. de Vries, M. ter Linden, C. De Haan and T. van den Berg",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "OMI level 0 to 1b processing and operational aspects",
+    "Series" : "IEEE Trans. Geo. Rem. Sens.",
+    "Volume" : "44",
+    "Issue" : "5",
+    "Pages" : "1380-1397",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.872935"
+    }
+  }, {
+    "Author" : "Vries, J. de, R.H.M. Voors, R.J. Dirksen, and M.R. Dobber",
+    "PublicationDate" : "2005-10-01T00:00:00.000Z",
+    "Title" : "In-orbit performance of the Ozone Monitoring Instrument",
+    "Series" : "Proceedings of SPIE - The International Society for Optical Engineering",
+    "DOI" : {
+      "DOI" : "10.1117/12.627013"
+    }
+  } ],
+  "Quality" : "This is the second public release of version 003. It is based on improved algorithm and is better than the earlier version, but it is not fully validated yet. Please see related documents on the GES DISC product page for details and before using it in any publication.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMCLDO2_003.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMCLDO2_003.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2/OMCLDO2.003/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMCLDO2_003",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/opendap/Aura_OMI_Level2/OMCLDO2.003/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://aura.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level2/OMCLDO2.003/doc/README.OMCLDO2.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.4_ProductGenerationAlgorithm/ATBD-OMI-03.pdf",
+    "Description" : "OMI Algorithm Theoretical Basis Documents",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.2_ProductRequirements_Designs/README.OMI_DUG.pdf",
+    "Description" : "OMI Data User's Guide",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OMI/OMCLDO2.fs",
+    "Description" : "File Specification Document",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OMI/L2_cloud_spec_issue2_3.pdf",
+    "Description" : "Release details and known issues of data product",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://aura.gsfc.nasa.gov/",
+    "Description" : "Aura Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/research/news/newsWrap.php?language=only_enhttps://www.knmi.nl/omitimeFrame=latesthttps://www.knmi.nl/omichoise=page",
+    "Description" : "OMI KNMI Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://projects.knmi.nl/omi/research/documents/",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2006-06-26T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2012-03-28T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The reprocessed OMI/Aura Level-2 cloud data product OMCLDO2 is now available from the NASA GoddardEarth Sciences Data and Information Services Center (GES DISC) for the public access. It is the second release of Version 003 and was reprocessed in late 2011. OMI provides two cloud products based on two different algorithms, the Rotational Raman Scattering method, and O2-O2 absorption method using the DOAS technique. This level-2 global cloud product, with a pixel resolution of 13x24 km2at nadir, is based on the spectral fitting of O2-O2 absorption band at 477 nm using DOAS technique. This product contains cloud pressure, cloud fraction, slant column O2-O2, ozone, ring coefficients, uncertainties in derived parameters, terrain and geolocation information, solar and satellite viewing angles, and quality flags. The lead scientist for this product is Dr. Pepijn Veefkind.\n\nThe OMCLDO2 product files are stored in the version 5 Hierarchical Data Format (HDF-EOS5). Each file contains data from the day lit portion of an orbit (~53 minutes) and is roughly 15.096 MB in size. There are approximately 14 orbits per day thus the total data volume is approximately 200 GB/day.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2006-10-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-12-26T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "003",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "PEPIJN",
+    "LastName" : "VEEFKIND, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "KNMI", "P.O.Box 201" ],
+        "City" : "De Bilt",
+        "StateProvince" : "AE",
+        "PostalCode" : "3730",
+        "Country" : "NL"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "JOHAN",
+    "LastName" : "DE HAAN, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "KNMI", "P.O.Box 201" ],
+        "City" : "De Bilt",
+        "StateProvince" : "AE",
+        "PostalCode" : "3730",
+        "Country" : "NL"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JEROME",
+    "MiddleName" : "M.",
+    "LastName" : "ALFRED",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-8337"
+      }, {
+        "Type" : "Email",
+        "Value" : "jerome.m.alfred@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS5",
+      "Fees" : "None"
+    } ]
+  }
+}

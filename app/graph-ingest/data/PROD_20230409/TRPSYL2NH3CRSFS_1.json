@@ -1,0 +1,300 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "MUSES", "NH3" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Kevin W. Bowman",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TRPSYL2NH3CRSFS_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TROPESS CrIS-SNPP L2 Ammonia for Forward Stream, Summary Product V1",
+    "SeriesName" : "TRPSYL2NH3CRSFS",
+    "ReleaseDate" : "2022-04-04T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "AMMONIA"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2021-02-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/87GYER1R69D2"
+  },
+  "ShortName" : "TRPSYL2NH3CRSFS",
+  "EntryTitle" : "TROPESS CrIS-SNPP L2 Ammonia for Forward Stream, Summary Product V1 (TRPSYL2NH3CRSFS) at GES DISC",
+  "PublicationReferences" : [ {
+    "OnlineResource" : {
+      "Linkage" : "https://advances.sciencemag.org/content/7/24/eabf7460"
+    },
+    "Volume" : "7",
+    "Publisher" : "American Association for the Advancement of Science",
+    "Title" : "Global tropospheric ozone responses to reduced NOx emissions linked to the COVID-19 worldwide lockdowns",
+    "DOI" : {
+      "DOI" : "10.1126/sciadv.abf7460"
+    },
+    "Issue" : "24",
+    "PublicationDate" : "2021-01-01T00:00:00.000Z",
+    "Author" : "Miyazaki, K., Bowman, K., Sekiya, T., Takigawa, M., Neu, J. L., Sudo, K., Osterman, G., & Eskes, H.",
+    "Series" : "Science Advances"
+  }, {
+    "OnlineResource" : {
+      "Linkage" : "https://doi.org/10.1109/TGRS.2006.871234"
+    },
+    "Volume" : "44",
+    "Title" : "Tropospheric emission spectrometer: retrieval method and error analysis",
+    "DOI" : {
+      "DOI" : "10.1109/TGRS.2006.871234"
+    },
+    "Issue" : "5",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Author" : "Bowman, K. W., Rodgers, C. D., Kulawik, S. S., Worden, J., Sarkissian, E., Osterman, G., Steck, T., Lou, M., Eldering, A., Shephard, M., Worden, H., Lampel, M., Clough, S., Brown, P., Rinsland, C., Gunson, M., & Beer, R.",
+    "Series" : "IEEE Transactions on Geoscience and Remote Sensing",
+    "Pages" : "1297-1307"
+  }, {
+    "OnlineResource" : {
+      "Linkage" : "https://amt.copernicus.org/articles/8/1323/2015/"
+    },
+    "Volume" : "8",
+    "Title" : "Cross-track Infrared Sounder (CrIS) satellite observations of tropospheric ammonia",
+    "DOI" : {
+      "DOI" : "10.5194/amt-8-1323-2015"
+    },
+    "Issue" : "3",
+    "PublicationDate" : "2015-01-01T00:00:00.000Z",
+    "Author" : "Shephard, M. W. & Cady-Pereira, K. E.",
+    "Series" : "Atmospheric Measurement Techniques",
+    "Pages" : "1323-1336"
+  }, {
+    "OnlineResource" : {
+      "Linkage" : "https://doi.org/10.5194/acp-11-10743-2011"
+    },
+    "Volume" : "11",
+    "Publisher" : "Copernicus Publications",
+    "Title" : "TES ammonia retrieval strategy and global observations of the spatial and seasonal variability of ammonia",
+    "DOI" : {
+      "DOI" : "10.5194/acp-11-10743-2011"
+    },
+    "Issue" : "20",
+    "PublicationDate" : "2011-01-01T00:00:00.000Z",
+    "Author" : "Shephard, M. W., Cady-Pereira, K. E., Luo, M., Henze, D. K., Pinder, R. W., Walker, J. T., Rinsland, C. P., Bash, J. O., Zhu, L., Payne, V. H., & Clarisse, L.",
+    "Series" : "Atmospheric Chemistry and Physics",
+    "Pages" : "10743-20763"
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "Description" : "TROPESS CrIS-SNPP NH3 (Forward Stream, Summary Product) at 681 hPa on 01 April 2021.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TROPESS/images/TRPSYL2NH3CRSFS_Sample.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TRPSYL2NH3CRSFS_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://tropess.gesdisc.eosdis.nasa.gov/data/TROPESS_Summary/TRPSYL2NH3CRSFS.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TRPSYL2NH3CRSFS_1",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://tropess.gesdisc.eosdis.nasa.gov/opendap/TROPESS_Summary/TRPSYL2NH3CRSFS.1/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://tropess.gesdisc.eosdis.nasa.gov/data/TROPESS_Summary/TRPSYL2NH3CRSFS.1/doc/TROPESS_Forward_Stream_README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TROPESS/User_Guides/TROPESS-NH3_L2_Product_Quick_Start_User_Guide_Summary_only.pdf",
+    "Description" : "User's Guide",
+    "Subtype" : "USER'S GUIDE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TROPESS/TROPESS_ATBDv1.1.pdf",
+    "Description" : "ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://tes.jpl.nasa.gov/tropess/",
+    "Description" : "TROPESS Project Home Page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2022-04-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-04-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The TROPESS CrIS-SNPP L2 Ammonia for Forward Stream, Summary Product contains the vertical distribution of the retrieved atmospheric state of ammonia (NH3),  and formal uncertainties measured by the CrIS instrument on the Suomi-NPP satellite. The forward stream standard product is global for the time period from 2021-02-01 to 2021-05-21, when the CrIS-SNPP processing was discontinued. The NASA TRopospheric Ozone and Precursors from Earth System Sounding (TROPESS) project, uses an optimal estimation algorithm, known as the MUlti-SpEctra, MUlti-SpEcies, Multi-SEnsors (MUSES).\n\nThe data files are written in the netCDF version 4 file format, and each file contains one day of data. The data have a spatial resolution of 14 km (CrIS nadir FOV), and are reported at 15 vertical levels from the surface to 0.1 hPa. The principal investigator for the TROPESS project is Kevin W. Bowman.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "TROPOSPHERE"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2022-04-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-04-04T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "TROPESS",
+    "LongName" : "TRopospheric Ozone and its Precursors from Earth System Sounding"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "KEVIN",
+    "MiddleName" : "W",
+    "LastName" : "BOWMAN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "4800 Oak Grove Drive", "MS 233-200" ],
+        "City" : "Pasadena",
+        "StateProvince" : "CA",
+        "PostalCode" : "91109",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "818-354-2995"
+      }, {
+        "Type" : "Email",
+        "Value" : "kevin.w.bowman@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-help-disc@lists.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "CrIS",
+      "LongName" : "Cross-track Infrared Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

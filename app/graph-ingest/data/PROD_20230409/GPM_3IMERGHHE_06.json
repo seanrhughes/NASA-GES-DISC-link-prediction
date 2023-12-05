@@ -1,0 +1,359 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Atmosphere, Precipitation, Hydrology" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Huffman, G.J., E.F. Stocker, D.T. Bolvin, E.J. Nelkin, Jackson Tan",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPM_3IMERGHHE_06.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "GPM IMERG Early Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V06",
+    "SeriesName" : "GPM_3IMERGHHE",
+    "ReleaseDate" : "2019-03-20T00:00:00.000Z",
+    "Version" : "06",
+    "ReleasePlace" : "Greenbelt, MD"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION AMOUNT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION RATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "SOLID PRECIPITATION",
+    "VariableLevel2" : "SNOW"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2000-06-01T00:00:00.000Z"
+    } ]
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/GPM/IMERG/3B-HH-E/06"
+  },
+  "ShortName" : "GPM_3IMERGHHE",
+  "EntryTitle" : "GPM IMERG Early Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V06 (GPM_3IMERGHHE) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Hong, Y., K. L. Hsu, S. Sorooshian, and X. Gao",
+    "PublicationDate" : "2004-01-01T00:00:00.000Z",
+    "Title" : "Precipitation Estimation from Remotely Sensed Imagery Using an Artificial Neural Network Cloud Classification System",
+    "Series" : "J. Appl. Meteorol",
+    "Volume" : "43",
+    "Pages" : "1834-1852"
+  }, {
+    "Author" : "Huffman, G. J., R. F. Adler, D. T. Bolvin, G. Gu, E. J. Nelkin, K. P. Bowman, Y. Hong, E. F. Stocker, and D. B. Wolff",
+    "PublicationDate" : "2007-01-01T00:00:00.000Z",
+    "Title" : "The TRMM Multi-satellite Precipitation Analysis: Quasi-Global, Multi-Year, Combined-Sensor Precipitation Estimates at Fine Scale.",
+    "Series" : "J. Hydrometeor.",
+    "Volume" : "8(1)",
+    "Pages" : "38-55"
+  }, {
+    "Author" : "Joyce, R. J., P. Xie, and J. E. Janowiak",
+    "PublicationDate" : "2011-01-01T00:00:00.000Z",
+    "Title" : "Kalman Filter Based CMORPH",
+    "Series" : "J. Hydrometeor.",
+    "Volume" : "12",
+    "Pages" : "1547-1563",
+    "DOI" : {
+      "DOI" : "10.1175/JHM-D-11-022.1"
+    }
+  }, {
+    "Author" : "Rudolf, B., and U. Schneider",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "Calculation of Gridded Precipitation Data for the Global Land-Surface Using In-Situ Gauge Observations",
+    "Series" : "Proc. of the 2nd Internat. Precip. Working Group Workshop",
+    "Volume" : "25-28 October 2004, Monterey, CAs",
+    "Pages" : "231-247"
+  } ],
+  "Quality" : "Quality is discussed in detail in the Technical Documentation (See IMERG Quality Index).\nThe *data access policy* is \"freely available\" with three common-sense caveats:\n\n1.   The data set source should be acknowledged when the data are used, in the form:\n\"The IMERG data were provided by the NASA/Goddard Space Flight Center's Mesoscale Atmospheric Processes Laboratory and PPS, which develop and compute IMERG as a contribution to GPM, and archived at the NASA [enter PPS or GES DISC].\"\n\n2.   New users are urged to obtain their own current, clean copy from an official archive, rather than taking a version from a third party that might be damaged or out of date.\n\n3.   Errors and difficulties in the original datasets should be reported to the dataset creators.  Access and format issues at third-party sites should be directed to their contacts.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/GPM_L3/GPM_3IMERGHHE.06/" ]
+  },
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Surface Precipitation  (Early) from GPM IMERG (0.1 degree x 0.1 degree)  (GPM_3IMERGHHE)",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/GPM_3IMERGHHE.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPM_3IMERGHHE_06.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/GPM_3IMERGHHE.06/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://giovanni.gsfc.nasa.gov/#dataKeyword=IMERGHHE",
+    "Description" : "Online visualization and analysis",
+    "Subtype" : "GIOVANNI",
+    "Type" : "GET RELATED VISUALIZATION",
+    "URLContentType" : "VisualizationURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/opendap/hyrax/GPM_L3/GPM_3IMERGHHE.06/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/dods/GPM_3IMERGHHE_06.info",
+    "Description" : "The GrADS Data Server (GDS) is another form of OPeNDAP that provides subsetting and some analysis services across the Internet.",
+    "Subtype" : "GRADS DATA SERVER (GDS)",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/thredds/catalog/aggregation/GPM_3IMERGHHE.06/catalog.html",
+    "Description" : "Access the data via the THREDDS.",
+    "Subtype" : "THREDDS DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPM_3IMERGHHE_06",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/IMERG_ATBD_V06.pdf",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/MorphingInV06IMERG.pdf",
+    "Description" : "Release notes; New Morphing algorithm",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/IMERG_V06_release_notes.pdf",
+    "Description" : "IMERG Release Notes",
+    "Subtype" : "IMPORTANT NOTICE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/IMERG_doc.06.pdf",
+    "Description" : "IMERG Technical Documentation",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/IMERGV06_QI.pdf",
+    "Description" : "IMERG Quality Index",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/doc/README.GPM.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/gpm_anomalous.html",
+    "Description" : "GPM and partner sensors anomalous events",
+    "Subtype" : "ANOMALIES",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpm.nasa.gov",
+    "Description" : "GPM Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://arcgis.gesdisc.eosdis.nasa.gov/authoritative/rest/services/GPM_3IMERGHHE_06/ImageServer",
+    "Description" : "ArcGIS REST API portal",
+    "Subtype" : "GIS",
+    "Type" : "GET RELATED VISUALIZATION",
+    "URLContentType" : "VisualizationURL"
+  }, {
+    "URL" : "https://arcgis.gesdisc.eosdis.nasa.gov/portal/home/webmap/viewer.html?webmap=8d3a4d3a046a47bab816d85c5280d3b1",
+    "Description" : "ArcGIS Enterprise Web Map",
+    "Subtype" : "GIS",
+    "Type" : "GET RELATED VISUALIZATION",
+    "URLContentType" : "VisualizationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2019-03-20T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-03-20T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Integrated Multi-satellitE Retrievals for GPM (IMERG) is the unified U.S. algorithm that provides the multi-satellite precipitation product for the U.S. GPM team.\n\nMinor Version 06B is the current version of the data set. Older versions will no longer be available and have been superseded by Version 06B.\n\nThe precipitation estimates from the various precipitation-relevant satellite passive microwave (PMW) sensors comprising the GPM constellation are computed using the 2017 version of the Goddard Profiling Algorithm (GPROF2017), then gridded, intercalibrated to the GPM Combined Ku Radar-Radiometer Algorithm (CORRA) product, and merged into half-hourly 0.1°x0.1° (roughly 10x10 km) fields. Note that CORRA is adjusted to the monthly Global Precipitation Climatology Project (GPCP) Satellite-Gauge (SG) product over high-latitude ocean and tropical land to correct known biases.\n\nThe half-hourly intercalibrated merged PMW estimates are then input to both the Climate Prediction Center (CPC) Morphing-Kalman Filter (CMORPH-KF) Lagrangian time interpolation scheme and the Precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks Cloud Classification System (PERSIANN-CCS) re-calibration scheme. In parallel, CPC assembles the zenith-angle-corrected, intercalibrated merged geo-IR fields and forwards them to PPS for input to the PERSIANN-CCS algorithm (supported by an asynchronous re-calibration cycle) which are then input to the CMORPH-KF morphing (quasi-Lagrangian time interpolation) scheme. \nThe CMORPH-KF morphing (supported by an asynchronous KF weights updating cycle) uses the PMW and IR estimates to create half-hourly estimates. The motion vectors for the morphing are computed by maximizing the pattern correlation of successive hours of the vertically integrated vapor (TQV) provided by the Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2) and Goddard Earth Observing System model Version 5 (GEOS-5) Forward Processing (FP) for the post-real-time (Final) Run and the near-real-time (Early and Late) Runs, respectively. The KF uses the morphed data as the “forecast” and the IR estimates as the “observations”, with weighting that depends on the time interval(s) away from the microwave overpass time. The IR becomes important after about ±90 minutes away from the overpass time.\n\nThe IMERG system is run twice in near-real time:\n\n\"Early\" multi-satellite product ~4 hr after observation time using only forward morphing and\n\"Late\" multi-satellite product ~14 hr after observation time, using both forward and backward morphing\nand once after the monthly gauge analysis is received:\n\n\"Final\", satellite-gauge product ~3.5 months after the observation month, using both forward and backward morphing and including monthly gauge analyses.\n\nCurrently, the near-real-time Early and Late half-hourly estimates have no concluding calibration, while in the post-real-time Final Run the multi-satellite half-hourly estimates are adjusted so that they sum to the Final Run monthly satellite-gauge combination. In all cases the output contains multiple fields that provide information on the input data, selected intermediate fields, and estimation quality. In general, the complete calibrated precipitation, precipitationCal, is the data field of choice for most users.\n\nBriefly describing the Early Run, the input precipitation estimates computed from the various satellite passive microwave sensors are intercalibrated to the CORRA product (because it is presumed to be the best snapshot TRMM/GPM estimate after adjustment to the monthly GPCP SG), then \"forward morphed\" and combined with microwave precipitation-calibrated geo-IR fields to provide half-hourly precipitation estimates on a 0.1°x0.1° (roughly 10x10 km) grid over the globe. Precipitation phase is computed using analyses of surface temperature, humidity, and pressure. The current period of record is June 2000 to the present (delayed by about 4 hours).\n\n\n",
+  "Purpose" : "The Integrated Multi-Satellite Retrievals for GPM (IMERG) algorithm is designed to leverage the international constellation of precipitation-relevant satellites to create a long record of uniformly time/space gridded precipitation estimates for the globe. The algorithm is focused on creating the best estimate at each time step, meaning that it is not a Climate Data Record, although the ideal is as homogenous a record as possible.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  }, {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL OCEAN"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-02-25T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-03-19T12:19:34.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2020-01-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "06",
+  "Projects" : [ {
+    "ShortName" : "GPM",
+    "LongName" : "Global Precipitation Measurement"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GEORGE",
+    "LastName" : "HUFFMAN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Mailstop 612" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6308"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5492"
+      }, {
+        "Type" : "Email",
+        "Value" : "George.J.Huffman@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "IMERG",
+    "LongName" : "Integrated Multi-satellitE Retrievals for GPM",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

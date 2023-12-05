@@ -1,0 +1,215 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "C II", "C IV", "CA II", "H I", "LYMAN ALPHA", "MG II", "O I", "SSI" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Brueckner, Guenter E., et al.",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/UARSU3BS_022.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "UARS Solar Ultraviolet Spectral Irradiance Monitor (SUSIM) Level 3BS V022",
+    "SeriesName" : "UARSU3BS",
+    "ReleaseDate" : "2006-04-28T00:00:00.000Z",
+    "Version" : "022",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "NO_SPATIAL"
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SUN-EARTH INTERACTIONS",
+    "Term" : "SOLAR ACTIVITY",
+    "VariableLevel1" : "SOLAR IRRADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1991-10-12T00:00:00.000Z",
+      "EndingDateTime" : "2005-08-01T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "MissingReason" : "Not Applicable",
+    "Explanation" : "Older dataset that was created before DOIs were assigned"
+  },
+  "ShortName" : "UARSU3BS",
+  "EntryTitle" : "UARS Solar Ultraviolet Spectral Irradiance Monitor (SUSIM) Level 3BS V022 (UARSU3BS) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "GEOSCIENTIFIC INFORMATION", "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/UARSU3BS_022.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/UARSU3BS_022.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/UARS_SUSIM_Level3/UARSU3BS/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=UARSU3BS",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://uars.gsfc.nasa.gov/",
+    "Description" : "The UARS Project Homepage.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/UARS_SUSIM_Level3/UARSU3BS/doc/README.UARSU3BS.doc",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "ContactGroups" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5224"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+      } ]
+    }
+  } ],
+  "DataDates" : [ {
+    "Date" : "2005-11-18T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2005-11-18T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Solar Ultraviolet Spectral Irradiance Monitor (SUSIM) Level 3BS data product consists of daily, 1 nm resolution, solar spectral irradiances and selected solar parameters. The instrument consisted of two identical double-dispersion scanning spectrometers, seven detectors (5 photodiodes, 2 photon counters), and solar ultraviolet calibration sources measuring in the wavelength range from 110 to 410 nm. One spectrometer measured the solar disk while the other was for calibration using high-precision deuterium lamps calibrated by NIST. SUSIM was flown on NASA's Upper Atmosphere Research Satellite (UARS) and designed to measure the full disk solar irradiance with high precision and accuracy to follow short-term (minutes to hours), intermediate-term (days to weeks), and long-term (11 year sunspot, and 22 year solar magnetic field cycles) variations in the solar output. The SUSIM Level 3BS data were processed with the version 22 algorithm.\n\nThe SUSIM Level 3BS data consists of 1 granule per day. The data are normalized to an earth-sun distance of 1 AU, and instrument degradation have been applied to the data. Included with the primary solar spectral irradiance values are the following solar indices: Lyman alpha, O-I (130 nm), C-II (134 nm) and C-IV (155 nm), Al Edge, and core-wing ratios of Mg-I and Mg-II. The data files are available in a binary record oriented format.",
+  "LocationKeywords" : [ {
+    "Category" : "SPACE",
+    "Type" : "SOLAR REGION",
+    "Subregion1" : "CORONA"
+  }, {
+    "Category" : "SPACE",
+    "Type" : "SOLAR REGION",
+    "Subregion1" : "PHOTOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2006-12-29T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-30T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "022",
+  "Projects" : [ {
+    "ShortName" : "UARS",
+    "LongName" : "Upper Atmosphere Research Satellite"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GUENTER",
+    "MiddleName" : "E.",
+    "LastName" : "BRUECKNER",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "UARS",
+    "LongName" : "Upper Atmosphere Research Satellite",
+    "Instruments" : [ {
+      "ShortName" : "SUSIM",
+      "LongName" : "Solar Ultraviolet Spectral Irradiance Monitor"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "None"
+    } ]
+  }
+}

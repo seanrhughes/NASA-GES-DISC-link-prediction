@@ -1,0 +1,287 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology", "TMI", "Skin temperature", "Surface soil moisture", "Optical depth", "Brightness temperature", "Soil water content", "Vegetation water content", "Microwave", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Water Resources", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Vrije Universiteit Amsterdam (Richard de Jeu) and NASA GSFC (Manfred Owe)",
+    "Editor" : "Goddard Earth Sciences Data and Information Services Center (GES DISC) (Bill Teng)",
+    "Title" : "TMI/TRMM surface soil moisture (LPRM) L3 1 day 25 km x 25 km daytime V001",
+    "SeriesName" : "LPRM_TMI_DY_SOILM3",
+    "ReleaseDate" : "2012-04-16T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/LPRM_TMI_DY_SOILM3_001.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 40,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -40
+        } ]
+      },
+      "ResolutionAndCoordinateSystem" : {
+        "GeodeticModel" : {
+          "HorizontalDatumName" : "WGS 84"
+        }
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "SKIN TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL MOISTURE/WATER CONTENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "VEGETATION",
+    "VariableLevel1" : "PLANT CHARACTERISTICS",
+    "VariableLevel2" : "VEGETATION WATER CONTENT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1997-12-07T23:57:18.000Z",
+      "EndingDateTime" : "2015-04-08T15:25:03.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/8CHFMAWJQTCP"
+  },
+  "ShortName" : "LPRM_TMI_DY_SOILM3",
+  "EntryTitle" : "TMI/TRMM surface soil moisture (LPRM) L3 1 day 25 km x 25 km daytime V001 (LPRM_TMI_DY_SOILM3) at GES DISC",
+  "PublicationReferences" : [ {
+    "Volume" : "113",
+    "Title" : "Multisensor historical climatology of satellite-derived global land surface moisture",
+    "DOI" : {
+      "DOI" : "10.1029/2007JF000769"
+    },
+    "Issue" : "F01002",
+    "PublicationDate" : "2008-01-01T00:00:00.000Z",
+    "Author" : "Owe, M., R. de Jeu, and T. Holmes",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "Series" : "Journal of Geophysical Research",
+    "Pages" : "17 pp."
+  }, {
+    "Author" : "De Jeu, R.A.M., W. Wagner, T.R.H. Holmes, A.J. Dolman, N.C. van de Giesen, and J. Friesen",
+    "PublicationDate" : "2008-01-01T00:00:00.000Z",
+    "Title" : "Global soil moisture patterns observed by space borne microwave radiometers and scatterometers",
+    "Series" : "Surveys in Geophysics",
+    "Volume" : "29",
+    "Pages" : "399-420",
+    "DOI" : {
+      "DOI" : "10.1007/s10712-008-9044-0"
+    }
+  }, {
+    "Author" : "Holmes, T.R.H., R.A.M. De Jeu, M. Owe, and A.J. Dolman",
+    "PublicationDate" : "2009-01-01T00:00:00.000Z",
+    "Title" : "Land surface temperature from Ka band (37 GHz) passive microwave observations",
+    "Series" : "Journal of Geophysical Research",
+    "Volume" : "114",
+    "Issue" : "D04113",
+    "Pages" : "15 pp.",
+    "DOI" : {
+      "DOI" : "10.1029/2008JD010257"
+    }
+  }, {
+    "Author" : "Parinussa, R.M., A.G.C.A. Meesters, Y.Y. Liu, W. Dorigo, W. Wagner, and R.A.M. de Jeu",
+    "PublicationDate" : "2011-01-01T00:00:00.000Z",
+    "Title" : "Error estimates for near-real-time satellite soil moisture as derived from the Land Parameter Retrieval Model",
+    "Series" : "IEEE Geoscience and Remote Sensing Letters",
+    "Volume" : "8",
+    "Issue" : "4",
+    "Pages" : "779 - 783",
+    "DOI" : {
+      "DOI" : "10.1109/LGRS.2011.2114872"
+    }
+  } ],
+  "Quality" : "The LPRM/TMI data are sensitive to both internal model limitations and external processes and are screened for the presence of snow/frozen soils, water, and dense vegetation covers. All screened-out data pixels are flagged and indicated by a non-data value. A soil moisture uncertainty parameter at X band is included (Parinussa et al., 2011).",
+  "ISOTopicCategories" : [ "ENVIRONMENT" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/LPRM_TMI_DY_SOILM3_001.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/LPRM_TMI_DY_SOILM3_001.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/WAOB/LPRM_TMI_DY_SOILM3.001/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://giovanni.gsfc.nasa.gov/giovanni/#service=TmAvMp&starttime=&endtime=&dataKeyword=LPRM_TMI_DY_SOILM3",
+    "Description" : "The GES-DISC Interactive Online Visualization ANd aNalysis Interface\n(Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+    "Subtype" : "GIOVANNI",
+    "Type" : "GET RELATED VISUALIZATION",
+    "URLContentType" : "VisualizationURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=LPRM_TMI_DY_SOILM3",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/opendap/LPRM_TMI_DY_SOILM3.001/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/WAOB/LPRM_TMI_DY_SOILM3.001/doc/README_LPRM.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Hydrology%20Documentation",
+    "Description" : "GES DISC Hydrology Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Data%20Rods",
+    "Description" : "GES DISC Data Rods Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2012-04-06T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2012-04-06T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "TMI/TRMM surface soil moisture (LPRM) L3 1 day 25 km x 25 km daytime V001 is a Level 3 (gridded) data set. Its land surface parameters, surface soil moisture, land surface (skin) temperature, and vegetation water content, are derived from passive microwave remote sensing data from the Tropical Rainfall Measuring Mission (TRMM) Microwave Imager (TMI), using the Land Parameter Retrieval Model (LPRM). There are two files per day, one daytime and one nighttime, archived as two different products. This document is for the daytime product. The data set covers the period from December 1997 to April 2015 (when the instruments on the TRMM satellite were shut down in preparation for its reentry into the earth's atmosphere).\n\nThe LPRM is based on a forward radiative transfer model to retrieve surface soil moisture and vegetation optical depth. The land surface temperature is derived separately from TMI's Ka-band (37 GHz). A unique feature of this method is that it can be applied at any microwave frequency, making it very suitable to exploit all the available passive microwave data from various satellites.\n\nInput data are from the TMI Brightness Temperatures (1B-11) product, daytime passes, as processed using LPRM (i.e., LPRM/TMI/TRMM Level 2 product, LPRM_TMI_SOILM2_V001).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2012-03-29T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-10-27T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "001",
+  "Projects" : [ {
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "RICHARD",
+    "LastName" : "DE JEU",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Faculty of Earth and Life Sciences", "Department of Hydrology and Geo-environmental Sciences", "Vrije Universiteit Amsterdam" ],
+        "City" : "1081 HV Amsterdam",
+        "Country" : "NL"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "+31-20-598-7287"
+      }, {
+        "Type" : "Email",
+        "Value" : "Richard.de.jeu@falw.vu.nl"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "WILLIAM",
+    "MiddleName" : "L.",
+    "LastName" : "TENG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2", "Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5164"
+      }, {
+        "Type" : "Email",
+        "Value" : "william.l.teng@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, 610.2, NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission",
+    "Instruments" : [ {
+      "ShortName" : "TMI",
+      "LongName" : "TRMM Microwave Imager"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

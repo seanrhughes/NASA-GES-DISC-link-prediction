@@ -1,0 +1,242 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "BEDI", "Climate", "Human Health", "PM 2.5", "Air Quality", "HAQAST" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Daniel Tong at Geroge Mason University ",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/HAQES_NA_PM25_TOT_CENSUS_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "HAQES 3-Hourly Ensemble mean surface total PM2.5 concentration at census level, North America V1.0",
+    "SeriesName" : "HAQES_NA_PM25_TOT_CENSUS",
+    "ReleaseDate" : "2023-02-15T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -132,
+          "NorthBoundingCoordinate" : 53.5,
+          "EastBoundingCoordinate" : -58.5,
+          "SouthBoundingCoordinate" : 21
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "PARTICULATE MATTER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "HUMAN DIMENSIONS",
+    "Term" : "PUBLIC HEALTH",
+    "VariableLevel1" : "ENVIRONMENTAL HEALTH FACTORS",
+    "VariableLevel2" : "PARTICULATE MATTER CONCENTRATIONS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2022-01-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "doi:10.5067/8V8LF6311A0J"
+  },
+  "ShortName" : "HAQES_NA_PM25_TOT_CENSUS",
+  "EntryTitle" : " HAQES 3-Hourly Ensemble mean surface total PM2.5 concentration at census level, North America V1 (HAQES_NA_PM25_TOT_CENSUS) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Bosilovich, M. G., R. Lucchesi, and M. Suarez",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "MERRA-2: File Specification",
+    "Series" : "GMAO Office Note No. 9 (Version 1.1)",
+    "PublicationPlace" : "NASA GMAO Office",
+    "Pages" : "81",
+    "OnlineResource" : {
+      "Linkage" : "https://gmao.gsfc.nasa.gov/pubs/docs/Bosilovich785.pdf"
+    }
+  }, {
+    "Author" : "Buchard, V., Da Silva, A. M., Randles, C. A., Colarco, P., Ferrare, R., Hair, J., C. Hostetlerd, J. Tackettde, D. Winkerd",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "Evaluation of the surface PM2.5 in Version 1 of the NASA MERRA Aerosol Reanalysis over the United States",
+    "Series" : "Atmospheric Environment",
+    "Volume" : "125",
+    "Issue" : "Part A",
+    "Pages" : "100-111",
+    "DOI" : {
+      "DOI" : " http://doi.org/10.1016/j.atmosenv.2015.11.004"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "GEOSCIENTIFIC INFORMATION", "HEALTH" ],
+  "RelatedUrls" : [ {
+    "Description" : "Sample image:`The surface Total PM2.5 concentration at the census level from the HAQES model for November 1, 2022. ",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/HAQES_NA_PM25_TOT_CENSUS_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/HAQAST/HAQES_NA_PM25_TOT_CENSUS.1/doc/README_HAQES_PM25.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/HAQES_NA_PM25_TOT_CENSUS_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/HAQAST/HAQES_NA_PM25_TOT_CENSUS.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=HAQES_NA_PM25_TOT_CENSUS",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2023-02-07T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2023-02-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This product provides HAQES 3-hourly ensemble mean surface total PM2.5 concentration at the census level over the continental United States (CONUS). \n\nThe Hazardous Air Quality Ensemble System (HAQES) is a real-time ensemble forecast of hazardous air quality events, such as wildfires, dust storms, and Volcanic eruptions. Both regional and global models from multiple agencies are used to create the ensemble, including the Goddard Earth Observing System (GEOS) from the National Aeronautics and Space Administration (NASA), the Navy Aerosol Analysis and Prediction System (NAAPS) from Naval Research Laboratory, the Global Ensemble Forecast System Aerosols (GEFS), High-Resolution Rapid Refresh (HRRR), and National Oceanic and Atmospheric Administration-U.S. Environmental Protection Agency (NOAA-EPA) Atmosphere-Chemistry Coupler-Community Multiscale Air Quality model (NACC-CMAQ) from NOAA.  The prototypes of HAQES products were developed by the George Mason University Air Quality Laboratory as part of the NASA Health Air Quality Applied Science Team (HAQAST).  ",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2023-02-07T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2023-02-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "Version 1 daily surface total PM2.5 over North American",
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "HAQAST",
+    "LongName" : "Health and Air Quality Applied Sciences Team"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Suhung",
+    "LastName" : "Shen",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 619 Bldg 32 Rm S153", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5088"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "suhung.shen-1@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Daniel",
+    "LastName" : "Tong",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "George Mason University", "Center for Spatial Information Science and Systems (CSISS)" ],
+        "City" : "Fairfax",
+        "StateProvince" : "VA",
+        "PostalCode" : "22030",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "qtong@gmu.edu"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 619", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "MERRA-2",
+    "LongName" : "The second Modern-Era Retrospective analysis for Research and Applications",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "Free"
+    } ]
+  }
+}

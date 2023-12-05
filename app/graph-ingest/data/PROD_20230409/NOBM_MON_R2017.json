@@ -1,0 +1,290 @@
+{
+  "AncillaryKeywords" : [ "NOBM" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Watson Gregg and Cecile Rousseaux",
+    "Editor" : "Watson Gregg and Cecile Rousseaux",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/NOBM_MON_R2017.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "NASA Ocean Biogeochemical Model assimilating satellite chlorophyll data global monthly VR2017",
+    "SeriesName" : "NOBM_MON",
+    "ReleaseDate" : "2017-07-31T00:00:00.000Z",
+    "Version" : "R2017",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 72,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -84
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOLOGICAL CLASSIFICATION",
+    "Term" : "PROTISTS",
+    "VariableLevel1" : "PLANKTON",
+    "VariableLevel2" : "PHYTOPLANKTON"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "NITRATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "NUTRIENTS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN CHEMISTRY",
+    "VariableLevel1" : "PIGMENTS",
+    "VariableLevel2" : "CHLOROPHYLL"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN OPTICS",
+    "VariableLevel1" : "OCEAN COLOR"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN OPTICS",
+    "VariableLevel1" : "PHOTOSYNTHETICALLY ACTIVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "OCEANS",
+    "Term" : "OCEAN TEMPERATURE",
+    "VariableLevel1" : "OCEAN MIXED LAYER"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1998-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2015-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/BHCFDIICIOU5"
+  },
+  "ShortName" : "NOBM_MON",
+  "EntryTitle" : "NASA Ocean Biogeochemical Model assimilating satellite chlorophyll data global monthly VR2017 (NOBM_MON) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Rousseaux C.S. and W.W. Gregg",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "Interannual Variation in Phytoplankton Primary Production at A Global Scale",
+    "Series" : "Remote Sensing",
+    "OnlineResource" : {
+      "Linkage" : "http://www.mdpi.com/2072-4292/6/1/1"
+    },
+    "DOI" : {
+      "DOI" : "10.3390/rs6010001"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "OCEANS" ],
+  "RelatedUrls" : [ {
+    "Description" : "Sample image of monthly assimilated total chlorophyll [mg m-3] from the NASA Ocean Biogeochemical Model  (NOBM_MON.R2017), Jan 2015",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/NOBM/NOBM_MON.R2017.sample.201501.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/NOBM_MON_R2017.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/data/nobm/NOBM_MON.R2017",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=NOBM_MON",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/opendap/nobm/NOBM_MON.R2017/contents.html",
+    "Description" : "Access to the data via OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NOBM_MON",
+    "Description" : "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+    "Subtype" : "GIOVANNI",
+    "Type" : "GET RELATED VISUALIZATION",
+    "URLContentType" : "VisualizationURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/data/nobm/NOBM_MON.R2017/doc/README_NOBM_R2017.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gmao.gsfc.nasa.gov/research/oceanbiology/references.php",
+    "Description" : "NASA GMAO NOBM project documentation page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto",
+    "Description" : "Data recipes for accessing and using data",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2017-06-07T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-06-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the assimilated monthly data from NASA Ocean Biogeochemical Model (NOBM). The NOBM is a comprehensive, interactive ocean biogeochemical model coupled with a circulation and radiative model in the global oceans (Gregg and Casey, 2007). It spans the domain from -84 to 72 degree latitude in increments of 1.25 degree longitude by 2/3 degree latitude, including only open ocean areas where bottom depth >200m. NOBM contains 4 phytoplankton groups, 4 nutrient groups, a single herbivore group, and 3 detrital pools, and the major ocean carbon components, dissolved organic and inorganic carbon (DOC and DIC).",
+  "LocationKeywords" : [ {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "SEA SURFACE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2017-07-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-12-03T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "This data was processed in June 2017",
+  "Version" : "R2017",
+  "Projects" : [ {
+    "ShortName" : "NOBM",
+    "LongName" : "NASA Ocean Biogeochemical Model"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "SUHUNG",
+    "LastName" : "SHEN",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "suhung.shen@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "WATSON",
+    "MiddleName" : "W",
+    "LastName" : "GREGG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.1" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5711"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5644"
+      }, {
+        "Type" : "Email",
+        "Value" : "watson.w.gregg@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "CECILE",
+    "MiddleName" : "S",
+    "LastName" : "ROUSSEAUX",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.1" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5750"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5644"
+      }, {
+        "Type" : "Email",
+        "Value" : "cecile.s.rousseaux@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "NOBM",
+    "LongName" : "NASA Ocean Biogeochemical Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

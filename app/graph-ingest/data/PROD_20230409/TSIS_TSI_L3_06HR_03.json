@@ -1,0 +1,268 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "TSI", "solar constant", "solar variability" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Greg Kopp",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TSIS_TSI_L3_06HR_03.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TSIS TIM Level 3 Total Solar Irradiance 6-Hour Means V03",
+    "SeriesName" : "TSIS_TSI_L3_06HR",
+    "ReleaseDate" : "2020-05-29T00:00:00.000Z",
+    "Version" : "03",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "NO_SPATIAL"
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "SUN-EARTH INTERACTIONS",
+    "Term" : "SOLAR ACTIVITY",
+    "VariableLevel1" : "SOLAR IRRADIANCE",
+    "DetailedVariable" : "TOTAL SOLAR IRRADIANCE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2018-01-11T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/TSIS/TIM/DATA305"
+  },
+  "ShortName" : "TSIS_TSI_L3_06HR",
+  "EntryTitle" : "TSIS TIM Level 3 Total Solar Irradiance 6-Hour Means V03 (TSIS_TSI_L3_06HR) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Kopp, G., and Lawrence, G.",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "The Total Irradiance Monitor (TIM): Instrument Design",
+    "Volume" : "230",
+    "Issue" : "1-2",
+    "Publisher" : "Solar Physics",
+    "Pages" : "91-109",
+    "DOI" : {
+      "DOI" : "10.1007/s11207-005-7446-4"
+    }
+  }, {
+    "Author" : "Kopp, G., Heuerman, K., and Lawrence, G.",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "The Total Irradiance Monitor (TIM): Instrument Calibration",
+    "Volume" : "230",
+    "Issue" : "1-2",
+    "Publisher" : "Solar Physics",
+    "Pages" : "111-127",
+    "DOI" : {
+      "DOI" : "10.1007/s11207-005-7447-3"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/TSIS/images/TSIS_TSI_L3_06HR_03.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TSIS_TSI_L3_06HR_03.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/TSIS_Level3/TSIS_TSI_L3_06HR.03/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=TSIS_TSI_L3_06HR_03",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/TSIS_Level3/TSIS_TSI_L3_06HR.03/doc/README.TSIS.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://docserver.gesdisc.eosdis.nasa.gov/public/project/TSIS/159520RevA_TSIS_Data_User_Guide.pdf",
+    "Description" : "TSIS-1 Science Data Products Guide",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://docserver.gesdisc.eosdis.nasa.gov/public/project/TSIS/TSIS_TIM_V03_Release_Notes_20200528.pdf",
+    "Description" : "Release Notes",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/tsis/instruments/tim-total-irradiance-monitor/",
+    "Description" : "TIM Instrument Information",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://docserver.gesdisc.eosdis.nasa.gov/public/project/TSIS/TSIS_Algorithm_Theoretical_Basis_Document_151430RevA.pdf",
+    "Description" : "TSIS ATBD",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/tsis/reference/publications/",
+    "Description" : "List of publications.",
+    "Subtype" : "PUBLICATIONS",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/home/tsis/",
+    "Description" : "TSIS Project Home Page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "http://lasp.colorado.edu/data/tsis/file_readers/read_lasp_ascii_file.pro",
+    "Description" : "IDL-based read software.",
+    "Type" : "DOWNLOAD SOFTWARE",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2020-05-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-28T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Version 03 is the current release of this data product, and supercedes all previous versions.\n\nThe TSIS TIM Level 3 Total Solar Irradiance (TSI) 6-Hour Means data product (TSIS_TSI_L3_06HR) uses measurements from the Total Irradiance Monitor (TIM) instrument over the entire spectrum, and averages them over a 6-hour period. TSIS-1 was launched on December 15, 2017 and mounted on the International Space Station (ISS) on December 30, 2017. TIM instrument has long-term repeatability with estimated uncertainties less than 0.014 W/m^2/yr (10 ppm/yr). Accuracy is currently reported as 0.48 W/m^2 (350 ppm), but expected to decrease as calibrations are refined and incorporated. Irradiances are reported at a mean solar distance of 1 AU and zero relative line-of-sight velocity with respect to the Sun.\n\nAll of the data from this product are arranged into a single file in a tabular ASCII text format which can be easily read into a spreadsheet application. New data are appended to the file on a daily basis. The columns contain the date, Julian day, minimum wavelength, maximum wavelength, instrument mode, data version number, irradiance value, irradiance uncertainty, and data quality. The rows are arranged with data at each wavelength over the full TIM wavelength range, repeating for each day for the length of the mission.",
+  "LocationKeywords" : [ {
+    "Category" : "SPACE",
+    "Type" : "SOLAR REGION",
+    "Subregion1" : "PHOTOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2020-05-29T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-06-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "TSIS_TSI_L3_06HR Version 03 is the current version of this data product, and supersedes all previous versions. Please see the SORCE TIM Release Notes for detailed description and differences of this and previous versions.\n\nVersion 03 - released 29 May 2020 - doi:10.5067/TSIS/TIM/DATA305\nData availability: 2018/01/11 to current\n\nVersion 02 - released 15 Aug 2019 - doi:10.5067/TSIS/TIM/DATA303\nData availability: 2018/01/11 to 2020-05-22\n\nVersion 01 - released 19 Sep 2018 - doi:10.5067/TSIS/TIM/DATA301\nData availability: 2018/01/11 to 2019/08/13",
+  "Version" : "03",
+  "Projects" : [ {
+    "ShortName" : "TSIS",
+    "LongName" : "Total and Spectral Solar Irradiance Sensor"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GREG",
+    "LastName" : "KOPP",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Laboratory for Atmospheric and Space Physics", "University of Colorado", "1234 Innovation Dr." ],
+        "City" : "Boulder",
+        "StateProvince" : "CO",
+        "PostalCode" : "80303-7814",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "(303) 735-0934"
+      }, {
+        "Type" : "Fax",
+        "Value" : "(303) 492-6444"
+      }, {
+        "Type" : "Email",
+        "Value" : "Greg.Kopp@lasp.colorado.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JAMES",
+    "MiddleName" : "EDWARD",
+    "LastName" : "JOHNSON",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "James.Johnson@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Solar/Space Observation Satellites",
+    "ShortName" : "TSIS-1",
+    "LongName" : "Total and Spectral Solar Irradiance Sensor-1",
+    "Instruments" : [ {
+      "ShortName" : "TIM",
+      "LongName" : "Total Irradiance Monitor"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "ASCII",
+      "Fees" : "None"
+    } ]
+  }
+}

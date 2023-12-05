@@ -1,0 +1,282 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Landslide, natural hazard" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Dalia B. Kirschbaum, Thomas A. Stanley, NASA GSFC",
+    "Editor" : "Dalia B. Kirschbaum, Thomas A. Stanley, NASA GSFC",
+    "Title" : "Global Landslide Nowcasts from LHASA L4  1 day 1 km x 1 km version 1.1 (Global_Landslide_Nowcast) at GES DISC",
+    "SeriesName" : "Global_Landslide_Nowcast",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "1.1",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/Global_Landslide_Nowcast_1.1.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "SpatialCoverageType" : "HORIZONTAL",
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 60,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -60
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "HUMAN DIMENSIONS",
+    "Term" : "NATURAL HAZARDS",
+    "VariableLevel1" : "LANDSLIDES"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2000-06-14T00:00:00.000Z",
+      "EndingDateTime" : "2020-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/0D23ALHMHHT5"
+  },
+  "ShortName" : "Global_Landslide_Nowcast",
+  "EntryTitle" : "Global Landslide Nowcast from LHASA L4  1 day 1 km x 1 km version 1.1 (Global_Landslide_Nowcast) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Kirschbaum, D., & Stanley, T. ",
+    "PublicationDate" : "2018-01-01T00:00:00.000Z",
+    "Title" : "Satellite‐based assessment of rainfall‐triggered landslide hazard for situational awareness",
+    "Series" : "Earth's future",
+    "Volume" : "6",
+    "Issue" : "3",
+    "Pages" : "505-523",
+    "DOI" : {
+      "DOI" : "https://doi.org/10.1002/2017EF000715"
+    }
+  }, {
+    "Author" : "Emberson, R., D. Kirschbaum, and T. Stanley",
+    "PublicationDate" : "2020-01-01T00:00:00.000Z",
+    "Title" : "New global characterisation of landslide exposure.\" Natural Hazards and Earth System Sciences",
+    "Volume" : "20",
+    "Issue" : "12",
+    "ReportNumber" : " 3413-3424",
+    "DOI" : {
+      "DOI" : "https://doi.org/10.5194/nhess-20-3413-2020"
+    }
+  } ],
+  "Quality" : "This model was validated by observing the frequency at which landslides were located in the moderate and high-hazard nowcasts, with different assumptions about spatial and temporal uncertainty. Under the most stringent assumptions, 24% of historical landslides were co-located with the low-hazard nowcast and 10% with the high-hazard nowcast. More details can be found at https://doi.org/10.1002/2017EF000715",
+  "ISOTopicCategories" : [ "DISASTER" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/Landslide/Global_Landslide_Nowcast.1.1/" ]
+  },
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/Global_Landslide_Nowcast_1.1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "Description" : "Access the dataset landing page from the GES DISC website.\n",
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/Global_Landslide_Nowcast_1.1.html",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "Description" : "Access the data via HTTPS.\n",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Landslide/Global_Landslide_Nowcast.1.1/",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Description" : "README Document\n\n",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Community/LHASA/README.Global_Landslide_Nowcast.pdf",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "Description" : "Introduction to NASA landslides research.\n",
+    "URL" : "https://landslides.nasa.gov/",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=Global_Landslide_Nowcast",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2020-06-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-06-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The Landslide Hazard Assessment for Situational Awareness (LHASA) model identifies locations with high potential for landslide occurrence at a daily temporal resolution.  LHASA combines satellite‐based precipitation estimates with a landslide susceptibility map derived from information on slope, geology, road networks, fault zones, and forest loss. When rainfall is considered to be extreme and susceptibility values are moderate to very high, a “nowcast” is issued to indicate the times and places where landslides are more probable.  Although the model could be run every half hour, this archive contains a daily record derived from a retrospective model run and spatial coverage is from 60°N to 60°S .",
+  "Purpose" : "Landslides are one of the most pervasive hazards in the world, resulting in more fatalities and economic damage than is generally recognized. Every year they block roads, damage infrastructure, and cause thousands of fatalities. Intense and prolonged rainfall is the most frequent landslide trigger around the world, but earthquakes and human influence can also cause significant and widespread landsliding. Using satellite data, we can identify the conditions under which landslides typically occur, helping to improve monitoring and modeling of these hazards.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-01-20T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-04-11T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "Global_Landslide_Nowcast",
+    "Version" : "1.1"
+  } ],
+  "VersionDescription" : "This is the first and only version of this data set available at the GES DISC.",
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "1.1",
+  "Projects" : [ {
+    "ShortName" : "Landslide Project",
+    "LongName" : "Landslide Mapping and Modeling Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Binita",
+    "LastName" : "KC",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt ",
+        "StateProvince" : "Maryland",
+        "PostalCode" : "20771 ",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-6187"
+      }, {
+        "Type" : "Email",
+        "Value" : "binita.kc@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "Irina",
+    "LastName" : "Gerasimov",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, Code   610.2, NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "Maryland",
+        "PostalCode" : "20771 ",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301.614.5501"
+      }, {
+        "Type" : "Email",
+        "Value" : "irina.v.gerasimov@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Thomas",
+    "MiddleName" : "A",
+    "LastName" : "Stanley",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data Code 617.0, NASA Goddard Space Flight Center " ],
+        "City" : "Greenbelt",
+        "StateProvince" : "Maryland",
+        "PostalCode" : "20771 ",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301.614.5618"
+      }, {
+        "Type" : "Email",
+        "Value" : "thomas.a.stanley@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center  Code 610.2 NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "Maryland",
+          "PostalCode" : "20771",
+          "Country" : "United States"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "MODELS",
+    "LongName" : "MODELS",
+    "Characteristics" : [ {
+      "Name" : "Global Landslide Hazard Assessment Model",
+      "Description" : "Global Landslide Hazard Assessment Model identifies locations with high potential for landslide occurrence in nearly real time. ",
+      "DataType" : "INT",
+      "Unit" : "Not Applicable",
+      "Value" : "0 = low hazard, 1 = moderate hazard, 2= high hazard"
+    } ],
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "GeoTIFF",
+      "Fees" : "None"
+    } ]
+  }
+}

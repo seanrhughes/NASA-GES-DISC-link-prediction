@@ -1,0 +1,284 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "O3" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Wang, R., L. Froidevaux, J. Anderson, R. A. Fuller, P. F. Bernath, M. P. McCormick, N. J. Livesey, J. M. Russell III, K. A. Walker, and J. M. Zawodny",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GozMmlpO3_1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "GOZCARDS Merged Ozone 1 month L3 10 degree Zonal Means on a Vertical Pressure Grid V1",
+    "SeriesName" : "GozMmlpO3",
+    "ReleaseDate" : "2013-05-02T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "OXYGEN COMPOUNDS",
+    "VariableLevel2" : "ATMOSPHERIC OZONE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1979-02-01T00:00:00.000Z",
+      "EndingDateTime" : "2012-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/GOZCARDS/DATA3006"
+  },
+  "ShortName" : "GozMmlpO3",
+  "EntryTitle" : "GOZCARDS Merged Ozone 1 month L3 10 degree Zonal Means on a Vertical Pressure Grid V1 (GozMmlpO3) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Froidevaux, L., Anderson, J., Wang, H.-J., Fuller, R. A., Schwartz, M. J., Santee, M. L., Livesey, N. J., Pumphrey, H. C., Bernath, P. F., Russell III, J. M., and McCormick, M. P.",
+    "PublicationDate" : "2014-09-24T00:00:00.000Z",
+    "Title" : "Global OZone Chemistry And Related trace gas Data records for the Stratosphere (GOZCARDS): methodology and sample results with a focus on HCl, H2O, and O3",
+    "Series" : "Atmos. Chem. Phys.",
+    "Volume" : "15",
+    "Issue" : "18",
+    "OnlineResource" : {
+      "Linkage" : "https://www.atmos-chem-phys.net/15/10471/2015/"
+    },
+    "DOI" : {
+      "DOI" : "10.5194/acp-15-10471-201"
+    }
+  } ],
+  "Quality" : "The merged time series obtained for GOZCARDS are intended to be quite faithful representations of the originally produced source datasets (the properly screened zonal average series based upon the original Level 2 set of individual profiles), meaning that no data gaps are filled, for example by fitting functions to the sparse datasets. Such fitting procedures will be up to individual users; also, model/data comparisons could be best performed by sampling the models in a way that is not continuous, but rather, follows the data record sampling in time and space.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/GozMmlpO3_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GozMmlpO3_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/GOZCARDS/GozMmlpO3.1",
+    "Description" : "Access the data via HTTP.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/GOZCARDS/GozMmlpO3.1/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/opendap/GOZCARDS/GozMmlpO3.1/",
+    "Description" : "Access the data using the THREDDS Catalog.",
+    "Subtype" : "THREDDS DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://mls.jpl.nasa.gov/eos-aura-mls/data-products/gozcards",
+    "Description" : "The project web site at JPL.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/GOZCARDS/README-GOZCARDS-v1.1.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2013-05-02T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2013-05-02T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The GOZCARDS Merged Data for Ozone 1 month L3 10 degree Zonal Averages on a Vertical Pressure Grid product (GozMmlpO3) contains zonal means and related information (standard deviation, minimum/maximum value, etc.), calculated as a result of a merging process that ties together the source datasets, after bias removal and averaging. The merged O3 data are from the following satellite instruments: SAGE I (v5.9_rev; 1979-1981), SAGE II (v6.2; 1984-2005), HALOE (v19; 1991-2005), UARS MLS (v5; 1991-1997), ACE-FTS (v2.2; 2004-onward), Aura MLS (v2.2; 2004 onward)   others as validation (e.g., SAGE III, v4.0; 2002-2005). The vertical pressure range for O3 is from 147 to 0.5 hPa. The input source data used to create this merged product are contained in a separate data product with the short name GozSmlpO3.\n\nThe GozMmlpO3 merged data are distributed in netCDF4 format.",
+  "Purpose" : "GOZCARDS (Global OZone Chemistry And Related trace gas Data records for the Stratosphere) refers to a commonly-formatted Earth system data record (ESDR) for stratospheric composition, of high relevance to the issue of ozone decline and recovery. High-quality long-term ozone and related trace gas data records are needed to (a) evaluate and understand composition changes in the atmosphere and (b) constrain model representations of atmospheric dynamics and photochemistry.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  }, {
+    "Category" : "VERTICAL LOCATION",
+    "Type" : "STRATOSPHERE"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2013-03-08T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-01-28T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "LUCIEN",
+    "LastName" : "FROIDEVAUX",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "4800 Oak Grove Drive" ],
+        "City" : "Pasadena",
+        "StateProvince" : "CA",
+        "PostalCode" : "91109",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "818-354-8301"
+      }, {
+        "Type" : "Email",
+        "Value" : "lucien.froidevaux@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JEROME",
+    "MiddleName" : "EDWARD",
+    "LastName" : "ALFRED",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5121"
+      }, {
+        "Type" : "Email",
+        "Value" : "jerome.m.alfred@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "AEM-2",
+    "LongName" : "Applications Explorer Mission-2",
+    "Instruments" : [ {
+      "ShortName" : "SAGE I",
+      "LongName" : "Stratospheric Aerosol and Gas Experiment I"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "ERBS",
+    "LongName" : "Earth Radiation Budget Satellite",
+    "Instruments" : [ {
+      "ShortName" : "SAGE II",
+      "LongName" : "Stratospheric Aerosol and Gas Experiment II"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "UARS",
+    "LongName" : "Upper Atmosphere Research Satellite",
+    "Instruments" : [ {
+      "ShortName" : "HALOE",
+      "LongName" : "Halogen Occultation Experiment"
+    }, {
+      "ShortName" : "MLS",
+      "LongName" : "Microwave Limb Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "SCISAT-1/ACE",
+    "LongName" : "Atmospheric Chemistry Experiment",
+    "Instruments" : [ {
+      "ShortName" : "ACE-FTS",
+      "LongName" : "Fourier Transform Spectrometer"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "MLS",
+      "LongName" : "Microwave Limb Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Meteor-3M",
+    "Instruments" : [ {
+      "ShortName" : "SAGE III",
+      "LongName" : "Stratospheric Aerosol and Gas Experiment III"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

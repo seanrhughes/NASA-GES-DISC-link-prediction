@@ -1,0 +1,330 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Terrestrial and Freshwater Ecosystems", "Energy and Mineral Resources", "Human Health", "Water Resources", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "David Mocko, NASA/GSFC/HSL",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/NLDAS_MOS0125_MC_002.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "NLDAS Mosaic Land Surface Model L4 Monthly Climatology 0.125 x 0.125 degree V002",
+    "SeriesName" : "NLDAS_MOS0125_MC",
+    "ReleaseDate" : "2013-03-01T00:00:00.000Z",
+    "Version" : "002",
+    "ReleasePlace" : "Greenbelt, Maryland, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -125,
+          "NorthBoundingCoordinate" : 53,
+          "EastBoundingCoordinate" : -67,
+          "SouthBoundingCoordinate" : 25
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "HEAT FLUX"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "SHORTWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPORATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPOTRANSPIRATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "SOLID PRECIPITATION",
+    "VariableLevel2" : "SNOW"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "VEGETATION",
+    "VariableLevel1" : "CANOPY CHARACTERISTICS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "VEGETATION",
+    "VariableLevel1" : "LEAF CHARACTERISTICS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "VEGETATION",
+    "VariableLevel1" : "VEGETATION COVER"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL MOISTURE/WATER CONTENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE RADIATIVE PROPERTIES",
+    "VariableLevel1" : "ALBEDO"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "LAND SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "SNOW/ICE",
+    "VariableLevel1" : "SNOW WATER EQUIVALENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "TERRESTRIAL HYDROSPHERE",
+    "Term" : "SURFACE WATER",
+    "VariableLevel1" : "SURFACE WATER PROCESSES/MEASUREMENTS",
+    "VariableLevel2" : "RUNOFF"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1980-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2009-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/SSXWLJNDWXYP"
+  },
+  "ShortName" : "NLDAS_MOS0125_MC",
+  "EntryTitle" : "NLDAS Mosaic Land Surface Model L4 Monthly Climatology 0.125 x 0.125 degree V002 (NLDAS_MOS0125_MC) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Xia, Y., K. Mitchell, M. Ek, J. Sheffield, B. Cosgrove, E. Wood, L. Luo, C. Alonge, H. Wei, J. Meng, B. Livneh, D. Lettenmaier, V. Koren, Q. Duan, K. Mo, Y. Fan, and D. Mocko",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Continental-scale water and energy flux analysis and validation for the North American Land Data Assimilation System project phase 2 (NLDAS-2): 1. Intercomparison and application of model products",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD016048"
+    }
+  }, {
+    "Author" : "Xia, Y., K. Mitchell, M. Ek, J. Sheffield, B. Cosgrove, E. Wood, L.Luo, C. Alonge, H. Wei, J. Meng, B. Livneh, D. Lettenmaier, V. Koren, Q. Duan, K. Mo, Y. Fan, and D. Mocko",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Continental-scale water and energy flux analysis and validation for North American Land Data Assimilation System project phase 2(NLDAS-2): 2. Validation of model-simulated stream flow",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD016051"
+    }
+  }, {
+    "Author" : "Koster, R., and M. Suarez",
+    "PublicationDate" : "1994-01-01T00:00:00.000Z",
+    "Title" : "The components of the SVAT scheme and their effects on a GCM's hydrological cycle",
+    "DOI" : {
+      "DOI" : "10.1016/0309-1708(94)90024-8"
+    }
+  }, {
+    "Author" : "Koster, R., and M. Suarez",
+    "PublicationDate" : "1996-01-01T00:00:00.000Z",
+    "Title" : "Energy and water balance calculations in the Mosaic LSM"
+  } ],
+  "Quality" : "The data are provisional and subject to change as model improvements are implemented and new input data sets become available.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "NLDAS-2 Mosaic 0.125-degree Monthly Climatology 0-100 cm Top 1 Meter Soil Moisture Content [kg/m^2] Jan (1980 - 2009).",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_MOS0125_MC_002.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/NLDAS_MOS0125_MC_002.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_MOS0125_MC.002/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=NLDAS_MOS0125_MC",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/dods/NLDAS_MOS0125_MC.002",
+    "Description" : "The GrADS Data Server (GDS) is another form of OPeNDAP that provides subsetting and some analysis services across the Internet.",
+    "Subtype" : "GRADS DATA SERVER (GDS)",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_MOS0125_MC.002/doc/gribtab_NLDAS_MOS.002.txt",
+    "Description" : "The GRIBTAB file contains a list of variables, along with the GRIB Product Definition Section (PDS) ID, variable short name, long names, and unit.",
+    "Type" : "EXTENDED METADATA",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/README.NLDAS2.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://ldas.gsfc.nasa.gov/nldas/",
+    "Description" : "NLDAS Project Web Site",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=hydrology",
+    "Description" : "How to read and plot the data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Hydrology%20Documentation",
+    "Description" : "GES DISC Hydrology Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2013-03-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2013-03-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This monthly climatology data set contains a series of land surface parameters simulated from the Mosaic land-surface model (LSM) for Phase 2 of the North American Land Data Assimilation System (NLDAS-2).  The data are in 1/8th degree grid spacing. The temporal resolution is monthly, ranging from January to December. The NLDAS-2 monthly climatology data are the monthly data averaged over the thirty years (1980 - 2009) of the NLDAS-2 monthly data. The file format is WMO GRIB-1. \n\nA brief description about the NLDAS-2 hourly and monthly Mosaic LSM data can be found from the GCMD DIFs for GES_DISC_NLDAS_MOS0125_H_V002 and  GES_DISC_NLDAS_MOS0125_M_V002. \n\nDetails about the NLDAS-2 configuration of the Mosaic LSM can be found in Xia et al. (2012). \n\nThe NLDAS-2 Mosaic model monthly climatology data set contains thirty-seven fields.  The data set applies a user-defined parameter table to indicate the contents and parameter number. The GRIBTAB file shows a list of parameters for this data set, along with their Product Definition Section (PDS) IDs and units.\n\nThere are six vertical levels for the Soil Moisture (PDS 086) in the Mosaic GRIB files. For more information, please see the README Document or the GrADS ctl file.",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2012-11-19T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-04-22T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "002",
+  "Projects" : [ {
+    "ShortName" : "NLDAS",
+    "LongName" : "North American Land Data Assimilation System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "DAVID",
+    "LastName" : "SILBERSTEIN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5183"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "david.s.silberstein@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "Mosaic-LSM",
+    "LongName" : "Mosaic Land Surface Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "GRIB",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

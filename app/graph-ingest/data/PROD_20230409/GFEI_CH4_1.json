@@ -1,0 +1,254 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Scarpelli, Tia R.; Jacob, Daniel J.; Maasakkers, Joannes D.; Sulprizio, Melissa P.; Sheng, Jian-Xiong; Rose, Kelly; Romeo, Lucy; Worden, John R.; Janssens-Maenhout, Greet",
+    "Title" : "Global Inventory of Methane Emissions from Fuel Exploitation",
+    "SeriesName" : "GFEI_CH4",
+    "ReleaseDate" : "2021-10-08T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD, USA",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Version" : "1",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GFEI_CH4_1.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : -180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "CARBON AND HYDROCARBON COMPOUNDS",
+    "VariableLevel2" : "METHANE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2016-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2016-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Q28GFYJYFZ7H"
+  },
+  "ShortName" : "GFEI_CH4",
+  "EntryTitle" : "Global Inventory of Methane Emissions from Fuel Exploitation V1 (GFEI_CH4)",
+  "PublicationReferences" : [ {
+    "OnlineResource" : {
+      "Linkage" : "https://essd.copernicus.org/articles/12/563/2020/"
+    },
+    "Volume" : "12",
+    "Title" : "A global gridded (0.1 degree X 0.1 degree) inventory of methane emissions from oil, gas, and coal exploitation based  on national reports to the United Nations Framework Convention on Climate Change",
+    "DOI" : {
+      "DOI" : "10.5194/essd-12-563-2020"
+    },
+    "Issue" : "1",
+    "PublicationDate" : "2020-01-01T00:00:00.000Z",
+    "Author" : "Scarpelli, T. R. and Jacob, D. J. and Maasakkers, J. D. and Sulprizio, M. P. and Sheng, J.-X. and Rose, K. and Romeo, L. and Worden, J. R. and Janssens-Maenhout, G.",
+    "Series" : "Earth System Science Data",
+    "Pages" : "563--575"
+  }, {
+    "Author" : "Scarpelli, Tia R.; Jacob, Daniel J.; Maasakkers, Joannes D.; Sulprizio, Melissa P.; Sheng, Jian-Xiong; Rose, Kelly; Romeo, Lucy; Worden, John R.; Janssens-Maenhout, Greet",
+    "PublicationDate" : "2019-01-01T00:00:00.000Z",
+    "Title" : "Global Inventory of Methane Emissions from Fuel Exploitation",
+    "Edition" : "1",
+    "Publisher" : "Harvard Dataverse",
+    "OnlineResource" : {
+      "Linkage" : "https://doi.org/10.7910/DVN/HH4EUM"
+    },
+    "DOI" : {
+      "DOI" : "10.7910/DVN/HH4EUM"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/CMS/GFEI_CH4_1.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GFEI_CH4_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/GFEI_CH4.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gsfc.nasa.gov/data/CMS/GFEI_CH4.1/doc/README.GFEI_CH4_v1.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/CMS/GFEI_CH4.1/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://carbon.nasa.gov/",
+    "Description" : "The NASA Carbon Monitoring System (CMS) page.",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GFEI_CH4",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is a global inventory of methane emissions from fuel exploitation (GFEI) created for the NASA Carbon Monitoring System (CMS). The emission sources represented in this dataset include fugitive emission sources from oil, gas, and coal exploitation following IPCC 2006 definitions and are estimated using bottom-up methods. The inventory emissions are based on individual country reports submitted in accordance with the United Nations Framework Convention on Climate Change (UNFCCC). For those countries that do not report, the emissions are estimated following IPCC 2006 methods. Emissions are allocated to infrastructure locations including mines, wells, pipelines, compressor stations, storage facilities, processing plants, and refineries.\n  The purpose of the inventory is to be used as a prior estimate of fuel exploitation emissions in inverse modeling of atmospheric methane observations. GFEI only includes fugitive methane emissions from oil, gas, and coal exploitation activities and does not include any combustion emissions as defined in IPCC 2006 category 1A.\n The CMS program is designed to make significant contributions in characterizing, quantifying, understanding, and predicting the evolution of global carbon sources and sinks through improved monitoring of carbon stocks and fluxes. The System uses NASA observations and modeling/analysis capabilities to establish the accuracy, quantitative uncertainties, and utility of products for supporting national and international policy, regulatory, and management activities. CMS data products are designed to inform near-term policy development and planning.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-10-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-10-04T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "CMS",
+    "LongName" : "Carbon Monitoring System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "THOMAS",
+    "LastName" : "HEARTY",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6513"
+      }, {
+        "Type" : "Email",
+        "Value" : "Thomas.J.Hearty@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Tia",
+    "LastName" : "Scarpelli",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Division of Applied Sciences and Department of Earth and Planetary Sciences", "Harvard University" ],
+        "City" : "Cambridge",
+        "StateProvince" : "MA",
+        "PostalCode" : "02138",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "tscarpelli@g.harvard.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "DANIEL",
+    "MiddleName" : "J.",
+    "LastName" : "JACOB",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Division of Applied Sciences and Department of Earth and Planetary Sciences", "Harvard University" ],
+        "City" : "Cambridge",
+        "StateProvince" : "MA",
+        "PostalCode" : "02138",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "617-495-1794"
+      }, {
+        "Type" : "Email",
+        "Value" : "djj@io.harvard.edu"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "GEOS-Chem",
+    "LongName" : "Global 3-D chemical transport model (CTM) for atmospheric composition driven by meteorological input from the Goddard",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "EOSDIS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Dr. George Huffman",
+    "Editor" : "Kyle MacRitchie",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/TRMM_3B40RT_7.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "TRMM (TMPA-RT) Near Real-Time Microwave precipitation estimate L3 3 hour 0.25 degree x 0.25 degree V7",
+    "SeriesName" : "TRMM_3B40RT",
+    "ReleaseDate" : "2012-11-01T00:00:00.000Z",
+    "Version" : "7",
+    "ReleasePlace" : "Greenbelt, MD"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 60,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -60
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "TOTAL SURFACE PRECIPITATION RATE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2000-02-29T00:00:00.000Z",
+      "EndingDateTime" : "2019-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/TRMM/TMPA/3H-E-MW/7"
+  },
+  "ShortName" : "TRMM_3B40RT",
+  "EntryTitle" : "TRMM (TMPA-RT) Near Real-Time Microwave precipitation estimate L3 3 hour 0.25 degree x 0.25 degree V7 (TRMM_3B40RT) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Huffman, G.J.",
+    "PublicationDate" : "1997-01-01T00:00:00.000Z",
+    "Title" : "Estimates of Root-Mean-Square Random Error for Finite Samples of Estimated Precipitation",
+    "Series" : "J. Appl. Meteor.",
+    "Volume" : "14",
+    "Pages" : "1191-1201"
+  }, {
+    "Author" : "Huffman, G.J., R.F. Adler, D.T. Bolvin, G. Gu, E.J. Nelkin, K.P. Bowman, Y. Hong, E.F. Stocker, D.B. Wolff",
+    "PublicationDate" : "2007-01-01T00:00:00.000Z",
+    "Title" : "The TRMM Multi-satellite Precipitation Analysis: Quasi- Global, Multi-Year, Combined-Sensor Precipitation Estimates at Fine Scale.",
+    "Series" : "J. Hydrometeor",
+    "Volume" : "8",
+    "Pages" : "38-55"
+  }, {
+    "Author" : "Huffman, G.J., R.F. Adler, D.T. Bolvin, E.J. Nelkin",
+    "PublicationDate" : "2010-01-01T00:00:00.000Z",
+    "Title" : "The TRMM Multi-satellite Precipitation Analysis (TMPA). Chapter 1 in Satellite Rainfall Applications for Surface Hydrology",
+    "DOI" : {
+      "DOI" : "10.1007/978-90-481-2915-7"
+    }
+  } ],
+  "Quality" : "The *accuracy* of the precipitation products can be broken into systematic departures from the true answer (bias) and random fluctuations about the true answer (sampling), as discussed in Huffman (1997). The former are the biggest problem for climatological averages, since they will not average out. However, for short averaging periods the low number of samples and/or algorithmic inaccuracies tend to present a more serious problem for individual microwave data sets. That is, the sampling is spotty enough that the collection of values over, say, one day may\nnot be representative of the true distribution of precipitation over the day. \n\nAccordingly, the \"random error\" is assumed to be dominant, and estimates could be computed as discussed in Huffman (1997). Random error cannot be corrected.\n\nThe \"bias error\" is likely small, or at least contained. This is less true over land, where the lower-frequency microwave channels are not useful for precipitation estimation with our current state of knowledge. The state of the art at the monthly scale is reflected in the study by Smith et al. (2006) and Adler et al. (2012). One study of the sub-monthly bias is provided by Tian et al.  (2009). \nBest used in Real Time applications/monitoring, where long-term accuracy and biases are not of issue.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TRMM_3B40RT_7.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/TRMM_3B40RT_7.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/TRMM_RT/TRMM_3B40RT.7/",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/3B4XRT_doc_V7.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://pmm.nasa.gov/TRMM",
+    "Description" : "Precipitation Measurement Missions Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/anomalous.html",
+    "Description" : "TRMM Data Gaps",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/TMPA-to-IMERG_transition.pdf",
+    "Description" : "Transition from TMPA to IMERG",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2016-03-15T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2016-04-15T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "TMPA (3B40RT) dataset have been discontinued as of Dec. 31, 2019, and users are strongly encouraged to shift to the successor IMERG datasets (doi: 10.5067/GPM/IMERG/3B-HH-E/06, 10.5067/GPM/IMERG/3B-HH-L/06).\n\n These data were output from the TRMM Multi-satellite Precipitation Analysis (TMPA), the Near Real-Time (RT) processing stream.  The latency was about seven hours from the observation time, although processing issues may delay or prevent this schedule. Users should be mindful that the price for the short latency of these data is the reduced quality as compared to e.g. research quality product 3B42.  This particular dataset is an intermediate high-quality (HQ) estimate from merged Microwave precipitation estimates.\n\nData files start with a header consisteing  of a 2880-byte header record containing ASCII characters. The header line makes the file nearly self-documenting, in particular spelling out the\nvariable and version names, and giving the units of the variables. Immediately after the header follow the data fields.  All fields are 1440x720 grid boxes (0-360�E,90�N-S). The first grid box center is at (0.125�E,89.875�N).  The grid increments most rapidly to the east.  Grid boxes without valid data are filled with the (2-byte integer) \"missing\" value -31999. Estimates are only computed for the band 70�N-S. This binary data sets are in IEEE ?big-endian? floating-point format.\n\nFiles are produced every 3 hours on synoptic observation hours (00, 03, ..., 21 UTC) as an accumulation of all HQ swath data observed within +/-90 minutes of the nominal file time. I.e. Each file is a snapshot considered to represent the three-hour period centered on the \"nominal\" file time.  So, e.g., 00 UTC nominally represents the period from 2230 UTC of the previous day to 0130 UTC of the current day.",
+  "Purpose" : "The NASA Goddard Space Flight Center (GSFC) system to produce the TMPA-RT estimates in real time for use by the operational research community was developed to apply new concepts in merging quasi-global precipitation estimates and to take advantage of the increasing availability of input data sets in near real time.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2016-02-28T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-12-01T09:59:02.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2019-10-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "7",
+  "Projects" : [ {
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GEORGE",
+    "LastName" : "HUFFMAN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Mailstop 612" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6308"
+      }, {
+        "Type" : "Email",
+        "Value" : "George.J.Huffman@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "TMPA",
+    "LongName" : "TRMM Multi-Satellite Precipitation Analysis",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "binary",
+      "Fees" : "none"
+    } ]
+  }
+}

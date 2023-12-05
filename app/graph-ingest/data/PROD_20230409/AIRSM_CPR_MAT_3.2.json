@@ -1,0 +1,213 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Eric Fetzer, Brian Wilson, and Gerald Manipon",
+    "IssueIdentification" : "AIRSM_CPR_MAT_3.2",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/AIRSM_CPR_MAT_3.2.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "AIRS-AMSU variables-CloudSat cloud mask, radar reflectivities, and cloud classification matchups V3.2",
+    "SeriesName" : "AIRSM_CPR_MAT",
+    "ReleaseDate" : "2013-07-01T00:00:00.000Z",
+    "Version" : "3.2",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2006-06-15T00:00:00.000Z",
+      "EndingDateTime" : "2012-12-14T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/WVCC/DATA201"
+  },
+  "ShortName" : "AIRSM_CPR_MAT",
+  "EntryTitle" : "AIRS-AMSU variables-CloudSat cloud mask, radar reflectivities, and cloud classification matchups V3.2 (AIRSM_CPR_MAT) at GES DISC",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRSM_CPR_MAT_3.2.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/AIRSM_CPR_MAT_3.2.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://measures.gesdisc.eosdis.nasa.gov/data/AIRS_CloudSat/AIRSM_CPR_MAT.3.2/",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=AIRSM_CPR_MAT",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Fetzer/README.AIRS_CloudSat.pdf",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://earthdata.nasa.gov/our-community/community-data-system-programs/measures-projects",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is AIRS-CloudSat collocated subset, in NetCDF 4 format. These data contain collocated: AIRS/AMSU retrievals at AMSU footprints, CloudSat radar reflectivities, and MODIS cloud mask. These data are created within the frames of the MEaSUREs project.\n\nThe basic task is to bring together retrievals of water vapor and cloud properties from multiple \"A-train\" instruments (AIRS, AMSR-E, MODIS, AMSU, MLS, CloudSat), classify each \"scene\" (instrument look) using the cloud information,\nand develop a merged, multi-sensor climatology of atmospheric water vapor as a\nfunction of altitude, stratified by the cloud classes. This is a large science\nanalysis project that will require the use of SciFlo technologies to discover and organize all of the datasets, move and cache datasets as required, find\nspace/time \"matchups\" between pairs of instruments, and process years of\nsatellite data to produce the climate data records.\n\nThe short name for this collection is AIRSM_CPR_MAT\n\nParameters contained in the data files include the following:\nVariable Name|Description|Units \n CH4_total_column|Retrieved total column CH4| (molecules/cm2)\n CloudFraction|CloudSat/CALIPSO Cloud Fraction| (None)\n CloudLayers| Number of hydrometeor layers| (count)\n clrolr|Clear-sky Outgoing Longwave Radiation|(Watts/m**2)\n CO_total_column|Retrieved total column CO| (molecules/cm2)\n CPR_Cloud_mask| CPR Cloud Mask |(None)\n Data_quality| Data Quality |(None)\n H2OMMRSat|Water vapor saturation mass mixing ratio|(gm/kg)\n H2OMMRStd|Water Vapor Mass Mixing Ratio |(gm/kg dry air)\n MODIS_Cloud_Fraction| MODIS 250m Cloud Fraction| (None)\n MODIS_scene_var |MODIS scene variability| (None)\n nSurfStd|1-based index of the first valid level|(None)\n O3VMRStd|Ozone Volume Mixing Ratio|(vmr)\n olr|All-sky Outgoing Longwave Radiation|(Watts/m**2)\n Radar_Reflectivity| Radar Reflectivity Factor| (dBZe)\n Sigma-Zero| Sigma-Zero| (dB*100)\n TAirMWOnlyStd|Atmospheric Temperature retrieved using only MW|(K)\n TCldTopStd|Cloud top temperature|(K)\n totH2OStd|Total precipitable water vapor| (kg/m**2)\n totO3Std|Total ozone burden| (Dobson)\n TSurfAir|Atmospheric Temperature at Surface|(K)\n TSurfStd|Surface skin temperature|(K)\nEnd of parameter information",
+  "MetadataDates" : [ {
+    "Date" : "2011-12-09T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-03-22T12:03:00.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2016-12-01T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "3.2",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "GERALD",
+    "LastName" : "MANIPON",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "Geraldjohn.M.Manipon@jpl.nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "ERIC",
+    "LastName" : "FETZER",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "eric.j.fetzer@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "CloudSat",
+    "Instruments" : [ {
+      "ShortName" : "CloudSat-CPR",
+      "LongName" : "CloudSat Cloud Profiling Radar"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

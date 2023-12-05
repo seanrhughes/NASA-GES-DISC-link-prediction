@@ -1,0 +1,265 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology", "AMSR-E", "Skin temperature", "Surface soil moisture", "Optical depth", "Radio frequency interference (RFI)", "Brightness temperature", "Soil water content", "Vegetation water content", "Microwave", "BEDI", "Agriculture and Forestry", "Climate", "Disasters", "Water Resources", "Weather" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Vrije Universiteit Amsterdam (Richard de Jeu) and NASA GSFC (Manfred Owe)",
+    "Editor" : "Goddard Earth Sciences Data and Information Services Center (GES DISC) (Bill Teng)",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/LPRM_AMSRE_SOILM2_002.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "AMSR-E/Aqua surface soil moisture (LPRM) L2B V002",
+    "SeriesName" : "LPRM_AMSRE_SOILM2",
+    "ReleaseDate" : "2011-05-06T00:00:00.000Z",
+    "Version" : "002",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "VEGETATION",
+    "VariableLevel1" : "PLANT CHARACTERISTICS",
+    "VariableLevel2" : "VEGETATION WATER CONTENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL MOISTURE/WATER CONTENT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "SKIN TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-06-19T00:29:47.000Z",
+      "EndingDateTime" : "2011-10-03T21:49:11.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "2"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/WLVYB96A3GEA"
+  },
+  "ShortName" : "LPRM_AMSRE_SOILM2",
+  "EntryTitle" : "AMSR-E/Aqua surface soil moisture (LPRM) L2B V002 (LPRM_AMSRE_SOILM2) at GES DISC",
+  "PublicationReferences" : [ {
+    "Volume" : "113",
+    "Title" : "Multisensor historical climatology of satellite-derived global land surface moisture",
+    "DOI" : {
+      "DOI" : "10.1029/2007JF000769"
+    },
+    "Issue" : "F01002",
+    "PublicationDate" : "2008-01-01T00:00:00.000Z",
+    "Author" : "Owe, M., R. de Jeu, and T. Holmes",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "Series" : "Journal of Geophysical Research",
+    "Pages" : "17 pp."
+  }, {
+    "Author" : "De Jeu, R.A.M., W. Wagner, T.R.H. Holmes, A.J. Dolman, N.C. van de Giesen, and J. Friesen",
+    "PublicationDate" : "2008-01-01T00:00:00.000Z",
+    "Title" : "Global soil moisture patterns observed by space borne microwave radiometers and scatterometers",
+    "Series" : "Surveys in Geophysics",
+    "Volume" : "29",
+    "Pages" : "399-420",
+    "DOI" : {
+      "DOI" : "10.1007/s10712-008-9044-0"
+    }
+  }, {
+    "Author" : "Holmes, T.R.H., R.A.M. De Jeu, M. Owe, and A.J. Dolman",
+    "PublicationDate" : "2009-01-01T00:00:00.000Z",
+    "Title" : "Land surface temperature from Ka band (37 GHz) passive microwave observations",
+    "Series" : "Journal of Geophysical Research",
+    "Volume" : "114",
+    "Issue" : "D04113",
+    "Pages" : "15 pp.",
+    "DOI" : {
+      "DOI" : "10.1029/2008JD010257"
+    }
+  }, {
+    "Author" : "Parinussa, R.M., A.G.C.A. Meesters, Y.Y. Liu, W. Dorigo, W. Wagner, and R.A.M. de Jeu",
+    "PublicationDate" : "2011-01-01T00:00:00.000Z",
+    "Title" : "Error estimates for near-real-time satellite soil moisture as derived from the Land Parameter Retrieval Model",
+    "Series" : "IEEE Geoscience and Remote Sensing Letters",
+    "Volume" : "8",
+    "Issue" : "4",
+    "Pages" : "779 - 783",
+    "DOI" : {
+      "DOI" : "10.1109/LGRS.2011.2114872"
+    }
+  } ],
+  "Quality" : "The LPRM/AMSR-E data are sensitive to both internal model limitations and external processes and are screened for radio frequency interference, the presence of snow/frozen soils, water, and dense vegetation covers. All screened-out data pixels are flagged and indicated by a non-data value. A soil moisture uncertainty parameter at both C and X bands is included (Parinussa et al., 2011).",
+  "ISOTopicCategories" : [ "ENVIRONMENT" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/LPRM_AMSRE_SOILM2_002.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/LPRM_AMSRE_SOILM2_002.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/s4pa/WAOB/LPRM_AMSRE_SOILM2.002/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=LPRM_AMSRE_SOILM2",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/opendap/LPRM_AMSRE_SOILM2.002/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Hydrology%20Documentation",
+    "Description" : "GES DISC Hydrology Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2013-05-21T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2013-06-11T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "AMSR-E/Aqua surface soil moisture (LPRM) L2B V002 is a Level 2 (swath) data set. Its land surface parameters, surface soil moisture, land surface (skin) temperature, and vegetation water content are derived from passive microwave remote sensing data from the Advanced Microwave Scanning Radiometer-Earth Observing System (AMSR-E), using the Land Parameter Retrieval Model (LPRM). Each swath is packaged with associated geolocation fields. The data set covers the period from June 2002 to October 2011 (when the AMSR-E on the NASA EOS Aqua satellite stopped producing data due to a problem with the rotation of its antenna), at the spatial resolution (nominally 56 and 38 km, respectively) of AMSR-E's C and X bands (6.9 and 10.7 GHz, respectively).\n                   \nThe LPRM is based on a forward radiative transfer model to retrieve surface soil moisture and vegetation optical depth. The land surface temperature is derived separately from the AMSR-E's Ka-band (36.5 GHz). A unique feature of this method is that it can be applied at any microwave frequency, making it very suitable to exploit all the available passive microwave data from various satellites.\n                       \nInput data are from the AMSR-E resampled brightness temperatures (AE_L2A) product, archived at the National Snow and Ice Data Center (NSIDC).",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL LAND"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2012-05-04T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-10-27T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "002",
+  "Projects" : [ {
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System (EOS), Aqua"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "RICHARD",
+    "LastName" : "DE JEU",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Faculty of Earth and Life Sciences", "Department of Hydrology and Geo-environmental Sciences", "Vrije Universiteit Amsterdam" ],
+        "City" : "1081 HV Amsterdam",
+        "Country" : "NL"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "+31-20-598-7287"
+      }, {
+        "Type" : "Email",
+        "Value" : "Richard.de.jeu@falw.vu.nl"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "WILLIAM",
+    "MiddleName" : "L.",
+    "LastName" : "TENG",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2", "Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5164"
+      }, {
+        "Type" : "Email",
+        "Value" : "william.l.teng@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, 610.2, NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AMSR-E",
+      "LongName" : "Advanced Microwave Scanning Radiometer-EOS"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

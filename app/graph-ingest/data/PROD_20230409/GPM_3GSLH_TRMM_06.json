@@ -1,0 +1,294 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "EOSDIS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Tropical Rainfall Measuring Mission (TRMM)",
+    "Title" : "GPM PR on TRMM Gridded Orbital Spectral Latent Heating Profiles L3 1.5 hours 0.5x0.5 degree V06",
+    "SeriesName" : "GPM_3GSLH_TRMM",
+    "ReleaseDate" : "2018-07-03T00:00:00.000Z",
+    "ReleasePlace" : "Greenbelt, MD",
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/GPM_3GSLH_TRMM_06.html"
+    }
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 37,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -37
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "CLOUDS",
+    "VariableLevel1" : "CLOUD DYNAMICS",
+    "VariableLevel2" : "HEAT FLUX"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1997-12-07T00:00:00.000Z",
+      "EndingDateTime" : "2015-04-01T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/GPM/PR/TRMM/SLH/3A/06"
+  },
+  "ShortName" : "GPM_3GSLH_TRMM",
+  "EntryTitle" : "GPM PR on TRMM Gridded Orbital Spectral Latent Heating Profiles L3 1.5 hours 0.5x0.5 degree V06 (GPM_3GSLH_TRMM) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Tao, W-K., Y. N. Takayabu, S. Lang, S. Shige, W. Olson, A. Hou, G. Skofronick-Jackson et al.",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "TRMM latent heating retrieval: Applications and comparisons with field campaigns and large-scale analyses",
+    "Series" : "Meteorological Monographs",
+    "DOI" : {
+      "DOI" : "10.1175/AMSMONOGRAPHS-D-15-0013.1"
+    }
+  }, {
+    "Author" : "Shige, S., Y. N. Takayabu, W.-K. Tao, and D. E. Johnson",
+    "PublicationDate" : "2004-01-01T00:00:00.000Z",
+    "Title" : "Spectral retrieval of latent heating profiles from TRMM PR data. Part I: Development of a model-based algorithm",
+    "Series" : "J. Appl. Meteor.",
+    "Volume" : "43",
+    "Pages" : "1095-1113"
+  }, {
+    "Author" : "Shige, S., Y. N. Takayabu, W.-K. Tao, and C.-L. Shie",
+    "PublicationDate" : "2007-01-01T00:00:00.000Z",
+    "Title" : "Spectral retrieval of latent heating profiles from TRMM PR data. Part II: Algorithm improvement and heating estimates over tropical ocean regions",
+    "Series" : "J. Appl. Meteor. Climatol",
+    "Volume" : "46",
+    "Pages" : "1098-1124"
+  }, {
+    "Author" : "Shige, S., Y. N. Takayabu, and W.-K. Tao",
+    "PublicationDate" : "2008-01-01T00:00:00.000Z",
+    "Title" : "Spectral retrieval of latent heating profiles from TRMM PR data. Part III: Estimating apparent moisture sink profiles over tropical oceans",
+    "Series" : "J. Appl. Meteor. Climatol",
+    "Volume" : "47",
+    "Pages" : "620-640"
+  }, {
+    "Author" : "Shige, S., Y. N. Takayabu, S. Kida, W.-K. Tao, X. Zeng, C. Yokoyama, and T. L'Ecuyer",
+    "PublicationDate" : "2009-01-01T00:00:00.000Z",
+    "Title" : "Spectral retrieval of latent heating profiles from TRMM PR data. Part IV: Co mparisons of lookup tables from two- and three-dimensional cloud-resolving model simulations",
+    "Series" : "J. Climate",
+    "Volume" : "22",
+    "Pages" : "5577-5594"
+  }, {
+    "Author" : "Morita, J., Y. N. Takayabu, S. Shige, and Y. Kodama",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "Analysis of rainfall characteristics of the Madden-Julian oscillation using TRMM satellite data",
+    "Series" : "Dyn. Atmos. Oceans",
+    "Volume" : "42",
+    "Pages" : "107-126"
+  }, {
+    "Author" : "Tao, W.-K., E. A. Smith, R. F. Adler, Z. S. Haddad, A. Y. Hou, T. Iguchi, R. Kakar, T. N. Krishnamurti, C. D. Kummerow, S. Lang, R. Meneghini, K. Nakamura, T. Nakazawa, K. Okamoto, W. S. Olson, S. Satoh, S. Shige, J. Simpson, Y. Takayabu, G. J. Tripoli, and S. Yang",
+    "PublicationDate" : "2006-01-01T00:00:00.000Z",
+    "Title" : "Retrieval of latent heating from TRMM measurements",
+    "Series" : "Bull. Amer. Meteor. Soc.",
+    "Volume" : "87",
+    "Pages" : "1555-1572"
+  }, {
+    "Author" : "Stoker, E., F. Alquaied, S. Bilanow, Y. Ji, and L. Jones",
+    "PublicationDate" : "2018-01-01T00:00:00.000Z",
+    "Title" : "TRMM Version 8 Reprocessing Improvements and Incorporation into the GPM Data Suite",
+    "Series" : "Journal of Atmospheric and Oceanic Technology",
+    "Volume" : "35",
+    "Pages" : "1457-1470"
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/GPM_3GSLH_TRMM.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/GPM_3GSLH_TRMM_06.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/data/TRMM_L3/GPM_3GSLH_TRMM.06",
+    "Description" : "Access the data via HTTPS",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://disc2.gesdisc.eosdis.nasa.gov/opendap/TRMM_L3/GPM_3GSLH_TRMM.06/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=GPM_3GSLH_TRMM",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://trmm.gsfc.nasa.gov/",
+    "Description" : "TRMM Project Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/pub/GPMfilespec/filespec.GPM.pdf",
+    "Description" : "FILE SPECIFICATION DOCUMENT",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/README.TRMM.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://pps.gsfc.nasa.gov/Documents/V7A_SLH_caveats.pdf",
+    "Description" : "Details of the caveats to consider in this product.",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/anomalous.html",
+    "Description" : "TRMM Data Gaps",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2018-07-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-07-05T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is the new (GPM-formated) TRMM product. It replaces the old TRMM_3G25\n\nVersion 06 is the current version of the data set. Older versions will no longer be available and have been superseded by Version 06.\n\nEstimating vertical profiles of latent heating released by precipitating cloud systems is one of the key objectives of TRMM, together with accurately measuring the horizontal distribution of tropical rainfall.\n\nThe method uses TRMM PR information [precipitation-top height (PTH), precipitation rates at the surface and melting level, and rain type] to select heating profiles from lookup tables. Heating-profile lookup tables for the three rain types—convective, shallow stratiform, and anvil rain (deep stratiform with a melting level)—were derived from numerical simulations of tropical cloud systems from the Tropical Ocean and Global Atmosphere Coupled Ocean–Atmosphere Response Experiment (TOGA COARE) utilizing a cloud-resolving model (CRM). The SLH algorithm is severely limited by the inherent sensitivity of the TRMM PR. For latent heating, the quantity required is actually cloud top, but the PR can detect only precipitation-sized particles.\n\nBecause observed information on precipitation depth is used in addition to precipitation type and intensity, differences between shallow and deep convection are more distinct in the SLH algorithm in comparison with the CSH algorithm.\n\nThe Gridded Orbital Spectral Latent Heating is actually one orbit gridded onto a global map with  0.5 degree x 0.5 degree grid cell size. These latent heating profiles from the TRMM Precipitation Radar (PR) rain. The granule temporal size is one orbit.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "TROPICS"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2018-06-15T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-27T17:18:20.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2019-10-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "Version" : "06",
+  "Projects" : [ {
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "YUKARI",
+    "LastName" : "TAKAYABU, PH.D.",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Kashiwa-Campus, General Research Bldg.-215", "Graduate School of Science, University of Tokyo" ],
+        "City" : "TOKYO",
+        "Country" : "JAPAN"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "+81-4-7136-4402"
+      }, {
+        "Type" : "Email",
+        "Value" : "yukari@aori.u-tokyo.ac.jp"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "TRMM",
+    "LongName" : "Tropical Rainfall Measuring Mission",
+    "Instruments" : [ {
+      "ShortName" : "PR",
+      "LongName" : "TRMM Precipitation Radar"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}

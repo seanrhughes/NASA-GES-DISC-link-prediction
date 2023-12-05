@@ -1,0 +1,268 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "EOSDIS", "Spectral Outgoing Longwave Radiation Flux", "Spectral Clear Sky Outgoing Longwave Radiation Flux" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Xianglei Huang, University of Michigan",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/AIRSIL3MSOLR_6.1.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Aqua AIRS Level 3 Spectral Outgoing Longwave Radiation (OLR) Monthly",
+    "SeriesName" : "AIRSIL3MSOLR",
+    "ReleaseDate" : "2020-01-15T00:00:00.000Z",
+    "Version" : "6.1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : true,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "OUTGOING LONGWAVE RADIATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-08-31T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/5P7KQ31XI7XJ"
+  },
+  "ShortName" : "AIRSIL3MSOLR",
+  "EntryTitle" : "Aqua AIRS Level 3 Spectral Outgoing Longwave Radiation (OLR) Monthly",
+  "PublicationReferences" : [ {
+    "Author" : "Huang, X. L., W. Z. Yang, N. G. Loeb, and V. Ramaswamy",
+    "PublicationDate" : "2008-01-01T00:00:00.000Z",
+    "Title" : "Spectrally resolved fluxes derived from collocated AIRS and CERES measurements and their application in model evaluation: 1. clear sky over the tropical oceans",
+    "Series" : "J. of Geophys. Res. Atmos",
+    "Volume" : "113",
+    "Issue" : "D09110",
+    "DOI" : {
+      "DOI" : "10.1029/2007JD009219"
+    }
+  }, {
+    "Author" : "Huang, X.L., N.G. Loeb, and W.Z. Yang",
+    "PublicationDate" : "2010-01-01T00:00:00.000Z",
+    "Title" : "Spectrally resolved fluxes derived from collocated AIRS and CERES measurements and their application in model evaluation: 2. cloudy sky and band-by-band cloud radiative forcing over the tropical oceans",
+    "Series" : "J. of Geophys. Res. Atmos",
+    "Volume" : "115",
+    "Issue" : "D21101",
+    "DOI" : {
+      "DOI" : "10.1029/2010JD013932"
+    }
+  }, {
+    "Author" : "Chen, X.H., X.L. Huang, N. G. Loeb, H. L. Wei",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Title" : "Comparisons of clear-sky outgoing far-IR flux inferred from satellite observations and computed from three most recent reanalysis products",
+    "Series" : "J. Climate",
+    "Edition" : "26",
+    "Volume" : "2",
+    "Pages" : "478-494",
+    "DOI" : {
+      "DOI" : "10.1175/JCLI-D-12-00212.1"
+    }
+  }, {
+    "Author" : "Huang, X. L., X.H. Chen, G. L. Potter, L. Oreopoulos, J. N.S. Cole, D.M. Lee, N. G. Loeb",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "A global climatology of outgoing longwave spectral cloud radiative effect and associated effective cloud properties",
+    "Series" : "J. Climate",
+    "Volume" : "27",
+    "Pages" : "7475-7492",
+    "DOI" : {
+      "DOI" : "10.1175/JCLI-D-13-00663.1"
+    }
+  }, {
+    "Author" : "Chen, X. H., X. L. Huang",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "Deriving clear-sky longwave spectral flux from space-borne hyperspectral radiance measurements: a case study with AIRS observations",
+    "Series" : "Atmospheric Measurement Techniques",
+    "Volume" : "9",
+    "Pages" : "6013-6023",
+    "DOI" : {
+      "DOI" : "10.5194/amt-9-6013-2016"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample data of AIRS/Aqua Level3 Monthly Spectral OLR V6.1",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRSIL3MSOLR.v6.1.L3.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/AIRSIL3MSOLR_6.1html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Aqua_AIRS_Level3/AIRSIL3MSOLR.6.1/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/opendap/HDF-EOS5/Aqua_AIRS_Level3/AIRSIL3MSOLR.6.1/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=AIRSIL3MSOLR%206.1",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/AIRS/AIRSIL3MSOLR.v6.1.README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/AIRS/AIRSIL3MSOLR.v6.1.ATBD.pdf",
+    "Description" : "ATBD Documentation",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "1970-01-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This L3 Spectral Outgoing Longwave Radiation (OLR) is derived using the AIRS radiances to compute spectral fluxes based on an algorithm developed by Xianglei Huang at the University of Michigan. It uses data from the Atmospheric InfraRed Sounder (AIRS) instrument on the EOS-Aqua spacecraft.\n\nThe Aqua AIRS Huang Level-3 Spectral OLR product contains OLR parameters derived from the AIRS version 6 data: all-sky and clear-sky OLR both spectrally resolved at 10 cm-1 bandwidth and integrated to a single value per grid square. This is monthly product on a 2x2 degree latitude/longitude grid.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2019-12-14T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2016-07-01T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "MetadataAssociations" : [ {
+    "EntryId" : "AIRSIL3MSOLR",
+    "Version" : "6.1",
+    "Type" : "SCIENCE ASSOCIATED"
+  } ],
+  "DirectoryNames" : [ {
+    "ShortName" : "USA/NASA"
+  } ],
+  "Version" : "6.1",
+  "Projects" : [ {
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System (EOS), Aqua"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "LENA",
+    "LastName" : "IREDELL",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC NASA Goddard Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-286-9773"
+      }, {
+        "Type" : "Email",
+        "Value" : "lena.iredell@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "AIRS",
+      "LongName" : "Atmospheric Infrared Sounder"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "None"
+    } ]
+  }
+}

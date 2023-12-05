@@ -1,0 +1,335 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology" ],
+  "CollectionCitations" : [ {
+    "Creator" : "NLDAS project",
+    "Editor" : "David M. Mocko, NASA/GSFC/HSL",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/NLDAS_FORA0125_H_2.0.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "NLDAS Primary Forcing Data L4 Hourly 0.125 x 0.125 degree V2.0",
+    "SeriesName" : "NLDAS_FORA0125_H",
+    "ReleaseDate" : "2021-04-11T00:00:00.000Z",
+    "Version" : "2.0",
+    "ReleasePlace" : "Greenbelt, Maryland, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -125,
+          "NorthBoundingCoordinate" : 53,
+          "EastBoundingCoordinate" : -67,
+          "SouthBoundingCoordinate" : 25
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC PRESSURE",
+    "VariableLevel1" : "SURFACE PRESSURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "LONGWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC RADIATION",
+    "VariableLevel1" : "SHORTWAVE RADIATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR PROCESSES",
+    "VariableLevel2" : "EVAPORATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WATER VAPOR",
+    "VariableLevel1" : "WATER VAPOR INDICATORS",
+    "VariableLevel2" : "HUMIDITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "WIND DYNAMICS",
+    "VariableLevel2" : "CONVECTION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC WINDS",
+    "VariableLevel1" : "SURFACE WINDS"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "LIQUID PRECIPITATION",
+    "VariableLevel2" : "RAIN"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "LAND SURFACE",
+    "Term" : "SURFACE THERMAL PROPERTIES",
+    "VariableLevel1" : "LAND SURFACE TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1979-01-01T13:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/THUF4J1RLSYG"
+  },
+  "ShortName" : "NLDAS_FORA0125_H",
+  "EntryTitle" : "NLDAS Primary Forcing Data L4 Hourly 0.125 x 0.125 degree V2.0 (NLDAS_FORA0125_H) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Xia, Y., K. Mitchell, M. Ek, J. Sheffield, B. Cosgrove, E. Wood, L. Luo, C. Alonge, H. Wei, J. Meng, B. Livneh, D. Lettenmaier, V. Koren, Q. Duan, K. Mo, Y. Fan, and D. Mocko",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Continental-scale water and energy flux analysis and validation for the North American Land Data Assimilation System project phase 2 (NLDAS-2): 1. Intercomparison and application of model products",
+    "OtherReferenceDetails" : "Data Author Publication",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD016048"
+    }
+  }, {
+    "Author" : "Xia, Y., K. Mitchell, M. Ek, J. Sheffield, B. Cosgrove, E. Wood, L.Luo, C. Alonge, H. Wei, J. Meng, B. Livneh, D. Lettenmaier, V. Koren, Q. Duan, K. Mo, Y. Fan, and D. Mocko",
+    "PublicationDate" : "2012-01-01T00:00:00.000Z",
+    "Title" : "Continental-scale water and energy flux analysis and validation for North American Land Data Assimilation System project phase 2(NLDAS-2): 2. Validation of model-simulated stream flow",
+    "DOI" : {
+      "DOI" : "10.1029/2011JD016051"
+    }
+  }, {
+    "Author" : "Cosgrove, B. A., D. Lohmann, K. E. Mitchell, et al.",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "Real-time and retrospective forcing in the North American Land Data Assimilation System (NLDAS) project",
+    "DOI" : {
+      "DOI" : "10.1029/2002JD003118"
+    }
+  }, {
+    "Author" : "Mahrt L., and M. Ek",
+    "PublicationDate" : "1984-01-01T00:00:00.000Z",
+    "Title" : "The Influence of Atmospheric Stability on Potential Evaporation",
+    "DOI" : {
+      "DOI" : "10.1175/1520-0450(1984)023<0222:TIOASO>2.0.CO;2"
+    }
+  }, {
+    "Author" : "Pinker, R. T., J. D. Tarpley, I. Laszlo, et al.",
+    "PublicationDate" : "2003-01-01T00:00:00.000Z",
+    "Title" : "Surface radiation budgets in support of the GEWEX Continental-Scale International Project (GCIP) and the GEWEX Americas Prediction Project (GAPP), including the North American Land Data Assimilation System (NLDAS) project",
+    "DOI" : {
+      "DOI" : "10.1029/2002JD003301"
+    }
+  } ],
+  "Quality" : "The data are provisional and subject to change as model improvements are implemented and new input data sets become available.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/NLDAS/NLDAS_FORA0125_H.2.0/" ]
+  },
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "NLDAS-2 Primary Forcing Hourly 0.125 degree Precipitation hourly total [kg m-2]  13Z January 1, 1979.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_FORA0125_H_2.0.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/NLDAS_FORA0125_H_2.0.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_FORA0125_H.2.0/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=NLDAS_FORA0125_H",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_FORA0125_H_2.0",
+    "Description" : "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+    "Subtype" : "GIOVANNI",
+    "Type" : "GET RELATED VISUALIZATION",
+    "URLContentType" : "VisualizationURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/dods/NLDAS_FORA0125_H.2.0",
+    "Description" : "The GrADS Data Server (GDS) is another form of OPeNDAP that provides subsetting and some analysis services across the Internet.",
+    "Subtype" : "GRADS DATA SERVER (GDS)",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS2_README.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://ldas.gsfc.nasa.gov/nldas/",
+    "Description" : "NLDAS Project Web Site",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=hydrology",
+    "Description" : "How to read and plot the data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Hydrology%20Documentation",
+    "Description" : "GES DISC Hydrology Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Data%20Rods",
+    "Description" : "GES DISC Data Rods Documentation",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/opendap/NLDAS/NLDAS_FORA0125_H.2.0/",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/thredds/catalog/NLDAS_aggregation/NLDAS_FORA0125_H.2.0/catalog.html",
+    "Description" : "Time aggregated THREDDS Data Server (TDS)",
+    "Subtype" : "THREDDS DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2021-04-11T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-04-11T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This data set contains the primary forcing hourly data \"File A\" for Phase 2 of the North American Land Data Assimilation System (NLDAS-2).  The data are in 1/8th degree grid spacing and range from Jan 1979 to the present. The temporal resolution is hourly.  The file format is netCDF (converted from the GRIB data files).\n\nThe non-precipitation land surface forcing fields for NLDAS-2 are derived from the analysis fields of the NCEP North American Regional Reanalysis (NARR).  NARR analysis fields are 32-km spatial resolution and 3-hourly temporal frequency.  Those NARR fields that are utilized to generate NLDAS-2 forcing fields are spatially interpolated to the finer resolution of the NLDAS 1/8th-degree grid and then temporally disaggregated to the NLDAS hourly frequency.  Additionally, the fields of surface pressure, surface downward longwave radiation, near-surface air temperature, and near-surface specific humidity are adjusted vertically to account for the vertical difference between the NARR and NLDAS fields of terrain height.  This vertical adjustment applies the traditional vertical lapse rate of 6.5 K/km for air temperature.  The details of the spatial interpolation, temporal disaggregation, and vertical adjustment are presented by Cosgrove et al. (2003).\n\nThe surface downward shortwave radiation field in \"File A\" is a bias-corrected field wherein a bias-correction algorithm was applied to the NARR surface downward shortwave radiation.  This bias correction utilizes five years (1996-2000) of the hourly 1/8th-degree GOES-based surface downward shortwave radiation fields derived by Pinker et al. (2003). The potential evaporation field in \"File A\" is that computed in NARR using the modified Penman scheme of Mahrt and Ek (1984).\n\nThe precipitation field in \"File A\" is not the NARR precipitation forcing, but is rather a product of a temporal disaggregation of a gauge-only CPC analysis of daily precipitation, performed directly on the NLDAS grid and including an orographic adjustment based on the widely-applied PRISM climatology.  The precipitation is temporally disaggregated into hourly fields by deriving hourly disaggregation weights from either WSR-88D Doppler radar-based precipitation estimates, 8-km CMORPH hourly precipitation analyses, or NARR-simulated precipitation (based on availability, in order).  The latter fields from radar, CMORPH, and NARR are used only to derive disaggregation weights and do not change the daily total precipitation.  The field in \"File A\" that gives the fraction of total precipitation that is convective is an estimate derived from the following two NARR precipitation fields (which are provided in \"File B\"): NARR total precipitation and NARR convective precipitation (the latter is less than or equal to the NARR total precipitation and can be zero). The Convective Available Potential Energy (CAPE) is the final variable in the forcing data set, also interpolated from NARR.\n\nThe hourly land surface forcing fields for NLDAS-2 are grouped into two files, \"File A\" and \"File B\". \"File A\" is the primary (default) forcing file and contains eleven meteorological forcing fields. Details about the generation of the NLDAS-2.0 forcing datasets can be found in Xia et al. (2012). \n",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2021-04-11T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2021-04-11T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "2.0",
+  "Projects" : [ {
+    "ShortName" : "NLDAS",
+    "LongName" : "North American Land Data Assimilation System"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Hualan",
+    "LastName" : "Rui",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5224"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Hualan.Rui@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "Forcing-LSM",
+    "LongName" : "Forcing data for Land Surface Model",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "No Fee"
+    } ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "BEDI", "Agriculture and Forestry", "Biodiversity", "Climate", "Disasters", "Terrestrial and Freshwater Ecosystems", "Human Health", "Ocean and Coastal Resources and Ecosystems", "Transportation", "Water Resources", "Weather", "M2Climate", "MERRA2-Climate" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Global Modeling and Assimilation Office (GMAO)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/M2SMNXPCT_2.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "MERRA-2 statM_2d_pct_Nx: 2d, Single-Level, Monthly Percentiles based on 1991-2020 V2",
+    "SeriesName" : "M2SMNXPCT",
+    "ReleaseDate" : "2022-11-08T00:00:00.000Z",
+    "Version" : "2",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "StandardProduct" : false,
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "AIR TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CLIMATE INDICATORS",
+    "Term" : "ATMOSPHERIC/OCEAN INDICATORS",
+    "VariableLevel1" : "EXTREME WEATHER",
+    "VariableLevel2" : "EXTREME DROUGHT"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CLIMATE INDICATORS",
+    "Term" : "ATMOSPHERIC/OCEAN INDICATORS",
+    "VariableLevel1" : "EXTREME WEATHER",
+    "VariableLevel2" : "HEAT/COLD WAVE FREQUENCY/INTENSITY"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "CLIMATE INDICATORS",
+    "Term" : "ATMOSPHERIC/OCEAN INDICATORS",
+    "VariableLevel1" : "EXTREME WEATHER",
+    "VariableLevel2" : "EXTREME PRECIPITATION"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "PRECIPITATION",
+    "VariableLevel1" : "PRECIPITATION RATE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "MAXIMUM/MINIMUM TEMPERATURE",
+    "VariableLevel3" : "24 HOUR MAXIMUM TEMPERATURE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC TEMPERATURE",
+    "VariableLevel1" : "SURFACE TEMPERATURE",
+    "VariableLevel2" : "MAXIMUM/MINIMUM TEMPERATURE",
+    "VariableLevel3" : "24 HOUR MINIMUM TEMPERATURE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1980-01-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/FM4HEB84DL8C"
+  },
+  "ShortName" : "M2SMNXPCT",
+  "EntryTitle" : "MERRA-2 statM_2d_pct_Nx: 2d, Single-Level, Monthly Percentiles based on 1991-2020 V2 (M2SMNXPCT) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Bosilovich, M. G., R. Lucchesi, and M. Suarez",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "MERRA-2: File Specification",
+    "Series" : "GMAO Office Note No. 9 (Version 1.1)",
+    "PublicationPlace" : "NASA GMAO Office",
+    "Pages" : "81",
+    "OnlineResource" : {
+      "Linkage" : "https://gmao.gsfc.nasa.gov/pubs/docs/Bosilovich785.pdf"
+    }
+  }, {
+    "Author" : "Collow, A. B. M., S. P. Mahanama, M. G. Bosilovich, R. D. Koster, and Siegfried D. Schubert",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "An Evaluation of Teleconnections Over the United States in an Ensemble of AMIP Simulations with the MERRA-2 Configuration of the GEOS Atmospheric Model",
+    "Series" : "NASA/TM-2017-104606",
+    "Volume" : "47",
+    "Pages" : "68",
+    "OnlineResource" : {
+      "Linkage" : "https://gmao.gsfc.nasa.gov/pubs/docs/Collow963.pdf"
+    }
+  }, {
+    "Author" : "Gelaro, R., W. McCarty, M.J. Suárez, R. Todling, A. Molod, L. Takacs, C.A. Randles, A. Darmenov, M.G. Bosilovich, R. Reichle, K. Wargan, L. Coy, R. Cullather, C. Draper, S. Akella, V. Buchard, A. Conaty, A.M. da Silva, W. Gu, G. Kim, R. Koster, R. Lucchesi, D. Merkova, J.E. Nielsen, G. Partyka, S. Pawson, W. Putman, M. Rienecker, S.D. Schubert, M. Sienkiewicz, and B. Zhao",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+    "Series" : "J. Climate",
+    "Volume" : "30",
+    "Pages" : "5419–5454",
+    "DOI" : {
+      "DOI" : "10.1175/JCLI-D-16-0758.1"
+    }
+  } ],
+  "Quality" : "A validation of the source dataset is provided in Gelaro et al. 2017 (doi.org/10.1175/JCLI-D-16-0758.1)",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT", "GEOSCIENTIFIC INFORMATION", "HEALTH" ],
+  "DirectDistributionInformation" : {
+    "Region" : "us-west-2",
+    "S3CredentialsAPIEndpoint" : "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+    "S3CredentialsAPIDocumentationURL" : "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+    "S3BucketAndObjectPrefixNames" : [ "s3://gesdisc-cumulus-prod-protected/MERRA2_CLIM/M2SMNXPCT.2/" ]
+  },
+  "RelatedUrls" : [ {
+    "Description" : "M2SMNXPCT sample image:  Percentile for total precipitation (PRECTOT), Jan 1980.",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/M2SMNXPCT_2.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=MERRA",
+    "Description" : "Documents with exmaple on how to read and plot MERRA-2 data.",
+    "Subtype" : "HOW-TO",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://gmao.gsfc.nasa.gov/pubs/docs/Collow1437.pdf",
+    "Description" : "File Specification Document",
+    "Subtype" : "PI DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/M2SMNXPCT_2.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2_CLIM/M2SMNXPCT.2/",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=M2SMNXPCT_2",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://goldsmr4.gesdisc.eosdis.nasa.gov/opendap/MERRA2_CLIM/M2SMNXPCT.2/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "Subtype" : "OPENDAP DATA",
+    "Type" : "USE SERVICE API",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/docs/",
+    "Description" : "The NASA GMAO MERRA-2 Data Documentation and FAQs",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2_CLIM/M2TCNPLTM.2/doc/README_MERRA2_CLIMSTAT_V2.pdf",
+    "Description" : "RREADME Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=MERRA-2%20Data%20Access%20%E2%80%93%20Quick%20Guide",
+    "Description" : "MERRA-2 Data Access – Quick Start Guide",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/documents?title=Records%20of%20MERRA-2%20Data%20Reprocessing%20and%20Service%20Changes",
+    "Description" : "Records of MERRA-2 Data Reprocessing and Service Changes",
+    "Subtype" : "IMPORTANT NOTICE",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/information/faqs?keywords=MERRA-2&page=1",
+    "Description" : "FAQs about MERRA-2 data access",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "ContactGroups" : [ {
+    "Roles" : [ "Technical Contact" ],
+    "GroupName" : "GLOBAL MODELING AND ASSIMILATION OFFICE",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA Goddard Space Flight Center", "Code 610.1" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6142"
+      }, {
+        "Type" : "Email",
+        "Value" : "data@gmao.gsfc.nasa.gov"
+      } ]
+    }
+  } ],
+  "DataDates" : [ {
+    "Date" : "2022-11-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-11-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "M2SMNXPCT (or statM_2d_pct_Nx) is a 2-dimensional monthly data collection for percentile statistics derived from monthly Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2) datasets. V2 of this percentile data collection is computed based on the 1991-2020 climatology, covering the time period from January 1980 to present. In contrast, V1, the original version, is computed based on an earlier 30-year climatology (1981-2010).  \n\nThis collection consists of percentiles used to identify or characterize extreme weather events associated with temperature (maximum, mean, and minimum 2-m air temperature), as well as with precipitation (total precipitation).\n\nMERRA-2 is the latest version of global atmospheric reanalysis for the satellite era produced by the NASA Global Modeling and Assimilation Office (GMAO) using the Goddard Earth Observing System Model (GEOS) version 5.12.4. The dataset covers the period of 1980-present, with a  latency of ~3 weeks after the end of the previous month.\n\nData Reprocessing: Please check “Records of MERRA-2 Data Reprocessing and Service Changes”,  linked from the “Documentation” tab on this page. Note that a reprocessed data filename is different from the original filename.\n\nMERRA-2 Mailing List: Sign up to receive information on reprocessing of data, changes to tools and services, as well as data announcements from GMAO. Contact the GES DISC Help Desk (gsfc-dl-help-disc@mail.nasa.gov) to be added to the list.\n\nQuestions: If you have a question, please read the \"MERRA-2 File Specification Document'', “MERRA-2 Data Access – Quick Start Guide”, and FAQs linked from the ”Documentation” tab on this page for more information. If these documents  do not answer your question, you may email the question on data access to the GES DISC Help Desk (gsfc-dl-help-disc@mail.nasa.gov), or the question on science to the MERRA-2 science team (merra-questions@lists.nasa.gov)",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2022-09-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2022-11-07T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "The newest datasets for MERRA-2 Climate Statistics Products are Version 2 (V2) released on November 8, 2022, superseding Version 1 (V1) which was released in November 2020. \n\nBoth V1 and V2 climate Indices were derived from MERRA-2. \n\nThe main difference is that V2 is computed based on the 1991-2020 climatology. In contrast, V1, the original version, is calculated based on an earlier 30-year climatology (1981-2010). ",
+  "Version" : "2",
+  "Projects" : [ {
+    "ShortName" : "MERRA-2",
+    "LongName" : "The second Modern-Era Retrospective analysis for Research and Applications"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Xiaohua",
+    "LastName" : "Pan",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Code 610.2 Bldg 32 Rm S149", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6002"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "xiaohua.pan@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Natalie",
+    "LastName" : "Thomas",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA/Goddard Space Flight Center", "Global Modeling and Assimilation Office", "Code 610.1" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "natalie.p.thomas@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models",
+    "ShortName" : "MERRA-2",
+    "LongName" : "The second Modern-Era Retrospective analysis for Research and Applications",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "Free"
+    } ]
+  }
+}

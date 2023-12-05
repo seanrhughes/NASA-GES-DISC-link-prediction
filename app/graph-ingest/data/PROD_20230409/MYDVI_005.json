@@ -1,0 +1,260 @@
+{
+  "AncillaryKeywords" : [ "Vegetation Index", "NEESPI", "MAIRS", "NDVI", "EVI" ],
+  "CollectionCitations" : [ {
+    "Creator" : "GES DISC Northern Eurasian Earth Science Partnership Initiative Project",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MYDVI_005.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "MODIS/Aqua Monthly Vegetation Indices Global 1x1 degree V005",
+    "SeriesName" : "MYDVI",
+    "ReleaseDate" : "2006-11-01T00:00:00.000Z",
+    "Version" : "005",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "VEGETATION",
+    "VariableLevel1" : "VEGETATION INDEX"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "BIOSPHERE",
+    "Term" : "VEGETATION"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2002-07-01T00:00:00.000Z",
+      "EndingDateTime" : "2015-12-31T23:59:59.999Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/L52A2U212BBC"
+  },
+  "ShortName" : "MYDVI",
+  "EntryTitle" : "MODIS/Aqua Monthly Vegetation Indices Global 1x1 degree V005 (MYDVI) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Huete, A., Didan, K., Miura, T., Rodriguez, E.P., Gao, X., Ferreira, L.G.",
+    "PublicationDate" : "2005-01-01T00:00:00.000Z",
+    "Title" : "Overview of the radiometric and biophysical performance of the MODIS vegetation indices"
+  }, {
+    "Author" : "Miura, T., Huete, A., Yoshioka, H.",
+    "PublicationDate" : "2000-01-01T00:00:00.000Z",
+    "Title" : "Evaluation of sensor calibration uncertainties on vegetation indices for MODIS"
+  } ],
+  "ISOTopicCategories" : [ "BIOTA", "ENVIRONMENT", "GEOSCIENTIFIC INFORMATION", "IMAGERY/BASE MAPS/EARTH COVER" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "Sample image of MODIS-Aqua global monthly Normalized Difference Vegetation Index (NDVI) at 1x1 degree (MYDVI.005), July 2010",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/MYDVI_005.gif",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MYDVI_005.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/data/Vegetation_Indices/MYDVI.005",
+    "Description" : "Access the data via HTTPS.",
+    "Subtype" : "DATA TREE",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://search.earthdata.nasa.gov/search?q=MYDVI",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "Subtype" : "Earthdata Search",
+    "Type" : "GET DATA",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "URL" : "https://reason.gesdisc.eosdis.nasa.gov/data/Vegetation_Indices/MYDVI.005/doc/README.MODIS_VI_1deg.005.pdf",
+    "Description" : "README Document",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://modis.gsfc.nasa.gov/data/atbd/atbd_mod13.pdf",
+    "Description" : "MODIS Vegetation Index (MOD13) Algorithm Theoretical Basis Document",
+    "Subtype" : "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2008-05-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2015-12-31T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "The global monthly gridded MODIS vegetation indices product is derived from the standard 0.05 CMG MODIS Aqua Vegetation Indices Monthly product MYD13C2 (Huete et al, 2002) collection-5. The product is generated for Northern Eurasia Earth Science Partnership Initiative (NEESPI) program  in supporting researches on the surface processes and climate modeling. The vegetation indices product is generated at 1x1 degree spatial resolution starting from July 2002.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2008-05-27T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-09-14T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "Derived from MYD13C2 collection-5",
+  "Version" : "005",
+  "Projects" : [ {
+    "ShortName" : "NEESPI NASA",
+    "LongName" : "NASA NEESPI Data and Service Center"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "GREGORY",
+    "LastName" : "LEPTOUKH"
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "IVAN",
+    "MiddleName" : "ANDRAS",
+    "LastName" : "CSISZAR",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "University of Maryland", "Department of Geography", "LeFrak 1121" ],
+        "City" : "College Park",
+        "StateProvince" : "MD",
+        "PostalCode" : "20742",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-405-8696"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-314-6503"
+      }, {
+        "Type" : "Email",
+        "Value" : "csiszar@hermes.geog.umd.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "TATIANA",
+    "LastName" : "LOBODA, PHD",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "University of Maryland Geography Department", "2181 LeFrak Hall" ],
+        "City" : "College Park",
+        "StateProvince" : "MD",
+        "PostalCode" : "20742",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-405-8891"
+      }, {
+        "Type" : "Email",
+        "Value" : "tloboda@hermes.geog.umd.edu"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "SUHUNG",
+    "LastName" : "SHEN",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "GES DISC", "NASA Goddard Space Flight Center", "Code 610.2" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5088"
+      }, {
+        "Type" : "Email",
+        "Value" : "suhung.shen@nasa.gov"
+      } ]
+    }
+  } ],
+  "CollectionDataType" : "SCIENCE_QUALITY",
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aqua",
+    "LongName" : "Earth Observing System, Aqua",
+    "Instruments" : [ {
+      "ShortName" : "MODIS",
+      "LongName" : "Moderate-Resolution Imaging Spectroradiometer"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF",
+      "Fees" : "None"
+    } ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "DataLanguage" : "English",
+  "CollectionCitations" : [ {
+    "Creator" : "Vitali Fioletov, Chris McLinden, Nickolay Krotkov, Can Li, Peter Leonard, Joanna Joiner, Simon Carn ",
+    "Editor" : "Peter Leonard",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/MSAQSO2L4_1.html"
+    },
+    "Publisher" : "Goddard Earth Science Data and Information Services Center (GES DISC)",
+    "Title" : "Multi-Satellite Air Quality Sulfur Dioxide (SO2) Database Long-Term L4 Global V1",
+    "SeriesName" : "MSAQSO2L4",
+    "ReleaseDate" : "2019-03-14T00:00:00.000Z",
+    "Version" : "1",
+    "ReleasePlace" : "Greenbelt, MD, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AEROSOLS",
+    "VariableLevel1" : "SULFATE PARTICLES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "AIR QUALITY",
+    "VariableLevel1" : "SULFUR OXIDES"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "SULFUR COMPOUNDS",
+    "VariableLevel2" : "SULFUR DIOXIDE"
+  }, {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "HUMAN DIMENSIONS",
+    "Term" : "NATURAL HAZARDS",
+    "VariableLevel1" : "VOLCANIC ERUPTIONS"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2005-01-01T00:00:00.000Z",
+      "EndingDateTime" : "2018-12-31T23:59:59.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/MEASURES/SO2/DATA403"
+  },
+  "ShortName" : "MSAQSO2L4",
+  "EntryTitle" : "Multi-Satellite Air Quality Sulfur Dioxide (SO2) Database Long-Term L4 Global V1 (MSAQSO2L4) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Carn, S. A., Fioletov, V. E., McLinden, C. A., Li, C. and Krotkov, N. A.",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "A decade of global volcanic SO2 emissions measured from space",
+    "Series" : "Sci. Rep.",
+    "Volume" : "7",
+    "DOI" : {
+      "DOI" : "10.1038/srep44095"
+    }
+  }, {
+    "Author" : "Fioletov, V. E., McLinden, C. A., Krotkov, N., Yang, K., Loyola, D. G., Valks, P., Theys, N., Van Roozendael, M., Nowlan, C. R., Chance, K., Liu, X., Lee, C. and Martin, R. V.",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Title" : "Application of OMI, SCIAMACHY, and GOME-2 satellite SO2 retrievals for detection of large emission sources",
+    "Series" : "J. Geophys. Res. Atmos.",
+    "Volume" : "11",
+    "Pages" : "399-418",
+    "DOI" : {
+      "DOI" : "10.1002/jgrd.50826"
+    }
+  }, {
+    "Author" : "Fioletov, V. E., McLinden, C. A., Krotkov, N. A. and Li, C.",
+    "PublicationDate" : "2015-01-01T00:00:00.000Z",
+    "Title" : "Lifetimes and emissions of SO2 from point sources estimated from OMI",
+    "Series" : "Geophys. Res. Lett.",
+    "Volume" : "42",
+    "Pages" : "1–8",
+    "DOI" : {
+      "DOI" : "10.1002/2015GL063148"
+    }
+  }, {
+    "Author" : "Fioletov, V. E., McLinden, C. A., Krotkov, N. A., Li, C., Joiner, J., Theys, N., Carn, S. and Moran, M. D.",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "A global catalogue of large SO2 sources and emissions derived from Ozone Monitoring Instrument",
+    "Series" : "Atmos. Chem. Phys.",
+    "Volume" : "16",
+    "Pages" : "11497–11519",
+    "DOI" : {
+      "DOI" : "10.5194/acp-16-11497-2016"
+    }
+  }, {
+    "Author" : "Fioletov, V., McLinden, C. A., Kharol, S. K., Krotkov, N. A., Li, C., Joiner, J., Moran, M. D., Vet, R., Visschedijk, A. J. H., and Denier van der Gon, H. A. C.",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "Multi-source SO2 emissions retrievals and consistency of satellite and surface measurements with reported emissions",
+    "Series" : "Atmos. Chem. Phys. Discuss.",
+    "Volume" : "17",
+    "Pages" : "12597-12616",
+    "DOI" : {
+      "DOI" : "10.5194/acp-2017-485"
+    }
+  }, {
+    "Author" : "Krotkov, N. A., McLinden, C. A., Li, C., Lamsal, L. N., Celarier, E. A., Marchenko, S. V., Swartz, W. H., Bucsela, E. J., Joiner, J., Duncan, B. N., Boersma, K. F., Veefkind, J. P., Levelt, P. F., Fioletov, V. E., Dickerson, R. R., He, H., Lu, Z. and Streets, D. G.",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "Aura OMI observations of regional SO2 and NO2 pollution changes from 2005 to 2015",
+    "Series" : "Atmos. Chem. Phys.",
+    "Volume" : "7",
+    "Pages" : "4605–4629",
+    "DOI" : {
+      "DOI" : "10.5194/acp-16-4605-2016"
+    }
+  }, {
+    "Author" : "Li, C., Joiner, J., Krotkov, N. A. and Bhartia, P. K.",
+    "PublicationDate" : "2013-01-01T00:00:00.000Z",
+    "Title" : "A fast and sensitive new satellite SO2 retrieval algorithm based on principal component analysis: Application to the ozone monitoring instrument",
+    "Series" : "Geophys. Res. Lett.",
+    "Volume" : "23",
+    "Pages" : "6314–6318",
+    "DOI" : {
+      "DOI" : "10.1002/2013GL058134"
+    }
+  }, {
+    "Author" : "McLinden, C. A., Fioletov, V., Boersma, K. F., Kharol, S. K., Krotkov, N., Lamsal, L., Makar, P. A., Martin, R. V., Veefkind, J. P. and Yang, K.",
+    "PublicationDate" : "2014-01-01T00:00:00.000Z",
+    "Title" : "Improved satellite retrievals of NO2 and SO2 over the Canadian oil sands and comparisons with surface measurements",
+    "Series" : "Atmos. Chem. Phys.",
+    "Volume" : "7",
+    "Pages" : "3637–3656",
+    "DOI" : {
+      "DOI" : "10.5194/acp-14-3637-2014"
+    }
+  }, {
+    "Author" : "McLinden, C. A., Fioletov, V., Shephard, M. W., Krotkov, N., Li, C., Martin, R. V., Moran, M. D. and Joiner, J.",
+    "PublicationDate" : "2016-01-01T00:00:00.000Z",
+    "Title" : "Space-based detection of missing sulfur dioxide sources of global air pollution",
+    "Series" : "Nat. Geosci.",
+    "Volume" : "9",
+    "Pages" : "496–500",
+    "DOI" : {
+      "DOI" : "10.1038/ngeo2724"
+    }
+  } ],
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE", "ENVIRONMENT" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/MSAQSO2L4.PNG",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/MSAQSO2L4_1.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "Type" : "DATA SET LANDING PAGE",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "URL" : "https://earthdata.nasa.gov/community/community-data-system-programs/measures-projects/multi-decadal-sulfur-dioxide-climatology-from-satellite-instruments",
+    "Description" : "Project summary goals and description",
+    "Subtype" : "GENERAL DOCUMENTATION",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/README.MSAQSO2L4.pdf",
+    "Subtype" : "READ-ME",
+    "Type" : "VIEW RELATED INFORMATION",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "URL" : "https://so2.gsfc.nasa.gov/measures.html",
+    "Description" : "Global Sulfur Dioxide Monitoring Home Page",
+    "Type" : "PROJECT HOME PAGE",
+    "URLContentType" : "CollectionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2017-06-02T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2017-06-02T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "\nThese data are superseded by newer version, DOI: 10.5067/MEASURES/SO2/DATA406 \n\n",
+  "MetadataDates" : [ {
+    "Date" : "2017-06-02T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-03-18T10:10:46.000Z",
+    "Type" : "UPDATE"
+  }, {
+    "Date" : "2020-01-31T00:00:00.000Z",
+    "Type" : "REVIEW"
+  } ],
+  "VersionDescription" : "Not provided",
+  "Version" : "1",
+  "Projects" : [ {
+    "ShortName" : "MEaSUREs",
+    "LongName" : "Making Earth System Data Records for Use in Research Environments"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "Vitali",
+    "LastName" : "Fioletov",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "vitali.fioletov@outlook.com"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Technical Contact" ],
+    "FirstName" : "PETER",
+    "LastName" : "LEONARD",
+    "ContactInformation" : {
+      "ContactMechanisms" : [ {
+        "Type" : "Email",
+        "Value" : "pleonard@sesda3.com"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "ANDREY",
+    "LastName" : "SAVTCHENKO",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Distributed Active Archive Center Global Change Data Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5705"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Andrey.Savtchenko@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Suomi-NPP",
+    "LongName" : "Suomi National Polar-orbiting Partnership",
+    "Instruments" : [ {
+      "ShortName" : "OMPS",
+      "LongName" : "Ozone Mapping and Profiler Suite"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Nimbus-7",
+    "LongName" : "Nimbus-7",
+    "Instruments" : [ {
+      "ShortName" : "TOMS",
+      "LongName" : "Total Ozone Mapping Spectrometer"
+    } ]
+  }, {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "EP-TOMS",
+    "LongName" : "Earth Probe-TOMS",
+    "Instruments" : [ {
+      "ShortName" : "TOMS",
+      "LongName" : "Total Ozone Mapping Spectrometer"
+    } ]
+  } ],
+  "MetadataSpecification" : {
+    "Name" : "UMM-C",
+    "URL" : "https://cdn.earthdata.nasa.gov/umm/collection/v1.17.0",
+    "Version" : "1.17.0"
+  },
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF5",
+      "Fees" : "None"
+    } ]
+  }
+}
